@@ -29,6 +29,14 @@ jobs:
         run: |
           OWNER="${{ github.repository_owner }}"
           REPO="${{ github.event.repository.name }}"
+
+          if [ -f public/CNAME ]; then
+            DOMAIN="$(tr -d '\r\n' < public/CNAME)"
+            echo "site=https://${DOMAIN}" >> "$GITHUB_OUTPUT"
+            echo "base=/" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
           echo "site=https://${OWNER}.github.io" >> "$GITHUB_OUTPUT"
           if [ "${REPO}" = "${OWNER}.github.io" ]; then
             echo "base=/" >> "$GITHUB_OUTPUT"
