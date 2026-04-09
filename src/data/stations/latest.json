@@ -1,6 +1,6 @@
 {
   "date": "2026-04-09",
-  "generatedAt": "2026-04-09T11:37:54.735Z",
+  "generatedAt": "2026-04-09T12:26:50.796Z",
   "stations": [
     {
       "stationId": "45053d593e016a11",
@@ -5528,8 +5528,8 @@
       "region": "Jonavos r. sav.",
       "address": "Vasario 16-osios g.70, Jonava",
       "queryAddress": "Vasario 16-osios g.70, Jonava, Lietuva",
-      "lat": null,
-      "lon": null,
+      "lat": 55.0708603,
+      "lon": 24.2588537,
       "fuelPrices": [
         {
           "fuelType": "gasoline",
@@ -5551,8 +5551,8 @@
       "region": "Kaišiadorių r. sav.",
       "address": "Paukštininkų g.4a, Kaišiadorys",
       "queryAddress": "Paukštininkų g.4a, Kaišiadorys, Lietuva",
-      "lat": null,
-      "lon": null,
+      "lat": 54.8643505,
+      "lon": 24.436539,
       "fuelPrices": [
         {
           "fuelType": "gasoline",
@@ -5574,8 +5574,8 @@
       "region": "Kauno m. sav.",
       "address": "Ateities pl.40B, Kaunas",
       "queryAddress": "Ateities pl.40B, Kaunas, Lietuva",
-      "lat": null,
-      "lon": null,
+      "lat": 54.9218463,
+      "lon": 24.0477225,
       "fuelPrices": [
         {
           "fuelType": "gasoline",
@@ -5597,8 +5597,8 @@
       "region": "Kauno m. sav.",
       "address": "Draugystės g.8B, Kaunas",
       "queryAddress": "Draugystės g.8B, Kaunas, Lietuva",
-      "lat": null,
-      "lon": null,
+      "lat": 54.9080536,
+      "lon": 23.9920719,
       "fuelPrices": [
         {
           "fuelType": "gasoline",
@@ -5620,8 +5620,8 @@
       "region": "Kauno m. sav.",
       "address": "Jonavos g. 292B, Kaunas",
       "queryAddress": "Jonavos g. 292B, Kaunas, Lietuva",
-      "lat": null,
-      "lon": null,
+      "lat": 54.9324269,
+      "lon": 23.9180391,
       "fuelPrices": [
         {
           "fuelType": "gasoline",
@@ -5643,8 +5643,8 @@
       "region": "Kauno m. sav.",
       "address": "Liuksemburgo aklg. 27, Kaunas",
       "queryAddress": "Liuksemburgo aklg. 27, Kaunas, Lietuva",
-      "lat": null,
-      "lon": null,
+      "lat": 54.8592253,
+      "lon": 23.8371192,
       "fuelPrices": [
         {
           "fuelType": "gasoline",
@@ -5666,8 +5666,8 @@
       "region": "Kauno m. sav.",
       "address": "Masiulio g.16C, Kaunas",
       "queryAddress": "Masiulio g.16C, Kaunas, Lietuva",
-      "lat": null,
-      "lon": null,
+      "lat": 54.87948,
+      "lon": 24.0123109,
       "fuelPrices": [
         {
           "fuelType": "gasoline",
@@ -5689,8 +5689,8 @@
       "region": "Kauno m. sav.",
       "address": "Palemono g. 3A, Kaunas",
       "queryAddress": "Palemono g. 3A, Kaunas, Lietuva",
-      "lat": null,
-      "lon": null,
+      "lat": 54.9010209,
+      "lon": 24.0311752,
       "fuelPrices": [
         {
           "fuelType": "gasoline",
@@ -5712,8 +5712,8 @@
       "region": "Kauno m. sav.",
       "address": "Savanorių pr.402A, Kaunas",
       "queryAddress": "Savanorių pr.402A, Kaunas, Lietuva",
-      "lat": null,
-      "lon": null,
+      "lat": 54.927502,
+      "lon": 23.9722133,
       "fuelPrices": [
         {
           "fuelType": "gasoline",
@@ -5804,8 +5804,8 @@
       "region": "Kauno r. sav.",
       "address": "Vandžiogalos pl.86A, Kaunas",
       "queryAddress": "Vandžiogalos pl.86A, Kaunas, Lietuva",
-      "lat": null,
-      "lon": null,
+      "lat": 54.9515318,
+      "lon": 23.8936351,
       "fuelPrices": [
         {
           "fuelType": "gasoline",
@@ -5827,8 +5827,8 @@
       "region": "Kėdainių r. sav.",
       "address": "Juodgirio k.1,",
       "queryAddress": "Juodgirio k.1,, Lietuva",
-      "lat": null,
-      "lon": null,
+      "lat": 55.4964609,
+      "lon": 22.604119,
       "fuelPrices": [
         {
           "fuelType": "gasoline",
@@ -5850,8 +5850,8 @@
       "region": "Klaipėdos m. sav.",
       "address": "Minijos g.154A, Klaipėda",
       "queryAddress": "Minijos g.154A, Klaipėda, Lietuva",
-      "lat": null,
-      "lon": null,
+      "lat": 55.6684939,
+      "lon": 21.159076,
       "fuelPrices": [
         {
           "fuelType": "gasoline",
@@ -5873,8 +5873,8 @@
       "region": "Klaipėdos m. sav.",
       "address": "Taikos pr.124, Klaipėda",
       "queryAddress": "Taikos pr.124, Klaipėda, Lietuva",
-      "lat": null,
-      "lon": null,
+      "lat": 55.661071,
+      "lon": 21.1762437,
       "fuelPrices": [
         {
           "fuelType": "gasoline",
@@ -6011,8 +6011,8 @@
       "region": "Marijampolės sav.",
       "address": "Stoties g. 6B, Marijampolė",
       "queryAddress": "Stoties g. 6B, Marijampolė, Lietuva",
-      "lat": null,
-      "lon": null,
+      "lat": 54.5651422,
+      "lon": 23.3685518,
       "fuelPrices": [
         {
           "fuelType": "gasoline",
@@ -6034,8 +6034,8 @@
       "region": "Panevėžio m. sav.",
       "address": "Nemuno g.79A, Panevėžys",
       "queryAddress": "Nemuno g.79A, Panevėžys, Lietuva",
-      "lat": null,
-      "lon": null,
+      "lat": 55.7317427,
+      "lon": 24.3406939,
       "fuelPrices": [
         {
           "fuelType": "gasoline",
@@ -6080,8 +6080,8 @@
       "region": "Panevėžio r. sav.",
       "address": "Ramygalos g.186A, Panevėžys",
       "queryAddress": "Ramygalos g.186A, Panevėžys, Lietuva",
-      "lat": null,
-      "lon": null,
+      "lat": 55.7100897,
+      "lon": 24.3723092,
       "fuelPrices": [
         {
           "fuelType": "gasoline",
@@ -6126,8 +6126,8 @@
       "region": "Pasvalio r. sav.",
       "address": "Taikos g.24, Pasvalys",
       "queryAddress": "Taikos g.24, Pasvalys, Lietuva",
-      "lat": null,
-      "lon": null,
+      "lat": 56.063652,
+      "lon": 24.4257529,
       "fuelPrices": [
         {
           "fuelType": "gasoline",
@@ -6149,8 +6149,8 @@
       "region": "Radviliškio r. sav.",
       "address": "Miško g.62, Radviliškis",
       "queryAddress": "Miško g.62, Radviliškis, Lietuva",
-      "lat": null,
-      "lon": null,
+      "lat": 55.8018115,
+      "lon": 23.5637751,
       "fuelPrices": [
         {
           "fuelType": "gasoline",
@@ -6195,8 +6195,8 @@
       "region": "Raseinių r. sav.",
       "address": "Žemaičių g. 34, Ariogala",
       "queryAddress": "Žemaičių g. 34, Ariogala, Lietuva",
-      "lat": null,
-      "lon": null,
+      "lat": 55.2676804,
+      "lon": 23.4707004,
       "fuelPrices": [
         {
           "fuelType": "gasoline",
@@ -6218,8 +6218,8 @@
       "region": "Šiaulių m. sav.",
       "address": "Sembos g.5, Šiauliai",
       "queryAddress": "Sembos g.5, Šiauliai, Lietuva",
-      "lat": null,
-      "lon": null,
+      "lat": 55.8988643,
+      "lon": 23.271743,
       "fuelPrices": [
         {
           "fuelType": "gasoline",
@@ -6241,8 +6241,8 @@
       "region": "Šilutės r. sav.",
       "address": "Gluosnių g.4A, Šilutė",
       "queryAddress": "Gluosnių g.4A, Šilutė, Lietuva",
-      "lat": null,
-      "lon": null,
+      "lat": 55.3489154,
+      "lon": 21.4689533,
       "fuelPrices": [
         {
           "fuelType": "gasoline",
@@ -6287,8 +6287,8 @@
       "region": "Trakų r. sav.",
       "address": "Sodų g.3A, Lentvaris",
       "queryAddress": "Sodų g.3A, Lentvaris, Lietuva",
-      "lat": null,
-      "lon": null,
+      "lat": 54.6434035,
+      "lon": 25.0534576,
       "fuelPrices": [
         {
           "fuelType": "gasoline",
@@ -6310,8 +6310,8 @@
       "region": "Vilkaviškio r. sav.",
       "address": "S.Nėries g.38, Vilkaviškis",
       "queryAddress": "S.Nėries g.38, Vilkaviškis, Lietuva",
-      "lat": null,
-      "lon": null,
+      "lat": 54.6581148,
+      "lon": 23.0332434,
       "fuelPrices": [
         {
           "fuelType": "gasoline",
@@ -6333,8 +6333,8 @@
       "region": "Vilniaus m. sav.",
       "address": "Gunkliškių g.2F, Vilnius",
       "queryAddress": "Gunkliškių g.2F, Vilnius, Lietuva",
-      "lat": null,
-      "lon": null,
+      "lat": 54.6227504,
+      "lon": 25.1050189,
       "fuelPrices": [
         {
           "fuelType": "gasoline",
@@ -6356,8 +6356,8 @@
       "region": "Vilniaus m. sav.",
       "address": "Jeruzalės 2, Vilnius",
       "queryAddress": "Jeruzalės 2, Vilnius, Lietuva",
-      "lat": null,
-      "lon": null,
+      "lat": 54.7398539,
+      "lon": 25.2761745,
       "fuelPrices": [
         {
           "fuelType": "gasoline",
@@ -6379,8 +6379,8 @@
       "region": "Vilniaus m. sav.",
       "address": "Kareivių g. 4, Vilnius",
       "queryAddress": "Kareivių g. 4, Vilnius, Lietuva",
-      "lat": null,
-      "lon": null,
+      "lat": 54.7179121,
+      "lon": 25.2956973,
       "fuelPrices": [
         {
           "fuelType": "gasoline",
@@ -6402,8 +6402,8 @@
       "region": "Vilniaus m. sav.",
       "address": "Kirtimų g. 33, Vilnius",
       "queryAddress": "Kirtimų g. 33, Vilnius, Lietuva",
-      "lat": null,
-      "lon": null,
+      "lat": 54.6279215,
+      "lon": 25.1496569,
       "fuelPrices": [
         {
           "fuelType": "gasoline",
@@ -6425,8 +6425,8 @@
       "region": "Vilniaus m. sav.",
       "address": "Laisvės pr. 80B, Vilnius",
       "queryAddress": "Laisvės pr. 80B, Vilnius, Lietuva",
-      "lat": null,
-      "lon": null,
+      "lat": 54.7234552,
+      "lon": 25.2329482,
       "fuelPrices": [
         {
           "fuelType": "gasoline",
@@ -6448,8 +6448,8 @@
       "region": "Vilniaus m. sav.",
       "address": "Liepkalnio g.112A, Vilnius",
       "queryAddress": "Liepkalnio g.112A, Vilnius, Lietuva",
-      "lat": null,
-      "lon": null,
+      "lat": 54.6526579,
+      "lon": 25.3057172,
       "fuelPrices": [
         {
           "fuelType": "gasoline",
@@ -6471,8 +6471,8 @@
       "region": "Vilniaus m. sav.",
       "address": "Pajautos g. 31, Vilnius (Pilaitė)",
       "queryAddress": "Pajautos g. 31, Vilnius (Pilaitė), Lietuva",
-      "lat": null,
-      "lon": null,
+      "lat": 54.7101432,
+      "lon": 25.1620536,
       "fuelPrices": [
         {
           "fuelType": "gasoline",
@@ -6494,8 +6494,8 @@
       "region": "Vilniaus m. sav.",
       "address": "Savanorių 225, Vilnius",
       "queryAddress": "Savanorių 225, Vilnius, Lietuva",
-      "lat": null,
-      "lon": null,
+      "lat": 54.641028,
+      "lon": 25.1841354,
       "fuelPrices": [
         {
           "fuelType": "gasoline",
@@ -6517,8 +6517,8 @@
       "region": "Vilniaus m. sav.",
       "address": "Spyglių g. 2, Vilnius",
       "queryAddress": "Spyglių g. 2, Vilnius, Lietuva",
-      "lat": null,
-      "lon": null,
+      "lat": 54.6684024,
+      "lon": 25.1116773,
       "fuelPrices": [
         {
           "fuelType": "gasoline",

@@ -3176,5 +3176,229 @@
     "displayName": "EMSI, 2A, Jaunimo g., Astravas, Biržai, Biržų miesto seniūnija, Biržų rajono savivaldybė, Panevėžio apskritis, 41168, Lietuva",
     "updatedAt": "2026-04-09T11:34:24.390Z",
     "query": "Jaunimo g.2a, Biržai, Lietuva"
+  },
+  "vasario 16-osios g.70, jonava": {
+    "lat": 55.0708603,
+    "lon": 24.2588537,
+    "displayName": "Emsi, 70, Vasario 16-osios g., Jonava, Jonavos seniūnija, Jonavos rajono savivaldybė, Kauno apskritis, 55164, Lietuva",
+    "updatedAt": "2026-04-09T12:25:14.378Z",
+    "query": "Vasario 16-osios g.70, Jonava, Lietuva"
+  },
+  "paukstininku g.4a, kaisiadorys": {
+    "lat": 54.8643505,
+    "lon": 24.436539,
+    "displayName": "4A, Paukštininkų g., Kaišiadorys, Kaišiadorių miesto seniūnija, Kaišiadorių rajono savivaldybė, Kauno apskritis, 56163, Lietuva",
+    "updatedAt": "2026-04-09T12:25:16.164Z",
+    "query": "Paukštininkų g.4a, Kaišiadorys, Lietuva"
+  },
+  "ateities pl.40b, kaunas": {
+    "lat": 54.9218463,
+    "lon": 24.0477225,
+    "displayName": "Emsi, 40B, Ateities pl., Palemonas, Petrašiūnų seniūnija, Kaunas, Kauno miesto savivaldybė, Kauno apskritis, 52104, Lietuva",
+    "updatedAt": "2026-04-09T12:25:18.971Z",
+    "query": "Ateities pl.40B, Kaunas, Lietuva"
+  },
+  "draugystes g.8b, kaunas": {
+    "lat": 54.9080536,
+    "lon": 23.9920719,
+    "displayName": "8B, Draugystės g., Naujasodis, Petrašiūnų seniūnija, Kaunas, Kauno miesto savivaldybė, Kauno apskritis, 51260, Lietuva",
+    "updatedAt": "2026-04-09T12:25:20.959Z",
+    "query": "Draugystės g.8B, Kaunas, Lietuva"
+  },
+  "jonavos g. 292b, kaunas": {
+    "lat": 54.9324269,
+    "lon": 23.9180391,
+    "displayName": "Emsi, 292B, Jonavos g., Eiguliai, Eigulių seniūnija, Kaunas, Kauno miesto savivaldybė, Kauno apskritis, 44131, Lietuva",
+    "updatedAt": "2026-04-09T12:25:22.621Z",
+    "query": "Jonavos g. 292B, Kaunas, Lietuva"
+  },
+  "liuksemburgo aklg. 27, kaunas": {
+    "lat": 54.8592253,
+    "lon": 23.8371192,
+    "displayName": "Emsi, 27, Liuksemburgo aklg., Armaniškiai, Aleksoto seniūnija, Kaunas, Kauno miesto savivaldybė, Kauno apskritis, 46401, Lietuva",
+    "updatedAt": "2026-04-09T12:25:24.382Z",
+    "query": "Liuksemburgo aklg. 27, Kaunas, Lietuva"
+  },
+  "masiulio g.16c, kaunas": {
+    "lat": 54.87948,
+    "lon": 24.0123109,
+    "displayName": "T. Masiulio g., Pažaislis, Petrašiūnų seniūnija, Kaunas, Kauno miesto savivaldybė, Kauno apskritis, 45130, Lietuva",
+    "updatedAt": "2026-04-09T12:25:26.026Z",
+    "query": "Masiulio g.16C, Kaunas, Lietuva"
+  },
+  "palemono g. 3a, kaunas": {
+    "lat": 54.9010209,
+    "lon": 24.0311752,
+    "displayName": "Emsi „Palemonas“, 3A, Palemono g., Amaliai, Petrašiūnų seniūnija, Kaunas, Kauno miesto savivaldybė, Kauno apskritis, 52159, Lietuva",
+    "updatedAt": "2026-04-09T12:25:27.826Z",
+    "query": "Palemono g. 3A, Kaunas, Lietuva"
+  },
+  "savanoriu pr.402a, kaunas": {
+    "lat": 54.927502,
+    "lon": 23.9722133,
+    "displayName": "Emsi, 402A, Savanorių pr., Dainava, Dainavos seniūnija, Kaunas, Kauno miesto savivaldybė, Kauno apskritis, 49281, Lietuva",
+    "updatedAt": "2026-04-09T12:25:29.711Z",
+    "query": "Savanorių pr.402A, Kaunas, Lietuva"
+  },
+  "vandziogalos pl.86a, kaunas": {
+    "lat": 54.9515318,
+    "lon": 23.8936351,
+    "displayName": "EMSI, 86A, Vandžiogalos pl., Sargėnai, Šilainių seniūnija, Kaunas, Kauno miesto savivaldybė, Kauno apskritis, 47479, Lietuva",
+    "updatedAt": "2026-04-09T12:25:37.097Z",
+    "query": "Vandžiogalos pl.86A, Kaunas, Lietuva"
+  },
+  "juodgirio k.1,": {
+    "lat": 55.4964609,
+    "lon": 22.604119,
+    "displayName": "Juodgirio g., Košiai I, Bijotų seniūnija, Šilalės rajono savivaldybė, Tauragės apskritis, 75227, Lietuva",
+    "updatedAt": "2026-04-09T12:25:38.918Z",
+    "query": "Juodgirio k.1,, Lietuva"
+  },
+  "minijos g.154a, klaipeda": {
+    "lat": 55.6684939,
+    "lon": 21.159076,
+    "displayName": "154A, Minijos g., Žvejybos uostas, Poilsis, Gedminai, Klaipėda, Klaipėdos miesto savivaldybė, Klaipėdos apskritis, 93290, Lietuva",
+    "updatedAt": "2026-04-09T12:25:40.914Z",
+    "query": "Minijos g.154A, Klaipėda, Lietuva"
+  },
+  "taikos pr.124, klaipeda": {
+    "lat": 55.661071,
+    "lon": 21.1762437,
+    "displayName": "Emsi, 124, Taikos pr., Smeltalė, Smeltė, Klaipėda, Klaipėdos miesto savivaldybė, Klaipėdos apskritis, 94285, Lietuva",
+    "updatedAt": "2026-04-09T12:25:42.743Z",
+    "query": "Taikos pr.124, Klaipėda, Lietuva"
+  },
+  "stoties g. 6b, marijampole": {
+    "lat": 54.5651422,
+    "lon": 23.3685518,
+    "displayName": "EMSI, 6B, Stoties g., Draugystė, Marijampolė, Marijampolės savivaldybė, Marijampolės apskritis, 68233, Lietuva",
+    "updatedAt": "2026-04-09T12:25:52.890Z",
+    "query": "Stoties g. 6B, Marijampolė, Lietuva"
+  },
+  "nemuno g.79a, panevezys": {
+    "lat": 55.7317427,
+    "lon": 24.3406939,
+    "displayName": "Emsi, 79A, Nemuno g., Panevėžys, Panevėžio miesto savivaldybė, Panevėžio apskritis, 35191, Lietuva",
+    "updatedAt": "2026-04-09T12:25:54.697Z",
+    "query": "Nemuno g.79A, Panevėžys, Lietuva"
+  },
+  "ramygalos g.186a, panevezys": {
+    "lat": 55.7100897,
+    "lon": 24.3723092,
+    "displayName": "EMSI, 186A, Ramygalos g., Panevėžys, Panevėžio miesto savivaldybė, Panevėžio apskritis, 36255, Lietuva",
+    "updatedAt": "2026-04-09T12:25:58.308Z",
+    "query": "Ramygalos g.186A, Panevėžys, Lietuva"
+  },
+  "taikos g.24, pasvalys": {
+    "lat": 56.063652,
+    "lon": 24.4257529,
+    "displayName": "EMSI, 24, Taikos g., Pasvalys, Pasvalio miesto seniūnija, Pasvalio rajono savivaldybė, Panevėžio apskritis, 39130, Lietuva",
+    "updatedAt": "2026-04-09T12:26:01.886Z",
+    "query": "Taikos g.24, Pasvalys, Lietuva"
+  },
+  "misko g.62, radviliskis": {
+    "lat": 55.8018115,
+    "lon": 23.5637751,
+    "displayName": "EMSI Radviliškis, 62, Miško g., Radviliškis, Radviliškio miesto seniūnija, Radviliškio rajono savivaldybė, Šiaulių apskritis, 82182, Lietuva",
+    "updatedAt": "2026-04-09T12:26:03.612Z",
+    "query": "Miško g.62, Radviliškis, Lietuva"
+  },
+  "zemaiciu g. 34, ariogala": {
+    "lat": 55.2676804,
+    "lon": 23.4707004,
+    "displayName": "Žemaičių g., Ariogala, Ariogalos miesto seniūnija, Raseinių rajono savivaldybė, Kauno apskritis, 60251, Lietuva",
+    "updatedAt": "2026-04-09T12:26:07.059Z",
+    "query": "Žemaičių g. 34, Ariogala, Lietuva"
+  },
+  "sembos g.5, siauliai": {
+    "lat": 55.8988643,
+    "lon": 23.271743,
+    "displayName": "CPB, 5, Sembos g., Kamčiatka, Gegužiai, Šiauliai, Šiaulių miesto savivaldybė, Šiaulių apskritis, 78311, Lietuva",
+    "updatedAt": "2026-04-09T12:26:08.885Z",
+    "query": "Sembos g.5, Šiauliai, Lietuva"
+  },
+  "gluosniu g.4a, silute": {
+    "lat": 55.3489154,
+    "lon": 21.4689533,
+    "displayName": "4A, Gluosnių g., Šilutė, Šilutės seniūnija, Šilutės rajono savivaldybė, Klaipėdos apskritis, 99126, Lietuva",
+    "updatedAt": "2026-04-09T12:26:10.689Z",
+    "query": "Gluosnių g.4A, Šilutė, Lietuva"
+  },
+  "sodu g.3a, lentvaris": {
+    "lat": 54.6434035,
+    "lon": 25.0534576,
+    "displayName": "3A, Sodų g., Lentvaris, Lentvario seniūnija, Trakų rajono savivaldybė, Vilniaus apskritis, 25118, Lietuva",
+    "updatedAt": "2026-04-09T12:26:14.213Z",
+    "query": "Sodų g.3A, Lentvaris, Lietuva"
+  },
+  "s.neries g.38, vilkaviskis": {
+    "lat": 54.6581148,
+    "lon": 23.0332434,
+    "displayName": "EMSI, 38, S. Nėries g., Vilkaviškis, Vilkaviškio miesto seniūnija, Vilkaviškio rajono savivaldybė, Marijampolės apskritis, 70147, Lietuva",
+    "updatedAt": "2026-04-09T12:26:15.789Z",
+    "query": "S.Nėries g.38, Vilkaviškis, Lietuva"
+  },
+  "gunkliskiu g.2f, vilnius": {
+    "lat": 54.6227504,
+    "lon": 25.1050189,
+    "displayName": "EMSI, 2F, Gunkliškių g., Trakų Vokė, Panerių seniūnija, Vilnius, Vilniaus miesto savivaldybė, Vilniaus apskritis, 02232, Lietuva",
+    "updatedAt": "2026-04-09T12:26:17.380Z",
+    "query": "Gunkliškių g.2F, Vilnius, Lietuva"
+  },
+  "jeruzales 2, vilnius": {
+    "lat": 54.7398539,
+    "lon": 25.2761745,
+    "displayName": "EMSI, 2, Jeruzalės g., Santariškės, Verkių seniūnija, Vilnius, Vilniaus miesto savivaldybė, Vilniaus apskritis, 08414, Lietuva",
+    "updatedAt": "2026-04-09T12:26:19.012Z",
+    "query": "Jeruzalės 2, Vilnius, Lietuva"
+  },
+  "kareiviu g. 4, vilnius": {
+    "lat": 54.7179121,
+    "lon": 25.2956973,
+    "displayName": "Emsi, 4, Kareivių g., Žirmūnai, Žirmūnų seniūnija, Vilnius, Vilniaus miesto savivaldybė, Vilniaus apskritis, 09117, Lietuva",
+    "updatedAt": "2026-04-09T12:26:20.803Z",
+    "query": "Kareivių g. 4, Vilnius, Lietuva"
+  },
+  "kirtimu g. 33, vilnius": {
+    "lat": 54.6279215,
+    "lon": 25.1496569,
+    "displayName": "33, Kirtimų g., Panerių seniūnija, Vilnius, Vilniaus miesto savivaldybė, Vilniaus apskritis, 02244, Lietuva",
+    "updatedAt": "2026-04-09T12:26:22.592Z",
+    "query": "Kirtimų g. 33, Vilnius, Lietuva"
+  },
+  "laisves pr. 80b, vilnius": {
+    "lat": 54.7234552,
+    "lon": 25.2329482,
+    "displayName": "EMSI, 80B, Laisvės pr., Pašilaičiai, Pašilaičių seniūnija, Vilnius, Vilniaus miesto savivaldybė, Vilniaus apskritis, 06124, Lietuva",
+    "updatedAt": "2026-04-09T12:26:24.418Z",
+    "query": "Laisvės pr. 80B, Vilnius, Lietuva"
+  },
+  "liepkalnio g.112a, vilnius": {
+    "lat": 54.6526579,
+    "lon": 25.3057172,
+    "displayName": "Emsi, 112A, Liepkalnio g., Rasų seniūnija, Vilnius, Vilniaus miesto savivaldybė, Vilniaus apskritis, 02120, Lietuva",
+    "updatedAt": "2026-04-09T12:26:26.248Z",
+    "query": "Liepkalnio g.112A, Vilnius, Lietuva"
+  },
+  "pajautos g. 31, vilnius (pilaite)": {
+    "lat": 54.7101432,
+    "lon": 25.1620536,
+    "displayName": "EMSI, Pilaitė, 31, Pajautos g., Šiaurinė Pilaitė, Pilaitės seniūnija, Vilnius, Vilniaus miesto savivaldybė, Vilniaus apskritis, 06203, Lietuva",
+    "updatedAt": "2026-04-09T12:26:27.908Z",
+    "query": "Pajautos g. 31, Vilnius (Pilaitė), Lietuva"
+  },
+  "savanoriu 225, vilnius": {
+    "lat": 54.641028,
+    "lon": 25.1841354,
+    "displayName": "EMSI, 225, Savanorių pr., Panerių seniūnija, Vilnius, Vilniaus miesto savivaldybė, Vilniaus apskritis, 02300, Lietuva",
+    "updatedAt": "2026-04-09T12:26:29.746Z",
+    "query": "Savanorių 225, Vilnius, Lietuva"
+  },
+  "spygliu g. 2, vilnius": {
+    "lat": 54.6684024,
+    "lon": 25.1116773,
+    "displayName": "EMSI Grigiškės, 2, Spyglių g., Neravai, Grigiškių seniūnija, Vilnius, Vilniaus miesto savivaldybė, Vilniaus apskritis, 27129, Lietuva",
+    "updatedAt": "2026-04-09T12:26:31.516Z",
+    "query": "Spyglių g. 2, Vilnius, Lietuva"
   }
 }
