@@ -2,7 +2,7 @@ name: Sync Fuel Data
 
 on:
   schedule:
-    - cron: "0 12 * * *"
+    - cron: "20 12 * * *"
   workflow_dispatch:
     inputs:
       date:
