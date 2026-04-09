@@ -36,7 +36,7 @@ export async function geocodeWithNominatim(
   queryAddress: string,
   userAgent: string,
 ): Promise<GeocodeEntry | null> {
-  const referer = process.env.NOMINATIM_REFERER ?? "https://fuel.uguu.eu/";
+  const referer = process.env.NOMINATIM_REFERER ?? "https://kolonkės.lt/";
   const url = new URL(NOMINATIM_URL);
   url.searchParams.set("q", queryAddress);
   url.searchParams.set("format", "jsonv2");

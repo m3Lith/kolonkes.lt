@@ -44,16 +44,20 @@ jobs:
         run: |
           DATE_ISO="${{ steps.date.outputs.value }}"
           YEAR="${DATE_ISO%%-*}"
-          URL="https://www.ena.lt/uploads/${YEAR}-EDAC/dk-degalinese-${YEAR}/DK-${DATE_ISO}.xlsx"
+          URL_LOWER="https://www.ena.lt/uploads/${YEAR}-EDAC/dk-degalinese-${YEAR}/dk-${DATE_ISO}.xlsx"
+          URL_UPPER="https://www.ena.lt/uploads/${YEAR}-EDAC/dk-degalinese-${YEAR}/DK-${DATE_ISO}.xlsx"
           DEST="data/DK-${DATE_ISO}.xlsx"
           mkdir -p data
-          echo "Downloading: $URL"
-          if curl -fL "$URL" -o "$DEST"; then
+          echo "Downloading (lowercase first): $URL_LOWER"
+          if curl -fL "$URL_LOWER" -o "$DEST"; then
+            echo "downloaded=true" >> "$GITHUB_OUTPUT"
+            echo "file=$DEST" >> "$GITHUB_OUTPUT"
+          elif curl -fL "$URL_UPPER" -o "$DEST"; then
             echo "downloaded=true" >> "$GITHUB_OUTPUT"
             echo "file=$DEST" >> "$GITHUB_OUTPUT"
           else
             echo "downloaded=false" >> "$GITHUB_OUTPUT"
-            echo "No source file available for $DATE_ISO, skipping."
+            echo "No source file available for $DATE_ISO (tried lowercase and uppercase), skipping."
           fi
 
       - name: Install dependencies

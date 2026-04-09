@@ -3,15 +3,16 @@ import path from 'node:path'
 
 import { geocodeWithRateLimit, loadGeocodeCache, saveGeocodeCache } from '../src/lib/geocodeNominatim'
 import {
-  normalizeAddressTownLast,
   buildGeocodeKey,
   buildStationId,
+  normalizeAddressTownLast,
   normalizeFuelType,
   normalizePrice,
   normalizeWhitespace,
   parseDateFromFilename,
 } from '../src/lib/normalize'
 import { parseFuelWorkbook } from '../src/lib/parseFuelWorkbook'
+import { FUEL_SORT_ORDER } from '../src/lib/types'
 
 import type {
   FuelType,
@@ -20,8 +21,6 @@ import type {
   StationDataset,
   StationRecord,
 } from "../src/lib/types";
-import { FUEL_SORT_ORDER } from "../src/lib/types";
-
 type Mode = "import" | "geocode" | "build";
 
 const ROOT = process.cwd();
@@ -33,7 +32,7 @@ const OUTPUT_STATION_DIR = path.join(ROOT, "src", "data", "stations");
 const OUTPUT_LATEST = path.join(ROOT, "src", "data", "latest.json");
 const USER_AGENT =
   process.env.NOMINATIM_USER_AGENT ??
-  "Mozilla/5.0 (compatible; fuel-map/1.0; +https://fuel.uguu.eu)";
+  "Mozilla/5.0 (compatible; fuel-map/1.0; +https://kolonkės.lt)";
 
 function getMode(): Mode {
   const joinedArg = process.argv.find((arg) => arg.startsWith("--mode="));
