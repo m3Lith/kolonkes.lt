@@ -1,43 +1,97 @@
-# Astro Starter Kit: Minimal
+# Fuel Map Website
+
+Astro + TypeScript web app that:
+- parses Lithuanian fuel price Excel files from `data/`
+- normalizes rows into structured JSON datasets
+- geocodes station addresses with OpenStreetMap Nominatim and persistent cache
+- renders clustered station markers on a Leaflet map
+
+## Input format
+
+Place files in `data/` using this name format:
+- `DK-YYYY-MM-DD.xlsx`
+
+Example:
+- `DK-2026-04-08.xlsx` -> dataset date `2026-04-08`
+
+Note: `.xlsx` source files are intentionally ignored by git. CI downloads them on demand.
+
+The parser expects these Lithuanian table columns:
+- `Imone (Degaliniu tinklas)`
+- `Degalines vieta (Savivaldybe)`
+- `Degalines Vieta (Gyvenviete, Gatve)`
+- `Degalai`
+- `Kaina uz 1 l`
+
+The script handles diacritics and non-breaking spaces, and converts `Neprekiauja` to `null`.
+
+## Data outputs
+
+Generated files:
+- `src/data/fuel-prices/<date>.json`
+- `src/data/fuel-prices/latest.json`
+- `src/data/stations/<date>.json`
+- `src/data/stations/latest.json`
+- `src/data/latest.json`
+- `data/geocode-cache.json`
+- `data/unresolved-geocodes.json`
+
+## Commands
+
+- `npm install` - install dependencies
+- `npm run import:data` - parse and normalize latest workbook
+- `npm run geocode:data` - geocode latest stations and refresh outputs
+- `npm run build:data` - full pipeline (parse + geocode + outputs)
+- `npm run dev` - start local app
+- `npm run build` - production build
+- `npm run test` - run unit tests
+
+## Nominatim usage
+
+Geocoding uses OSM Nominatim and follows low request rate. Set identifiable values in your environment:
+
+- `NOMINATIM_USER_AGENT`
+- `NOMINATIM_REFERER`
+
+Example:
 
 ```sh
-npm create astro@latest -- --template minimal
+export NOMINATIM_USER_AGENT="fuel-map/1.0 (you@your-domain.com)"
+export NOMINATIM_REFERER="https://your-domain.com"
+npm run geocode:data
 ```
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+If provider throttling happens, unresolved stations are written to `data/unresolved-geocodes.json`. Re-run `npm run geocode:data` later; cached results are reused and only missing addresses are queried.
 
-## 🚀 Project Structure
+## GitHub Pages deployment
 
-Inside of your Astro project, you'll see the following folders and files:
+This repo includes a workflow at `.github/workflows/deploy.yml` that deploys to GitHub Pages on each push to `main`.
 
-```text
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
+Setup steps in GitHub:
+- Go to **Settings -> Pages**
+- Set **Source** to **GitHub Actions**
+
+The workflow automatically computes Astro `site` and `base`:
+- User/org site repo (`<owner>.github.io`) -> base `/`
+- Project site repo (`<owner>.github.io/<repo>`) -> base `/<repo>`
+
+If you update data before deployment, run:
+
+```sh
+npm run build:data
+npm run build
 ```
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+## Scheduled ENA sync
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+This repo also includes `.github/workflows/sync-data.yml` that can run daily and fetch the source file from:
 
-Any static assets, like images, can be placed in the `public/` directory.
+- `https://www.ena.lt/uploads/<year>-EDAC/dk-degalinese-<year>/DK-<YYYY-MM-DD>.xlsx`
 
-## 🧞 Commands
+The workflow:
+- downloads `DK-YYYY-MM-DD.xlsx` into `data/`
+- runs `npm run build:data` and `npm run build`
+- removes downloaded `.xlsx`
+- commits changed JSON data files back to `main`
 
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+When that commit lands, `.github/workflows/deploy.yml` publishes the updated site to GitHub Pages.

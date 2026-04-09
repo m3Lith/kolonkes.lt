@@ -1,0 +1,2935 @@
+{
+  "radikiu k.": {
+    "lat": 54.96501,
+    "lon": 23.9240921,
+    "displayName": "Radikių g., Domeikava, Domeikavos seniūnija, Kauno rajono savivaldybė, Kauno apskritis, 54362, Lietuva",
+    "updatedAt": "2026-04-08T15:54:36.932Z",
+    "query": "Radikių k., Lietuva"
+  },
+  "nuklono g. 4, siauliai": {
+    "lat": 55.9167296,
+    "lon": 23.2469009,
+    "displayName": "4, Nuklono g., Naujieji Dainai, Gytariai, Šiauliai, Šiaulių miesto savivaldybė, Šiaulių apskritis, 78365, Lietuva",
+    "updatedAt": "2026-04-08T15:54:39.692Z",
+    "query": "Nuklono g. 4, Šiauliai, Lietuva"
+  },
+  "pramones g. 28, siauliai": {
+    "lat": 55.9049517,
+    "lon": 23.3280681,
+    "displayName": "Apsaga, 28, Pramonės g., Verduliai, Šiauliai, Šiaulių miesto savivaldybė, Šiaulių apskritis, 76001, Lietuva",
+    "updatedAt": "2026-04-08T15:54:41.554Z",
+    "query": "Pramonės g. 28, Šiauliai, Lietuva"
+  },
+  "pramones g. 3a, siauliai": {
+    "lat": 55.9178654,
+    "lon": 23.2975256,
+    "displayName": "Apsaga, 3A, Pramonės g., Žaliūkės, Šiauliai, Šiaulių miesto savivaldybė, Šiaulių apskritis, 76001, Lietuva",
+    "updatedAt": "2026-04-08T15:54:42.865Z",
+    "query": "Pramonės g. 3A, Šiauliai, Lietuva"
+  },
+  "tilzes g. 223, siauliai": {
+    "lat": 55.9412708,
+    "lon": 23.3262732,
+    "displayName": "223, Tilžės g., Kalniukas, Šiauliai, Šiaulių miesto savivaldybė, Šiaulių apskritis, 76200, Lietuva",
+    "updatedAt": "2026-04-08T15:54:44.085Z",
+    "query": "Tilžės g. 223, Šiauliai, Lietuva"
+  },
+  "v. bielskio g. 47a, siauliai": {
+    "lat": 55.9563473,
+    "lon": 23.3084505,
+    "displayName": "Apsaga, 47A, V. Bielskio g., Gubernija, Šiauliai, Šiaulių miesto savivaldybė, Šiaulių apskritis, 76159, Lietuva",
+    "updatedAt": "2026-04-08T15:54:45.454Z",
+    "query": "V. Bielskio g. 47A, Šiauliai, Lietuva"
+  },
+  "vilniaus g.16, siauliai": {
+    "lat": 55.9235482,
+    "lon": 23.3500986,
+    "displayName": "Apsaga, 16, Vilniaus g., Lepšiai, Šiauliai, Šiaulių miesto savivaldybė, Šiaulių apskritis, 76266, Lietuva",
+    "updatedAt": "2026-04-08T15:54:46.902Z",
+    "query": "Vilniaus g.16, Šiauliai, Lietuva"
+  },
+  "taikos pr. 47": {
+    "lat": 54.9127051,
+    "lon": 23.9599189,
+    "displayName": "47, Taikos pr., Dainava, Dainavos seniūnija, Kaunas, Kauno miesto savivaldybė, Kauno apskritis, 50427, Lietuva",
+    "updatedAt": "2026-04-08T15:54:48.371Z",
+    "query": "Taikos pr. 47, Lietuva"
+  },
+  "taikos pr. 48": {
+    "lat": 54.9116334,
+    "lon": 23.9542209,
+    "displayName": "48, Taikos pr., Gričiupis, Gričiupio seniūnija, Kaunas, Kauno miesto savivaldybė, Kauno apskritis, 50235, Lietuva",
+    "updatedAt": "2026-04-08T15:54:49.821Z",
+    "query": "Taikos pr. 48, Lietuva"
+  },
+  "likiskeliu k.": {
+    "lat": 54.4000026,
+    "lon": 24.0153726,
+    "displayName": "Likiškėlių g., Putinai, Alytus, Alytaus miesto savivaldybė, Alytaus apskritis, 63173, Lietuva",
+    "updatedAt": "2026-04-08T15:54:53.178Z",
+    "query": "Likiškėlių k., Lietuva"
+  },
+  "v. kudirkos g. 21a, n. akmene": {
+    "lat": 56.3189063,
+    "lon": 22.8852671,
+    "displayName": "21A, V. Kudirkos g., Naujoji Akmenė, Naujosios Akmenės miesto seniūnija, Akmenės rajono savivaldybė, Šiaulių apskritis, 85145, Lietuva",
+    "updatedAt": "2026-04-09T06:34:46.809Z",
+    "query": "V. Kudirkos g. 21A, N. Akmenė, Lietuva"
+  },
+  "santaikos g. 32, alytus": {
+    "lat": 54.3888592,
+    "lon": 24.0329435,
+    "displayName": "Santaikos g., Dainava, Alytus, Alytaus miesto savivaldybė, Alytaus apskritis, 63282, Lietuva",
+    "updatedAt": "2026-04-09T06:34:47.948Z",
+    "query": "Santaikos g. 32, Alytus, Lietuva"
+  },
+  "santaikos g. 33, alytus": {
+    "lat": 54.3864789,
+    "lon": 24.0330607,
+    "displayName": "Baltic Petroleum, 33, Santaikos g., Alytus, Alytaus miesto savivaldybė, Alytaus apskritis, 62123, Lietuva",
+    "updatedAt": "2026-04-09T06:34:49.096Z",
+    "query": "Santaikos g. 33, Alytus, Lietuva"
+  },
+  "mindaugo g. 23, anyksciai": {
+    "lat": 55.5089869,
+    "lon": 25.1005651,
+    "displayName": "23, Mindaugo g., Jurzdikas, Pašventupys, Anykščiai, Anykščių seniūnija, Anykščių rajono savivaldybė, Utenos apskritis, 29141, Lietuva",
+    "updatedAt": "2026-04-09T06:34:50.236Z",
+    "query": "Mindaugo g. 23, Anykščiai, Lietuva"
+  },
+  "gardino g. 79, druskininkai": {
+    "lat": 53.9998991,
+    "lon": 23.9879595,
+    "displayName": "Baltic Petroleum, 79, Gardino g., Druskininkai, Druskininkų savivaldybė, Alytaus apskritis, 66191, Lietuva",
+    "updatedAt": "2026-04-09T06:34:52.514Z",
+    "query": "Gardino g. 79, Druskininkai, Lietuva"
+  },
+  "leipalingio g. 26, druskininkai": {
+    "lat": 54.0302436,
+    "lon": 23.9832836,
+    "displayName": "Baltic Petroleum, 26, Leipalingio g., Senamiestis, Druskininkai, Druskininkų savivaldybė, Alytaus apskritis, 66371, Lietuva",
+    "updatedAt": "2026-04-09T06:34:53.651Z",
+    "query": "Leipalingio g. 26, Druskininkai, Lietuva"
+  },
+  "merkines g. 37, leipalingis": {
+    "lat": 54.0946203,
+    "lon": 23.8714383,
+    "displayName": "Baltic Petroleum, 37, Merkinės g., Leipalingis, Leipalingio seniūnija, Druskininkų savivaldybė, Alytaus apskritis, 67280, Lietuva",
+    "updatedAt": "2026-04-09T06:34:54.784Z",
+    "query": "Merkinės g. 37, Leipalingis, Lietuva"
+  },
+  "zemaites g. 1, jonava": {
+    "lat": 55.0823811,
+    "lon": 24.2709727,
+    "displayName": "Baltic Petroleum, 1, Žemaitės g., Jonava, Jonavos seniūnija, Jonavos rajono savivaldybė, Kauno apskritis, 55134, Lietuva",
+    "updatedAt": "2026-04-09T06:34:58.190Z",
+    "query": "Žemaitės g. 1, Jonava, Lietuva"
+  },
+  "vilniaus g. 72, joniskis": {
+    "lat": 56.2234129,
+    "lon": 23.5974166,
+    "displayName": "72, Vilniaus g., Joniškis, Joniškio seniūnija, Joniškio rajono savivaldybė, Šiaulių apskritis, 84166, Lietuva",
+    "updatedAt": "2026-04-09T06:34:59.326Z",
+    "query": "Vilniaus g. 72, Joniškis, Lietuva"
+  },
+  "muitines g. 22a, jurbarkas": {
+    "lat": 55.0781222,
+    "lon": 22.7447381,
+    "displayName": "22A, Muitinės g., Naujamiestis, Jurbarkas, Jurbarko miesto seniūnija, Jurbarko rajono savivaldybė, Tauragės apskritis, 74106, Lietuva",
+    "updatedAt": "2026-04-09T06:35:00.464Z",
+    "query": "Muitinės g. 22A, Jurbarkas, Lietuva"
+  },
+  "chemijos g. 6, kaunas": {
+    "lat": 54.903137,
+    "lon": 23.9827343,
+    "displayName": "Baltic Petroleum, 6, Chemijos g., Petrašiūnai, Petrašiūnų seniūnija, Kaunas, Kauno miesto savivaldybė, Kauno apskritis, 51326, Lietuva",
+    "updatedAt": "2026-04-09T06:35:06.254Z",
+    "query": "Chemijos g. 6, Kaunas, Lietuva"
+  },
+  "jonavos g. 60a, kaunas": {
+    "lat": 54.9050351,
+    "lon": 23.8995849,
+    "displayName": "Baltic Petroleum, 60A, Jonavos g., Žaliakalnio seniūnija, Kaunas, Kauno miesto savivaldybė, Kauno apskritis, 44192, Lietuva",
+    "updatedAt": "2026-04-09T06:35:07.571Z",
+    "query": "Jonavos g. 60A, Kaunas, Lietuva"
+  },
+  "minkovskiu g. 132, kaunas": {
+    "lat": 54.8857026,
+    "lon": 23.9119704,
+    "displayName": "Baltic Petroleum, 132, H. ir O. Minkovskių g., Aleksotas, Aleksoto seniūnija, Kaunas, Kauno miesto savivaldybė, Kauno apskritis, 46245, Lietuva",
+    "updatedAt": "2026-04-09T06:35:08.934Z",
+    "query": "Minkovskių g. 132, Kaunas, Lietuva"
+  },
+  "raudondvario pl. 82, kaunas": {
+    "lat": 54.9077624,
+    "lon": 23.874128,
+    "displayName": "Baltic Petroleum, 82, Raudondvario pl., Mikalinava, Vilijampolės seniūnija, Kaunas, Kauno miesto savivaldybė, Kauno apskritis, 47182, Lietuva",
+    "updatedAt": "2026-04-09T06:35:10.889Z",
+    "query": "Raudondvario pl. 82, Kaunas, Lietuva"
+  },
+  "taikos pr. 120, kaunas": {
+    "lat": 54.9173776,
+    "lon": 24.0348003,
+    "displayName": "Baltic Petroleum, 120, Taikos pr., Palemonas, Petrašiūnų seniūnija, Kaunas, Kauno miesto savivaldybė, Kauno apskritis, 52140, Lietuva",
+    "updatedAt": "2026-04-09T06:35:12.210Z",
+    "query": "Taikos pr. 120, Kaunas, Lietuva"
+  },
+  "vaidoto g. 153, kaunas": {
+    "lat": 54.8613556,
+    "lon": 23.9588064,
+    "displayName": "Baltic petroleum, 153, Vaidoto g., Panemunė, Panemunės seniūnija, Kaunas, Kauno miesto savivaldybė, Kauno apskritis, 45302, Lietuva",
+    "updatedAt": "2026-04-09T06:35:13.468Z",
+    "query": "Vaidoto g. 153, Kaunas, Lietuva"
+  },
+  "j. basanaviciaus g. 95b, kedainiai": {
+    "lat": 55.2769184,
+    "lon": 23.9558741,
+    "displayName": "95B, J. Basanavičiaus g., Senamiestis, Kėdainiai, Kėdainių miesto seniūnija, Kėdainių rajono savivaldybė, Kauno apskritis, 57367, Lietuva",
+    "updatedAt": "2026-04-09T06:35:18.773Z",
+    "query": "J. Basanavičiaus g. 95B, Kėdainiai, Lietuva"
+  },
+  "liepu g. 79a, klaipeda": {
+    "lat": 55.7208199,
+    "lon": 21.1524938,
+    "displayName": "Baltic Petroleum, 79A, Liepų g., Pelenynas, Klaipėda, Klaipėdos miesto savivaldybė, Klaipėdos apskritis, 91270, Lietuva",
+    "updatedAt": "2026-04-09T06:35:20.302Z",
+    "query": "Liepų g. 79A, Klaipėda, Lietuva"
+  },
+  "silutes pl. 1, klaipeda": {
+    "lat": 55.7049578,
+    "lon": 21.1635571,
+    "displayName": "Baltic Petroleum, 1, Šilutės pl., Rumpiškės dvaras, Rumpiškė, Klaipėda, Klaipėdos miesto savivaldybė, Klaipėdos apskritis, 91109, Lietuva",
+    "updatedAt": "2026-04-09T06:35:21.563Z",
+    "query": "Šilutės pl. 1, Klaipėda, Lietuva"
+  },
+  "tilzes g. 90, klaipeda": {
+    "lat": 55.7003233,
+    "lon": 21.1991789,
+    "displayName": "90, Tilžės g., Klaipėda, Klaipėdos miesto savivaldybė, Klaipėdos apskritis, 91101, Lietuva",
+    "updatedAt": "2026-04-09T06:35:22.907Z",
+    "query": "Tilžės g. 90, Klaipėda, Lietuva"
+  },
+  "dariaus ir gireno g. 10, gargzdai": {
+    "lat": 55.7074247,
+    "lon": 21.380302,
+    "displayName": "10, Dariaus ir Girėno g., Gargždai, Gargždų seniūnija, Klaipėdos rajono savivaldybė, Klaipėdos apskritis, 96181, Lietuva",
+    "updatedAt": "2026-04-09T06:35:24.167Z",
+    "query": "Dariaus ir Girėno g. 10, Gargždai, Lietuva"
+  },
+  "klaipedos g. 61, priekule": {
+    "lat": 55.5618881,
+    "lon": 21.308762,
+    "displayName": "Baltic petroleum, 61, Klaipėdos g., Priekulė, Priekulės seniūnija, Klaipėdos rajono savivaldybė, Klaipėdos apskritis, 96342, Lietuva",
+    "updatedAt": "2026-04-09T06:35:25.532Z",
+    "query": "Klaipėdos g. 61, Priekulė, Lietuva"
+  },
+  "turistu g. 88, lazdijai": {
+    "lat": 54.2206302,
+    "lon": 23.5089351,
+    "displayName": "88, Turistų g., Lazdijai, Lazdijų miesto seniūnija, Lazdijų rajono savivaldybė, Alytaus apskritis, 67115, Lietuva",
+    "updatedAt": "2026-04-09T06:35:28.711Z",
+    "query": "Turistų g. 88, Lazdijai, Lietuva"
+  },
+  "p. armino g. 69, marijampole": {
+    "lat": 54.5338041,
+    "lon": 23.353361,
+    "displayName": "Baltic Petroleum, 69, P. Armino g., Kvietiškis, Marijampolė, Marijampolės savivaldybė, Marijampolės apskritis, 68127, Lietuva",
+    "updatedAt": "2026-04-09T06:35:30.568Z",
+    "query": "P. Armino g. 69, Marijampolė, Lietuva"
+  },
+  "vasaros g. 15, marijampole": {
+    "lat": 54.5556517,
+    "lon": 23.375474,
+    "displayName": "Baltic Petroleum, 15, Vasaros g., Triobiškiai, Marijampolė, Marijampolės savivaldybė, Marijampolės apskritis, 68114, Lietuva",
+    "updatedAt": "2026-04-09T06:35:34.536Z",
+    "query": "Vasaros g. 15, Marijampolė, Lietuva"
+  },
+  "lauku g. 10, tirksliai": {
+    "lat": 56.2625551,
+    "lon": 22.3104529,
+    "displayName": "10, Laukų g., Tirkšliai, Tirkšlių seniūnija, Mažeikių rajono savivaldybė, Telšių apskritis, 89328, Lietuva",
+    "updatedAt": "2026-04-09T06:35:37.114Z",
+    "query": "Laukų g. 10, Tirkšliai, Lietuva"
+  },
+  "m. dauksos g. 17, mazeikiai": {
+    "lat": 56.3050956,
+    "lon": 22.3504695,
+    "displayName": "17, M. Daukšos g., Senamiestis, Mažeikiai, Mažeikių seniūnija, Mažeikių rajono savivaldybė, Telšių apskritis, 89234, Lietuva",
+    "updatedAt": "2026-04-09T06:35:38.373Z",
+    "query": "M. Daukšos g. 17, Mažeikiai, Lietuva"
+  },
+  "vilniaus g.104, moletai": {
+    "lat": 55.2173453,
+    "lon": 25.4033091,
+    "displayName": "Baltic petroleum, 104, Vilniaus g., Molėtai, Luokesos seniūnija, Molėtų rajono savivaldybė, Utenos apskritis, 33114, Lietuva",
+    "updatedAt": "2026-04-09T06:35:39.735Z",
+    "query": "Vilniaus g.104, Molėtai, Lietuva"
+  },
+  "nidos-smiltynes pl. 6, neringa": {
+    "lat": 55.3008802,
+    "lon": 20.9798761,
+    "displayName": "Baltic Petroleum, 6, Nidos-Smiltynės pl., Nida, Neringa, Neringos savivaldybė, Klaipėdos apskritis, 93127, Lietuva",
+    "updatedAt": "2026-04-09T06:35:40.973Z",
+    "query": "Nidos-Smiltynės pl. 6, Neringa, Lietuva"
+  },
+  "statybininku g. 28, pakruojis": {
+    "lat": 55.9744618,
+    "lon": 23.8689184,
+    "displayName": "Baltic Petroleum, 28, Statybininkų g., Pakruojis, Pakruojo seniūnija, Pakruojo rajono savivaldybė, Šiaulių apskritis, 83182, Lietuva",
+    "updatedAt": "2026-04-09T06:35:42.297Z",
+    "query": "Statybininkų g. 28, Pakruojis, Lietuva"
+  },
+  "statybininku g. 38, pakruojis": {
+    "lat": 55.9791144,
+    "lon": 23.8593307,
+    "displayName": "Statybininkų g., Pakruojis, Pakruojo seniūnija, Pakruojo rajono savivaldybė, Šiaulių apskritis, 83182, Lietuva",
+    "updatedAt": "2026-04-09T06:35:43.576Z",
+    "query": "Statybininkų g. 38, Pakruojis, Lietuva"
+  },
+  "ganyklu g. 28c, palanga": {
+    "lat": 55.9234396,
+    "lon": 21.0759718,
+    "displayName": "28C, Ganyklų g., Vanagupė, Palanga, Palangos miesto savivaldybė, Klaipėdos apskritis, 00126, Lietuva",
+    "updatedAt": "2026-04-09T06:35:45.332Z",
+    "query": "Ganyklų g. 28C, Palanga, Lietuva"
+  },
+  "klaipedos pl. 44, palanga": {
+    "lat": 55.9156229,
+    "lon": 21.0783812,
+    "displayName": "Baltic Petroleum, 44, Klaipėdos pl., Palanga, Palangos miesto savivaldybė, Klaipėdos apskritis, 00111, Lietuva",
+    "updatedAt": "2026-04-09T06:35:46.569Z",
+    "query": "Klaipėdos pl. 44, Palanga, Lietuva"
+  },
+  "smelynes g. 169, panevezys": {
+    "lat": 55.7575994,
+    "lon": 24.3677103,
+    "displayName": "Baltic Petroleum, 169, Smėlynės g., Panevėžys, Panevėžio miesto savivaldybė, Panevėžio apskritis, 37450, Lietuva",
+    "updatedAt": "2026-04-09T06:35:47.850Z",
+    "query": "Smėlynės g. 169, Panevėžys, Lietuva"
+  },
+  "velzio kelias 74, panevezys": {
+    "lat": 55.7280284,
+    "lon": 24.3828706,
+    "displayName": "Velžio kelias, Senamiestis, Panevėžys, Panevėžio miesto savivaldybė, Panevėžio apskritis, 36109, Lietuva",
+    "updatedAt": "2026-04-09T06:35:49.255Z",
+    "query": "Velžio kelias 74, Panevėžys, Lietuva"
+  },
+  "veiveriu k.": {
+    "lat": 54.8788138,
+    "lon": 23.8936953,
+    "displayName": "51K, Veiverių g., Aleksotas, Aleksoto seniūnija, Kaunas, Kauno miesto savivaldybė, Kauno apskritis, 46337, Lietuva",
+    "updatedAt": "2026-04-09T06:35:53.157Z",
+    "query": "Veiverių k., Lietuva"
+  },
+  "vilniaus g. 3a, prienai": {
+    "lat": 54.6284747,
+    "lon": 23.9588356,
+    "displayName": "Baltic Petroleum, 3A, Vilniaus g., Prienai, Prienų seniūnija, Prienų rajono savivaldybė, Kauno apskritis, 59115, Lietuva",
+    "updatedAt": "2026-04-09T06:35:54.460Z",
+    "query": "Vilniaus g. 3A, Prienai, Lietuva"
+  },
+  "misko g. 64, radviliskis": {
+    "lat": 55.8006377,
+    "lon": 23.5659386,
+    "displayName": "64, Miško g., Radviliškis, Radviliškio miesto seniūnija, Radviliškio rajono savivaldybė, Šiaulių apskritis, 82182, Lietuva",
+    "updatedAt": "2026-04-09T06:35:55.760Z",
+    "query": "Miško g. 64, Radviliškis, Lietuva"
+  },
+  "siauliu g. 1a, radviliskis": {
+    "lat": 55.8255852,
+    "lon": 23.523504,
+    "displayName": "Baltic Petroleum, 1A, Šiaulių g., Radviliškis, Radviliškio miesto seniūnija, Radviliškio rajono savivaldybė, Šiaulių apskritis, 82142, Lietuva",
+    "updatedAt": "2026-04-09T06:35:57.142Z",
+    "query": "Šiaulių g. 1A, Radviliškis, Lietuva"
+  },
+  "uzuovejos k.": {
+    "lat": 54.8097652,
+    "lon": 25.291711,
+    "displayName": "Užuovėjos g., Kalinas, Riešės seniūnija, Vilniaus rajono savivaldybė, Vilniaus apskritis, 14290, Lietuva",
+    "updatedAt": "2026-04-09T06:35:59.199Z",
+    "query": "Užuovėjos k., Lietuva"
+  },
+  "kalnuju k. 1": {
+    "lat": 55.3735907,
+    "lon": 23.1211369,
+    "displayName": "Kalnujų g., Raseiniai, Raseinių miesto seniūnija, Raseinių rajono savivaldybė, Kauno apskritis, 60179, Lietuva",
+    "updatedAt": "2026-04-09T06:36:00.690Z",
+    "query": "Kalnujų k. 1, Lietuva"
+  },
+  "vilniaus g. 30, raseiniai": {
+    "lat": 55.3709621,
+    "lon": 23.1331497,
+    "displayName": "Baltic Petroleum, 30, Vilniaus g., Raseiniai, Raseinių miesto seniūnija, Raseinių rajono savivaldybė, Kauno apskritis, 60183, Lietuva",
+    "updatedAt": "2026-04-09T06:36:01.969Z",
+    "query": "Vilniaus g. 30, Raseiniai, Lietuva"
+  },
+  "dariaus ir gireno g. 19, rietavas": {
+    "lat": 55.7194009,
+    "lon": 21.9285021,
+    "displayName": "Baltic Petroleum, 19, Dariaus ir Girėno g., Rietavas, Rietavo miesto seniūnija, Rietavo savivaldybė, Telšių apskritis, 90316, Lietuva",
+    "updatedAt": "2026-04-09T06:36:05.213Z",
+    "query": "Dariaus ir Girėno g. 19, Rietavas, Lietuva"
+  },
+  "griskabudis": {
+    "lat": 54.8510876,
+    "lon": 23.170468,
+    "displayName": "Griškabūdis, Griškabūdžio seniūnija, Šakių rajono savivaldybė, Marijampolės apskritis, Lietuva",
+    "updatedAt": "2026-04-09T06:36:07.837Z",
+    "query": "Griškabūdis, Lietuva"
+  },
+  "sodu g. 1, sakiai": {
+    "lat": 54.9453642,
+    "lon": 23.0457682,
+    "displayName": "Baltic Petroleum, 1, Sodų g., Šakiai, Šakių seniūnija, Šakių rajono savivaldybė, Marijampolės apskritis, 71136, Lietuva",
+    "updatedAt": "2026-04-09T06:36:09.137Z",
+    "query": "Sodų g. 1, Šakiai, Lietuva"
+  },
+  "vilniaus g. 5a, salcininkai": {
+    "lat": 54.3179349,
+    "lon": 25.3815802,
+    "displayName": "Baltic Petroleum, 5A, Vilniaus g., Šalčininkai, Šalčininkų seniūnija, Šalčininkų rajono savivaldybė, Vilniaus apskritis, 17104, Lietuva",
+    "updatedAt": "2026-04-09T06:36:11.095Z",
+    "query": "Vilniaus g. 5A, Šalčininkai, Lietuva"
+  },
+  "kupiskio g. 4, siauliai": {
+    "lat": 55.9577452,
+    "lon": 23.3160647,
+    "displayName": "Naftos dujos, 4, Kupiškio g., Gubernija, Šiauliai, Šiaulių miesto savivaldybė, Šiaulių apskritis, 76136, Lietuva",
+    "updatedAt": "2026-04-09T06:36:12.311Z",
+    "query": "Kupiškio g. 4, Šiauliai, Lietuva"
+  },
+  "rytinio kelio g. 2, silale": {
+    "lat": 55.4900659,
+    "lon": 22.2001901,
+    "displayName": "Viada, 2, Rytinio Kelio g., Šilalė, Šilalės miesto seniūnija, Šilalės rajono savivaldybė, Tauragės apskritis, 75122, Lietuva",
+    "updatedAt": "2026-04-09T06:36:15.311Z",
+    "query": "Rytinio Kelio g. 2, Šilalė, Lietuva"
+  },
+  "klaipedos g. 4a, silute": {
+    "lat": 55.3528865,
+    "lon": 21.4632498,
+    "displayName": "Baltic Petroleum, 4A, Klaipėdos g., Šilutė, Šilutės seniūnija, Šilutės rajono savivaldybė, Klaipėdos apskritis, 99129, Lietuva",
+    "updatedAt": "2026-04-09T06:36:16.588Z",
+    "query": "Klaipėdos g. 4A, Šilutė, Lietuva"
+  },
+  "musninku g. 21, sirvintos": {
+    "lat": 55.0322671,
+    "lon": 24.9671225,
+    "displayName": "Baltic Petroleum, 21, Musninkų g., Širvintos, Širvintų seniūnija, Širvintų rajono savivaldybė, Vilniaus apskritis, 19125, Lietuva",
+    "updatedAt": "2026-04-09T06:36:17.824Z",
+    "query": "Musninkų g. 21, Širvintos, Lietuva"
+  },
+  "vytauto g. 22, skuodas": {
+    "lat": 56.2594373,
+    "lon": 21.5301055,
+    "displayName": "Baltic Petroleum, 22, Vytauto g., Skuodas, Skuodo miesto seniūnija, Skuodo rajono savivaldybė, Klaipėdos apskritis, 98123, Lietuva",
+    "updatedAt": "2026-04-09T06:36:19.209Z",
+    "query": "Vytauto g. 22, Skuodas, Lietuva"
+  },
+  "siauliu pl. 12, telsiai": {
+    "lat": 56.003941,
+    "lon": 22.2447458,
+    "displayName": "Baltic Petroleum, 12, Šiaulių pl., Telšiai, Degaičių seniūnija, Telšių rajono savivaldybė, Telšių apskritis, 87101, Lietuva",
+    "updatedAt": "2026-04-09T06:36:23.971Z",
+    "query": "Šiaulių pl. 12, Telšiai, Lietuva"
+  },
+  "vilniaus g. 33, trakai": {
+    "lat": 54.6273235,
+    "lon": 24.9485509,
+    "displayName": "Baltic Petroleum, 33, Vilniaus g., Trakai, Trakų seniūnija, Trakų rajono savivaldybė, Vilniaus apskritis, 21118, Lietuva",
+    "updatedAt": "2026-04-09T06:36:25.234Z",
+    "query": "Vilniaus g. 33, Trakai, Lietuva"
+  },
+  "kauno g. 49, ukmerge": {
+    "lat": 55.2408639,
+    "lon": 24.7396036,
+    "displayName": "Baltic Petroleum, 49, Kauno g., Ukmergė, Ukmergės miesto seniūnija, Ukmergės rajono savivaldybė, Vilniaus apskritis, 20118, Lietuva",
+    "updatedAt": "2026-04-09T06:36:26.642Z",
+    "query": "Kauno g. 49, Ukmergė, Lietuva"
+  },
+  "basanaviciaus g. 1b, utena": {
+    "lat": 55.4953295,
+    "lon": 25.5748777,
+    "displayName": "Baltic Petroleum, 1B, J. Basanavičiaus g., Naujamiestis, Utena, Utenos miesto seniūnija, Utenos rajono savivaldybė, Utenos apskritis, 28138, Lietuva",
+    "updatedAt": "2026-04-09T06:36:28.702Z",
+    "query": "Basanavičiaus g. 1B, Utena, Lietuva"
+  },
+  "ciurlionio g. 63, varena": {
+    "lat": 54.2183476,
+    "lon": 24.5656262,
+    "displayName": "Baltic Petroleum, 63, M. K. Čiurlionio g., Varėna, Varėnos seniūnija, Varėnos rajono savivaldybė, Alytaus apskritis, 65219, Lietuva",
+    "updatedAt": "2026-04-09T06:36:29.981Z",
+    "query": "Čiurlionio g. 63, Varėna, Lietuva"
+  },
+  "vilniaus g. 6a, senoji varena": {
+    "lat": 54.2564922,
+    "lon": 24.5470516,
+    "displayName": "Baltic Petroleum, 6A, Vilniaus g., Senoji Varėna, Varėnos seniūnija, Varėnos rajono savivaldybė, Alytaus apskritis, 65489, Lietuva",
+    "updatedAt": "2026-04-09T06:36:31.305Z",
+    "query": "Vilniaus g. 6A, Senoji Varėna, Lietuva"
+  },
+  "vilniaus g. 87, merkine": {
+    "lat": 54.1691323,
+    "lon": 24.2077437,
+    "displayName": "Baltic Petroleum, 87, Vilniaus g., Merkinė, Merkinės seniūnija, Varėnos rajono savivaldybė, Alytaus apskritis, 65333, Lietuva",
+    "updatedAt": "2026-04-09T06:36:32.690Z",
+    "query": "Vilniaus g. 87, Merkinė, Lietuva"
+  },
+  "antakalnio g. 128, vilnius": {
+    "lat": 54.7222342,
+    "lon": 25.3171326,
+    "displayName": "Baltic petroleum, 128, Antakalnio g., Antakalnio seniūnija, Vilnius, Vilniaus miesto savivaldybė, Vilniaus apskritis, 10200, Lietuva",
+    "updatedAt": "2026-04-09T06:36:33.946Z",
+    "query": "Antakalnio g. 128, Vilnius, Lietuva"
+  },
+  "brazdzionio g. 2, vilnius": {
+    "lat": 54.6139256,
+    "lon": 25.3090004,
+    "displayName": "Baltic Petroleum, 2, B. Brazdžionio g., Basiukai, Naujininkų seniūnija, Vilnius, Vilniaus miesto savivaldybė, Vilniaus apskritis, 13242, Lietuva",
+    "updatedAt": "2026-04-09T06:36:35.265Z",
+    "query": "Brazdžionio g. 2, Vilnius, Lietuva"
+  },
+  "gerosios vilties g. 33, vilnius": {
+    "lat": 54.6667672,
+    "lon": 25.2507937,
+    "displayName": "Baltic Petroleum, 33, Gerosios Vilties g., Vilkpėdės seniūnija, Vilnius, Vilniaus miesto savivaldybė, Vilniaus apskritis, 03160, Lietuva",
+    "updatedAt": "2026-04-09T06:36:36.483Z",
+    "query": "Gerosios Vilties g. 33, Vilnius, Lietuva"
+  },
+  "metalo g. 4b, vilnius": {
+    "lat": 54.6404777,
+    "lon": 25.2674802,
+    "displayName": "Baltic Petroleum, 4B, Metalo g., Kirtimai, Naujininkų seniūnija, Vilnius, Vilniaus miesto savivaldybė, Vilniaus apskritis, 02189, Lietuva",
+    "updatedAt": "2026-04-09T06:36:37.741Z",
+    "query": "Metalo g. 4B, Vilnius, Lietuva"
+  },
+  "moletu pl. 27a, vilnius": {
+    "lat": 54.7676771,
+    "lon": 25.2725427,
+    "displayName": "Baltic Petroleum, 27A, Molėtų pl., Skersinė, Verkių seniūnija, Vilnius, Vilniaus miesto savivaldybė, Vilniaus apskritis, 08409, Lietuva",
+    "updatedAt": "2026-04-09T06:36:39.032Z",
+    "query": "Molėtų pl. 27A, Vilnius, Lietuva"
+  },
+  "rinktines g. 59, vilnius": {
+    "lat": 54.7028044,
+    "lon": 25.2882429,
+    "displayName": "Baltic Petroleum, 59, Rinktinės g., Tuskulėnai, Žirmūnų seniūnija, Vilnius, Vilniaus miesto savivaldybė, Vilniaus apskritis, 09207, Lietuva",
+    "updatedAt": "2026-04-09T06:36:40.251Z",
+    "query": "Rinktinės g. 59, Vilnius, Lietuva"
+  },
+  "savanoriu pr. 121, vilnius": {
+    "lat": 54.6608114,
+    "lon": 25.2333764,
+    "displayName": "Baltic Petroleum, 121, Savanorių pr., Riovonys, Vilkpėdės seniūnija, Vilnius, Vilniaus miesto savivaldybė, Vilniaus apskritis, 03150, Lietuva",
+    "updatedAt": "2026-04-09T06:36:43.868Z",
+    "query": "Savanorių pr. 121, Vilnius, Lietuva"
+  },
+  "visalaukio g. 2": {
+    "lat": 54.7792861,
+    "lon": 25.3421044,
+    "displayName": "Baltic Petroleum degalinė ir plovykla, 2, Visalaukio g., Balsiai, Verkių seniūnija, Vilnius, Vilniaus miesto savivaldybė, Vilniaus apskritis, 12011, Lietuva",
+    "updatedAt": "2026-04-09T06:36:46.516Z",
+    "query": "Visalaukio g. 2, Lietuva"
+  },
+  "zujunu g. 2a, vilnius": {
+    "lat": 54.7111087,
+    "lon": 25.161795,
+    "displayName": "2A, Zujūnų g., Padekaniškės, Pilaitės seniūnija, Vilnius, Vilniaus miesto savivaldybė, Vilniaus apskritis, 06282, Lietuva",
+    "updatedAt": "2026-04-09T06:36:47.774Z",
+    "query": "Zujūnų g. 2A, Vilnius, Lietuva"
+  },
+  "naujoji g. 120, alytus": {
+    "lat": 54.4246479,
+    "lon": 24.0035005,
+    "displayName": "Circle K „Alytus II“, 120, Naujoji g., Putinai, Alytus, Alytaus miesto savivaldybė, Alytaus apskritis, 62175, Lietuva",
+    "updatedAt": "2026-04-09T06:36:55.621Z",
+    "query": "Naujoji g. 120, Alytus, Lietuva"
+  },
+  "rutu g. 2b, alytus": {
+    "lat": 54.3950614,
+    "lon": 24.0379049,
+    "displayName": "Circle K „Alytus“, 2B, Rūtų g., Dainava, Alytus, Alytaus miesto savivaldybė, Alytaus apskritis, 62119, Lietuva",
+    "updatedAt": "2026-04-09T06:36:56.900Z",
+    "query": "Rūtų g. 2B, Alytus, Lietuva"
+  },
+  "kiluciu g. 93, birzai": {
+    "lat": 56.1948403,
+    "lon": 24.7721388,
+    "displayName": "Circle K „Biržai“, 93, Kilučių g., Senamiestis, Biržai, Biržų miesto seniūnija, Biržų rajono savivaldybė, Panevėžio apskritis, 41156, Lietuva",
+    "updatedAt": "2026-04-09T06:36:58.761Z",
+    "query": "Kilučių g. 93, Biržai, Lietuva"
+  },
+  "m. k. ciurlionio g. 113, druskininkai": {
+    "lat": 54.0101815,
+    "lon": 23.993238,
+    "displayName": "Circle K „Druskininkai“, 113, M. K. Čiurlionio g., Senamiestis, Druskininkai, Druskininkų savivaldybė, Alytaus apskritis, 66161, Lietuva",
+    "updatedAt": "2026-04-09T06:37:00.618Z",
+    "query": "M. K. Čiurlionio g. 113, Druskininkai, Lietuva"
+  },
+  "sabaliskiu g. 1f, elektrenai": {
+    "lat": 54.7891686,
+    "lon": 24.6760563,
+    "displayName": "Circle K „Elektrėnai“, 1F, Sabališkių g., Elektrėnai, Elektrėnų seniūnija, Elektrėnų savivaldybė, Vilniaus apskritis, 26141, Lietuva",
+    "updatedAt": "2026-04-09T06:37:01.961Z",
+    "query": "Sabališkių g. 1F, Elektrėnai, Lietuva"
+  },
+  "vasario 16-osios g. 33, jonava": {
+    "lat": 55.0705601,
+    "lon": 24.2632109,
+    "displayName": "33, Vasario 16-osios g., Jonava, Jonavos seniūnija, Jonavos rajono savivaldybė, Kauno apskritis, 55164, Lietuva",
+    "updatedAt": "2026-04-09T06:37:03.220Z",
+    "query": "Vasario 16-osios g. 33, Jonava, Lietuva"
+  },
+  "briedziu takas 6b, kaunas": {
+    "lat": 54.9356383,
+    "lon": 23.9656723,
+    "displayName": "6B, Briedžių tak., Murava, Eigulių seniūnija, Kaunas, Kauno miesto savivaldybė, Kauno apskritis, 49105, Lietuva",
+    "updatedAt": "2026-04-09T06:37:08.402Z",
+    "query": "Briedžių takas 6B, Kaunas, Lietuva"
+  },
+  "islandijos pl. 32, kaunas": {
+    "lat": 54.9399034,
+    "lon": 23.8946455,
+    "displayName": "Linos artelė, 32, Islandijos pl., Vytėnai, Šilainių seniūnija, Kaunas, Kauno miesto savivaldybė, Kauno apskritis, 47446, Lietuva",
+    "updatedAt": "2026-04-09T06:37:09.727Z",
+    "query": "Islandijos pl. 32, Kaunas, Lietuva"
+  },
+  "islandijos pl. 61c, kaunas": {
+    "lat": 54.9335863,
+    "lon": 23.965766,
+    "displayName": "Circle K „Greitkelis II“, 61C, Islandijos pl., Murava, Eigulių seniūnija, Kaunas, Kauno miesto savivaldybė, Kauno apskritis, 49117, Lietuva",
+    "updatedAt": "2026-04-09T06:37:11.682Z",
+    "query": "Islandijos pl. 61C, Kaunas, Lietuva"
+  },
+  "jonavos g. 38, kaunas": {
+    "lat": 54.9015997,
+    "lon": 23.8950293,
+    "displayName": "Circle K „Jonavos“, 38, Jonavos g., Žaliakalnio seniūnija, Kaunas, Kauno miesto savivaldybė, Kauno apskritis, 44263, Lietuva",
+    "updatedAt": "2026-04-09T06:37:12.926Z",
+    "query": "Jonavos g. 38, Kaunas, Lietuva"
+  },
+  "k. barsausko g. 57, kaunas": {
+    "lat": 54.8990388,
+    "lon": 23.9599289,
+    "displayName": "Circle K „Baršausko“, 57, K. Baršausko g., Gričiupis, Gričiupio seniūnija, Kaunas, Kauno miesto savivaldybė, Kauno apskritis, 51423, Lietuva",
+    "updatedAt": "2026-04-09T06:37:14.167Z",
+    "query": "K. Baršausko g. 57, Kaunas, Lietuva"
+  },
+  "karaliaus mindaugo pr. 34a, kaunas": {
+    "lat": 54.8941634,
+    "lon": 23.9142007,
+    "displayName": "Circle K Karaliaus Mindaugo pr., 34A, Karaliaus Mindaugo pr., Naujamiestis, Centro seniūnija, Kaunas, Kauno miesto savivaldybė, Kauno apskritis, 44306, Lietuva",
+    "updatedAt": "2026-04-09T06:37:15.430Z",
+    "query": "Karaliaus Mindaugo pr. 34A, Kaunas, Lietuva"
+  },
+  "pramones pr. 18, kaunas": {
+    "lat": 54.9162183,
+    "lon": 23.9866766,
+    "displayName": "Circle K „Dainava“, 18, Pramonės pr., Naujasodis, Petrašiūnų seniūnija, Kaunas, Kauno miesto savivaldybė, Kauno apskritis, 51183, Lietuva",
+    "updatedAt": "2026-04-09T06:37:16.773Z",
+    "query": "Pramonės pr. 18, Kaunas, Lietuva"
+  },
+  "r. kalantos g. 159, kaunas": {
+    "lat": 54.8940105,
+    "lon": 24.0066234,
+    "displayName": "Circle K „Petrašiūnai“, 159, R. Kalantos g., Petrašiūnai, Petrašiūnų seniūnija, Kaunas, Kauno miesto savivaldybė, Kauno apskritis, 52314, Lietuva",
+    "updatedAt": "2026-04-09T06:37:18.091Z",
+    "query": "R. Kalantos g. 159, Kaunas, Lietuva"
+  },
+  "r. kalantos g. 68, kaunas": {
+    "lat": 54.8930507,
+    "lon": 23.9958043,
+    "displayName": "Circle K 1-2-3 „Kalanta“, 68, R. Kalantos g., Petrašiūnai, Petrašiūnų seniūnija, Kaunas, Kauno miesto savivaldybė, Kauno apskritis, 52365, Lietuva",
+    "updatedAt": "2026-04-09T06:37:19.455Z",
+    "query": "R. Kalantos g. 68, Kaunas, Lietuva"
+  },
+  "raudondvario pl. 107a, kaunas": {
+    "lat": 54.9081595,
+    "lon": 23.8652652,
+    "displayName": "Circle K, 107A, Raudondvario pl., Mikalinava, Vilijampolės seniūnija, Kaunas, Kauno miesto savivaldybė, Kauno apskritis, 47186, Lietuva",
+    "updatedAt": "2026-04-09T06:37:20.842Z",
+    "query": "Raudondvario pl. 107A, Kaunas, Lietuva"
+  },
+  "savanoriu pr. 321, kaunas": {
+    "lat": 54.9198982,
+    "lon": 23.9516079,
+    "displayName": "SEB Santakos skyrius, 321, Savanorių pr., Kalniečiai, Eigulių seniūnija, Kaunas, Kauno miesto savivaldybė, Kauno apskritis, 49476, Lietuva",
+    "updatedAt": "2026-04-09T06:37:22.203Z",
+    "query": "Savanorių pr. 321, Kaunas, Lietuva"
+  },
+  "savanoriu pr. 404b, kaunas": {
+    "lat": 54.9283513,
+    "lon": 23.9739193,
+    "displayName": "Circle K „Murava 2“, 404B, Savanorių pr., Dainava, Dainavos seniūnija, Kaunas, Kauno miesto savivaldybė, Kauno apskritis, 50302, Lietuva",
+    "updatedAt": "2026-04-09T06:37:23.437Z",
+    "query": "Savanorių pr. 404B, Kaunas, Lietuva"
+  },
+  "sukileliu pr. 120, kaunas": {
+    "lat": 54.9283933,
+    "lon": 23.92897,
+    "displayName": "Circle K „Sukilėlių“, 120, Sukilėlių pr., Eiguliai, Eigulių seniūnija, Kaunas, Kauno miesto savivaldybė, Kauno apskritis, 49237, Lietuva",
+    "updatedAt": "2026-04-09T06:37:24.662Z",
+    "query": "Sukilėlių pr. 120, Kaunas, Lietuva"
+  },
+  "taikos pr. 52a, kaunas": {
+    "lat": 54.9119498,
+    "lon": 23.9567415,
+    "displayName": "Circle K „Taika“, 52A, Taikos pr., Gričiupis, Gričiupio seniūnija, Kaunas, Kauno miesto savivaldybė, Kauno apskritis, 51305, Lietuva",
+    "updatedAt": "2026-04-09T06:37:26.069Z",
+    "query": "Taikos pr. 52A, Kaunas, Lietuva"
+  },
+  "varniu g. 46, kaunas": {
+    "lat": 54.9144567,
+    "lon": 23.9002271,
+    "displayName": "Circle K 1-2-3 „Šilkas“, 46, Varnių g., Panerys, Vilijampolės seniūnija, Kaunas, Kauno miesto savivaldybė, Kauno apskritis, 48403, Lietuva",
+    "updatedAt": "2026-04-09T06:37:30.205Z",
+    "query": "Varnių g. 46, Kaunas, Lietuva"
+  },
+  "veiveriu g. 49a, kaunas": {
+    "lat": 54.880898,
+    "lon": 23.8942251,
+    "displayName": "Circle K „Aleksotas“, 49A, Veiverių g., Aleksotas, Aleksoto seniūnija, Kaunas, Kauno miesto savivaldybė, Kauno apskritis, 46283, Lietuva",
+    "updatedAt": "2026-04-09T06:37:31.477Z",
+    "query": "Veiverių g. 49A, Kaunas, Lietuva"
+  },
+  "zemaiciu pl. 19, kaunas": {
+    "lat": 54.9252968,
+    "lon": 23.8904637,
+    "displayName": "Circle K „Šilainiai“, 19, Žemaičių pl., Milikoniai, Šilainių seniūnija, Kaunas, Kauno miesto savivaldybė, Kauno apskritis, 48255, Lietuva",
+    "updatedAt": "2026-04-09T06:37:33.333Z",
+    "query": "Žemaičių pl. 19, Kaunas, Lietuva"
+  },
+  "j. basanaviciaus g. 40a, kedainiai": {
+    "lat": 55.2865804,
+    "lon": 23.9721881,
+    "displayName": "Circle K „Kėdainiai“, 40A, J. Basanavičiaus g., Senamiestis, Kėdainiai, Kėdainių miesto seniūnija, Kėdainių rajono savivaldybė, Kauno apskritis, 57295, Lietuva",
+    "updatedAt": "2026-04-09T06:37:36.183Z",
+    "query": "J. Basanavičiaus g. 40a, Kėdainiai, Lietuva"
+  },
+  "h. manto g. 96, klaipeda": {
+    "lat": 55.7303221,
+    "lon": 21.1246904,
+    "displayName": "Circle K „Miškas“, 96, H. Manto g., Miškas, Universitetas, Luizė, Klaipėda, Klaipėdos miesto savivaldybė, Klaipėdos apskritis, 92295, Lietuva",
+    "updatedAt": "2026-04-09T06:37:37.462Z",
+    "query": "H. Manto g. 96, Klaipėda, Lietuva"
+  },
+  "jurininku pr. 31, klaipeda": {
+    "lat": 55.6566409,
+    "lon": 21.1823952,
+    "displayName": "Circle K „Jūrininkai“, 31, Jūrininkų pr., Laukininkai, Smeltalė, Smeltė, Klaipėda, Klaipėdos miesto savivaldybė, Klaipėdos apskritis, 95225, Lietuva",
+    "updatedAt": "2026-04-09T06:37:38.724Z",
+    "query": "Jūrininkų pr. 31, Klaipėda, Lietuva"
+  },
+  "minijos g. 90, klaipeda": {
+    "lat": 55.6864932,
+    "lon": 21.145677,
+    "displayName": "Švaros broliai, 90, Minijos g., Gintaro pelkė, Rumpiškė, Klaipėda, Klaipėdos miesto savivaldybė, Klaipėdos apskritis, 93234, Lietuva",
+    "updatedAt": "2026-04-09T06:37:39.982Z",
+    "query": "Minijos g. 90, Klaipėda, Lietuva"
+  },
+  "sausio 15-osios g. 2, klaipeda": {
+    "lat": 55.7020689,
+    "lon": 21.1380345,
+    "displayName": "Circle K „Pilies g.“, 2, Sausio 15-osios g., Baltikalnė, Špichuto dvaras, Senamiestis, Klaipėda, Klaipėdos miesto savivaldybė, Klaipėdos apskritis, 91200, Lietuva",
+    "updatedAt": "2026-04-09T06:37:41.410Z",
+    "query": "Sausio 15-osios g. 2, Klaipėda, Lietuva"
+  },
+  "taikos pr. 112a, klaipeda": {
+    "lat": 55.6664679,
+    "lon": 21.1726233,
+    "displayName": "Circle K „Smiltelė“, 112A, Taikos pr., Alksnynė, Varpai, Smeltė, Klaipėda, Klaipėdos miesto savivaldybė, Klaipėdos apskritis, 93150, Lietuva",
+    "updatedAt": "2026-04-09T06:37:43.374Z",
+    "query": "Taikos pr. 112A, Klaipėda, Lietuva"
+  },
+  "taikos pr. 61b, klaipeda": {
+    "lat": 55.692392,
+    "lon": 21.1537884,
+    "displayName": "Circle K 1-2-3 „Taika“, 61B, Taikos pr., Arena, Rumpiškė, Klaipėda, Klaipėdos miesto savivaldybė, Klaipėdos apskritis, 91182, Lietuva",
+    "updatedAt": "2026-04-09T06:37:44.673Z",
+    "query": "Taikos pr. 61B, Klaipėda, Lietuva"
+  },
+  "tilzes g. 56a, klaipeda": {
+    "lat": 55.7041492,
+    "lon": 21.1608983,
+    "displayName": "Circle K „Sendvaris“, 56A, Tilžės g., Ryšininkai, Butsargių dvaras, Klaipėda, Klaipėdos miesto savivaldybė, Klaipėdos apskritis, 91110, Lietuva",
+    "updatedAt": "2026-04-09T06:37:46.631Z",
+    "query": "Tilžės g. 56A, Klaipėda, Lietuva"
+  },
+  "vilniaus pl. 1a, klaipeda": {
+    "lat": 55.6927945,
+    "lon": 21.1797494,
+    "displayName": "Circle K „Žiedas“, 1A, Vilniaus pl., Naujadvaris, Gedminai, Klaipėda, Klaipėdos miesto savivaldybė, Klaipėdos apskritis, 94105, Lietuva",
+    "updatedAt": "2026-04-09T06:37:47.969Z",
+    "query": "Vilniaus pl. 1A, Klaipėda, Lietuva"
+  },
+  "klaipedos g. 155, kretinga": {
+    "lat": 55.8635199,
+    "lon": 21.2177355,
+    "displayName": "Circle K „Kretinga“, 155, Klaipėdos g., Kretinga, Kretingos miesto seniūnija, Kretingos rajono savivaldybė, Klaipėdos apskritis, 97156, Lietuva",
+    "updatedAt": "2026-04-09T06:37:51.077Z",
+    "query": "Klaipėdos g. 155, Kretinga, Lietuva"
+  },
+  "jono dailides g. 10, marijampole": {
+    "lat": 54.5570912,
+    "lon": 23.3540738,
+    "displayName": "10, Jono Dailidės g., Centras, Marijampolė, Marijampolės savivaldybė, Marijampolės apskritis, 68307, Lietuva",
+    "updatedAt": "2026-04-09T06:37:54.061Z",
+    "query": "Jono Dailidės g. 10, Marijampolė, Lietuva"
+  },
+  "kauno g. 130, marijampole": {
+    "lat": 54.5762251,
+    "lon": 23.3715049,
+    "displayName": "Circle K „Marijampolė“, 130, Kauno g., Pramonė, Marijampolė, Marijampolės savivaldybė, Marijampolės apskritis, 68230, Lietuva",
+    "updatedAt": "2026-04-09T06:37:56.222Z",
+    "query": "Kauno g. 130, Marijampolė, Lietuva"
+  },
+  "zemaitijos g. 57, mazeikiai": {
+    "lat": 56.3024538,
+    "lon": 22.3454238,
+    "displayName": "Circle K „Mažeikiai“, 57, Žemaitijos g., Senamiestis, Mažeikiai, Mažeikių seniūnija, Mažeikių rajono savivaldybė, Telšių apskritis, 89128, Lietuva",
+    "updatedAt": "2026-04-09T06:37:57.440Z",
+    "query": "Žemaitijos g. 57, Mažeikiai, Lietuva"
+  },
+  "kretingos g. 56, palanga": {
+    "lat": 55.9146664,
+    "lon": 21.0779032,
+    "displayName": "Circle K „Palanga“, 56, Kretingos g., Palanga, Palangos miesto savivaldybė, Klaipėdos apskritis, 00111, Lietuva",
+    "updatedAt": "2026-04-09T06:37:58.656Z",
+    "query": "Kretingos g. 56, Palanga, Lietuva"
+  },
+  "j. basanaviciaus g. 63, panevezys": {
+    "lat": 55.7175054,
+    "lon": 24.3712382,
+    "displayName": "Circle K „Basanavičiaus“, 63, J. Basanavičiaus g., Panevėžys, Panevėžio miesto savivaldybė, Panevėžio apskritis, 36204, Lietuva",
+    "updatedAt": "2026-04-09T06:37:59.914Z",
+    "query": "J. Basanavičiaus g. 63, Panevėžys, Lietuva"
+  },
+  "klaipedos g. 92a, panevezys": {
+    "lat": 55.7287147,
+    "lon": 24.3389488,
+    "displayName": "Circle K „Nemuno“, 92A, Klaipėdos g., Panevėžys, Panevėžio miesto savivaldybė, Panevėžio apskritis, 37383, Lietuva",
+    "updatedAt": "2026-04-09T06:38:01.320Z",
+    "query": "Klaipėdos g. 92A, Panevėžys, Lietuva"
+  },
+  "parko g. 7a, panevezys": {
+    "lat": 55.731737,
+    "lon": 24.3424294,
+    "displayName": "Circle K „Parkas“, 7A, Parko g., Panevėžys, Panevėžio miesto savivaldybė, Panevėžio apskritis, 35191, Lietuva",
+    "updatedAt": "2026-04-09T06:38:02.770Z",
+    "query": "Parko g. 7A, Panevėžys, Lietuva"
+  },
+  "gedimino g. 42b, radviliskis": {
+    "lat": 55.8116866,
+    "lon": 23.5500705,
+    "displayName": "Circle K „Radviliškis“, 42B, Gedimino g., Radviliškis, Radviliškio miesto seniūnija, Radviliškio rajono savivaldybė, Šiaulių apskritis, 82174, Lietuva",
+    "updatedAt": "2026-04-09T06:38:06.680Z",
+    "query": "Gedimino g. 42B, Radviliškis, Lietuva"
+  },
+  "respublikos g. 111a, rokiskis": {
+    "lat": 55.9522264,
+    "lon": 25.589774,
+    "displayName": "Circle K „Rokiškis“, 111A, Respublikos g., Rokiškis, Rokiškio miesto seniūnija, Rokiškio rajono savivaldybė, Panevėžio apskritis, 42145, Lietuva",
+    "updatedAt": "2026-04-09T06:38:09.426Z",
+    "query": "Respublikos g. 111A, Rokiškis, Lietuva"
+  },
+  "dubijos g. 20a, siauliai": {
+    "lat": 55.9287546,
+    "lon": 23.2975956,
+    "displayName": "Circle K „Dubijos“, 20A, Dubijos g., Žaliūkės, Šiauliai, Šiaulių miesto savivaldybė, Šiaulių apskritis, 77207, Lietuva",
+    "updatedAt": "2026-04-09T06:38:10.724Z",
+    "query": "Dubijos g. 20A, Šiauliai, Lietuva"
+  },
+  "pramones g. 17a, siauliai": {
+    "lat": 55.9093544,
+    "lon": 23.3194671,
+    "displayName": "Circle K „Pabaliai“, 17A, Pramonės g., Verduliai, Šiauliai, Šiaulių miesto savivaldybė, Šiaulių apskritis, 78136, Lietuva",
+    "updatedAt": "2026-04-09T06:38:11.985Z",
+    "query": "Pramonės g. 17a, Šiauliai, Lietuva"
+  },
+  "tilzes g. 25, siauliai": {
+    "lat": 55.9126827,
+    "lon": 23.2739983,
+    "displayName": "Circle K „Tilžės“, 25, Tilžės g., Besarabija, Šiauliai, Šiaulių miesto savivaldybė, Šiaulių apskritis, 78229, Lietuva",
+    "updatedAt": "2026-04-09T06:38:13.205Z",
+    "query": "Tilžės g. 25, Šiauliai, Lietuva"
+  },
+  "vilniaus g. 62, siauliai": {
+    "lat": 55.9248038,
+    "lon": 23.3340344,
+    "displayName": "Circle K 1-2-3 Ežeras, 62, Vilniaus g., Šimšė, Šiauliai, Šiaulių miesto savivaldybė, Šiaulių apskritis, 76251, Lietuva",
+    "updatedAt": "2026-04-09T06:38:14.488Z",
+    "query": "Vilniaus g. 62, Šiauliai, Lietuva"
+  },
+  "plento g. 1, kursenai": {
+    "lat": 55.999255,
+    "lon": 22.9896575,
+    "displayName": "Circle K „Kuršėnai“, 1, Plento g., Kuršėnai, Kuršėnų kaimiškoji seniūnija, Šiaulių rajono savivaldybė, Šiaulių apskritis, 81115, Lietuva",
+    "updatedAt": "2026-04-09T06:38:15.746Z",
+    "query": "Plento g. 1, Kuršėnai, Lietuva"
+  },
+  "cintjoniskiu g. 15, silute": {
+    "lat": 55.3503645,
+    "lon": 21.4744317,
+    "displayName": "Circle K, 15, Cintjoniškių g., Šilutė, Šilutės seniūnija, Šilutės rajono savivaldybė, Klaipėdos apskritis, 99116, Lietuva",
+    "updatedAt": "2026-04-09T06:38:19.692Z",
+    "query": "Cintjoniškių g. 15, Šilutė, Lietuva"
+  },
+  "dariaus ir gireno g. 83a, taurage": {
+    "lat": 55.266997,
+    "lon": 22.3098059,
+    "displayName": "Circle K „Automatas Tauragė“, 83A, Dariaus ir Girėno g., Beržės, Tauragė, Tauragės miesto seniūnija, Tauragės rajono savivaldybė, Tauragės apskritis, 72192, Lietuva",
+    "updatedAt": "2026-04-09T06:38:21.033Z",
+    "query": "Dariaus ir Girėno g. 83A, Tauragė, Lietuva"
+  },
+  "gedimino g. 47, taurage": {
+    "lat": 55.2482942,
+    "lon": 22.3030291,
+    "displayName": "Circle K „Tauragė“, 47, Gedimino g., Žalgiriai, Tauragė, Tauragės miesto seniūnija, Tauragės rajono savivaldybė, Tauragės apskritis, 72294, Lietuva",
+    "updatedAt": "2026-04-09T06:38:22.496Z",
+    "query": "Gedimino g. 47, Tauragė, Lietuva"
+  },
+  "luokes g. 70, telsiai": {
+    "lat": 55.9771223,
+    "lon": 22.2651123,
+    "displayName": "Circle K „Telšiai“, 70, Luokės g., Lygumai, Telšiai, Telšių miesto seniūnija, Telšių rajono savivaldybė, Telšių apskritis, 87128, Lietuva",
+    "updatedAt": "2026-04-09T06:38:23.732Z",
+    "query": "Luokės g. 70, Telšiai, Lietuva"
+  },
+  "j. basanaviciaus g. 108a, utena": {
+    "lat": 55.5050046,
+    "lon": 25.6209141,
+    "displayName": "Circle K „Utena“ I, 108A, J. Basanavičiaus g., Smėlis, Utena, Utenos miesto seniūnija, Utenos rajono savivaldybė, Utenos apskritis, 28214, Lietuva",
+    "updatedAt": "2026-04-09T06:38:28.547Z",
+    "query": "J. Basanavičiaus g. 108a, Utena, Lietuva"
+  },
+  "j. basanaviciaus g. 3, utena": {
+    "lat": 55.4957333,
+    "lon": 25.5839148,
+    "displayName": "Maxima X, 3, J. Basanavičiaus g., Naujamiestis, Utena, Utenos miesto seniūnija, Utenos rajono savivaldybė, Utenos apskritis, 28134, Lietuva",
+    "updatedAt": "2026-04-09T06:38:29.806Z",
+    "query": "J. Basanavičiaus g. 3, Utena, Lietuva"
+  },
+  "savanoriu g. 5, varena": {
+    "lat": 54.2102458,
+    "lon": 24.5768123,
+    "displayName": "Maxima X, 5, Savanorių g., Varėna, Varėnos seniūnija, Varėnos rajono savivaldybė, Alytaus apskritis, 65192, Lietuva",
+    "updatedAt": "2026-04-09T06:38:31.146Z",
+    "query": "Savanorių g. 5, Varėna, Lietuva"
+  },
+  "a. gostauto g. 13, vilnius": {
+    "lat": 54.6942218,
+    "lon": 25.2634259,
+    "displayName": "Circle K „Šalia Parlamento“, 13, A. Goštauto g., Lukiškės, Naujamiesčio seniūnija, Vilnius, Vilniaus miesto savivaldybė, Vilniaus apskritis, 01108, Lietuva",
+    "updatedAt": "2026-04-09T06:38:33.954Z",
+    "query": "A. Goštauto g. 13, Vilnius, Lietuva"
+  },
+  "a. p. kavoliuko g. 32a, vilnius": {
+    "lat": 54.6953297,
+    "lon": 25.2182785,
+    "displayName": "Circle K „Karoliniškės“, 32A, A. P. Kavoliuko g., Karoliniškės, Karoliniškių seniūnija, Vilnius, Vilniaus miesto savivaldybė, Vilniaus apskritis, 04329, Lietuva",
+    "updatedAt": "2026-04-09T06:38:35.190Z",
+    "query": "A. P. Kavoliuko g. 32A, Vilnius, Lietuva"
+  },
+  "baltupio g. 10, vilnius": {
+    "lat": 54.7359333,
+    "lon": 25.2654489,
+    "displayName": "Circle K „Baltupiai“, 10, Baltupio g., Jeruzalė, Verkių seniūnija, Vilnius, Vilniaus miesto savivaldybė, Vilniaus apskritis, 08303, Lietuva",
+    "updatedAt": "2026-04-09T06:38:36.516Z",
+    "query": "Baltupio g. 10, Vilnius, Lietuva"
+  },
+  "eisiskiu pl. 11, vilnius": {
+    "lat": 54.6515293,
+    "lon": 25.2694468,
+    "displayName": "Circle K „Oro uostas“, 11, Eišiškių pl., Naujininkai, Naujininkų seniūnija, Vilnius, Vilniaus miesto savivaldybė, Vilniaus apskritis, 02184, Lietuva",
+    "updatedAt": "2026-04-09T06:38:37.793Z",
+    "query": "Eišiškių pl. 11, Vilnius, Lietuva"
+  },
+  "gariunu g. 45, vilnius": {
+    "lat": 54.6589215,
+    "lon": 25.1611257,
+    "displayName": "Circle K „Gariūnai“, 45, Gariūnų g., Gariūnai, Panerių seniūnija, Vilnius, Vilniaus miesto savivaldybė, Vilniaus apskritis, 02300, Lietuva",
+    "updatedAt": "2026-04-09T06:38:39.135Z",
+    "query": "Gariūnų g. 45, Vilnius, Lietuva"
+  },
+  "gelezinio vilko g. 24, vilnius": {
+    "lat": 54.7514091,
+    "lon": 25.2663978,
+    "displayName": "Circle K, 24, Geležinio Vilko g., Visoriai, Verkių seniūnija, Vilnius, Vilniaus miesto savivaldybė, Vilniaus apskritis, 08412, Lietuva",
+    "updatedAt": "2026-04-09T06:38:40.436Z",
+    "query": "Geležinio Vilko g. 24, Vilnius, Lietuva"
+  },
+  "gelezinio vilko g. 2a, vilnius": {
+    "lat": 54.6710025,
+    "lon": 25.2366353,
+    "displayName": "Circle K „Vingis“, 2A, Geležinio Vilko g., Vilkpėdės seniūnija, Vilnius, Vilniaus miesto savivaldybė, Vilniaus apskritis, 03150, Lietuva",
+    "updatedAt": "2026-04-09T06:38:41.736Z",
+    "query": "Geležinio Vilko g. 2A, Vilnius, Lietuva"
+  },
+  "gelezinio vilko g. 39, vilnius": {
+    "lat": 54.7023542,
+    "lon": 25.264959,
+    "displayName": "Circle K „Šeškinės kalnas“, 39, Geležinio Vilko g., Šnipiškės, Šnipiškių seniūnija, Vilnius, Vilniaus miesto savivaldybė, Vilniaus apskritis, 08104, Lietuva",
+    "updatedAt": "2026-04-09T06:38:43.000Z",
+    "query": "Geležinio Vilko g. 39, Vilnius, Lietuva"
+  },
+  "gelezinio vilko g. 4, vilnius": {
+    "lat": 54.7028361,
+    "lon": 25.2639154,
+    "displayName": "Circle K „Šeškinės kalnas II“, 4, Geležinio Vilko g., Šeškinė, Šeškinės seniūnija, Vilnius, Vilniaus miesto savivaldybė, Vilniaus apskritis, 08104, Lietuva",
+    "updatedAt": "2026-04-09T06:38:44.324Z",
+    "query": "Geležinio Vilko g. 4, Vilnius, Lietuva"
+  },
+  "j. tiskeviciaus g. 24, vilnius": {
+    "lat": 54.6229425,
+    "lon": 25.1103142,
+    "displayName": "Circle K „Vokė“, 24, J. Tiškevičiaus g., Trakų Vokė, Panerių seniūnija, Vilnius, Vilniaus miesto savivaldybė, Vilniaus apskritis, 02231, Lietuva",
+    "updatedAt": "2026-04-09T06:38:45.644Z",
+    "query": "J. Tiškevičiaus g. 24, Vilnius, Lietuva"
+  },
+  "kareiviu g. 13, vilnius": {
+    "lat": 54.7185811,
+    "lon": 25.3006212,
+    "displayName": "Circle K „Žirmūnai“, 13, Kareivių g., Žirmūnai, Žirmūnų seniūnija, Vilnius, Vilniaus miesto savivaldybė, Vilniaus apskritis, 09109, Lietuva",
+    "updatedAt": "2026-04-09T06:38:46.985Z",
+    "query": "Kareivių g. 13, Vilnius, Lietuva"
+  },
+  "kareiviu g. 3, vilnius": {
+    "lat": 54.7155483,
+    "lon": 25.29102,
+    "displayName": "Circle K „Verkiai“, 3, Kareivių g., Šiaurės miestelis, Žirmūnų seniūnija, Vilnius, Vilniaus miesto savivaldybė, Vilniaus apskritis, 08221, Lietuva",
+    "updatedAt": "2026-04-09T06:38:48.247Z",
+    "query": "Kareivių g. 3, Vilnius, Lietuva"
+  },
+  "laisves pr. 43c, vilnius": {
+    "lat": 54.7091754,
+    "lon": 25.2280415,
+    "displayName": "Circle K „Viršuliškės“, 43C, Laisvės pr., Viršuliškės, Viršuliškių seniūnija, Vilnius, Vilniaus miesto savivaldybė, Vilniaus apskritis, 05112, Lietuva",
+    "updatedAt": "2026-04-09T06:38:49.653Z",
+    "query": "Laisvės pr. 43C, Vilnius, Lietuva"
+  },
+  "oslo g. 12, vilnius": {
+    "lat": 54.6710312,
+    "lon": 25.1921158,
+    "displayName": "Circle K 1-2-3, 12, Oslo g., Gudeliai, Lazdynų seniūnija, Vilnius, Vilniaus miesto savivaldybė, Vilniaus apskritis, 04123, Lietuva",
+    "updatedAt": "2026-04-09T06:38:51.515Z",
+    "query": "Oslo g. 12, Vilnius, Lietuva"
+  },
+  "p. zadeikos g. 1a, vilnius": {
+    "lat": 54.7305638,
+    "lon": 25.2390191,
+    "displayName": "Circle K „Ukmergės“, 1A, P. Žadeikos g., Fabijoniškės, Fabijoniškių seniūnija, Vilnius, Vilniaus miesto savivaldybė, Vilniaus apskritis, 06319, Lietuva",
+    "updatedAt": "2026-04-09T06:38:52.752Z",
+    "query": "P. Žadeikos g. 1a, Vilnius, Lietuva"
+  },
+  "prusu g. 26 a, vilnius": {
+    "lat": 54.6586559,
+    "lon": 25.2666334,
+    "displayName": "Circle K „Tūkstantmetis“, 26A, Prūsų g., Naujininkai, Naujininkų seniūnija, Vilnius, Vilniaus miesto savivaldybė, Vilniaus apskritis, 02154, Lietuva",
+    "updatedAt": "2026-04-09T06:38:54.511Z",
+    "query": "Prūsų g. 26 A, Vilnius, Lietuva"
+  },
+  "savanoriu pr. 118, vilnius": {
+    "lat": 54.6618438,
+    "lon": 25.2354442,
+    "displayName": "Circle K „Vilkpėdė II“, 118, Savanorių pr., Vilkpėdės seniūnija, Vilnius, Vilniaus miesto savivaldybė, Vilniaus apskritis, 03153, Lietuva",
+    "updatedAt": "2026-04-09T06:38:55.771Z",
+    "query": "Savanorių pr. 118, Vilnius, Lietuva"
+  },
+  "savanoriu pr. 119a, vilnius": {
+    "lat": 54.6626698,
+    "lon": 25.2347375,
+    "displayName": "Circle K „Vilkpėdė I“, 119A, Savanorių pr., Riovonys, Vilkpėdės seniūnija, Vilnius, Vilniaus miesto savivaldybė, Vilniaus apskritis, 03150, Lietuva",
+    "updatedAt": "2026-04-09T06:38:57.153Z",
+    "query": "Savanorių pr. 119A, Vilnius, Lietuva"
+  },
+  "sporto g. 16a, vilnius": {
+    "lat": 54.6950807,
+    "lon": 25.2981194,
+    "displayName": "Circle K „Žirmūnų tiltas“, 16A, Sporto g., Žirmūnų seniūnija, Vilnius, Vilniaus miesto savivaldybė, Vilniaus apskritis, 09200, Lietuva",
+    "updatedAt": "2026-04-09T06:38:58.485Z",
+    "query": "Sporto g. 16A, Vilnius, Lietuva"
+  },
+  "talino g. 2b, vilnius": {
+    "lat": 54.7133435,
+    "lon": 25.2094358,
+    "displayName": "Circle K „Talino g.“, 2B, Talino g., Justiniškės, Justiniškių seniūnija, Vilnius, Vilniaus miesto savivaldybė, Vilniaus apskritis, 05200, Lietuva",
+    "updatedAt": "2026-04-09T06:38:59.766Z",
+    "query": "Talino g. 2B, Vilnius, Lietuva"
+  },
+  "ukmerges g. 231, vilnius": {
+    "lat": 54.7202043,
+    "lon": 25.2463301,
+    "displayName": "Circle K „Fabijoniškės“, 231, Ukmergės g., Šeškinė, Šeškinės seniūnija, Vilnius, Vilniaus miesto savivaldybė, Vilniaus apskritis, 07156, Lietuva",
+    "updatedAt": "2026-04-09T06:39:01.027Z",
+    "query": "Ukmergės g. 231, Vilnius, Lietuva"
+  },
+  "g.petkevicaites-bites 35c, panevezys": {
+    "lat": 55.7224376,
+    "lon": 24.3421829,
+    "displayName": "Deliuvis, 35C, G. Petkevičaitės Bitės g., Panevėžys, Panevėžio miesto savivaldybė, Panevėžio apskritis, 37138, Lietuva",
+    "updatedAt": "2026-04-09T06:39:05.013Z",
+    "query": "G.Petkevičaitės-Bitės 35C, Panevėžys, Lietuva"
+  },
+  "pusaloto g. 140, panevezys": {
+    "lat": 55.7465858,
+    "lon": 24.3291567,
+    "displayName": "140, Pušaloto g., Panevėžys, Panevėžio miesto savivaldybė, Panevėžio apskritis, 35101, Lietuva",
+    "updatedAt": "2026-04-09T06:39:06.273Z",
+    "query": "Pušaloto g. 140, Panevėžys, Lietuva"
+  },
+  "s.kerbedzio 2, panevezys": {
+    "lat": 55.7431736,
+    "lon": 24.3424941,
+    "displayName": "Deliuvis, 2, S. Kerbedžio g., Senamiestis, Panevėžys, Panevėžio miesto savivaldybė, Panevėžio apskritis, 35102, Lietuva",
+    "updatedAt": "2026-04-09T06:39:07.511Z",
+    "query": "S.Kerbedžio 2, Panevėžys, Lietuva"
+  },
+  "zemaites g. 52, uzventis": {
+    "lat": 55.7861028,
+    "lon": 22.6709028,
+    "displayName": "Kvistija, 52, Žemaitės g., Užventis, Užvenčio seniūnija, Kelmės rajono savivaldybė, Šiaulių apskritis, 86343, Lietuva",
+    "updatedAt": "2026-04-09T06:39:17.984Z",
+    "query": "Žemaitės g. 52, Užventis, Lietuva"
+  },
+  "tiekeju g. 34a, kretinga": {
+    "lat": 55.884461,
+    "lon": 21.2215329,
+    "displayName": "Milda, 34A, Tiekėjų g., Kretinga, Kretingos miesto seniūnija, Kretingos rajono savivaldybė, Klaipėdos apskritis, 97168, Lietuva",
+    "updatedAt": "2026-04-09T06:39:20.624Z",
+    "query": "Tiekėjų g. 34a, Kretinga, Lietuva"
+  },
+  "laizuvos g. 82 d, mazeikiai,": {
+    "lat": 56.3137433,
+    "lon": 22.3682032,
+    "displayName": "82D, Laižuvos g., Senamiestis, Mažeikiai, Mažeikių seniūnija, Mažeikių rajono savivaldybė, Telšių apskritis, 89213, Lietuva",
+    "updatedAt": "2026-04-09T06:39:23.183Z",
+    "query": "Laižuvos g. 82 d, Mažeikiai,, Lietuva"
+  },
+  "klaipedos g. 6b, pagegiai": {
+    "lat": 55.140417,
+    "lon": 21.9034153,
+    "displayName": "milda, 6B, Klaipėdos g., Pagėgiai, Pagėgių seniūnija, Pagėgių savivaldybė, Tauragės apskritis, 99290, Lietuva",
+    "updatedAt": "2026-04-09T06:39:24.530Z",
+    "query": "Klaipėdos g. 6b, Pagėgiai, Lietuva"
+  },
+  "dariaus ir gireno g. 31, plunge": {
+    "lat": 55.919887,
+    "lon": 21.8570671,
+    "displayName": "Milda, 31, Dariaus ir Girėno g., Plungė, Plungės miesto seniūnija, Plungės rajono savivaldybė, Telšių apskritis, 90117, Lietuva",
+    "updatedAt": "2026-04-09T06:39:25.868Z",
+    "query": "Dariaus ir Girėno g. 31, Plungė, Lietuva"
+  },
+  "jurbarko g. 34, raseiniai": {
+    "lat": 55.3706566,
+    "lon": 23.1192973,
+    "displayName": "Milda, 34, Jurbarko g., Raseiniai, Raseinių miesto seniūnija, Raseinių rajono savivaldybė, Kauno apskritis, 60178, Lietuva",
+    "updatedAt": "2026-04-09T06:39:29.743Z",
+    "query": "Jurbarko g. 34, Raseiniai, Lietuva"
+  },
+  "rytinio kelio g. 2a, silale": {
+    "lat": 55.4859035,
+    "lon": 22.1996267,
+    "displayName": "Milda, 2A, Rytinio Kelio g., Šilalė, Šilalės miesto seniūnija, Šilalės rajono savivaldybė, Tauragės apskritis, 75122, Lietuva",
+    "updatedAt": "2026-04-09T06:39:32.324Z",
+    "query": "Rytinio Kelio g. 2a, Šilalė, Lietuva"
+  },
+  "klaipedos g. 76, zemaiciu naumiestis": {
+    "lat": 55.3552823,
+    "lon": 21.6800586,
+    "displayName": "76, Klaipėdos g., Žemaičių Naumiestis, Žemaičių Naumiesčio seniūnija, Šilutės rajono savivaldybė, Klaipėdos apskritis, 99206, Lietuva",
+    "updatedAt": "2026-04-09T06:39:33.565Z",
+    "query": "Klaipėdos g. 76, Žemaičių Naumiestis, Lietuva"
+  },
+  "adakavo g. 1, skaudvile": {
+    "lat": 55.4015729,
+    "lon": 22.5977437,
+    "displayName": "Milda, 1, Adakavo g., Skaudvilė, Skaudvilės seniūnija, Tauragės rajono savivaldybė, Tauragės apskritis, 73435, Lietuva",
+    "updatedAt": "2026-04-09T06:39:37.267Z",
+    "query": "Adakavo g. 1, Skaudvilė, Lietuva"
+  },
+  "mazeikiu g. 1, telsiai": {
+    "lat": 55.9997952,
+    "lon": 22.2416104,
+    "displayName": "1, Mažeikių g., Telšiai, Telšių miesto seniūnija, Telšių rajono savivaldybė, Telšių apskritis, 87101, Lietuva",
+    "updatedAt": "2026-04-09T06:39:40.352Z",
+    "query": "Mažeikių g. 1, Telšiai, Lietuva"
+  },
+  "knygnesiu g. 9, jurbarkas": {
+    "lat": 55.0854928,
+    "lon": 22.7455381,
+    "displayName": "9, Knygnešių g., Naujamiestis, Jurbarkas, Jurbarko miesto seniūnija, Jurbarko rajono savivaldybė, Tauragės apskritis, 74112, Lietuva",
+    "updatedAt": "2026-04-09T06:39:44.668Z",
+    "query": "Knygnešių g. 9, Jurbarkas, Lietuva"
+  },
+  "muitines g. 32, jurbarkas": {
+    "lat": 55.0771976,
+    "lon": 22.7510003,
+    "displayName": "Ventus, 32, Muitinės g., Naujamiestis, Jurbarkas, Jurbarko miesto seniūnija, Jurbarko rajono savivaldybė, Tauragės apskritis, 74106, Lietuva",
+    "updatedAt": "2026-04-09T06:39:47.025Z",
+    "query": "Muitinės g. 32, Jurbarkas, Lietuva"
+  },
+  "s. daukanto g. 66, jurbarkas": {
+    "lat": 55.0825362,
+    "lon": 22.7889958,
+    "displayName": "66, S. Daukanto g., Jurbarkas, Jurbarkų seniūnija, Jurbarko rajono savivaldybė, Tauragės apskritis, 74170, Lietuva",
+    "updatedAt": "2026-04-09T06:39:48.286Z",
+    "query": "S. Daukanto g. 66, Jurbarkas, Lietuva"
+  },
+  "s. simkaus g. 69, seredzius": {
+    "lat": 55.0789086,
+    "lon": 23.3969234,
+    "displayName": "69, S. Šimkaus g., Belvederis, Seredžiaus seniūnija, Jurbarko rajono savivaldybė, Tauragės apskritis, 74425, Lietuva",
+    "updatedAt": "2026-04-09T06:39:49.547Z",
+    "query": "S. Šimkaus g. 69, Seredžius, Lietuva"
+  },
+  "aristavos g. 4, aristava": {
+    "lat": 55.2971374,
+    "lon": 24.0769203,
+    "displayName": "Ventus Nafta, 4, Aristavos g., Aristava, Vilainių seniūnija, Kėdainių rajono savivaldybė, Kauno apskritis, 58111, Lietuva",
+    "updatedAt": "2026-04-09T06:39:51.304Z",
+    "query": "Aristavos g. 4, Aristava, Lietuva"
+  },
+  "kauno g. 50, girenai": {
+    "lat": 54.9527529,
+    "lon": 23.0802937,
+    "displayName": "Olerex, 50, Kauno g., Girėnai, Šakių seniūnija, Šakių rajono savivaldybė, Marijampolės apskritis, 71129, Lietuva",
+    "updatedAt": "2026-04-09T06:39:52.561Z",
+    "query": "Kauno g. 50, Girėnai, Lietuva"
+  },
+  "suduvos g. 3, kiduliai": {
+    "lat": 55.0638385,
+    "lon": 22.7807167,
+    "displayName": "Olerex, 3, Sūduvos g., Kiduliai, Kidulių seniūnija, Šakių rajono savivaldybė, Marijampolės apskritis, 71400, Lietuva",
+    "updatedAt": "2026-04-09T06:39:55.185Z",
+    "query": "Sūduvos g. 3, Kiduliai, Lietuva"
+  },
+  "v. kudirkos g. 11d, sakiai": {
+    "lat": 54.9541387,
+    "lon": 23.0246372,
+    "displayName": "Olerex, 11D, V. Kudirkos g., Šakiai, Šakių seniūnija, Šakių rajono savivaldybė, Marijampolės apskritis, 71123, Lietuva",
+    "updatedAt": "2026-04-09T06:39:56.616Z",
+    "query": "V. Kudirkos g. 11D, Šakiai, Lietuva"
+  },
+  "baltu pr. 141a, kaunas": {
+    "lat": 54.922867,
+    "lon": 23.8698791,
+    "displayName": "Jozita, 141A, Baltų pr., Smėliai, Šilainių seniūnija, Kaunas, Kauno miesto savivaldybė, Kauno apskritis, 47125, Lietuva",
+    "updatedAt": "2026-04-09T06:39:59.487Z",
+    "query": "Baltų pr. 141A, Kaunas, Lietuva"
+  },
+  "betygalos g. 8, kaunas": {
+    "lat": 54.9045123,
+    "lon": 23.8797231,
+    "displayName": "8, Betygalos g., Vilijampolė, Vilijampolės seniūnija, Kaunas, Kauno miesto savivaldybė, Kauno apskritis, 47183, Lietuva",
+    "updatedAt": "2026-04-09T06:40:00.723Z",
+    "query": "Betygalos g. 8, Kaunas, Lietuva"
+  },
+  "jonavos g. 51, kaunas": {
+    "lat": 54.9339187,
+    "lon": 23.917586,
+    "displayName": "Jozita, 51, Jonavos g., Eiguliai, Eigulių seniūnija, Kaunas, Kauno miesto savivaldybė, Kauno apskritis, 44131, Lietuva",
+    "updatedAt": "2026-04-09T06:40:01.986Z",
+    "query": "Jonavos g. 51, Kaunas, Lietuva"
+  },
+  "kursiu 13a, kaunas": {
+    "lat": 54.9361261,
+    "lon": 23.895943,
+    "displayName": "Jozita, 13A, Kuršių g., Šilainiai, Šilainių seniūnija, Kaunas, Kauno miesto savivaldybė, Kauno apskritis, 48109, Lietuva",
+    "updatedAt": "2026-04-09T06:40:03.369Z",
+    "query": "Kuršių 13A, Kaunas, Lietuva"
+  },
+  "partizanu g. 87g, kaunas": {
+    "lat": 54.9273436,
+    "lon": 23.9992055,
+    "displayName": "Jozita, 87G, Partizanų g., Petrašiūnų seniūnija, Kaunas, Kauno miesto savivaldybė, Kauno apskritis, 50317, Lietuva",
+    "updatedAt": "2026-04-09T06:40:04.772Z",
+    "query": "Partizanų g. 87G, Kaunas, Lietuva"
+  },
+  "k. bielinio g. 2a, ramuciai": {
+    "lat": 54.9409297,
+    "lon": 24.0234639,
+    "displayName": "K. Bielinio g., Ramučiai, Karmėlavos seniūnija, Kauno rajono savivaldybė, Kauno apskritis, 54600, Lietuva",
+    "updatedAt": "2026-04-09T06:40:06.830Z",
+    "query": "K. Bielinio g. 2A, Ramučiai, Lietuva"
+  },
+  "vytauto g. 111a, garliava": {
+    "lat": 54.8282094,
+    "lon": 23.8730854,
+    "displayName": "Jozita, 111A, Vytauto g., Budriai, Garliava, Garliavos seniūnija, Kauno rajono savivaldybė, Kauno apskritis, 53254, Lietuva",
+    "updatedAt": "2026-04-09T06:40:08.108Z",
+    "query": "Vytauto g. 111A, Garliava, Lietuva"
+  },
+  "v.putvinskio g. 37, kelme": {
+    "lat": 55.6434151,
+    "lon": 22.9255806,
+    "displayName": "37, V. Putvinskio g., Kelmė, Kelmės seniūnija, Kelmės rajono savivaldybė, Šiaulių apskritis, 86113, Lietuva",
+    "updatedAt": "2026-04-09T06:40:09.432Z",
+    "query": "V.Putvinskio g. 37, Kelmė, Lietuva"
+  },
+  "priestocio g. 26, klaipeda": {
+    "lat": 55.7206677,
+    "lon": 21.1330604,
+    "displayName": "Priestočio g., Vitė, Lietuvninkai, Centras, Klaipėda, Klaipėdos miesto savivaldybė, Klaipėdos apskritis, 92227, Lietuva",
+    "updatedAt": "2026-04-09T06:40:10.798Z",
+    "query": "Priestočio g. 26, Klaipėda, Lietuva"
+  },
+  "taikos pr. 157, klaipeda": {
+    "lat": 55.6608743,
+    "lon": 21.1781231,
+    "displayName": "Jozita, 157, Taikos pr., Laukininkai, Smeltalė, Smeltė, Klaipėda, Klaipėdos miesto savivaldybė, Klaipėdos apskritis, 94324, Lietuva",
+    "updatedAt": "2026-04-09T06:40:12.036Z",
+    "query": "Taikos pr. 157, Klaipėda, Lietuva"
+  },
+  "gamyklos g. 1, gargzdai": {
+    "lat": 55.7064158,
+    "lon": 21.3634837,
+    "displayName": "Jozita, 1, Gamyklos g., Lėbartai, Gargždai, Gargždų seniūnija, Klaipėdos rajono savivaldybė, Klaipėdos apskritis, 96155, Lietuva",
+    "updatedAt": "2026-04-09T06:40:13.294Z",
+    "query": "Gamyklos g. 1, Gargždai, Lietuva"
+  },
+  "s. kerbedzio g. 7f, panevezys": {
+    "lat": 55.7447763,
+    "lon": 24.3462799,
+    "displayName": "7F, S. Kerbedžio g., Senamiestis, Panevėžys, Panevėžio miesto savivaldybė, Panevėžio apskritis, 35104, Lietuva",
+    "updatedAt": "2026-04-09T06:40:18.416Z",
+    "query": "S. Kerbedžio g. 7F, Panevėžys, Lietuva"
+  },
+  "zemaiciu g. 2a, varkaliai": {
+    "lat": 55.8969513,
+    "lon": 21.8213402,
+    "displayName": "2A, Žemaičių g., Varkaliai, Nausodžio seniūnija, Plungės rajono savivaldybė, Telšių apskritis, 90105, Lietuva",
+    "updatedAt": "2026-04-09T06:40:19.670Z",
+    "query": "Žemaičių g. 2A, Varkaliai, Lietuva"
+  },
+  "liepu g. 10e, raseiniai": {
+    "lat": 55.3912316,
+    "lon": 23.1270853,
+    "displayName": "10E, Liepų g., Raseiniai, Raseinių miesto seniūnija, Raseinių rajono savivaldybė, Kauno apskritis, 60119, Lietuva",
+    "updatedAt": "2026-04-09T06:40:20.974Z",
+    "query": "Liepų g. 10e, Raseiniai, Lietuva"
+  },
+  "maironio g. 78b, raseiniai": {
+    "lat": 55.3899919,
+    "lon": 23.130755,
+    "displayName": "Jozita, 78B, Maironio g., Raseiniai, Raseinių miesto seniūnija, Raseinių rajono savivaldybė, Kauno apskritis, 60119, Lietuva",
+    "updatedAt": "2026-04-09T06:40:22.318Z",
+    "query": "Maironio g. 78b, Raseiniai, Lietuva"
+  },
+  "architektu g. 80, siauliai": {
+    "lat": 55.9245288,
+    "lon": 23.2795412,
+    "displayName": "80, Architektų g., Žaliūkės, Šiauliai, Šiaulių miesto savivaldybė, Šiaulių apskritis, 78128, Lietuva",
+    "updatedAt": "2026-04-09T06:40:24.080Z",
+    "query": "Architektų g. 80, Šiauliai, Lietuva"
+  },
+  "giruliu g. 1, siauliai": {
+    "lat": 55.9221289,
+    "lon": 23.2971368,
+    "displayName": "Jozita, 1, Girulių g., Pabaliai, Šiauliai, Šiaulių miesto savivaldybė, Šiaulių apskritis, 78133, Lietuva",
+    "updatedAt": "2026-04-09T06:40:26.441Z",
+    "query": "Girulių g. 1, Šiauliai, Lietuva"
+  },
+  "plento g. 2b, toliociai": {
+    "lat": 55.9543343,
+    "lon": 23.2559893,
+    "displayName": "Jozita, 2B, Plento g., Toliočiai, Šiaulių kaimiškoji seniūnija, Šiaulių rajono savivaldybė, Šiaulių apskritis, 76322, Lietuva",
+    "updatedAt": "2026-04-09T06:40:27.764Z",
+    "query": "Plento g. 2B, Toliočiai, Lietuva"
+  },
+  "siaures g. 1, silute": {
+    "lat": 55.3566091,
+    "lon": 21.4690562,
+    "displayName": "1, Šiaurės g., Šilutė, Šilutės seniūnija, Šilutės rajono savivaldybė, Klaipėdos apskritis, 99116, Lietuva",
+    "updatedAt": "2026-04-09T06:40:31.689Z",
+    "query": "Šiaurės g. 1, Šilutė, Lietuva"
+  },
+  "baltosios vokes g 35, vilnius": {
+    "lat": 54.6133593,
+    "lon": 25.1837307,
+    "displayName": "35, Baltosios Vokės g., Aukštieji Paneriai, Panerių seniūnija, Vilnius, Vilniaus miesto savivaldybė, Vilniaus apskritis, 02243, Lietuva",
+    "updatedAt": "2026-04-09T06:40:34.396Z",
+    "query": "Baltosios Vokės g 35, Vilnius, Lietuva"
+  },
+  "parko g. 64, vilnius": {
+    "lat": 54.6859077,
+    "lon": 25.4305922,
+    "displayName": "Jozita, 64, Parko g., Naujoji Vilnia, Naujosios Vilnios seniūnija, Vilnius, Vilniaus miesto savivaldybė, Vilniaus apskritis, 11224, Lietuva",
+    "updatedAt": "2026-04-09T06:40:35.779Z",
+    "query": "Parko g. 64, Vilnius, Lietuva"
+  },
+  "pramones g. 18, vilnius": {
+    "lat": 54.695952,
+    "lon": 25.4320796,
+    "displayName": "Jozita, 18, Pramonės g., Naujoji Vilnia, Naujosios Vilnios seniūnija, Vilnius, Vilniaus miesto savivaldybė, Vilniaus apskritis, 11115, Lietuva",
+    "updatedAt": "2026-04-09T06:40:37.433Z",
+    "query": "Pramonės g. 18, Vilnius, Lietuva"
+  },
+  "ukmerges g. 130, vilnius": {
+    "lat": 54.7032049,
+    "lon": 25.2574428,
+    "displayName": "Ecoil, 130, Ukmergės g., Šeškinė, Žvėryno seniūnija, Vilnius, Vilniaus miesto savivaldybė, Vilniaus apskritis, 08100, Lietuva",
+    "updatedAt": "2026-04-09T06:40:39.393Z",
+    "query": "Ukmergės g. 130, Vilnius, Lietuva"
+  },
+  "jasiunu g. 2, rudamina": {
+    "lat": 54.5971881,
+    "lon": 25.3151484,
+    "displayName": "Jozita, 2, Jašiūnų g., Kineliai, Rudaminos seniūnija, Vilniaus rajono savivaldybė, Vilniaus apskritis, 13255, Lietuva",
+    "updatedAt": "2026-04-09T06:40:40.679Z",
+    "query": "Jašiūnų g. 2, Rudamina, Lietuva"
+  },
+  "lentpjuves g.10a, plunge": {
+    "lat": 55.9214099,
+    "lon": 21.8525815,
+    "displayName": "10A, Lentpjūvės g., Plungė, Plungės miesto seniūnija, Plungės rajono savivaldybė, Telšių apskritis, 90117, Lietuva",
+    "updatedAt": "2026-04-09T06:40:41.940Z",
+    "query": "Lentpjūvės g.10A, Plungė, Lietuva"
+  },
+  "dariaus ir gireno g.49, taurage": {
+    "lat": 55.2582123,
+    "lon": 22.2945669,
+    "displayName": "Susyskintos Dujos, 49, Dariaus ir Girėno g., Senamiestis, Tauragė, Tauragės miesto seniūnija, Tauragės rajono savivaldybė, Tauragės apskritis, 72221, Lietuva",
+    "updatedAt": "2026-04-09T06:40:44.457Z",
+    "query": "Dariaus ir Girėno g.49, Tauragė, Lietuva"
+  },
+  "pramones g.10a, taurage": {
+    "lat": 55.2364476,
+    "lon": 22.2967893,
+    "displayName": "10A, Pramonės g., Jovarai, Tauragė, Tauragės miesto seniūnija, Tauragės rajono savivaldybė, Tauragės apskritis, 72323, Lietuva",
+    "updatedAt": "2026-04-09T06:40:45.737Z",
+    "query": "Pramonės g.10A, Tauragė, Lietuva"
+  },
+  "vilniaus g. 3b, raseiniai": {
+    "lat": 55.3703149,
+    "lon": 23.1321196,
+    "displayName": "Žerminalis, 3B, Vilniaus g., Raseiniai, Raseinių miesto seniūnija, Raseinių rajono savivaldybė, Kauno apskritis, 60186, Lietuva",
+    "updatedAt": "2026-04-09T06:40:54.704Z",
+    "query": "Vilniaus g. 3B, Raseiniai, Lietuva"
+  },
+  "pumpuciu g. 25, pumpuciai": {
+    "lat": 55.4243113,
+    "lon": 24.9204947,
+    "displayName": "Circle K „Kavarskas“, 25, Pumpučių g., Pumpučiai, Kavarsko seniūnija, Anykščių rajono savivaldybė, Utenos apskritis, 29260, Lietuva",
+    "updatedAt": "2026-04-09T06:40:56.464Z",
+    "query": "Pumpučių g. 25, Pumpučiai, Lietuva"
+  },
+  "vilniaus g. 32, troskunai": {
+    "lat": 55.5848527,
+    "lon": 24.8784603,
+    "displayName": "Link geležinkelio, 32, Vilniaus g., Troškūnai, Troškūnų seniūnija, Anykščių rajono savivaldybė, Utenos apskritis, 29306, Lietuva",
+    "updatedAt": "2026-04-09T06:40:59.022Z",
+    "query": "Vilniaus g. 32, Troškūnai, Lietuva"
+  },
+  "s. neries g. 35, vabalninkas": {
+    "lat": 55.9749782,
+    "lon": 24.7401225,
+    "displayName": "Narjanta, 35, Panevėžio g., Vabalninkas, Vabalninko seniūnija, Biržų rajono savivaldybė, Panevėžio apskritis, 41318, Lietuva",
+    "updatedAt": "2026-04-09T06:41:00.240Z",
+    "query": "S. Nėries g. 35, Vabalninkas, Lietuva"
+  },
+  "dvariskiu vs. 2": {
+    "lat": 54.7924833,
+    "lon": 25.2870888,
+    "displayName": "Dvariškių g., Verkių seniūnija, Vilnius, Vilniaus miesto savivaldybė, Vilniaus apskritis, 14259, Lietuva",
+    "updatedAt": "2026-04-09T06:41:03.010Z",
+    "query": "Dvariškių vs. 2, Lietuva"
+  },
+  "santaikos g. 34a, alytus": {
+    "lat": 54.3870841,
+    "lon": 24.0262949,
+    "displayName": "Neste „Santaikos“, 34A, Santaikos g., Alytus, Alytaus miesto savivaldybė, Alytaus apskritis, 63315, Lietuva",
+    "updatedAt": "2026-04-09T06:41:05.611Z",
+    "query": "Santaikos g. 34A, Alytus, Lietuva"
+  },
+  "udrijos g. 31, alytus": {
+    "lat": 54.408962,
+    "lon": 24.0051873,
+    "displayName": "Neste „Ūdrijos“, 31, Ūdrijos g., Putinai, Alytus, Alytaus miesto savivaldybė, Alytaus apskritis, 62411, Lietuva",
+    "updatedAt": "2026-04-09T06:41:06.952Z",
+    "query": "Ūdrijos g. 31, Alytus, Lietuva"
+  },
+  "sabaliskiu g. 1u, elektrenai": {
+    "lat": 54.7890725,
+    "lon": 24.6724424,
+    "displayName": "H2Auto, 1U, Sabališkių g., Elektrėnai, Elektrėnų seniūnija, Elektrėnų savivaldybė, Vilniaus apskritis, 26124, Lietuva",
+    "updatedAt": "2026-04-09T06:41:08.316Z",
+    "query": "Sabališkių g. 1U, Elektrėnai, Lietuva"
+  },
+  "ateities pl. 50b, kaunas": {
+    "lat": 54.9260285,
+    "lon": 24.0605624,
+    "displayName": "50B, Ateities pl., Kaunas, Karmėlavos seniūnija, Kauno rajono savivaldybė, Kauno apskritis, 52106, Lietuva",
+    "updatedAt": "2026-04-09T06:41:13.669Z",
+    "query": "Ateities pl. 50B, Kaunas, Lietuva"
+  },
+  "birzelio 23-iosios g. 23a, kaunas": {
+    "lat": 54.9159784,
+    "lon": 23.9535991,
+    "displayName": "23A, Birželio 23-iosios g., Dainava, Dainavos seniūnija, Kaunas, Kauno miesto savivaldybė, Kauno apskritis, 50220, Lietuva",
+    "updatedAt": "2026-04-09T06:41:14.925Z",
+    "query": "Birželio 23-iosios g. 23A, Kaunas, Lietuva"
+  },
+  "europos pr. 43, kaunas": {
+    "lat": 54.8758023,
+    "lon": 23.9120977,
+    "displayName": "Rimi, 43, Europos pr., Aukštoji Freda, Aleksoto seniūnija, Kaunas, Kauno miesto savivaldybė, Kauno apskritis, 46329, Lietuva",
+    "updatedAt": "2026-04-09T06:41:16.289Z",
+    "query": "Europos pr. 43, Kaunas, Lietuva"
+  },
+  "islandijos pl. 191e, kaunas": {
+    "lat": 54.9314194,
+    "lon": 23.9508055,
+    "displayName": "Neste „Islandijos“, 191E, Islandijos pl., Naujasodis, Eigulių seniūnija, Kaunas, Kauno miesto savivaldybė, Kauno apskritis, 49100, Lietuva",
+    "updatedAt": "2026-04-09T06:41:17.570Z",
+    "query": "Islandijos pl. 191E, Kaunas, Lietuva"
+  },
+  "jonavos g. 110, kaunas": {
+    "lat": 54.9133284,
+    "lon": 23.9116506,
+    "displayName": "Neste „Jonavos“, 110, Jonavos g., Žaliakalnis, Žaliakalnio seniūnija, Kaunas, Kauno miesto savivaldybė, Kauno apskritis, 44137, Lietuva",
+    "updatedAt": "2026-04-09T06:41:18.787Z",
+    "query": "Jonavos g. 110, Kaunas, Lietuva"
+  },
+  "kursiu g. 1, kaunas": {
+    "lat": 54.9364848,
+    "lon": 23.8863425,
+    "displayName": "1, Kuršių g., Šilainiai, Šilainių seniūnija, Kaunas, Kauno miesto savivaldybė, Kauno apskritis, 48106, Lietuva",
+    "updatedAt": "2026-04-09T06:41:20.151Z",
+    "query": "Kuršių g. 1, Kaunas, Lietuva"
+  },
+  "pramones pr. 6a, kaunas": {
+    "lat": 54.9099418,
+    "lon": 23.9837672,
+    "displayName": "Neste „Pramonės“, 6A, Pramonės pr., Naujasodis, Petrašiūnų seniūnija, Kaunas, Kauno miesto savivaldybė, Kauno apskritis, 51287, Lietuva",
+    "updatedAt": "2026-04-09T06:41:21.495Z",
+    "query": "Pramonės pr. 6A, Kaunas, Lietuva"
+  },
+  "r. kalantos g. 27, kaunas": {
+    "lat": 54.8950704,
+    "lon": 23.9859176,
+    "displayName": "Neste „Kalantos“, 27, R. Kalantos g., Petrašiūnai, Petrašiūnų seniūnija, Kaunas, Kauno miesto savivaldybė, Kauno apskritis, 52302, Lietuva",
+    "updatedAt": "2026-04-09T06:41:22.879Z",
+    "query": "R. Kalantos g. 27, Kaunas, Lietuva"
+  },
+  "raudondvario pl. 103, kaunas": {
+    "lat": 54.9068617,
+    "lon": 23.8728216,
+    "displayName": "Neste, 103, Raudondvario pl., Mikalinava, Vilijampolės seniūnija, Kaunas, Kauno miesto savivaldybė, Kauno apskritis, 47185, Lietuva",
+    "updatedAt": "2026-04-09T06:41:24.244Z",
+    "query": "Raudondvario pl. 103, Kaunas, Lietuva"
+  },
+  "savanoriu pr. 441c, kaunas": {
+    "lat": 54.9293519,
+    "lon": 23.9734688,
+    "displayName": "Neste „Muravos“, 441C, Savanorių pr., Murava, Eigulių seniūnija, Kaunas, Kauno miesto savivaldybė, Kauno apskritis, 49185, Lietuva",
+    "updatedAt": "2026-04-09T06:41:25.647Z",
+    "query": "Savanorių pr. 441C, Kaunas, Lietuva"
+  },
+  "taikos pr. 80a, kaunas": {
+    "lat": 54.9120996,
+    "lon": 23.9726146,
+    "displayName": "Neste „Taikos žiedo“, 80A, Taikos pr., Gričiupis, Gričiupio seniūnija, Kaunas, Kauno miesto savivaldybė, Kauno apskritis, 51295, Lietuva",
+    "updatedAt": "2026-04-09T06:41:27.074Z",
+    "query": "Taikos pr. 80A, Kaunas, Lietuva"
+  },
+  "tunelio g. 26, kaunas": {
+    "lat": 54.8946555,
+    "lon": 23.9442777,
+    "displayName": "H2Auto, 26, Tunelio g., Aukštieji Šančiai, Šančių seniūnija, Kaunas, Kauno miesto savivaldybė, Kauno apskritis, 44391, Lietuva",
+    "updatedAt": "2026-04-09T06:41:28.395Z",
+    "query": "Tunelio g. 26, Kaunas, Lietuva"
+  },
+  "veiveriu g. 132d, kaunas": {
+    "lat": 54.8755037,
+    "lon": 23.8909537,
+    "displayName": "132D, Veiverių g., Birutė I, Aleksoto seniūnija, Kaunas, Kauno miesto savivaldybė, Kauno apskritis, 46335, Lietuva",
+    "updatedAt": "2026-04-09T06:41:31.580Z",
+    "query": "Veiverių g. 132D, Kaunas, Lietuva"
+  },
+  "zemaiciu pl. 26, kaunas": {
+    "lat": 54.9255312,
+    "lon": 23.8917929,
+    "displayName": "Neste, 26, Žemaičių pl., Milikoniai, Šilainių seniūnija, Kaunas, Kauno miesto savivaldybė, Kauno apskritis, 48256, Lietuva",
+    "updatedAt": "2026-04-09T06:41:33.438Z",
+    "query": "Žemaičių pl. 26, Kaunas, Lietuva"
+  },
+  "j. basanaviciaus g. 91e, kedainiai": {
+    "lat": 55.2781085,
+    "lon": 23.959972,
+    "displayName": "Neste „Kėdainiai“, 91E, J. Basanavičiaus g., Senamiestis, Kėdainiai, Kėdainių miesto seniūnija, Kėdainių rajono savivaldybė, Kauno apskritis, 57367, Lietuva",
+    "updatedAt": "2026-04-09T06:41:37.486Z",
+    "query": "J. Basanavičiaus g. 91E, Kėdainiai, Lietuva"
+  },
+  "artojo g. 2, klaipeda": {
+    "lat": 55.7168107,
+    "lon": 21.150527,
+    "displayName": "2, Artojo g., Butsargių dvaras, Klaipėda, Klaipėdos miesto savivaldybė, Klaipėdos apskritis, 92105, Lietuva",
+    "updatedAt": "2026-04-09T06:41:38.723Z",
+    "query": "Artojo g. 2, Klaipėda, Lietuva"
+  },
+  "minijos g. 119, klaipeda": {
+    "lat": 55.6847139,
+    "lon": 21.1505231,
+    "displayName": "Green Park Hotel Klaipėda, 119, Minijos g., Žvejų sodyba, Rumpiškė, Klaipėda, Klaipėdos miesto savivaldybė, Klaipėdos apskritis, 93231, Lietuva",
+    "updatedAt": "2026-04-09T06:41:39.981Z",
+    "query": "Minijos g. 119, Klaipėda, Lietuva"
+  },
+  "plieno g. 1, klaipeda": {
+    "lat": 55.6728215,
+    "lon": 21.2017347,
+    "displayName": "1, Plieno g., Bandužiai, Vaidaugai, Smeltė, Klaipėda, Klaipėdos miesto savivaldybė, Klaipėdos apskritis, 95112, Lietuva",
+    "updatedAt": "2026-04-09T06:41:41.385Z",
+    "query": "Plieno g. 1, Klaipėda, Lietuva"
+  },
+  "silutes pl. 30, klaipeda": {
+    "lat": 55.6930895,
+    "lon": 21.1747696,
+    "displayName": "Neste „Baltijos pr.“, 30, Šilutės pl., Pempininkai, Senosios Gandrališkės, Rumpiškė, Klaipėda, Klaipėdos miesto savivaldybė, Klaipėdos apskritis, 91107, Lietuva",
+    "updatedAt": "2026-04-09T06:41:43.345Z",
+    "query": "Šilutės pl. 30, Klaipėda, Lietuva"
+  },
+  "silutes pl. 5c, klaipeda": {
+    "lat": 55.7031833,
+    "lon": 21.1647917,
+    "displayName": "Neste „Sendvario“, 5C, Šilutės pl., Rumpiškės dvaras, Rumpiškė, Klaipėda, Klaipėdos miesto savivaldybė, Klaipėdos apskritis, 91109, Lietuva",
+    "updatedAt": "2026-04-09T06:41:44.731Z",
+    "query": "Šilutės pl. 5C, Klaipėda, Lietuva"
+  },
+  "smilteles g. 17, klaipeda": {
+    "lat": 55.6698478,
+    "lon": 21.1929514,
+    "displayName": "Plaunu pats, 17, Smiltelės g., Bandužiai, Šlapžemiai, Smeltė, Klaipėda, Klaipėdos miesto savivaldybė, Klaipėdos apskritis, 95186, Lietuva",
+    "updatedAt": "2026-04-09T06:41:45.996Z",
+    "query": "Smiltelės g. 17, Klaipėda, Lietuva"
+  },
+  "taikos pr. 60, klaipeda": {
+    "lat": 55.6889111,
+    "lon": 21.1551766,
+    "displayName": "Neste „Taikos“, 60, Taikos pr., Arena, Rumpiškė, Klaipėda, Klaipėdos miesto savivaldybė, Klaipėdos apskritis, 93225, Lietuva",
+    "updatedAt": "2026-04-09T06:41:47.255Z",
+    "query": "Taikos pr. 60, Klaipėda, Lietuva"
+  },
+  "stoties g. 4c, marijampole": {
+    "lat": 54.5603639,
+    "lon": 23.3659257,
+    "displayName": "Neste „Marijampolės“, 4C, Stoties g., Draugystė, Marijampolė, Marijampolės savivaldybė, Marijampolės apskritis, 68233, Lietuva",
+    "updatedAt": "2026-04-09T06:41:52.584Z",
+    "query": "Stoties g. 4C, Marijampolė, Lietuva"
+  },
+  "vilkaviskio g. 61d, marijampole": {
+    "lat": 54.5626096,
+    "lon": 23.3323659,
+    "displayName": "Neste, 61D, Vilkaviškio g., Mokolai, Marijampolė, Marijampolės savivaldybė, Marijampolės apskritis, 68171, Lietuva",
+    "updatedAt": "2026-04-09T06:41:53.904Z",
+    "query": "Vilkaviškio g. 61D, Marijampolė, Lietuva"
+  },
+  "m. dauksos g. 29, mazeikiai": {
+    "lat": 56.3012334,
+    "lon": 22.3498409,
+    "displayName": "Neste „Mažeikiai“, 29, M. Daukšos g., Mažeikiai, Mažeikių seniūnija, Mažeikių rajono savivaldybė, Telšių apskritis, 89234, Lietuva",
+    "updatedAt": "2026-04-09T06:41:55.119Z",
+    "query": "M. Daukšos g. 29, Mažeikiai, Lietuva"
+  },
+  "klaipedos g. 144b, panevezys": {
+    "lat": 55.73063,
+    "lon": 24.316109,
+    "displayName": "Neste „Babilonas“, 144B, Klaipėdos g., Panevėžys, Panevėžio miesto savivaldybė, Panevėžio apskritis, 37124, Lietuva",
+    "updatedAt": "2026-04-09T06:41:58.240Z",
+    "query": "Klaipėdos g. 144B, Panevėžys, Lietuva"
+  },
+  "klaipedos g. 66, panevezys": {
+    "lat": 55.7277452,
+    "lon": 24.3488051,
+    "displayName": "Neste „Klaipėdos“, 66, Klaipėdos g., Senamiestis, Panevėžys, Panevėžio miesto savivaldybė, Panevėžio apskritis, 35194, Lietuva",
+    "updatedAt": "2026-04-09T06:42:00.200Z",
+    "query": "Klaipėdos g. 66, Panevėžys, Lietuva"
+  },
+  "klaipedos g. 81, panevezys": {
+    "lat": 55.7283773,
+    "lon": 24.3323377,
+    "displayName": "Neste „IKI“, 81, Klaipėdos g., Panevėžys, Panevėžio miesto savivaldybė, Panevėžio apskritis, 37106, Lietuva",
+    "updatedAt": "2026-04-09T06:42:01.584Z",
+    "query": "Klaipėdos g. 81, Panevėžys, Lietuva"
+  },
+  "margirio g. 1b, panevezys": {
+    "lat": 55.7193962,
+    "lon": 24.3488668,
+    "displayName": "Neste „Nemuno“, 1B, Margirio g., Panevėžys, Panevėžio miesto savivaldybė, Panevėžio apskritis, 36250, Lietuva",
+    "updatedAt": "2026-04-09T06:42:02.865Z",
+    "query": "Margirio g. 1B, Panevėžys, Lietuva"
+  },
+  "ramygalos g. 145b, panevezys": {
+    "lat": 55.709517,
+    "lon": 24.3747541,
+    "displayName": "Neste „Ramygalos“, 145B, Ramygalos g., Panevėžys, Panevėžio miesto savivaldybė, Panevėžio apskritis, 36255, Lietuva",
+    "updatedAt": "2026-04-09T06:42:04.186Z",
+    "query": "Ramygalos g. 145B, Panevėžys, Lietuva"
+  },
+  "versmes g. 2, radviliskis": {
+    "lat": 55.8142724,
+    "lon": 23.5460383,
+    "displayName": "2, Versmės g., Radviliškis, Radviliškio miesto seniūnija, Radviliškio rajono savivaldybė, Šiaulių apskritis, 82001, Lietuva",
+    "updatedAt": "2026-04-09T06:42:10.570Z",
+    "query": "Versmės g. 2, Radviliškis, Lietuva"
+  },
+  "dubijos g. 18a, siauliai": {
+    "lat": 55.9293669,
+    "lon": 23.2941339,
+    "displayName": "18A, Dubijos g., Žaliūkės, Šiauliai, Šiaulių miesto savivaldybė, Šiaulių apskritis, 77172, Lietuva",
+    "updatedAt": "2026-04-09T06:42:13.295Z",
+    "query": "Dubijos g. 18A, Šiauliai, Lietuva"
+  },
+  "geguziu g. 28, siauliai": {
+    "lat": 55.9059107,
+    "lon": 23.2587205,
+    "displayName": "Aibė, 28, Gegužių g., Senieji Dainai, Gytariai, Šiauliai, Šiaulių miesto savivaldybė, Šiaulių apskritis, 78346, Lietuva",
+    "updatedAt": "2026-04-09T06:42:14.533Z",
+    "query": "Gegužių g. 28, Šiauliai, Lietuva"
+  },
+  "tilzes g. 72, siauliai": {
+    "lat": 55.9200839,
+    "lon": 23.2932849,
+    "displayName": "Hesburger, 72, Tilžės g., Žaliūkės, Šiauliai, Šiaulių miesto savivaldybė, Šiaulių apskritis, 78140, Lietuva",
+    "updatedAt": "2026-04-09T06:42:15.915Z",
+    "query": "Tilžės g. 72, Šiauliai, Lietuva"
+  },
+  "vilniaus g. 94, pabrade": {
+    "lat": 54.978537,
+    "lon": 25.7566235,
+    "displayName": "94, Vilniaus g., Pabradė, Pabradės seniūnija, Švenčionių rajono savivaldybė, Vilniaus apskritis, 18179, Lietuva",
+    "updatedAt": "2026-04-09T06:42:18.643Z",
+    "query": "Vilniaus g. 94, Pabradė, Lietuva"
+  },
+  "dariaus ir gireno g. 130a, taurage": {
+    "lat": 55.2653157,
+    "lon": 22.3088337,
+    "displayName": "Neste, 130A, Dariaus ir Girėno g., Beržės, Tauragė, Tauragės miesto seniūnija, Tauragės rajono savivaldybė, Tauragės apskritis, 72194, Lietuva",
+    "updatedAt": "2026-04-09T06:42:20.503Z",
+    "query": "Dariaus ir Girėno g. 130A, Tauragė, Lietuva"
+  },
+  "kauno g. 45b, ukmerge": {
+    "lat": 55.2420375,
+    "lon": 24.7429222,
+    "displayName": "Neste „Ukmergės“, 45B, Kauno g., Smėliai, Ukmergė, Ukmergės miesto seniūnija, Ukmergės rajono savivaldybė, Vilniaus apskritis, 20118, Lietuva",
+    "updatedAt": "2026-04-09T06:42:23.354Z",
+    "query": "Kauno g. 45B, Ukmergė, Lietuva"
+  },
+  "j. basanaviciaus g. 129, utena": {
+    "lat": 55.5051789,
+    "lon": 25.6248833,
+    "displayName": "129, J. Basanavičiaus g., Smėlis, Utena, Utenos miesto seniūnija, Utenos rajono savivaldybė, Utenos apskritis, 28210, Lietuva",
+    "updatedAt": "2026-04-09T06:42:24.736Z",
+    "query": "J. Basanavičiaus g. 129, Utena, Lietuva"
+  },
+  "kupiskio g. 12, utena": {
+    "lat": 55.4929397,
+    "lon": 25.5815827,
+    "displayName": "Kupiškio g., Šilinė, Utena, Utenos miesto seniūnija, Utenos rajono savivaldybė, Utenos apskritis, 28134, Lietuva",
+    "updatedAt": "2026-04-09T06:42:26.031Z",
+    "query": "Kupiškio g. 12, Utena, Lietuva"
+  },
+  "architektu g. 130, vilnius": {
+    "lat": 54.6808398,
+    "lon": 25.2076283,
+    "displayName": "Neste „Architektų“, 130, Architektų g., Lazdynai, Lazdynų seniūnija, Vilnius, Vilniaus miesto savivaldybė, Vilniaus apskritis, 04216, Lietuva",
+    "updatedAt": "2026-04-09T06:42:27.323Z",
+    "query": "Architektų g. 130, Vilnius, Lietuva"
+  },
+  "dariaus ir gireno g. 17, vilnius": {
+    "lat": 54.6552621,
+    "lon": 25.2702703,
+    "displayName": "Egas, 17, Dariaus ir Girėno g., Naujininkai, Naujininkų seniūnija, Vilnius, Vilniaus miesto savivaldybė, Vilniaus apskritis, 02196, Lietuva",
+    "updatedAt": "2026-04-09T06:42:29.341Z",
+    "query": "Dariaus ir Girėno g. 17, Vilnius, Lietuva"
+  },
+  "eisiskiu pl. 82, vilnius": {
+    "lat": 54.6212846,
+    "lon": 25.2429403,
+    "displayName": "Neste „Eišiškių“, 82, Eišiškių pl., Naujininkų seniūnija, Vilnius, Vilniaus miesto savivaldybė, Vilniaus apskritis, 02186, Lietuva",
+    "updatedAt": "2026-04-09T06:42:30.645Z",
+    "query": "Eišiškių pl. 82, Vilnius, Lietuva"
+  },
+  "erfurto g. 41, vilnius": {
+    "lat": 54.6728103,
+    "lon": 25.1979479,
+    "displayName": "Hesburger, 41, Erfurto g., Gudeliai, Lazdynų seniūnija, Vilnius, Vilniaus miesto savivaldybė, Vilniaus apskritis, 04226, Lietuva",
+    "updatedAt": "2026-04-09T06:42:32.071Z",
+    "query": "Erfurto g. 41, Vilnius, Lietuva"
+  },
+  "gariunu g. 55, vilnius": {
+    "lat": 54.6583266,
+    "lon": 25.1592954,
+    "displayName": "Egas Spaauto, 55, Gariūnų g., Gariūnai, Panerių seniūnija, Vilnius, Vilniaus miesto savivaldybė, Vilniaus apskritis, 02300, Lietuva",
+    "updatedAt": "2026-04-09T06:42:33.607Z",
+    "query": "Gariūnų g. 55, Vilnius, Lietuva"
+  },
+  "gelezinio vilko g. 37a, vilnius": {
+    "lat": 54.7013241,
+    "lon": 25.2638052,
+    "displayName": "Plaunu pats, 37A, Geležinio Vilko g., Šnipiškės, Šnipiškių seniūnija, Vilnius, Vilniaus miesto savivaldybė, Vilniaus apskritis, 08104, Lietuva",
+    "updatedAt": "2026-04-09T06:42:35.057Z",
+    "query": "Geležinio Vilko g. 37A, Vilnius, Lietuva"
+  },
+  "gelezinio vilko g. 41, vilnius": {
+    "lat": 54.7041729,
+    "lon": 25.2670837,
+    "displayName": "Neste, 41, Geležinio Vilko g., Šnipiškės, Šnipiškių seniūnija, Vilnius, Vilniaus miesto savivaldybė, Vilniaus apskritis, 09300, Lietuva",
+    "updatedAt": "2026-04-09T06:42:36.297Z",
+    "query": "Geležinio Vilko g. 41, Vilnius, Lietuva"
+  },
+  "gelezinio vilko g. 63, vilnius": {
+    "lat": 54.7121034,
+    "lon": 25.2707309,
+    "displayName": "63, Geležinio Vilko g., Šnipiškės, Šnipiškių seniūnija, Vilnius, Vilniaus miesto savivaldybė, Vilniaus apskritis, 08217, Lietuva",
+    "updatedAt": "2026-04-09T06:42:37.638Z",
+    "query": "Geležinio Vilko g. 63, Vilnius, Lietuva"
+  },
+  "j. tiskeviciaus g. 19, vilnius": {
+    "lat": 54.6244066,
+    "lon": 25.1119814,
+    "displayName": "Hesburger, 19, J. Tiškevičiaus g., Trakų Vokė, Panerių seniūnija, Vilnius, Vilniaus miesto savivaldybė, Vilniaus apskritis, 02238, Lietuva",
+    "updatedAt": "2026-04-09T06:42:39.106Z",
+    "query": "J. Tiškevičiaus g. 19, Vilnius, Lietuva"
+  },
+  "justiniskiu g. 14b, vilnius": {
+    "lat": 54.7049091,
+    "lon": 25.2147007,
+    "displayName": "Plaunu pats, 14B, Justiniškių g., Viršuliškės, Viršuliškių seniūnija, Vilnius, Vilniaus miesto savivaldybė, Vilniaus apskritis, 05130, Lietuva",
+    "updatedAt": "2026-04-09T06:42:40.323Z",
+    "query": "Justiniškių g. 14B, Vilnius, Lietuva"
+  },
+  "kauno g. 26, vilnius": {
+    "lat": 54.6716123,
+    "lon": 25.270971,
+    "displayName": "Plaunu pats, 26, Kauno g., Naujamiestis, Naujamiesčio seniūnija, Vilnius, Vilniaus miesto savivaldybė, Vilniaus apskritis, 03209, Lietuva",
+    "updatedAt": "2026-04-09T06:42:41.755Z",
+    "query": "Kauno g. 26, Vilnius, Lietuva"
+  },
+  "kedru g. 2, vilnius": {
+    "lat": 54.6771369,
+    "lon": 25.2560022,
+    "displayName": "Švaros broliai, 2, Kedrų g., Naujamiestis, Naujamiesčio seniūnija, Vilnius, Vilniaus miesto savivaldybė, Vilniaus apskritis, 03159, Lietuva",
+    "updatedAt": "2026-04-09T06:42:43.012Z",
+    "query": "Kedrų g. 2, Vilnius, Lietuva"
+  },
+  "moletu pl. 8, vilnius": {
+    "lat": 54.75485,
+    "lon": 25.271346,
+    "displayName": "Neste „Santariškių“, 8, Molėtų pl., Visoriai, Verkių seniūnija, Vilnius, Vilniaus miesto savivaldybė, Vilniaus apskritis, 08409, Lietuva",
+    "updatedAt": "2026-04-09T06:42:44.290Z",
+    "query": "Molėtų pl. 8, Vilnius, Lietuva"
+  },
+  "p. luksio g. 22, vilnius": {
+    "lat": 54.7119036,
+    "lon": 25.293073,
+    "displayName": "Neste, 22, P. Lukšio g., Šiaurės miestelis, Žirmūnų seniūnija, Vilnius, Vilniaus miesto savivaldybė, Vilniaus apskritis, 08222, Lietuva",
+    "updatedAt": "2026-04-09T06:42:45.524Z",
+    "query": "P. Lukšio g. 22, Vilnius, Lietuva"
+  },
+  "paneriu g. 42, vilnius": {
+    "lat": 54.6681842,
+    "lon": 25.2651336,
+    "displayName": "42, Panerių g., Naujamiestis, Naujamiesčio seniūnija, Vilnius, Vilniaus miesto savivaldybė, Vilniaus apskritis, 03202, Lietuva",
+    "updatedAt": "2026-04-09T06:42:46.804Z",
+    "query": "Panerių g. 42, Vilnius, Lietuva"
+  },
+  "parodu g. 1a, vilnius": {
+    "lat": 54.6734231,
+    "lon": 25.2240676,
+    "displayName": "Neste „Litexpo“, 1A, Parodų g., Miškiniai, Lazdynų seniūnija, Vilnius, Vilniaus miesto savivaldybė, Vilniaus apskritis, 04133, Lietuva",
+    "updatedAt": "2026-04-09T06:42:48.563Z",
+    "query": "Parodų g. 1A, Vilnius, Lietuva"
+  },
+  "pilaites pr. 27, vilnius": {
+    "lat": 54.7094735,
+    "lon": 25.1898838,
+    "displayName": "Dockers Pub Pilaitė, 27, Pilaitės pr., Pilaitė, Pilaitės seniūnija, Vilnius, Vilniaus miesto savivaldybė, Vilniaus apskritis, 06204, Lietuva",
+    "updatedAt": "2026-04-09T06:42:50.423Z",
+    "query": "Pilaitės pr. 27, Vilnius, Lietuva"
+  },
+  "rygos g. 2, vilnius": {
+    "lat": 54.71563,
+    "lon": 25.2287063,
+    "displayName": "Neste „Justiniškių“, 2, Rygos g., Viršuliškės, Viršuliškių seniūnija, Vilnius, Vilniaus miesto savivaldybė, Vilniaus apskritis, 05259, Lietuva",
+    "updatedAt": "2026-04-09T06:42:51.662Z",
+    "query": "Rygos g. 2, Vilnius, Lietuva"
+  },
+  "s. staneviciaus g. 3, vilnius": {
+    "lat": 54.7214903,
+    "lon": 25.2561146,
+    "displayName": "Neste „Stanevičiaus“, 3, S. Stanevičiaus g., Fabijoniškės, Fabijoniškių seniūnija, Vilnius, Vilniaus miesto savivaldybė, Vilniaus apskritis, 07131, Lietuva",
+    "updatedAt": "2026-04-09T06:42:52.882Z",
+    "query": "S. Stanevičiaus g. 3, Vilnius, Lietuva"
+  },
+  "savanoriu pr. 187, vilnius": {
+    "lat": 54.646852,
+    "lon": 25.2103082,
+    "displayName": "Dovelo, 187, Savanorių pr., Žemieji Paneriai, Vilkpėdės seniūnija, Vilnius, Vilniaus miesto savivaldybė, Vilniaus apskritis, 02301, Lietuva",
+    "updatedAt": "2026-04-09T06:42:54.139Z",
+    "query": "Savanorių pr. 187, Vilnius, Lietuva"
+  },
+  "savanoriu pr. 220a, vilnius": {
+    "lat": 54.6440341,
+    "lon": 25.2074576,
+    "displayName": "Švaros Broliai, 220A, Savanorių pr., Žemieji Paneriai, Vilkpėdės seniūnija, Vilnius, Vilniaus miesto savivaldybė, Vilniaus apskritis, 02301, Lietuva",
+    "updatedAt": "2026-04-09T06:42:55.377Z",
+    "query": "Savanorių pr. 220A, Vilnius, Lietuva"
+  },
+  "serveces g. 2, vilnius": {
+    "lat": 54.6341739,
+    "lon": 25.3045356,
+    "displayName": "2, Servečės g., Rasų seniūnija, Vilnius, Vilniaus miesto savivaldybė, Vilniaus apskritis, 02225, Lietuva",
+    "updatedAt": "2026-04-09T06:42:56.613Z",
+    "query": "Servečės g. 2, Vilnius, Lietuva"
+  },
+  "subaciaus g. 64, vilnius": {
+    "lat": 54.6767354,
+    "lon": 25.3092992,
+    "displayName": "Pit Stop Grill Cafe, 64, Subačiaus g., Paupys, Rasų seniūnija, Vilnius, Vilniaus miesto savivaldybė, Vilniaus apskritis, 11342, Lietuva",
+    "updatedAt": "2026-04-09T06:42:57.954Z",
+    "query": "Subačiaus g. 64, Vilnius, Lietuva"
+  },
+  "talino g. 2c, vilnius": {
+    "lat": 54.7138968,
+    "lon": 25.2096844,
+    "displayName": "H2Auto, 2C, Talino g., Justiniškės, Justiniškių seniūnija, Vilnius, Vilniaus miesto savivaldybė, Vilniaus apskritis, 05202, Lietuva",
+    "updatedAt": "2026-04-09T06:42:59.234Z",
+    "query": "Talino g. 2C, Vilnius, Lietuva"
+  },
+  "ukmerges g. 296, vilnius": {
+    "lat": 54.7361438,
+    "lon": 25.2311187,
+    "displayName": "Neste, 296, Ukmergės g., Fabijoniškės, Pašilaičių seniūnija, Vilnius, Vilniaus miesto savivaldybė, Vilniaus apskritis, 12105, Lietuva",
+    "updatedAt": "2026-04-09T06:43:00.846Z",
+    "query": "Ukmergės g. 296, Vilnius, Lietuva"
+  },
+  "zirmunu g. 54c, vilnius": {
+    "lat": 54.7067448,
+    "lon": 25.304138,
+    "displayName": "Neste Minties, 54C, Žirmūnų g., Šiaurės miestelis, Žirmūnų seniūnija, Vilnius, Vilniaus miesto savivaldybė, Vilniaus apskritis, 09124, Lietuva",
+    "updatedAt": "2026-04-09T06:43:02.435Z",
+    "query": "Žirmūnų g. 54C, Vilnius, Lietuva"
+  },
+  "zirmunu g. 68b, vilnius": {
+    "lat": 54.7174439,
+    "lon": 25.3044408,
+    "displayName": "Hesburger, 68B, Žirmūnų g., Žirmūnai, Žirmūnų seniūnija, Vilnius, Vilniaus miesto savivaldybė, Vilniaus apskritis, 09124, Lietuva",
+    "updatedAt": "2026-04-09T06:43:03.732Z",
+    "query": "Žirmūnų g. 68B, Vilnius, Lietuva"
+  },
+  "zirniu g. 17, vilnius": {
+    "lat": 54.6566534,
+    "lon": 25.2920381,
+    "displayName": "Neste „Žirnių“, 17, Žirnių g., Naujininkai, Naujininkų seniūnija, Vilnius, Vilniaus miesto savivaldybė, Vilniaus apskritis, 02117, Lietuva",
+    "updatedAt": "2026-04-09T06:43:05.034Z",
+    "query": "Žirnių g. 17, Vilnius, Lietuva"
+  },
+  "kauno g. 73, alytus": {
+    "lat": 54.4033241,
+    "lon": 24.0370877,
+    "displayName": "73, Kauno g., Dainava, Alytus, Alytaus miesto savivaldybė, Alytaus apskritis, 63210, Lietuva",
+    "updatedAt": "2026-04-09T06:43:07.804Z",
+    "query": "Kauno g. 73, Alytus, Lietuva"
+  },
+  "ziezmariu k.": {
+    "lat": 54.8145899,
+    "lon": 24.4618241,
+    "displayName": "Žiežmarių dujų skirstymo stotis, Triliškės, Žiežmarių apylinkės seniūnija, Kaišiadorių rajono savivaldybė, Kauno apskritis, Lietuva",
+    "updatedAt": "2026-04-09T06:43:10.601Z",
+    "query": "Žiežmarių k., Lietuva"
+  },
+  "kalvarijos g. 138, kaunas": {
+    "lat": 54.866108,
+    "lon": 23.8739732,
+    "displayName": "Kalvarijos g., Kazliškiai, Aleksoto seniūnija, Kaunas, Kauno miesto savivaldybė, Kauno apskritis, 46396, Lietuva",
+    "updatedAt": "2026-04-09T06:43:12.560Z",
+    "query": "Kalvarijos g. 138, Kaunas, Lietuva"
+  },
+  "pramones pr. 37, kaunas": {
+    "lat": 54.9158016,
+    "lon": 23.9842046,
+    "displayName": "Orlen, 37, Pramonės pr., Dainava, Dainavos seniūnija, Kaunas, Kauno miesto savivaldybė, Kauno apskritis, 51272, Lietuva",
+    "updatedAt": "2026-04-09T06:43:13.816Z",
+    "query": "Pramonės pr. 37, Kaunas, Lietuva"
+  },
+  "varniu g. 50, kaunas": {
+    "lat": 54.9138013,
+    "lon": 23.9068499,
+    "displayName": "Orlen, 50, Varnių g., Panerys, Vilijampolės seniūnija, Kaunas, Kauno miesto savivaldybė, Kauno apskritis, 48400, Lietuva",
+    "updatedAt": "2026-04-09T06:43:15.074Z",
+    "query": "Varnių g. 50, Kaunas, Lietuva"
+  },
+  "veiveriu g. 148 b, kaunas": {
+    "lat": 54.8673208,
+    "lon": 23.8872771,
+    "displayName": "Orlen, 148B, Veiverių g., Julijanava, Aleksoto seniūnija, Kaunas, Kauno miesto savivaldybė, Kauno apskritis, 46386, Lietuva",
+    "updatedAt": "2026-04-09T06:43:16.454Z",
+    "query": "Veiverių g. 148 B, Kaunas, Lietuva"
+  },
+  "berzu g. 2n, ringaudai": {
+    "lat": 54.8888853,
+    "lon": 23.8178211,
+    "displayName": "2N, Beržų g., Ringaudai, Ringaudų seniūnija, Kauno rajono savivaldybė, Kauno apskritis, 53335, Lietuva",
+    "updatedAt": "2026-04-09T06:43:17.801Z",
+    "query": "Beržų g. 2N, Ringaudai, Lietuva"
+  },
+  "biruliskiu k.": {
+    "lat": 54.9243192,
+    "lon": 24.0113084,
+    "displayName": "128K, V. Krėvės pr., Naujasodis, Petrašiūnų seniūnija, Kaunas, Kauno miesto savivaldybė, Kauno apskritis, 51108, Lietuva",
+    "updatedAt": "2026-04-09T06:43:19.104Z",
+    "query": "Biruliškių k., Lietuva"
+  },
+  "minijos g. 44, klaipeda": {
+    "lat": 55.6938676,
+    "lon": 21.1402705,
+    "displayName": "Orlen, 44, Minijos g., Špichuto dvaras, Senamiestis, Klaipėda, Klaipėdos miesto savivaldybė, Klaipėdos apskritis, 91197, Lietuva",
+    "updatedAt": "2026-04-09T06:43:20.506Z",
+    "query": "Minijos g. 44, Klaipėda, Lietuva"
+  },
+  "silutes pl. 26 a, klaipeda": {
+    "lat": 55.6985726,
+    "lon": 21.1673283,
+    "displayName": "Orlen - Lietuva, 26A, Šilutės pl., Senosios Gandrališkės, Rumpiškė, Klaipėda, Klaipėdos miesto savivaldybė, Klaipėdos apskritis, 91176, Lietuva",
+    "updatedAt": "2026-04-09T06:43:21.851Z",
+    "query": "Šilutės pl. 26 A, Klaipėda, Lietuva"
+  },
+  "silutes pl. 94, klaipeda": {
+    "lat": 55.6681613,
+    "lon": 21.2086486,
+    "displayName": "Orlen, 94, Šilutės pl., Rimkai, Kretainis, Klaipėda, Klaipėdos miesto savivaldybė, Klaipėdos apskritis, 95264, Lietuva",
+    "updatedAt": "2026-04-09T06:43:23.090Z",
+    "query": "Šilutės pl. 94, Klaipėda, Lietuva"
+  },
+  "vilimiskes k.": {
+    "lat": 55.9062389,
+    "lon": 21.0952155,
+    "displayName": "Vilimiškės kel., Palanga, Palangos miesto savivaldybė, Klaipėdos apskritis, 00174, Lietuva",
+    "updatedAt": "2026-04-09T06:43:25.770Z",
+    "query": "Vilimiškės k., Lietuva"
+  },
+  "aleksandravo k.": {
+    "lat": 54.419463,
+    "lon": 23.0387666,
+    "displayName": "Aleksandravas, Akmenynų seniūnija, Kalvarijos savivaldybė, Marijampolės apskritis, Lietuva",
+    "updatedAt": "2026-04-09T06:43:27.029Z",
+    "query": "Aleksandravo k., Lietuva"
+  },
+  "​skuodo g. 14, mazeikiai": {
+    "lat": 56.3144551,
+    "lon": 22.3109727,
+    "displayName": "Orlen, 14, Skuodo g., Mažeikiai, Mažeikių seniūnija, Mažeikių rajono savivaldybė, Telšių apskritis, 89100, Lietuva",
+    "updatedAt": "2026-04-09T06:43:28.284Z",
+    "query": "​Skuodo g. 14, Mažeikiai, Lietuva"
+  },
+  "zemaitijos g. 42, mazeikiai": {
+    "lat": 56.3020425,
+    "lon": 22.3424737,
+    "displayName": "Orlen, 42, Žemaitijos g., Senamiestis, Mažeikiai, Mažeikių seniūnija, Mažeikių rajono savivaldybė, Telšių apskritis, 89191, Lietuva",
+    "updatedAt": "2026-04-09T06:43:29.502Z",
+    "query": "Žemaitijos g. 42, Mažeikiai, Lietuva"
+  },
+  "klaipedos g. 162 d, panevezys": {
+    "lat": 55.7317398,
+    "lon": 24.303173,
+    "displayName": "Orlen, 162D, Klaipėdos g., Pagojys, Panevėžys, Panevėžio miesto savivaldybė, Panevėžio apskritis, 37372, Lietuva",
+    "updatedAt": "2026-04-09T06:43:30.860Z",
+    "query": "Klaipėdos g. 162 D, Panevėžys, Lietuva"
+  },
+  "senamiescio g. 115, panevezys": {
+    "lat": 55.7481994,
+    "lon": 24.3908149,
+    "displayName": "Orlen, 115, Senamiesčio g., Panevėžys, Panevėžio miesto savivaldybė, Panevėžio apskritis, 35114, Lietuva",
+    "updatedAt": "2026-04-09T06:43:32.717Z",
+    "query": "Senamiesčio g. 115, Panevėžys, Lietuva"
+  },
+  "serbentu g. 82, siauliai": {
+    "lat": 55.9139254,
+    "lon": 23.3369683,
+    "displayName": "Orlen, 82, Serbentų g., Pakartuvės, Šiauliai, Šiaulių miesto savivaldybė, Šiaulių apskritis, 77121, Lietuva",
+    "updatedAt": "2026-04-09T06:43:39.255Z",
+    "query": "Serbentų g. 82, Šiauliai, Lietuva"
+  },
+  "gedimino g. 46, taurage": {
+    "lat": 55.2442701,
+    "lon": 22.3038396,
+    "displayName": "Orlen, 46, Gedimino g., Žalgiriai, Tauragė, Tauragės miesto seniūnija, Tauragės rajono savivaldybė, Tauragės apskritis, 72336, Lietuva",
+    "updatedAt": "2026-04-09T06:43:40.597Z",
+    "query": "Gedimino g. 46, Tauragė, Lietuva"
+  },
+  "​plunges g. 33 d, telsiai": {
+    "lat": 55.9792185,
+    "lon": 22.2266776,
+    "displayName": "33D, Plungės g., Dirksteliai, Telšiai, Telšių miesto seniūnija, Telšių rajono savivaldybė, Telšių apskritis, 87423, Lietuva",
+    "updatedAt": "2026-04-09T06:43:42.657Z",
+    "query": "​Plungės g. 33 D, Telšiai, Lietuva"
+  },
+  "juodasis kl. 32, vilnius": {
+    "lat": 54.6617974,
+    "lon": 25.3464254,
+    "displayName": "Juodasis kel., Guriai, Naujosios Vilnios seniūnija, Vilnius, Vilniaus miesto savivaldybė, Vilniaus apskritis, 11307, Lietuva",
+    "updatedAt": "2026-04-09T06:43:43.994Z",
+    "query": "Juodasis kl. 32, Vilnius, Lietuva"
+  },
+  "o. ​milasiaus g. 31, vilnius": {
+    "lat": 54.7280491,
+    "lon": 25.3270109,
+    "displayName": "Orlen, 31, O. Milašiaus g., Saulėtekis, Antakalnio seniūnija, Vilnius, Vilniaus miesto savivaldybė, Vilniaus apskritis, 10102, Lietuva",
+    "updatedAt": "2026-04-09T06:43:45.228Z",
+    "query": "O. ​Milašiaus g. 31, Vilnius, Lietuva"
+  },
+  "ukmerges g. 319, vilnius": {
+    "lat": 54.7369256,
+    "lon": 25.2321131,
+    "displayName": "Orlen, 319, Ukmergės g., Fabijoniškės, Fabijoniškių seniūnija, Vilnius, Vilniaus miesto savivaldybė, Vilniaus apskritis, 06305, Lietuva",
+    "updatedAt": "2026-04-09T06:43:46.588Z",
+    "query": "Ukmergės g. 319, Vilnius, Lietuva"
+  },
+  "zirmunu g. 1t, vilnius": {
+    "lat": 54.6960068,
+    "lon": 25.3001004,
+    "displayName": "Orlen, 1T, Žirmūnų g., Tuskulėnai, Žirmūnų seniūnija, Vilnius, Vilniaus miesto savivaldybė, Vilniaus apskritis, 09214, Lietuva",
+    "updatedAt": "2026-04-09T06:43:47.869Z",
+    "query": "Žirmūnų g. 1T, Vilnius, Lietuva"
+  },
+  "alytaus g. 48, simnas": {
+    "lat": 54.3838453,
+    "lon": 23.659403,
+    "displayName": "Skulas, 48, Alytaus g., Simnas, Simno seniūnija, Alytaus rajono savivaldybė, Alytaus apskritis, 64313, Lietuva",
+    "updatedAt": "2026-04-09T06:43:52.942Z",
+    "query": "Alytaus g. 48, Simnas, Lietuva"
+  },
+  "asigalio g. 1 a, kaunas": {
+    "lat": 54.9331246,
+    "lon": 23.9434984,
+    "displayName": "1A, Ašigalio g., Naujasodis, Eigulių seniūnija, Kaunas, Kauno miesto savivaldybė, Kauno apskritis, 49160, Lietuva",
+    "updatedAt": "2026-04-09T06:43:56.660Z",
+    "query": "Ašigalio g. 1 A, Kaunas, Lietuva"
+  },
+  "marveles g. 106 d, kaunas": {
+    "lat": 54.9012375,
+    "lon": 23.8544016,
+    "displayName": "Skulas, 106D, Marvelės g., Marvelė, Aleksoto seniūnija, Kaunas, Kauno miesto savivaldybė, Kauno apskritis, 46205, Lietuva",
+    "updatedAt": "2026-04-09T06:43:58.523Z",
+    "query": "Marvelės g. 106 D, Kaunas, Lietuva"
+  },
+  "musos g. 2 e, pasvalys": {
+    "lat": 56.0695312,
+    "lon": 24.3878814,
+    "displayName": "Skulas, 2E, Mūšos g., Pasvalys, Pasvalio apylinkių seniūnija, Pasvalio rajono savivaldybė, Panevėžio apskritis, 39105, Lietuva",
+    "updatedAt": "2026-04-09T06:44:01.223Z",
+    "query": "Mūšos g. 2 E, Pasvalys, Lietuva"
+  },
+  "j.kazlausko g. 33, vilnius": {
+    "lat": 54.7223735,
+    "lon": 25.2710643,
+    "displayName": "Skulas, 33, J. Kazlausko g., Ozas, Verkių seniūnija, Vilnius, Vilniaus miesto savivaldybė, Vilniaus apskritis, 08350, Lietuva",
+    "updatedAt": "2026-04-09T06:44:02.460Z",
+    "query": "J.Kazlausko g. 33, Vilnius, Lietuva"
+  },
+  "j.kazlausko g. 34, vilnius": {
+    "lat": 54.7231706,
+    "lon": 25.2768132,
+    "displayName": "34, J. Kazlausko g., Ozas, Verkių seniūnija, Vilnius, Vilniaus miesto savivaldybė, Vilniaus apskritis, 08350, Lietuva",
+    "updatedAt": "2026-04-09T06:44:04.222Z",
+    "query": "J.Kazlausko g. 34, Vilnius, Lietuva"
+  },
+  "j.kazlausko g. 35, vilnius": {
+    "lat": 54.7228347,
+    "lon": 25.2741184,
+    "displayName": "J. Kazlausko g., Ozas, Verkių seniūnija, Vilnius, Vilniaus miesto savivaldybė, Vilniaus apskritis, 08350, Lietuva",
+    "updatedAt": "2026-04-09T06:44:05.478Z",
+    "query": "J.Kazlausko g. 35, Vilnius, Lietuva"
+  },
+  "mazeikiu g. 10, zidikai": {
+    "lat": 56.3176396,
+    "lon": 22.0135973,
+    "displayName": "10, Mažeikių g., Židikai, Židikų seniūnija, Mažeikių rajono savivaldybė, Telšių apskritis, 89442, Lietuva",
+    "updatedAt": "2026-04-09T06:44:06.717Z",
+    "query": "Mažeikiu g. 10, Židikai, Lietuva"
+  },
+  "mazeikiu g. 11, zidikai": {
+    "lat": 56.3177302,
+    "lon": 22.0196704,
+    "displayName": "11, Mažeikių g., Židikai, Židikų seniūnija, Mažeikių rajono savivaldybė, Telšių apskritis, 89442, Lietuva",
+    "updatedAt": "2026-04-09T06:44:08.477Z",
+    "query": "Mažeikiu g. 11, Židikai, Lietuva"
+  },
+  "mazeikiu g. 9, zidikai": {
+    "lat": 56.3179238,
+    "lon": 22.0187118,
+    "displayName": "9, Mažeikių g., Židikai, Židikų seniūnija, Mažeikių rajono savivaldybė, Telšių apskritis, 89442, Lietuva",
+    "updatedAt": "2026-04-09T06:44:09.698Z",
+    "query": "Mažeikiu g. 9, Židikai, Lietuva"
+  },
+  "pramones g. 16, utena": {
+    "lat": 55.4946795,
+    "lon": 25.6458529,
+    "displayName": "16, Pramonės g., Pramonės rajonas, Utena, Utenos miesto seniūnija, Utenos rajono savivaldybė, Utenos apskritis, 28216, Lietuva",
+    "updatedAt": "2026-04-09T06:44:11.143Z",
+    "query": "Pramonės g. 16, Utena, Lietuva"
+  },
+  "panevezio g. 5, kupiskis": {
+    "lat": 55.8271711,
+    "lon": 24.985997,
+    "displayName": "Velseka, 5, Panevėžio g., Stoties rajonas, Slavinčiškis, Kupiškis, Kupiškio seniūnija, Kupiškio rajono savivaldybė, Panevėžio apskritis, 40127, Lietuva",
+    "updatedAt": "2026-04-09T06:44:12.467Z",
+    "query": "Panevėžio g. 5, Kupiškis, Lietuva"
+  },
+  "naujoji g. 27, alytus": {
+    "lat": 54.4140413,
+    "lon": 24.0101635,
+    "displayName": "Viada, 27, Naujoji g., Putinai, Alytus, Alytaus miesto savivaldybė, Alytaus apskritis, 62175, Lietuva",
+    "updatedAt": "2026-04-09T06:44:13.745Z",
+    "query": "Naujoji g. 27, Alytus, Lietuva"
+  },
+  "ulonu g. 33b, alytus": {
+    "lat": 54.3847857,
+    "lon": 24.0500261,
+    "displayName": "Viada, 33B, Ulonų g., Alytus, Alytaus miesto savivaldybė, Alytaus apskritis, 62161, Lietuva",
+    "updatedAt": "2026-04-09T06:44:15.066Z",
+    "query": "Ulonų g. 33B, Alytus, Lietuva"
+  },
+  "a. vienuolio g. 34, anyksciai": {
+    "lat": 55.522041,
+    "lon": 25.0863648,
+    "displayName": "Viada, 34, A. Vienuolio g., Jurzdikas, Pašventupys, Anykščiai, Anykščių seniūnija, Anykščių rajono savivaldybė, Utenos apskritis, 29149, Lietuva",
+    "updatedAt": "2026-04-09T06:44:18.214Z",
+    "query": "A. Vienuolio g. 34, Anykščiai, Lietuva"
+  },
+  "piliakalnio g. 9, anyksciai": {
+    "lat": 55.5413265,
+    "lon": 25.1349412,
+    "displayName": "Viada, 9, Piliakalnio g., Janydžiai, Anykščiai, Anykščių seniūnija, Anykščių rajono savivaldybė, Utenos apskritis, 29109, Lietuva",
+    "updatedAt": "2026-04-09T06:44:19.429Z",
+    "query": "Piliakalnio g. 9, Anykščiai, Lietuva"
+  },
+  "parodos g. 2, birzai": {
+    "lat": 56.2013087,
+    "lon": 24.7490206,
+    "displayName": "Viada, 2, Parodos g., Naujamiestis, Biržai, Biržų miesto seniūnija, Biržų rajono savivaldybė, Panevėžio apskritis, 41136, Lietuva",
+    "updatedAt": "2026-04-09T06:44:20.708Z",
+    "query": "Parodos g. 2, Biržai, Lietuva"
+  },
+  "pasvalio g. 1b, birzai": {
+    "lat": 56.2019312,
+    "lon": 24.7377964,
+    "displayName": "Viada, 1B, Pasvalio g., Naujamiestis, Biržai, Biržų miesto seniūnija, Biržų rajono savivaldybė, Panevėžio apskritis, 41132, Lietuva",
+    "updatedAt": "2026-04-09T06:44:22.070Z",
+    "query": "Pasvalio g. 1B, Biržai, Lietuva"
+  },
+  "elektrines g. 6, elektrenai": {
+    "lat": 54.7845187,
+    "lon": 24.6542452,
+    "displayName": "Viada, 6, Elektrinės g., Elektrėnai, Elektrėnų seniūnija, Elektrėnų savivaldybė, Vilniaus apskritis, 26106, Lietuva",
+    "updatedAt": "2026-04-09T06:44:23.411Z",
+    "query": "Elektrinės g. 6, Elektrėnai, Lietuva"
+  },
+  "kauno g. 26a, vievis": {
+    "lat": 54.7711508,
+    "lon": 24.8209834,
+    "displayName": "Viada, 26A, Kauno g., Vievis, Vievio seniūnija, Elektrėnų savivaldybė, Vilniaus apskritis, 21376, Lietuva",
+    "updatedAt": "2026-04-09T06:44:24.775Z",
+    "query": "Kauno g. 26A, Vievis, Lietuva"
+  },
+  "turistu g. 28a, ignalina": {
+    "lat": 55.3389521,
+    "lon": 26.1455754,
+    "displayName": "28A, Turistų g., Ignalina, Ignalinos miesto seniūnija, Ignalinos rajono savivaldybė, Utenos apskritis, 30100, Lietuva",
+    "updatedAt": "2026-04-09T06:44:26.137Z",
+    "query": "Turistų g. 28A, Ignalina, Lietuva"
+  },
+  "darbininku g. 4d, jonava": {
+    "lat": 55.0937258,
+    "lon": 24.282767,
+    "displayName": "Viada, 4D, Darbininkų g., Jonava, Jonavos seniūnija, Jonavos rajono savivaldybė, Kauno apskritis, 55101, Lietuva",
+    "updatedAt": "2026-04-09T06:44:27.397Z",
+    "query": "Darbininkų g. 4D, Jonava, Lietuva"
+  },
+  "vilniaus g. 51, joniskis": {
+    "lat": 56.2246151,
+    "lon": 23.6011237,
+    "displayName": "Viada, 51, Vilniaus g., Joniškis, Joniškio seniūnija, Joniškio rajono savivaldybė, Šiaulių apskritis, 84166, Lietuva",
+    "updatedAt": "2026-04-09T06:44:28.742Z",
+    "query": "Vilniaus g. 51, Joniškis, Lietuva"
+  },
+  "gedimino g. 135, kaisiadorys": {
+    "lat": 54.8550869,
+    "lon": 24.4417261,
+    "displayName": "Viada, 135, Gedimino g., Kaišiadorys, Kaišiadorių miesto seniūnija, Kaišiadorių rajono savivaldybė, Kauno apskritis, 56173, Lietuva",
+    "updatedAt": "2026-04-09T06:44:30.211Z",
+    "query": "Gedimino g. 135, Kaišiadorys, Lietuva"
+  },
+  "dariaus ir gireno g. 81, kalvarija": {
+    "lat": 54.424472,
+    "lon": 23.2319222,
+    "displayName": "Viada, 81, Dariaus ir Girėno g., Senamiestis, Kalvarija, Kalvarijos seniūnija, Kalvarijos savivaldybė, Marijampolės apskritis, 69219, Lietuva",
+    "updatedAt": "2026-04-09T06:44:31.448Z",
+    "query": "Dariaus ir Girėno g. 81, Kalvarija, Lietuva"
+  },
+  "a. juozapaviciaus pr. 90, kaunas": {
+    "lat": 54.8778418,
+    "lon": 23.9345436,
+    "displayName": "90, A. Juozapavičiaus pr., Žemieji Šančiai, Šančių seniūnija, Kaunas, Kauno miesto savivaldybė, Kauno apskritis, 45212, Lietuva",
+    "updatedAt": "2026-04-09T06:44:34.670Z",
+    "query": "A. Juozapavičiaus pr. 90, Kaunas, Lietuva"
+  },
+  "ateities pl. 105, kaunas": {
+    "lat": 54.9271996,
+    "lon": 24.0430425,
+    "displayName": "Viada, 105, Ateities pl., Palemonas, Petrašiūnų seniūnija, Kaunas, Kauno miesto savivaldybė, Kauno apskritis, 52104, Lietuva",
+    "updatedAt": "2026-04-09T06:44:36.430Z",
+    "query": "Ateities pl. 105, Kaunas, Lietuva"
+  },
+  "ateities pl. 37a, kaunas": {
+    "lat": 54.9182066,
+    "lon": 24.0396673,
+    "displayName": "Viada, 37A, Ateities pl., Palemonas, Petrašiūnų seniūnija, Kaunas, Kauno miesto savivaldybė, Kauno apskritis, 52119, Lietuva",
+    "updatedAt": "2026-04-09T06:44:37.751Z",
+    "query": "Ateities pl. 37A, Kaunas, Lietuva"
+  },
+  "baltijos g. 90b, kaunas": {
+    "lat": 54.9180087,
+    "lon": 23.8736664,
+    "displayName": "Viada, 90B, Baltijos g., Smėliai, Šilainių seniūnija, Kaunas, Kauno miesto savivaldybė, Kauno apskritis, 47133, Lietuva",
+    "updatedAt": "2026-04-09T06:44:38.987Z",
+    "query": "Baltijos g. 90B, Kaunas, Lietuva"
+  },
+  "biruliskiu g. 18a, kaunas": {
+    "lat": 54.9105791,
+    "lon": 24.0232261,
+    "displayName": "18A, Biruliškių g., Amaliai, Petrašiūnų seniūnija, Kaunas, Kauno miesto savivaldybė, Kauno apskritis, 52175, Lietuva",
+    "updatedAt": "2026-04-09T06:44:40.247Z",
+    "query": "Biruliškių g. 18A, Kaunas, Lietuva"
+  },
+  "didzioji g. 84, kaunas": {
+    "lat": 54.8551078,
+    "lon": 24.0131202,
+    "displayName": "Viada, 84, Didžioji g., Vaišvydava, Panemunės seniūnija, Kaunas, Kauno miesto savivaldybė, Kauno apskritis, 45462, Lietuva",
+    "updatedAt": "2026-04-09T06:44:42.102Z",
+    "query": "Didžioji g. 84, Kaunas, Lietuva"
+  },
+  "islandijos pl. 61a, kaunas": {
+    "lat": 54.9335293,
+    "lon": 23.9684792,
+    "displayName": "61A, Islandijos pl., Murava, Eigulių seniūnija, Kaunas, Kauno miesto savivaldybė, Kauno apskritis, 49107, Lietuva",
+    "updatedAt": "2026-04-09T06:44:43.383Z",
+    "query": "Islandijos pl. 61A, Kaunas, Lietuva"
+  },
+  "k. barsausko g. 64, kaunas": {
+    "lat": 54.8975719,
+    "lon": 23.9583731,
+    "displayName": "Viada, 64, K. Baršausko g., Gričiupis, Gričiupio seniūnija, Kaunas, Kauno miesto savivaldybė, Kauno apskritis, 44410, Lietuva",
+    "updatedAt": "2026-04-09T06:44:44.648Z",
+    "query": "K. Baršausko g. 64, Kaunas, Lietuva"
+  },
+  "karaliaus mindaugo pr. 54, kaunas": {
+    "lat": 54.8875335,
+    "lon": 23.9211443,
+    "displayName": "Viada, 54, Karaliaus Mindaugo pr., Karmelitai, Centro seniūnija, Kaunas, Kauno miesto savivaldybė, Kauno apskritis, 44351, Lietuva",
+    "updatedAt": "2026-04-09T06:44:45.930Z",
+    "query": "Karaliaus Mindaugo pr. 54, Kaunas, Lietuva"
+  },
+  "marijampoles pl. 29, kaunas": {
+    "lat": 54.8495446,
+    "lon": 23.967082,
+    "displayName": "Viada, 29, Marijampolės pl., Prendzeliava, Panemunės seniūnija, Kaunas, Kauno miesto savivaldybė, Kauno apskritis, 46147, Lietuva",
+    "updatedAt": "2026-04-09T06:44:47.147Z",
+    "query": "Marijampolės pl. 29, Kaunas, Lietuva"
+  },
+  "miezenu g. 18, kaunas": {
+    "lat": 54.9176824,
+    "lon": 23.8630548,
+    "displayName": "Viada, 18, Miežėnų g., Smėliai, Šilainių seniūnija, Kaunas, Kauno miesto savivaldybė, Kauno apskritis, 47115, Lietuva",
+    "updatedAt": "2026-04-09T06:44:48.899Z",
+    "query": "Miežėnų g. 18, Kaunas, Lietuva"
+  },
+  "p. luksio g. 66a, kaunas": {
+    "lat": 54.9249064,
+    "lon": 23.9423227,
+    "displayName": "Viada, 66A, P. Lukšio g., Kalniečiai, Eigulių seniūnija, Kaunas, Kauno miesto savivaldybė, Kauno apskritis, 50114, Lietuva",
+    "updatedAt": "2026-04-09T06:44:50.201Z",
+    "query": "P. Lukšio g. 66A, Kaunas, Lietuva"
+  },
+  "pramones pr. 44, kaunas": {
+    "lat": 54.9272209,
+    "lon": 23.9747862,
+    "displayName": "Viada, 44, Pramonės pr., Dainava, Dainavos seniūnija, Kaunas, Kauno miesto savivaldybė, Kauno apskritis, 50302, Lietuva",
+    "updatedAt": "2026-04-09T06:44:51.461Z",
+    "query": "Pramonės pr. 44, Kaunas, Lietuva"
+  },
+  "raudondvario pl. 288, kaunas": {
+    "lat": 54.9213913,
+    "lon": 23.8105362,
+    "displayName": "Viada, 288, Raudondvario pl., Žemutiniai Kaniūkai, Vilijampolės seniūnija, Kaunas, Kauno miesto savivaldybė, Kauno apskritis, 47164, Lietuva",
+    "updatedAt": "2026-04-09T06:44:52.827Z",
+    "query": "Raudondvario pl. 288, Kaunas, Lietuva"
+  },
+  "statybininku g. 3a, kaunas": {
+    "lat": 54.9201003,
+    "lon": 23.9487458,
+    "displayName": "Viada, 3A, Statybininkų g., Žaliakalnio seniūnija, Kaunas, Kauno miesto savivaldybė, Kauno apskritis, 50118, Lietuva",
+    "updatedAt": "2026-04-09T06:44:54.064Z",
+    "query": "Statybininkų g. 3A, Kaunas, Lietuva"
+  },
+  "t. masiulio g. 22b, kaunas": {
+    "lat": 54.8809124,
+    "lon": 24.0097867,
+    "displayName": "Viada, 22B, T. Masiulio g., Pažaislis, Petrašiūnų seniūnija, Kaunas, Kauno miesto savivaldybė, Kauno apskritis, 52460, Lietuva",
+    "updatedAt": "2026-04-09T06:44:55.428Z",
+    "query": "T. Masiulio g. 22B, Kaunas, Lietuva"
+  },
+  "veiveriu g. 117, kaunas": {
+    "lat": 54.8664488,
+    "lon": 23.8894647,
+    "displayName": "Viada, 117, Veiverių g., Julijanava, Aleksoto seniūnija, Kaunas, Kauno miesto savivaldybė, Kauno apskritis, 46386, Lietuva",
+    "updatedAt": "2026-04-09T06:44:56.770Z",
+    "query": "Veiverių g. 117, Kaunas, Lietuva"
+  },
+  "veiveriu g. 124b, kaunas": {
+    "lat": 54.8833359,
+    "lon": 23.893637,
+    "displayName": "Viada, 124B, Veiverių g., Aleksotas, Aleksoto seniūnija, Kaunas, Kauno miesto savivaldybė, Kauno apskritis, 46272, Lietuva",
+    "updatedAt": "2026-04-09T06:44:58.027Z",
+    "query": "Veiverių g. 124B, Kaunas, Lietuva"
+  },
+  "margavos k.": {
+    "lat": 54.9562121,
+    "lon": 23.9531478,
+    "displayName": "Margavos g., Kleboniškis, Eigulių seniūnija, Kaunas, Kauno miesto savivaldybė, Kauno apskritis, 44104, Lietuva",
+    "updatedAt": "2026-04-09T06:45:02.644Z",
+    "query": "Margavos k., Lietuva"
+  },
+  "vytauto g. 20a, zapyskis": {
+    "lat": 54.9270913,
+    "lon": 23.6619908,
+    "displayName": "Viada, 20A, Vytauto g., Zapyškis, Zapyškio seniūnija, Kauno rajono savivaldybė, Kauno apskritis, 53419, Lietuva",
+    "updatedAt": "2026-04-09T06:45:06.882Z",
+    "query": "Vytauto g. 20A, Zapyškis, Lietuva"
+  },
+  "tilto g. 2a, dotnuva": {
+    "lat": 55.374726,
+    "lon": 23.8807876,
+    "displayName": "Viada, 2A, Tilto g., Dotnuva, Dotnuvos seniūnija, Kėdainių rajono savivaldybė, Kauno apskritis, 58374, Lietuva",
+    "updatedAt": "2026-04-09T06:45:10.969Z",
+    "query": "Tilto g. 2A, Dotnuva, Lietuva"
+  },
+  "taikos pr. 70a-1, klaipeda": {
+    "lat": 55.6848499,
+    "lon": 21.1607125,
+    "displayName": "Taikos pr., Pamarys, Gedminai, Klaipėda, Klaipėdos miesto savivaldybė, Klaipėdos apskritis, 94113, Lietuva",
+    "updatedAt": "2026-04-09T06:45:12.268Z",
+    "query": "Taikos pr. 70A-1, Klaipėda, Lietuva"
+  },
+  "liepojos g. 242, klaipeda": {
+    "lat": 55.7538813,
+    "lon": 21.1313388,
+    "displayName": "Viada, 242, Liepojos g., Šarlotės dvaras, Labrenciškės, Klaipėda, Klaipėdos miesto savivaldybė, Klaipėdos apskritis, 92330, Lietuva",
+    "updatedAt": "2026-04-09T06:45:13.733Z",
+    "query": "Liepojos g. 242, Klaipėda, Lietuva"
+  },
+  "nemuno g. 139, klaipeda": {
+    "lat": 55.6738191,
+    "lon": 21.1481499,
+    "displayName": "139, Nemuno g., Žvejybos uostas, Žvejų sodyba, Gedminai, Klaipėda, Klaipėdos miesto savivaldybė, Klaipėdos apskritis, 93262, Lietuva",
+    "updatedAt": "2026-04-09T06:45:15.035Z",
+    "query": "Nemuno g. 139, Klaipėda, Lietuva"
+  },
+  "priestocio g. 28, klaipeda": {
+    "lat": 55.7192745,
+    "lon": 21.1411712,
+    "displayName": "Viada, 28, Priestočio g., Kretinga, Naujamiestis, Centras, Klaipėda, Klaipėdos miesto savivaldybė, Klaipėdos apskritis, 92228, Lietuva",
+    "updatedAt": "2026-04-09T06:45:16.795Z",
+    "query": "Priestočio g. 28, Klaipėda, Lietuva"
+  },
+  "silutes pl. 52, klaipeda": {
+    "lat": 55.6817397,
+    "lon": 21.1851383,
+    "displayName": "Viada, 52, Šilutės pl., Naujadvaris, Gedminai, Klaipėda, Klaipėdos miesto savivaldybė, Klaipėdos apskritis, 94181, Lietuva",
+    "updatedAt": "2026-04-09T06:45:18.367Z",
+    "query": "Šilutės pl. 52, Klaipėda, Lietuva"
+  },
+  "klaipedos g. 1a, kretingale": {
+    "lat": 55.8275144,
+    "lon": 21.1849852,
+    "displayName": "Viada, 1A, Klaipėdos g., Kretingalė, Kretingalės seniūnija, Klaipėdos rajono savivaldybė, Klaipėdos apskritis, 96330, Lietuva",
+    "updatedAt": "2026-04-09T06:45:19.589Z",
+    "query": "Klaipėdos g. 1A, Kretingalė, Lietuva"
+  },
+  "vilniaus pl. 65, gargzdai": {
+    "lat": 55.7321931,
+    "lon": 21.3761937,
+    "displayName": "Viada, 65, Vilniaus pl., Gargždai, Dauparų-Kvietinių seniūnija, Klaipėdos rajono savivaldybė, Klaipėdos apskritis, 96105, Lietuva",
+    "updatedAt": "2026-04-09T06:45:22.167Z",
+    "query": "Vilniaus pl. 65, Gargždai, Lietuva"
+  },
+  "vytauto g. 163, kretinga": {
+    "lat": 55.890563,
+    "lon": 21.2782725,
+    "displayName": "Viada, 163, Vytauto g., Kretinga, Kretingos miesto seniūnija, Kretingos rajono savivaldybė, Klaipėdos apskritis, 97159, Lietuva",
+    "updatedAt": "2026-04-09T06:45:24.750Z",
+    "query": "Vytauto g. 163, Kretinga, Lietuva"
+  },
+  "pergales g. 15, kupiskis": {
+    "lat": 55.8445747,
+    "lon": 24.9789992,
+    "displayName": "Viada, 15, Pergalės g., Kupiškis, Kupiškio seniūnija, Kupiškio rajono savivaldybė, Panevėžio apskritis, 40109, Lietuva",
+    "updatedAt": "2026-04-09T06:45:27.306Z",
+    "query": "Pergalės g. 15, Kupiškis, Lietuva"
+  },
+  "turistu g. 32, lazdijai": {
+    "lat": 54.2286056,
+    "lon": 23.5281023,
+    "displayName": "32, Turistų g., Lazdijai, Lazdijų miesto seniūnija, Lazdijų rajono savivaldybė, Alytaus apskritis, 67101, Lietuva",
+    "updatedAt": "2026-04-09T06:45:28.687Z",
+    "query": "Turistų g. 32, Lazdijai, Lietuva"
+  },
+  "j. ambrazeviciaus-brazaicio g. 2, marijampole": {
+    "lat": 54.567734,
+    "lon": 23.3393257,
+    "displayName": "Viada, 2, J. Ambrazevičiaus-Brazaičio g., Mokolai, Marijampolė, Marijampolės savivaldybė, Marijampolės apskritis, 68160, Lietuva",
+    "updatedAt": "2026-04-09T06:45:30.118Z",
+    "query": "J. Ambrazevičiaus-Brazaičio g. 2, Marijampolė, Lietuva"
+  },
+  "gelezinkelio g. 5, marijampole": {
+    "lat": 54.5543671,
+    "lon": 23.3623615,
+    "displayName": "Viada, 5, Geležinkelio g., Draugystė, Marijampolė, Marijampolės savivaldybė, Marijampolės apskritis, 68304, Lietuva",
+    "updatedAt": "2026-04-09T06:45:31.478Z",
+    "query": "Geležinkelio g. 5, Marijampolė, Lietuva"
+  },
+  "montuotoju g. 2a, mazeikiai": {
+    "lat": 56.3155908,
+    "lon": 22.3027474,
+    "displayName": "2A, Montuotojų g., Mažeikiai, Mažeikių seniūnija, Mažeikių rajono savivaldybė, Telšių apskritis, 89101, Lietuva",
+    "updatedAt": "2026-04-09T06:45:32.799Z",
+    "query": "Montuotojų g. 2A, Mažeikiai, Lietuva"
+  },
+  "zemaitijos g. 75, mazeikiai": {
+    "lat": 56.3003937,
+    "lon": 22.3606684,
+    "displayName": "Viada, 75, Žemaitijos g., Mažeikiai, Mažeikių seniūnija, Mažeikių rajono savivaldybė, Telšių apskritis, 89238, Lietuva",
+    "updatedAt": "2026-04-09T06:45:34.141Z",
+    "query": "Žemaitijos g. 75, Mažeikiai, Lietuva"
+  },
+  "vilniaus g. 101, moletai": {
+    "lat": 55.2228435,
+    "lon": 25.4045087,
+    "displayName": "101, Vilniaus g., Molėtai, Luokesos seniūnija, Molėtų rajono savivaldybė, Utenos apskritis, 33116, Lietuva",
+    "updatedAt": "2026-04-09T06:45:36.759Z",
+    "query": "Vilniaus g. 101, Molėtai, Lietuva"
+  },
+  "vytauto didziojo g. 98, pakruojis": {
+    "lat": 55.9804581,
+    "lon": 23.8579672,
+    "displayName": "Viada, 98, Vytauto Didžiojo g., Pakruojis, Pakruojo seniūnija, Pakruojo rajono savivaldybė, Šiaulių apskritis, 83128, Lietuva",
+    "updatedAt": "2026-04-09T06:45:38.017Z",
+    "query": "Vytauto Didžiojo g. 98, Pakruojis, Lietuva"
+  },
+  "j. janonio g. 28a, panevezys": {
+    "lat": 55.7388746,
+    "lon": 24.3101357,
+    "displayName": "Viada, 28A, J. Janonio g., Pagojys, Panevėžys, Panevėžio miesto savivaldybė, Panevėžio apskritis, 35289, Lietuva",
+    "updatedAt": "2026-04-09T06:45:39.297Z",
+    "query": "J. Janonio g. 28A, Panevėžys, Lietuva"
+  },
+  "navadolio g. 31, panevezys": {
+    "lat": 55.714597,
+    "lon": 24.3351417,
+    "displayName": "31, Navadolio g., Panevėžys, Panevėžio miesto savivaldybė, Panevėžio apskritis, 36252, Lietuva",
+    "updatedAt": "2026-04-09T06:45:40.723Z",
+    "query": "Navadolio g. 31, Panevėžys, Lietuva"
+  },
+  "pusaloto g. 193a, panevezys": {
+    "lat": 55.7531878,
+    "lon": 24.3120183,
+    "displayName": "Baltic Petroleum, 193A, Pušaloto g., Panevėžys, Panevėžio miesto savivaldybė, Panevėžio apskritis, 35291, Lietuva",
+    "updatedAt": "2026-04-09T06:45:42.004Z",
+    "query": "Pušaloto g. 193A, Panevėžys, Lietuva"
+  },
+  "ramygalos g. 155, panevezys": {
+    "lat": 55.7040549,
+    "lon": 24.3811573,
+    "displayName": "Kvistija, 155, Ramygalos g., Panevėžys, Panevėžio miesto savivaldybė, Panevėžio apskritis, 36255, Lietuva",
+    "updatedAt": "2026-04-09T06:45:43.372Z",
+    "query": "Ramygalos g. 155, Panevėžys, Lietuva"
+  },
+  "ramygalos g. 186g, panevezys": {
+    "lat": 55.7090681,
+    "lon": 24.3733489,
+    "displayName": "Viada, 186G, Ramygalos g., Panevėžys, Panevėžio miesto savivaldybė, Panevėžio apskritis, 36255, Lietuva",
+    "updatedAt": "2026-04-09T06:45:44.631Z",
+    "query": "Ramygalos g. 186G, Panevėžys, Lietuva"
+  },
+  "senamiescio g. 116a, panevezys": {
+    "lat": 55.7485748,
+    "lon": 24.3932637,
+    "displayName": "Viada, 116A, Senamiesčio g., Panevėžys, Panevėžio miesto savivaldybė, Panevėžio apskritis, 35115, Lietuva",
+    "updatedAt": "2026-04-09T06:45:46.001Z",
+    "query": "Senamiesčio g. 116A, Panevėžys, Lietuva"
+  },
+  "venslaviskio g. 16, panevezys": {
+    "lat": 55.7368227,
+    "lon": 24.3871183,
+    "displayName": "Viada, 16, Venslaviškio g., Senamiestis, Panevėžys, Panevėžio miesto savivaldybė, Panevėžio apskritis, 35116, Lietuva",
+    "updatedAt": "2026-04-09T06:45:47.237Z",
+    "query": "Venslaviškio g. 16, Panevėžys, Lietuva"
+  },
+  "tilto g. 35, krekenava": {
+    "lat": 55.541321,
+    "lon": 24.1029648,
+    "displayName": "Tilto g., Krekenava, Krekenavos seniūnija, Panevėžio rajono savivaldybė, Panevėžio apskritis, 38311, Lietuva",
+    "updatedAt": "2026-04-09T06:45:51.346Z",
+    "query": "Tilto g. 35, Krekenava, Lietuva"
+  },
+  "vienkiemio g. 1b, ramygala": {
+    "lat": 55.5211854,
+    "lon": 24.3126597,
+    "displayName": "Viada, 1B, Vienkiemio g., Ramygala, Ramygalos seniūnija, Panevėžio rajono savivaldybė, Panevėžio apskritis, 38261, Lietuva",
+    "updatedAt": "2026-04-09T06:45:52.627Z",
+    "query": "Vienkiemio g. 1B, Ramygala, Lietuva"
+  },
+  "vilniaus g. 50, pasvalys": {
+    "lat": 56.0559385,
+    "lon": 24.407185,
+    "displayName": "Viada, 50, Vilniaus g., Pasvalys, Pasvalio miesto seniūnija, Pasvalio rajono savivaldybė, Panevėžio apskritis, 39177, Lietuva",
+    "updatedAt": "2026-04-09T06:45:55.264Z",
+    "query": "Vilniaus g. 50, Pasvalys, Lietuva"
+  },
+  "j. tumo-vaizganto g. 102, plunge": {
+    "lat": 55.9030642,
+    "lon": 21.8302735,
+    "displayName": "Viada, 102, J. Tumo-Vaižganto g., Plungė, Plungės miesto seniūnija, Plungės rajono savivaldybė, Telšių apskritis, 90142, Lietuva",
+    "updatedAt": "2026-04-09T06:45:56.625Z",
+    "query": "J. Tumo-Vaižganto g. 102, Plungė, Lietuva"
+  },
+  "zaltakalnio g. 10, plunge": {
+    "lat": 55.8982917,
+    "lon": 21.8398638,
+    "displayName": "Viada, 10, Žaltakalnio g., Plungė, Plungės miesto seniūnija, Plungės rajono savivaldybė, Telšių apskritis, 90143, Lietuva",
+    "updatedAt": "2026-04-09T06:45:57.862Z",
+    "query": "Žaltakalnio g. 10, Plungė, Lietuva"
+  },
+  "grigaliunu k. 11": {
+    "lat": 55.1517852,
+    "lon": 26.1308705,
+    "displayName": "Grigaliūnų g., Grigaliūnai, Švenčionių seniūnija, Švenčionių rajono savivaldybė, Vilniaus apskritis, 18100, Lietuva",
+    "updatedAt": "2026-04-09T06:45:59.201Z",
+    "query": "Grigaliūnų k. 11, Lietuva"
+  },
+  "vejuku k. 5": {
+    "lat": 55.3942341,
+    "lon": 22.9071636,
+    "displayName": "Vėjukų g., Numgaliai, Viduklės seniūnija, Raseinių rajono savivaldybė, Kauno apskritis, 60346, Lietuva",
+    "updatedAt": "2026-04-09T06:46:01.902Z",
+    "query": "Vejukų k. 5, Lietuva"
+  },
+  "panevezio g. 5, rokiskis": {
+    "lat": 55.9444281,
+    "lon": 25.5855631,
+    "displayName": "Viada, 5, Panevėžio g., Rokiškis, Rokiškio miesto seniūnija, Rokiškio rajono savivaldybė, Panevėžio apskritis, 42163, Lietuva",
+    "updatedAt": "2026-04-09T06:46:03.242Z",
+    "query": "Panevėžio g. 5, Rokiškis, Lietuva"
+  },
+  "zemaites g. 2c, rokiskis": {
+    "lat": 55.9342668,
+    "lon": 25.5856468,
+    "displayName": "Viada, 2C, Žemaitės g., Rokiškis, Rokiškio miesto seniūnija, Rokiškio rajono savivaldybė, Panevėžio apskritis, 42164, Lietuva",
+    "updatedAt": "2026-04-09T06:46:04.583Z",
+    "query": "Žemaitės g. 2C, Rokiškis, Lietuva"
+  },
+  "lydos g. 13, jasiunai": {
+    "lat": 54.4395641,
+    "lon": 25.3273302,
+    "displayName": "Viada, 13, Lydos g., Keturiai, Jašiūnai, Jašiūnų seniūnija, Šalčininkų rajono savivaldybė, Vilniaus apskritis, 30132, Lietuva",
+    "updatedAt": "2026-04-09T06:46:06.339Z",
+    "query": "Lydos g. 13, Jašiūnai, Lietuva"
+  },
+  "dubijos g. 1c, siauliai": {
+    "lat": 55.9263962,
+    "lon": 23.3076339,
+    "displayName": "Viada, 1C, Dubijos g., Senamiestis, Šiauliai, Šiaulių miesto savivaldybė, Šiaulių apskritis, 77158, Lietuva",
+    "updatedAt": "2026-04-09T06:46:07.576Z",
+    "query": "Dubijos g. 1C, Šiauliai, Lietuva"
+  },
+  "geguziu g. 26, siauliai": {
+    "lat": 55.9053537,
+    "lon": 23.2601708,
+    "displayName": "26, Gegužių g., Senieji Dainai, Lieporiai, Šiauliai, Šiaulių miesto savivaldybė, Šiaulių apskritis, 78348, Lietuva",
+    "updatedAt": "2026-04-09T06:46:09.064Z",
+    "query": "Gegužių g. 26, Šiauliai, Lietuva"
+  },
+  "j. basanaviciaus g. 122a, siauliai": {
+    "lat": 55.9546397,
+    "lon": 23.3162373,
+    "displayName": "Viada, 122A, J. Basanavičiaus g., Gubernija, Šiauliai, Šiaulių miesto savivaldybė, Šiaulių apskritis, 76161, Lietuva",
+    "updatedAt": "2026-04-09T06:46:10.384Z",
+    "query": "J. Basanavičiaus g. 122A, Šiauliai, Lietuva"
+  },
+  "tilzes g. 274, siauliai": {
+    "lat": 55.9441123,
+    "lon": 23.3313703,
+    "displayName": "Viada, 274, Tilžės g., Kalniukas, Šiauliai, Šiaulių miesto savivaldybė, Šiaulių apskritis, 76201, Lietuva",
+    "updatedAt": "2026-04-09T06:46:11.748Z",
+    "query": "Tilžės g. 274, Šiauliai, Lietuva"
+  },
+  "uzmiescio g. 2, siauliai": {
+    "lat": 55.9225031,
+    "lon": 23.3579554,
+    "displayName": "Viada, 2, Užmiesčio g., Zokniai, Šiauliai, Šiaulių miesto savivaldybė, Šiaulių apskritis, 76273, Lietuva",
+    "updatedAt": "2026-04-09T06:46:12.985Z",
+    "query": "Užmiesčio g. 2, Šiauliai, Lietuva"
+  },
+  "draugystes g. 2, kuziai": {
+    "lat": 55.9790957,
+    "lon": 23.1362281,
+    "displayName": "Viada, 2, Draugystės g., Kužiai, Kužių seniūnija, Šiaulių rajono savivaldybė, Šiaulių apskritis, 80269, Lietuva",
+    "updatedAt": "2026-04-09T06:46:14.224Z",
+    "query": "Draugystės g. 2, Kužiai, Lietuva"
+  },
+  "vilniaus g. 38a, kursenai": {
+    "lat": 55.9998764,
+    "lon": 22.9476558,
+    "displayName": "Viada, 38A, Vilniaus g., Kuršėnai, Kuršėnų miesto seniūnija, Šiaulių rajono savivaldybė, Šiaulių apskritis, 81136, Lietuva",
+    "updatedAt": "2026-04-09T06:46:16.847Z",
+    "query": "Vilniaus g. 38A, Kuršėnai, Lietuva"
+  },
+  "tilzes g. 59, silute": {
+    "lat": 55.3430637,
+    "lon": 21.4967445,
+    "displayName": "59, Tilžės g., Šilutė, Šilutės seniūnija, Šilutės rajono savivaldybė, Klaipėdos apskritis, 99168, Lietuva",
+    "updatedAt": "2026-04-09T06:46:19.380Z",
+    "query": "Tilžės g. 59, Šilutė, Lietuva"
+  },
+  "plento g. 4, sirvintos": {
+    "lat": 55.0458526,
+    "lon": 24.9427122,
+    "displayName": "Viada, 4, Plento g., Širvintos, Širvintų miesto seniūnija, Širvintų rajono savivaldybė, Vilniaus apskritis, 19132, Lietuva",
+    "updatedAt": "2026-04-09T06:46:21.135Z",
+    "query": "Plento g. 4, Širvintos, Lietuva"
+  },
+  "vilniaus g. 50, skuodas": {
+    "lat": 56.2700001,
+    "lon": 21.5471476,
+    "displayName": "Viada, 50, Vilniaus g., Skuodas, Skuodo miesto seniūnija, Skuodo rajono savivaldybė, Klaipėdos apskritis, 98119, Lietuva",
+    "updatedAt": "2026-04-09T06:46:22.456Z",
+    "query": "Vilniaus g. 50, Skuodas, Lietuva"
+  },
+  "utenos g. 1, kaltanenai": {
+    "lat": 55.255132,
+    "lon": 25.990569,
+    "displayName": "Viada, 1, Utenos g., Kaltanėnai, Kaltanėnų seniūnija, Švenčionių rajono savivaldybė, Vilniaus apskritis, 18239, Lietuva",
+    "updatedAt": "2026-04-09T06:46:23.712Z",
+    "query": "Utenos g. 1, Kaltanėnai, Lietuva"
+  },
+  "vilniaus g. 116b, pabrade": {
+    "lat": 54.9750979,
+    "lon": 25.7448545,
+    "displayName": "Viada, 116B, Vilniaus g., Pabradė, Pabradės seniūnija, Švenčionių rajono savivaldybė, Vilniaus apskritis, 18179, Lietuva",
+    "updatedAt": "2026-04-09T06:46:25.074Z",
+    "query": "Vilniaus g. 116B, Pabradė, Lietuva"
+  },
+  "vilniaus g. 50a, svencionys": {
+    "lat": 55.1254406,
+    "lon": 26.145315,
+    "displayName": "Viada, 50A, Vilniaus g., Švenčionys, Švenčionių seniūnija, Švenčionių rajono savivaldybė, Vilniaus apskritis, 18123, Lietuva",
+    "updatedAt": "2026-04-09T06:46:26.442Z",
+    "query": "Vilniaus g. 50A, Švenčionys, Lietuva"
+  },
+  "zemutine g. 51a, svencioneliai": {
+    "lat": 55.168506,
+    "lon": 26.015157,
+    "displayName": "51A, Žemutinė g., Švenčionėliai, Švenčionėlių seniūnija, Švenčionių rajono savivaldybė, Vilniaus apskritis, 18211, Lietuva",
+    "updatedAt": "2026-04-09T06:46:27.829Z",
+    "query": "Žemutinė g. 51A, Švenčionėliai, Lietuva"
+  },
+  "dariaus ir gireno g. 138a, taurage": {
+    "lat": 55.266248,
+    "lon": 22.3107681,
+    "displayName": "138A, Dariaus ir Girėno g., Beržės, Tauragė, Tauragės miesto seniūnija, Tauragės rajono savivaldybė, Tauragės apskritis, 72193, Lietuva",
+    "updatedAt": "2026-04-09T06:46:29.169Z",
+    "query": "Dariaus ir Girėno g. 138A, Tauragė, Lietuva"
+  },
+  "pramones g. 1, taurage": {
+    "lat": 55.2408142,
+    "lon": 22.3052542,
+    "displayName": "Viada, 1, Pramonės g., Žalgiriai, Tauragė, Tauragės miesto seniūnija, Tauragės rajono savivaldybė, Tauragės apskritis, 72359, Lietuva",
+    "updatedAt": "2026-04-09T06:46:30.426Z",
+    "query": "Pramonės g. 1, Tauragė, Lietuva"
+  },
+  "pramones g. 2a, telsiai": {
+    "lat": 55.9933503,
+    "lon": 22.2401557,
+    "displayName": "2A, Pramonės g., Senamiestis, Telšiai, Telšių miesto seniūnija, Telšių rajono savivaldybė, Telšių apskritis, 87102, Lietuva",
+    "updatedAt": "2026-04-09T06:46:31.832Z",
+    "query": "Pramonės g. 2A, Telšiai, Lietuva"
+  },
+  "ziedo g. 15, ukmerge": {
+    "lat": 55.2461826,
+    "lon": 24.7431883,
+    "displayName": "Viada, 15, Žiedo g., Šlapiai, Ukmergė, Ukmergės miesto seniūnija, Ukmergės rajono savivaldybė, Vilniaus apskritis, 20127, Lietuva",
+    "updatedAt": "2026-04-09T06:46:37.939Z",
+    "query": "Žiedo g. 15, Ukmergė, Lietuva"
+  },
+  "metalo g. 8, utena": {
+    "lat": 55.4969921,
+    "lon": 25.6307847,
+    "displayName": "Viada, 8, Metalo g., Pramonės rajonas, Utena, Utenos miesto seniūnija, Utenos rajono savivaldybė, Utenos apskritis, 28217, Lietuva",
+    "updatedAt": "2026-04-09T06:46:39.281Z",
+    "query": "Metalo g. 8, Utena, Lietuva"
+  },
+  "pramones g. 23, utena": {
+    "lat": 55.4901207,
+    "lon": 25.6503434,
+    "displayName": "23, Pramonės g., Pramonės rajonas, Utena, Utenos miesto seniūnija, Utenos rajono savivaldybė, Utenos apskritis, 28119, Lietuva",
+    "updatedAt": "2026-04-09T06:46:40.539Z",
+    "query": "Pramonės g. 23, Utena, Lietuva"
+  },
+  "vilniaus g. 6, valkininkai": {
+    "lat": 54.3646477,
+    "lon": 24.8372767,
+    "displayName": "Viada, 6, Vilniaus g., Valkininkai, Valkininkų seniūnija, Varėnos rajono savivaldybė, Alytaus apskritis, 65438, Lietuva",
+    "updatedAt": "2026-04-09T06:46:43.080Z",
+    "query": "Vilniaus g. 6, Valkininkai, Lietuva"
+  },
+  "vytauto g. 105, vilkaviskis": {
+    "lat": 54.6476043,
+    "lon": 23.0292462,
+    "displayName": "Viada, 105, Vytauto g., Vilkaviškis, Vilkaviškio miesto seniūnija, Vilkaviškio rajono savivaldybė, Marijampolės apskritis, 70118, Lietuva",
+    "updatedAt": "2026-04-09T06:46:44.381Z",
+    "query": "Vytauto g. 105, Vilkaviškis, Lietuva"
+  },
+  "ateities g. 17b, vilnius": {
+    "lat": 54.7357486,
+    "lon": 25.2584251,
+    "displayName": "Viada, 17B, Ateities g., Fabijoniškės, Fabijoniškių seniūnija, Vilnius, Vilniaus miesto savivaldybė, Vilniaus apskritis, 08303, Lietuva",
+    "updatedAt": "2026-04-09T06:46:45.869Z",
+    "query": "Ateities g. 17B, Vilnius, Lietuva"
+  },
+  "dariaus ir gireno g. 30a, vilnius": {
+    "lat": 54.6529651,
+    "lon": 25.2722027,
+    "displayName": "Viada, 30A, Dariaus ir Girėno g., Naujininkai, Naujininkų seniūnija, Vilnius, Vilniaus miesto savivaldybė, Vilniaus apskritis, 02169, Lietuva",
+    "updatedAt": "2026-04-09T06:46:47.294Z",
+    "query": "Dariaus ir Girėno g. 30A, Vilnius, Lietuva"
+  },
+  "gariunu g. 16a, vilnius": {
+    "lat": 54.6673496,
+    "lon": 25.1738401,
+    "displayName": "Viada, 16A, Gariūnų g., Jočionys, Panerių seniūnija, Vilnius, Vilniaus miesto savivaldybė, Vilniaus apskritis, 02300, Lietuva",
+    "updatedAt": "2026-04-09T06:46:48.576Z",
+    "query": "Gariūnų g. 16A, Vilnius, Lietuva"
+  },
+  "justiniskiu g. 12, vilnius": {
+    "lat": 54.7031393,
+    "lon": 25.2194217,
+    "displayName": "12, Justiniškių g., Viršuliškės, Viršuliškių seniūnija, Vilnius, Vilniaus miesto savivaldybė, Vilniaus apskritis, 05131, Lietuva",
+    "updatedAt": "2026-04-09T06:46:49.863Z",
+    "query": "Justiniškių g. 12, Vilnius, Lietuva"
+  },
+  "kirtimu g. 29, vilnius": {
+    "lat": 54.633282,
+    "lon": 25.1507158,
+    "displayName": "Viada, 29, Kirtimų g., Panerių seniūnija, Vilnius, Vilniaus miesto savivaldybė, Vilniaus apskritis, 02244, Lietuva",
+    "updatedAt": "2026-04-09T06:46:51.204Z",
+    "query": "Kirtimų g. 29, Vilnius, Lietuva"
+  },
+  "laisves pr. 8, vilnius": {
+    "lat": 54.6742091,
+    "lon": 25.222726,
+    "displayName": "Viada, 8, Laisvės pr., Miškiniai, Lazdynų seniūnija, Vilnius, Vilniaus miesto savivaldybė, Vilniaus apskritis, 04215, Lietuva",
+    "updatedAt": "2026-04-09T06:46:52.506Z",
+    "query": "Laisvės pr. 8, Vilnius, Lietuva"
+  },
+  "liepkalnio g. 128a, vilnius": {
+    "lat": 54.6474889,
+    "lon": 25.3040772,
+    "displayName": "Viada, 128A, Liepkalnio g., Kuprioniškės, Rasų seniūnija, Vilnius, Vilniaus miesto savivaldybė, Vilniaus apskritis, 02121, Lietuva",
+    "updatedAt": "2026-04-09T06:46:53.764Z",
+    "query": "Liepkalnio g. 128A, Vilnius, Lietuva"
+  },
+  "naugarduko g. 74, vilnius": {
+    "lat": 54.6711189,
+    "lon": 25.2622548,
+    "displayName": "Viada, 74, Naugarduko g., Naujamiestis, Naujamiesčio seniūnija, Vilnius, Vilniaus miesto savivaldybė, Vilniaus apskritis, 03203, Lietuva",
+    "updatedAt": "2026-04-09T06:46:55.044Z",
+    "query": "Naugarduko g. 74, Vilnius, Lietuva"
+  },
+  "nemencines pl. 5, vilnius": {
+    "lat": 54.726339,
+    "lon": 25.3265596,
+    "displayName": "Viada, 5, Nemenčinės pl., Saulėtekis, Antakalnio seniūnija, Vilnius, Vilniaus miesto savivaldybė, Vilniaus apskritis, 10105, Lietuva",
+    "updatedAt": "2026-04-09T06:46:56.345Z",
+    "query": "Nemenčinės pl. 5, Vilnius, Lietuva"
+  },
+  "olandu g. 57, vilnius": {
+    "lat": 54.6819306,
+    "lon": 25.3140091,
+    "displayName": "Viada, 57, Olandų g., Senamiesčio seniūnija, Vilnius, Vilniaus miesto savivaldybė, Vilniaus apskritis, 01205, Lietuva",
+    "updatedAt": "2026-04-09T06:46:58.100Z",
+    "query": "Olandų g. 57, Vilnius, Lietuva"
+  },
+  "ozo g. 12, vilnius": {
+    "lat": 54.7137984,
+    "lon": 25.2770784,
+    "displayName": "Viada, 12, Ozo g., Verkių seniūnija, Vilnius, Vilniaus miesto savivaldybė, Vilniaus apskritis, 08200, Lietuva",
+    "updatedAt": "2026-04-09T06:46:59.960Z",
+    "query": "Ozo g. 12, Vilnius, Lietuva"
+  },
+  "pilaites pr. 13, vilnius": {
+    "lat": 54.7030486,
+    "lon": 25.2041172,
+    "displayName": "Viada, 13, Pilaitės pr., Senoji Pilaitė, Pilaitės seniūnija, Vilnius, Vilniaus miesto savivaldybė, Vilniaus apskritis, 06264, Lietuva",
+    "updatedAt": "2026-04-09T06:47:02.323Z",
+    "query": "Pilaitės pr. 13, Vilnius, Lietuva"
+  },
+  "pilaites pr. 28, vilnius": {
+    "lat": 54.7014526,
+    "lon": 25.2032929,
+    "displayName": "28, Pilaitės pr., Senoji Pilaitė, Pilaitės seniūnija, Vilnius, Vilniaus miesto savivaldybė, Vilniaus apskritis, 06264, Lietuva",
+    "updatedAt": "2026-04-09T06:47:03.664Z",
+    "query": "Pilaitės pr. 28, Vilnius, Lietuva"
+  },
+  "saltoniskiu g. 12, vilnius": {
+    "lat": 54.6992459,
+    "lon": 25.2601956,
+    "displayName": "Viada, 12, Saltoniškių g., Saltoniškės, Žvėryno seniūnija, Vilnius, Vilniaus miesto savivaldybė, Vilniaus apskritis, 08105, Lietuva",
+    "updatedAt": "2026-04-09T06:47:04.927Z",
+    "query": "Saltoniškių g. 12, Vilnius, Lietuva"
+  },
+  "sodu g. 22, vilnius": {
+    "lat": 54.6707057,
+    "lon": 25.2818457,
+    "displayName": "Vilniaus autobusų stotis, 22, Sodų g., Vingriai, Naujamiesčio seniūnija, Vilnius, Vilniaus miesto savivaldybė, Vilniaus apskritis, 03211, Lietuva",
+    "updatedAt": "2026-04-09T06:47:06.482Z",
+    "query": "Sodų g. 22, Vilnius, Lietuva"
+  },
+  "verkiu g. 52, vilnius": {
+    "lat": 54.7203664,
+    "lon": 25.2943022,
+    "displayName": "52, Verkių g., Žirmūnai, Žirmūnų seniūnija, Vilnius, Vilniaus miesto savivaldybė, Vilniaus apskritis, 09109, Lietuva",
+    "updatedAt": "2026-04-09T06:47:07.719Z",
+    "query": "Verkių g. 52, Vilnius, Lietuva"
+  },
+  "vilkpedes g. 2, vilnius": {
+    "lat": 54.6650172,
+    "lon": 25.2464307,
+    "displayName": "Viada, 2, Vilkpėdės g., Vilkpėdės seniūnija, Vilnius, Vilniaus miesto savivaldybė, Vilniaus apskritis, 03151, Lietuva",
+    "updatedAt": "2026-04-09T06:47:08.932Z",
+    "query": "Vilkpėdės g. 2, Vilnius, Lietuva"
+  },
+  "statybininku g. 1, visaginas": {
+    "lat": 55.5945774,
+    "lon": 26.4387145,
+    "displayName": "Viada, 1, Statybininkų g., Visaginas, Visagino savivaldybė, Utenos apskritis, 31137, Lietuva",
+    "updatedAt": "2026-04-09T06:47:12.786Z",
+    "query": "Statybininkų g. 1, Visaginas, Lietuva"
+  },
+  "taikos pr. 23b, visaginas": {
+    "lat": 55.594946,
+    "lon": 26.4563923,
+    "displayName": "Viada, 23B, Taikos pr., Visaginas, Visagino savivaldybė, Utenos apskritis, 31217, Lietuva",
+    "updatedAt": "2026-04-09T06:47:14.162Z",
+    "query": "Taikos pr. 23B, Visaginas, Lietuva"
+  }
+}

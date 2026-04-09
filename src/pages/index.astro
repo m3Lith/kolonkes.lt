@@ -1,17 +1,70 @@
 ---
+import FuelMap from "../components/FuelMap";
+import latest from "../data/latest.json";
+import stationDataset from "../data/stations/latest.json";
+import "../styles/global.css";
 
+const geocodedCount = stationDataset.stations.filter(
+  (station) => station.lat !== null && station.lon !== null,
+).length;
+const unresolvedCount = stationDataset.stations.length - geocodedCount;
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<link rel="icon" href="/favicon.ico" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
+<html lang="lt">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <title>Kuro kainų žemėlapis</title>
+    <style>
+      :root {
+        font-family: Inter, system-ui, -apple-system, sans-serif;
+      }
+      body {
+        margin: 0;
+      }
+      main {
+        padding: 1rem;
+      }
+      h1 {
+        margin: 0 0 0.25rem;
+      }
+      p {
+        margin: 0 0 1rem;
+        color: #334155;
+      }
+      :global(.popup) {
+        min-width: 250px;
+        font-size: 12px;
+      }
+      :global(.popup .date) {
+        margin: 4px 0 8px;
+        color: #475569;
+      }
+      :global(.popup table) {
+        width: 100%;
+        border-collapse: collapse;
+      }
+      :global(.popup td) {
+        border-top: 1px solid #e2e8f0;
+        padding: 3px 0;
+      }
+      :global(.popup td:last-child) {
+        text-align: right;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Degalų kainos Lietuvos degalinėse</h1>
+      <p>
+        Data: <strong>{latest.date}</strong> ·
+        <small>Šaltinis: <a href="https://www.ena.lt/degalu-kainos-degalinese/" target="_blank">VšĮ Lietuvos energetikos agentūra</a></small>
+        <!-- Rodoma degalinių: <strong>{geocodedCount}/{stationDataset.stations.length}</strong> -->
+      </p>
+      <FuelMap client:only="react" dataset={stationDataset} />
+    </main>
+  </body>
 </html>

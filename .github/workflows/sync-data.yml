@@ -1,0 +1,84 @@
+name: Sync Fuel Data
+
+on:
+  schedule:
+    - cron: "0 12 * * *"
+  workflow_dispatch:
+    inputs:
+      date:
+        description: "Date to fetch in YYYY-MM-DD (optional)"
+        required: false
+        type: string
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Resolve target date
+        id: date
+        run: |
+          INPUT_DATE="${{ github.event.inputs.date }}"
+          if [ -n "$INPUT_DATE" ]; then
+            TARGET_DATE="$INPUT_DATE"
+          else
+            TARGET_DATE="$(TZ=Europe/Vilnius date +%F)"
+          fi
+          echo "value=$TARGET_DATE" >> "$GITHUB_OUTPUT"
+
+      - name: Download ENA XLSX
+        id: download
+        run: |
+          DATE_ISO="${{ steps.date.outputs.value }}"
+          YEAR="${DATE_ISO%%-*}"
+          URL="https://www.ena.lt/uploads/${YEAR}-EDAC/dk-degalinese-${YEAR}/DK-${DATE_ISO}.xlsx"
+          DEST="data/DK-${DATE_ISO}.xlsx"
+          mkdir -p data
+          echo "Downloading: $URL"
+          if curl -fL "$URL" -o "$DEST"; then
+            echo "downloaded=true" >> "$GITHUB_OUTPUT"
+            echo "file=$DEST" >> "$GITHUB_OUTPUT"
+          else
+            echo "downloaded=false" >> "$GITHUB_OUTPUT"
+            echo "No source file available for $DATE_ISO, skipping."
+          fi
+
+      - name: Install dependencies
+        if: steps.download.outputs.downloaded == 'true'
+        run: npm ci
+
+      - name: Rebuild data and site
+        if: steps.download.outputs.downloaded == 'true'
+        run: |
+          npm run build:data
+          npm run build
+
+      - name: Remove downloaded spreadsheet
+        if: steps.download.outputs.downloaded == 'true'
+        run: rm -f data/DK-*.xlsx
+
+      - name: Commit and push updates
+        if: steps.download.outputs.downloaded == 'true'
+        run: |
+          if git diff --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/geocode-cache.json data/unresolved-geocodes.json src/data
+          git commit -m "chore(data): sync ENA fuel data for ${{ steps.date.outputs.value }}"
+          git push origin HEAD:main

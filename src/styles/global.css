@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+:root {
+  --z-map: 0;
+  --z-map-controls: 900;
+  --z-map-popups: 950;
+  --z-dropdown: 2000;
+  --z-modal: 3000;
+}
+
+.leaflet-container {
+  z-index: var(--z-map);
+}
+
+.leaflet-control-container {
+  z-index: var(--z-map-controls);
+}
+
+.leaflet-popup {
+  z-index: var(--z-map-popups);
+}

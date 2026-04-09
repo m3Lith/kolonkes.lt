@@ -1,5 +1,5 @@
 {
-  "name": "starry-series",
+  "name": "fuel-map",
   "type": "module",
   "version": "0.0.1",
   "engines": {
@@ -9,9 +9,35 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "import:data": "tsx scripts/build-dataset.ts --mode import",
+    "geocode:data": "tsx scripts/build-dataset.ts --mode geocode",
+    "build:data": "tsx scripts/build-dataset.ts --mode build",
+    "test": "vitest run"
   },
   "dependencies": {
-    "astro": "^6.1.5"
+    "@astrojs/react": "^5.0.3",
+    "@radix-ui/react-dropdown-menu": "^2.1.16",
+    "@radix-ui/react-icons": "^1.3.2",
+    "@tailwindcss/vite": "^4.2.2",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "astro": "^6.1.5",
+    "clsx": "^2.1.1",
+    "leaflet": "^1.9.4",
+    "leaflet.markercluster": "^1.5.3",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "react-leaflet": "^5.0.0",
+    "tailwind-merge": "^3.5.0",
+    "tailwindcss": "^4.2.2",
+    "xlsx": "^0.18.5",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@types/leaflet": "^1.9.21",
+    "@types/leaflet.markercluster": "^1.5.6",
+    "tsx": "^4.21.0",
+    "vitest": "^4.1.3"
   }
 }
