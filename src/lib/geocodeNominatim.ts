@@ -1,5 +1,6 @@
 import fs from 'node:fs/promises'
 import path from 'node:path'
+import { domainToASCII } from 'node:url'
 
 import type { GeocodeCache, GeocodeEntry } from "./types";
 
@@ -7,6 +8,27 @@ const NOMINATIM_URL = "https://nominatim.openstreetmap.org/search";
 
 function sleep(ms: number): Promise<void> {
   return new Promise((resolve) => setTimeout(resolve, ms));
+}
+
+function sanitizeHeaderValue(value: string): string {
+  return value
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/[^\x00-\xff]/g, "");
+}
+
+function normalizeReferer(value: string): string | undefined {
+  try {
+    const parsed = new URL(value);
+    const asciiHost = domainToASCII(parsed.hostname);
+    if (asciiHost) {
+      parsed.hostname = asciiHost;
+    }
+    const safe = sanitizeHeaderValue(parsed.toString());
+    return safe || undefined;
+  } catch {
+    return undefined;
+  }
 }
 
 export async function loadGeocodeCache(
@@ -36,7 +58,10 @@ export async function geocodeWithNominatim(
   queryAddress: string,
   userAgent: string,
 ): Promise<GeocodeEntry | null> {
-  const referer = process.env.NOMINATIM_REFERER ?? "https://kolonkės.lt/";
+  const referer = normalizeReferer(
+    process.env.NOMINATIM_REFERER ?? "https://kolonkės.lt/",
+  );
+  const safeUserAgent = sanitizeHeaderValue(userAgent) || "fuel-map/1.0";
   const url = new URL(NOMINATIM_URL);
   url.searchParams.set("q", queryAddress);
   url.searchParams.set("format", "jsonv2");
@@ -49,12 +74,16 @@ export async function geocodeWithNominatim(
   for (let attempt = 1; attempt <= 3; attempt += 1) {
     let response: Response;
     try {
+      const headers: Record<string, string> = {
+        "User-Agent": safeUserAgent,
+        "Accept-Language": "lt,en",
+      };
+      if (referer) {
+        headers.Referer = referer;
+      }
+
       response = await fetch(url, {
-        headers: {
-          "User-Agent": userAgent,
-          Referer: referer,
-          "Accept-Language": "lt,en",
-        },
+        headers,
         signal: AbortSignal.timeout(15_000),
       });
     } catch (error) {

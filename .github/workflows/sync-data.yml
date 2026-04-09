@@ -46,7 +46,7 @@ jobs:
           YEAR="${DATE_ISO%%-*}"
           URL_LOWER="https://www.ena.lt/uploads/${YEAR}-EDAC/dk-degalinese-${YEAR}/dk-${DATE_ISO}.xlsx"
           URL_UPPER="https://www.ena.lt/uploads/${YEAR}-EDAC/dk-degalinese-${YEAR}/DK-${DATE_ISO}.xlsx"
-          DEST="data/DK-${DATE_ISO}.xlsx"
+          DEST="data/dk-${DATE_ISO}.xlsx"
           mkdir -p data
           echo "Downloading (lowercase first): $URL_LOWER"
           if curl -fL "$URL_LOWER" -o "$DEST"; then
@@ -72,7 +72,7 @@ jobs:
 
       - name: Remove downloaded spreadsheet
         if: steps.download.outputs.downloaded == 'true'
-        run: rm -f data/DK-*.xlsx
+        run: rm -f data/dk-*.xlsx
 
       - name: Commit and push updates
         if: steps.download.outputs.downloaded == 'true'

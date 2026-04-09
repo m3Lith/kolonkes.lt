@@ -47,7 +47,7 @@ export function normalizeAddressTownLast(address: string): string {
 }
 
 export function parseDateFromFilename(fileName: string): string {
-  const dkMatch = fileName.match(/DK-(\d{4})-(\d{2})-(\d{2})\.xlsx$/i);
+  const dkMatch = fileName.match(/dk-(\d{4})-(\d{2})-(\d{2})\.xlsx$/i);
   if (dkMatch) {
     return `${dkMatch[1]}-${dkMatch[2]}-${dkMatch[3]}`;
   }
@@ -71,7 +71,8 @@ export function normalizePrice(value: string | number): number | null {
     return Number.isFinite(value) ? Number(value.toFixed(3)) : null;
   }
   const clean = normalizeWhitespace(String(value));
-  if (!clean || clean.toLowerCase() === "neprekiauja") {
+  const normalized = normalizeText(clean).toLowerCase();
+  if (!clean || normalized === "neprekiauja" || normalized === "nepateike") {
     return null;
   }
   const parsed = Number(clean.replace(",", "."));

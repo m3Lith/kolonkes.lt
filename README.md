@@ -11,21 +11,23 @@ Astro + TypeScript web app that:
 
 Place files in `data/` using this name format:
 
-- `DK-YYYY-MM-DD.xlsx`
+- `dk-YYYY-MM-DD.xlsx`
 
 Example:
 
-- `DK-2026-04-08.xlsx` -> dataset date `2026-04-08`
+- `dk-2026-04-08.xlsx` -> dataset date `2026-04-08`
 
 Note: `.xlsx` source files are intentionally ignored by git. CI downloads them on demand.
 
 The parser expects these Lithuanian table columns:
 
+- `Data`
 - `Imone (Degaliniu tinklas)`
 - `Degalines vieta (Savivaldybe)`
-- `Degalines Vieta (Gyvenviete, Gatve)`
-- `Degalai`
-- `Kaina uz 1 l`
+- `Degalines vieta (Gyvenviete, gatve)`
+- `95 benzinas`
+- `Dyzelinas`
+- `SND`
 
 The script handles diacritics and non-breaking spaces, and converts `Neprekiauja` to `null`.
 
@@ -100,11 +102,11 @@ npm run build
 
 This repo also includes `.github/workflows/sync-data.yml` that can run daily and fetch the source file from:
 
-- `https://www.ena.lt/uploads/<year>-EDAC/dk-degalinese-<year>/DK-<YYYY-MM-DD>.xlsx`
+- `https://www.ena.lt/uploads/<year>-EDAC/dk-degalinese-<year>/dk-<YYYY-MM-DD>.xlsx` (fallback to uppercase `DK-...`)
 
 The workflow:
 
-- downloads `DK-YYYY-MM-DD.xlsx` into `data/`
+- downloads `dk-YYYY-MM-DD.xlsx` into `data/`
 - runs `npm run build:data` and `npm run build`
 - removes downloaded `.xlsx`
 - commits changed JSON data files back to `main`

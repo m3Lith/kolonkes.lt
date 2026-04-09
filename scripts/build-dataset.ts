@@ -21,6 +21,7 @@ import type {
   StationDataset,
   StationRecord,
 } from "../src/lib/types";
+
 type Mode = "import" | "geocode" | "build";
 
 const ROOT = process.cwd();
@@ -63,7 +64,7 @@ async function findLatestWorkbook(): Promise<{
 }> {
   const files = await fs.readdir(DATA_DIR);
   const candidates = files
-    .filter((name) => /^DK-\d{4}-\d{2}-\d{2}\.xlsx$/i.test(name))
+    .filter((name) => /^dk-\d{4}-\d{2}-\d{2}\.xlsx$/i.test(name))
     .map((name) => ({ name, date: parseDateFromFilename(name) }))
     .sort((a, b) => a.date.localeCompare(b.date));
 
@@ -71,7 +72,7 @@ async function findLatestWorkbook(): Promise<{
   if (!latest) {
     throw new Error(
       [
-        `No DK-YYYY-MM-DD.xlsx files found in ${DATA_DIR}.`,
+        `No dk-YYYY-MM-DD.xlsx files found in ${DATA_DIR}.`,
         "Download one source file temporarily into data/ and rerun,",
         "or run the scheduled GitHub Actions sync workflow which downloads it automatically.",
       ].join(" "),
@@ -182,7 +183,7 @@ async function geocodeStations(
     const resolved = await geocodeWithRateLimit(
       station.queryAddress,
       USER_AGENT,
-      1100,
+      1337,
     );
     processed += 1;
 

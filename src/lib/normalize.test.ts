@@ -9,6 +9,7 @@ import {
 
 describe("normalize helpers", () => {
   it("parses date from file name", () => {
+    expect(parseDateFromFilename("dk-2026-04-08.xlsx")).toBe("2026-04-08");
     expect(parseDateFromFilename("DK-2026-04-08.xlsx")).toBe("2026-04-08");
   });
 
@@ -21,6 +22,7 @@ describe("normalize helpers", () => {
   it("converts price and Neprekiauja", () => {
     expect(normalizePrice("1.819")).toBe(1.819);
     expect(normalizePrice("Neprekiauja")).toBeNull();
+    expect(normalizePrice("nepateikė")).toBeNull();
   });
 
   it("normalizes geocode cache keys", () => {

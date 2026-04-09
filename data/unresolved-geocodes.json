@@ -1,5 +1,120 @@
 [
   {
+    "stationId": "45053d593e016a11",
+    "company": "Alauša",
+    "region": "Alytaus r. sav.",
+    "address": "Santaikos g. 2A, Santaikos k.",
+    "queryAddress": "Santaikos g. 2A, Santaikos k., Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": 1.714
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": 2.144
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": 0.879
+      }
+    ]
+  },
+  {
+    "stationId": "f032236655df1194",
+    "company": "Alauša",
+    "region": "Kalvarijos sav.",
+    "address": "Europos g. 17, Salaperaugio k.",
+    "queryAddress": "Europos g. 17, Salaperaugio k., Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": 1.759
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": 2.199
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": 0.989
+      }
+    ]
+  },
+  {
+    "stationId": "06e14a66821ca931",
+    "company": "Alauša",
+    "region": "Marijampolės sav.",
+    "address": "Plytinės g. 2, Puskelnių k.",
+    "queryAddress": "Plytinės g. 2, Puskelnių k., Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": 1.759
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": 2.229
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": null
+      }
+    ]
+  },
+  {
+    "stationId": "1e8b23a8afbda341",
+    "company": "Alauša",
+    "region": "Šalčininkų r. sav.",
+    "address": "Skraičionių g. 1, Skraičionių k.",
+    "queryAddress": "Skraičionių g. 1, Skraičionių k., Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": 1.824
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": 2.264
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": 0.914
+      }
+    ]
+  },
+  {
+    "stationId": "0650454cfb481710",
+    "company": "Alauša",
+    "region": "Širvintų r. sav.",
+    "address": "Paširvio g. 1, Paširvinčio k.",
+    "queryAddress": "Paširvio g. 1, Paširvinčio k., Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": 1.764
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": 2.199
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": 0.944
+      }
+    ]
+  },
+  {
     "stationId": "f18933d645026d51",
     "company": "Apsaga",
     "region": "Radviliškio r. sav.",
@@ -18,7 +133,7 @@
       },
       {
         "fuelType": "lpg",
-        "pricePerLiter": 0.979
+        "pricePerLiter": 0.965
       }
     ]
   },
@@ -41,14 +156,14 @@
       },
       {
         "fuelType": "lpg",
-        "pricePerLiter": 0.879
+        "pricePerLiter": 0.899
       }
     ]
   },
   {
-    "stationId": "40a4e47b84f5a3a4",
+    "stationId": "39df5d0e12094af0",
     "company": "Baltic Petroleum",
-    "region": "Joniškio r. sav.",
+    "region": "Jonavos r. sav.",
     "address": "Plento g. 46, Spanėnų k.",
     "queryAddress": "Plento g. 46, Spanėnų k., Lietuva",
     "lat": null,
@@ -56,22 +171,22 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.859
+        "pricePerLiter": 1.829
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.339
+        "pricePerLiter": 2.289
       },
       {
         "fuelType": "lpg",
-        "pricePerLiter": 0.9
+        "pricePerLiter": 0.93
       }
     ]
   },
   {
-    "stationId": "b87f77b83bbaf0d7",
+    "stationId": "e5d7e222524f6bbd",
     "company": "Baltic Petroleum",
-    "region": "Joniškio r. sav.",
+    "region": "Jonavos r. sav.",
     "address": "Šilų sen., Gudžionių k., Plento g. 24",
     "queryAddress": "Šilų sen., Gudžionių k., Plento g. 24, Lietuva",
     "lat": null,
@@ -79,7 +194,7 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.849
+        "pricePerLiter": 1.839
       },
       {
         "fuelType": "diesel",
@@ -102,11 +217,11 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.78
+        "pricePerLiter": 1.74
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.26
+        "pricePerLiter": 2.16
       },
       {
         "fuelType": "lpg",
@@ -125,15 +240,15 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.789
+        "pricePerLiter": 1.779
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.249
+        "pricePerLiter": 2.239
       },
       {
         "fuelType": "lpg",
-        "pricePerLiter": 0.919
+        "pricePerLiter": 0.939
       }
     ]
   },
@@ -148,15 +263,15 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.789
+        "pricePerLiter": 1.769
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.249
+        "pricePerLiter": 2.229
       },
       {
         "fuelType": "lpg",
-        "pricePerLiter": 0.939
+        "pricePerLiter": 0.949
       }
     ]
   },
@@ -175,7 +290,7 @@
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.309
+        "pricePerLiter": 2.299
       },
       {
         "fuelType": "lpg",
@@ -263,11 +378,11 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.809
+        "pricePerLiter": 1.769
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.289
+        "pricePerLiter": 2.259
       },
       {
         "fuelType": "lpg",
@@ -290,11 +405,11 @@
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.279
+        "pricePerLiter": 2.259
       },
       {
         "fuelType": "lpg",
-        "pricePerLiter": 0.879
+        "pricePerLiter": 0.899
       }
     ]
   },
@@ -313,7 +428,11 @@
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.19
+        "pricePerLiter": 2.15
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": null
       }
     ]
   },
@@ -359,7 +478,7 @@
       },
       {
         "fuelType": "lpg",
-        "pricePerLiter": 0.91
+        "pricePerLiter": 0.92
       }
     ]
   },
@@ -401,7 +520,7 @@
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.26
+        "pricePerLiter": 2.23
       },
       {
         "fuelType": "lpg",
@@ -420,11 +539,11 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.769
+        "pricePerLiter": 1.749
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.229
+        "pricePerLiter": 2.179
       },
       {
         "fuelType": "lpg",
@@ -443,11 +562,11 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.849
+        "pricePerLiter": 1.829
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.329
+        "pricePerLiter": 2.309
       },
       {
         "fuelType": "lpg",
@@ -520,7 +639,7 @@
       },
       {
         "fuelType": "lpg",
-        "pricePerLiter": 0.919
+        "pricePerLiter": 0.939
       }
     ]
   },
@@ -535,11 +654,11 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.789
+        "pricePerLiter": 1.759
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.269
+        "pricePerLiter": 2.229
       },
       {
         "fuelType": "lpg",
@@ -558,11 +677,11 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.78
+        "pricePerLiter": 1.77
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.24
+        "pricePerLiter": 2.22
       },
       {
         "fuelType": "lpg",
@@ -585,7 +704,11 @@
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.289
+        "pricePerLiter": 2.249
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": null
       }
     ]
   },
@@ -600,15 +723,84 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.789
+        "pricePerLiter": 1.769
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.289
+        "pricePerLiter": 2.159
       },
       {
         "fuelType": "lpg",
-        "pricePerLiter": 0.909
+        "pricePerLiter": 0.929
+      }
+    ]
+  },
+  {
+    "stationId": "fc0a4bb0662c45bb",
+    "company": "Boost Petrol",
+    "region": "Kelmės r. sav.",
+    "address": "Kuršių g. 2, Maironių k.",
+    "queryAddress": "Kuršių g. 2, Maironių k., Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": 1.75
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": 2.19
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": 0.9
+      }
+    ]
+  },
+  {
+    "stationId": "10f2ba6ffb4cfd6a",
+    "company": "Boost Petrol",
+    "region": "Kelmės r. sav.",
+    "address": "Plento g. 1, Kuršukų k.",
+    "queryAddress": "Plento g. 1, Kuršukų k., Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": 1.819
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": 2.279
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": 0.959
+      }
+    ]
+  },
+  {
+    "stationId": "fe68927ff9ae9d94",
+    "company": "Boost Petrol",
+    "region": "Šiaulių r. sav.",
+    "address": "Aušros g. 26, Ginkūnų k.",
+    "queryAddress": "Aušros g. 26, Ginkūnų k., Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": 1.799
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": 2.259
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": 0.949
       }
     ]
   },
@@ -627,7 +819,7 @@
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.359
+        "pricePerLiter": 2.229
       },
       {
         "fuelType": "lpg",
@@ -650,7 +842,7 @@
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.369
+        "pricePerLiter": 2.299
       },
       {
         "fuelType": "lpg",
@@ -673,7 +865,7 @@
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.369
+        "pricePerLiter": 2.299
       },
       {
         "fuelType": "lpg",
@@ -692,11 +884,11 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.898
+        "pricePerLiter": 1.839
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.369
+        "pricePerLiter": 2.299
       },
       {
         "fuelType": "lpg",
@@ -715,11 +907,11 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.889
+        "pricePerLiter": 1.859
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.369
+        "pricePerLiter": 2.299
       },
       {
         "fuelType": "lpg",
@@ -742,7 +934,7 @@
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.369
+        "pricePerLiter": 2.299
       },
       {
         "fuelType": "lpg",
@@ -761,11 +953,11 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.889
+        "pricePerLiter": 1.879
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.359
+        "pricePerLiter": 2.299
       },
       {
         "fuelType": "lpg",
@@ -784,15 +976,15 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.849
+        "pricePerLiter": 1.829
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.299
+        "pricePerLiter": 2.249
       },
       {
         "fuelType": "lpg",
-        "pricePerLiter": 0.969
+        "pricePerLiter": 0.999
       }
     ]
   },
@@ -807,11 +999,11 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.889
+        "pricePerLiter": 1.849
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.369
+        "pricePerLiter": 2.299
       },
       {
         "fuelType": "lpg",
@@ -830,11 +1022,11 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.869
+        "pricePerLiter": 1.829
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.349
+        "pricePerLiter": 2.299
       },
       {
         "fuelType": "lpg",
@@ -857,7 +1049,7 @@
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.359
+        "pricePerLiter": 2.299
       },
       {
         "fuelType": "lpg",
@@ -880,19 +1072,8 @@
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.359
-      }
-    ]
-  },
-  {
-    "stationId": "f046d42ffca79a6b",
-    "company": "Circle K",
-    "region": "Šilalės r. sav.",
-    "address": "Dvaro g. 3, Košių II k..",
-    "queryAddress": "Dvaro g. 3, Košių II k.., Lietuva",
-    "lat": null,
-    "lon": null,
-    "fuelPrices": [
+        "pricePerLiter": 2.299
+      },
       {
         "fuelType": "lpg",
         "pricePerLiter": 1.029
@@ -914,7 +1095,7 @@
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.369
+        "pricePerLiter": 2.299
       },
       {
         "fuelType": "lpg",
@@ -937,7 +1118,7 @@
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.369
+        "pricePerLiter": 2.299
       },
       {
         "fuelType": "lpg",
@@ -956,11 +1137,11 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.789
+        "pricePerLiter": 1.829
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.249
+        "pricePerLiter": 2.269
       },
       {
         "fuelType": "lpg",
@@ -979,11 +1160,11 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.889
+        "pricePerLiter": 1.819
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.369
+        "pricePerLiter": 2.299
       },
       {
         "fuelType": "lpg",
@@ -1002,15 +1183,1142 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.898
+        "pricePerLiter": 1.839
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.359
+        "pricePerLiter": 2.279
       },
       {
         "fuelType": "lpg",
         "pricePerLiter": 0.959
+      }
+    ]
+  },
+  {
+    "stationId": "eb0c9ea979faf92e",
+    "company": "Degta",
+    "region": "Rokiškio r. sav.",
+    "address": "Rokiškis, Respublikos g.113B,",
+    "queryAddress": "Rokiškis, Respublikos g.113B,, Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": 1.779
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": 2.133
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": 0.899
+      }
+    ]
+  },
+  {
+    "stationId": "823a690c1755bd76",
+    "company": "Emsi",
+    "region": "Jonavos r. sav.",
+    "address": "Vasario 16-osios g.70, Jonava",
+    "queryAddress": "Vasario 16-osios g.70, Jonava, Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": 1.799
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": 2.299
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": null
+      }
+    ]
+  },
+  {
+    "stationId": "255433be82b9ac17",
+    "company": "Emsi",
+    "region": "Kaišiadorių r. sav.",
+    "address": "Paukštininkų g.4a, Kaišiadorys",
+    "queryAddress": "Paukštininkų g.4a, Kaišiadorys, Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": 1.769
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": 2.239
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": 0.93
+      }
+    ]
+  },
+  {
+    "stationId": "88c94e92b1e9d850",
+    "company": "Emsi",
+    "region": "Kauno m. sav.",
+    "address": "Ateities pl.40B, Kaunas",
+    "queryAddress": "Ateities pl.40B, Kaunas, Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": 1.769
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": 2.199
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": null
+      }
+    ]
+  },
+  {
+    "stationId": "7a2fed52dcec22cd",
+    "company": "Emsi",
+    "region": "Kauno m. sav.",
+    "address": "Draugystės g.8B, Kaunas",
+    "queryAddress": "Draugystės g.8B, Kaunas, Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": 1.759
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": 2.199
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": 0.929
+      }
+    ]
+  },
+  {
+    "stationId": "397f8f581d57d4d6",
+    "company": "Emsi",
+    "region": "Kauno m. sav.",
+    "address": "Jonavos g. 292B, Kaunas",
+    "queryAddress": "Jonavos g. 292B, Kaunas, Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": 1.769
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": 2.199
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": 0.92
+      }
+    ]
+  },
+  {
+    "stationId": "7e2fe3ee913abacd",
+    "company": "Emsi",
+    "region": "Kauno m. sav.",
+    "address": "Liuksemburgo aklg. 27, Kaunas",
+    "queryAddress": "Liuksemburgo aklg. 27, Kaunas, Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": 1.769
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": 2.199
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": 0.899
+      }
+    ]
+  },
+  {
+    "stationId": "8c29f6d67584d7a7",
+    "company": "Emsi",
+    "region": "Kauno m. sav.",
+    "address": "Masiulio g.16C, Kaunas",
+    "queryAddress": "Masiulio g.16C, Kaunas, Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": 1.769
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": 2.199
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": 0.929
+      }
+    ]
+  },
+  {
+    "stationId": "5cec425337c94c2c",
+    "company": "Emsi",
+    "region": "Kauno m. sav.",
+    "address": "Palemono g. 3A, Kaunas",
+    "queryAddress": "Palemono g. 3A, Kaunas, Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": 1.74
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": 2.17
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": null
+      }
+    ]
+  },
+  {
+    "stationId": "e045f40d8651db97",
+    "company": "Emsi",
+    "region": "Kauno m. sav.",
+    "address": "Savanorių pr.402A, Kaunas",
+    "queryAddress": "Savanorių pr.402A, Kaunas, Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": 1.769
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": 2.249
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": 0.939
+      }
+    ]
+  },
+  {
+    "stationId": "7a6380d556a2e46d",
+    "company": "Emsi",
+    "region": "Kauno r. sav.",
+    "address": "Kauno g.25, Ilgakiemio k.",
+    "queryAddress": "Kauno g.25, Ilgakiemio k., Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": 1.769
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": 2.229
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": 0.93
+      }
+    ]
+  },
+  {
+    "stationId": "971ea4f633ecd70c",
+    "company": "Emsi",
+    "region": "Kauno r. sav.",
+    "address": "Marijampolės g. 58, Mastaičių k.",
+    "queryAddress": "Marijampolės g. 58, Mastaičių k., Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": 1.769
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": 2.229
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": 0.93
+      }
+    ]
+  },
+  {
+    "stationId": "7233ddedad299481",
+    "company": "Emsi",
+    "region": "Kauno r. sav.",
+    "address": "Stasio Krasausko g. 21, Žemaitkiemis",
+    "queryAddress": "Stasio Krasausko g. 21, Žemaitkiemis, Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": 1.739
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": 2.199
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": 0.929
+      }
+    ]
+  },
+  {
+    "stationId": "62cbac4ba7322b23",
+    "company": "Emsi",
+    "region": "Kauno r. sav.",
+    "address": "Vandžiogalos pl.86A, Kaunas",
+    "queryAddress": "Vandžiogalos pl.86A, Kaunas, Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": 1.79
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": 2.25
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": 0.95
+      }
+    ]
+  },
+  {
+    "stationId": "3ce4024d77de4619",
+    "company": "Emsi",
+    "region": "Kėdainių r. sav.",
+    "address": "Juodgirio k.1,",
+    "queryAddress": "Juodgirio k.1,, Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": 1.789
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": 2.259
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": 0.949
+      }
+    ]
+  },
+  {
+    "stationId": "476a15c5d212640d",
+    "company": "Emsi",
+    "region": "Klaipėdos m. sav.",
+    "address": "Minijos g.154A, Klaipėda",
+    "queryAddress": "Minijos g.154A, Klaipėda, Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": 1.76
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": 2.16
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": 0.89
+      }
+    ]
+  },
+  {
+    "stationId": "317a1913e4ba575e",
+    "company": "Emsi",
+    "region": "Klaipėdos m. sav.",
+    "address": "Taikos pr.124, Klaipėda",
+    "queryAddress": "Taikos pr.124, Klaipėda, Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": 1.76
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": 2.16
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": 0.89
+      }
+    ]
+  },
+  {
+    "stationId": "77aa4e0de3c1e3c6",
+    "company": "Emsi",
+    "region": "Klaipėdos r. sav.",
+    "address": "Durpyno 63, Jonušų k.",
+    "queryAddress": "Durpyno 63, Jonušų k., Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": 1.789
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": 2.259
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": 0.94
+      }
+    ]
+  },
+  {
+    "stationId": "a9a7f128fba5b091",
+    "company": "Emsi",
+    "region": "Klaipėdos r. sav.",
+    "address": "Medelyno g.126 Kalotės k.",
+    "queryAddress": "Medelyno g.126 Kalotės k., Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": 1.76
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": 2.22
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": 0.92
+      }
+    ]
+  },
+  {
+    "stationId": "dab436e5b37489bc",
+    "company": "Emsi",
+    "region": "Lazdijų r. sav.",
+    "address": "Janaslavo k.11, Lazdijų sen.",
+    "queryAddress": "Janaslavo k.11, Lazdijų sen., Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": 1.789
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": 2.189
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": null
+      }
+    ]
+  },
+  {
+    "stationId": "864d351d1e053209",
+    "company": "Emsi",
+    "region": "Marijampolės sav.",
+    "address": "Europos g.11, Skaisčiūnų k.",
+    "queryAddress": "Europos g.11, Skaisčiūnų k., Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": 1.749
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": 2.219
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": 0.929
+      }
+    ]
+  },
+  {
+    "stationId": "d15af3e1877787ea",
+    "company": "Emsi",
+    "region": "Marijampolės sav.",
+    "address": "Kauno g.165, Pietarių k.",
+    "queryAddress": "Kauno g.165, Pietarių k., Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": 1.749
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": 2.219
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": 0.919
+      }
+    ]
+  },
+  {
+    "stationId": "1dfe4c0d7ddb8682",
+    "company": "Emsi",
+    "region": "Marijampolės sav.",
+    "address": "Stoties g. 6B, Marijampolė",
+    "queryAddress": "Stoties g. 6B, Marijampolė, Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": 1.769
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": 2.239
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": 0.91
+      }
+    ]
+  },
+  {
+    "stationId": "97cea4b699947c50",
+    "company": "Emsi",
+    "region": "Panevėžio m. sav.",
+    "address": "Nemuno g.79A, Panevėžys",
+    "queryAddress": "Nemuno g.79A, Panevėžys, Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": 1.769
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": 2.169
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": 0.899
+      }
+    ]
+  },
+  {
+    "stationId": "82be084dfa1fa8a0",
+    "company": "Emsi",
+    "region": "Panevėžio r. sav.",
+    "address": "Panevėžio aplinkl.12, Šilagalio k.",
+    "queryAddress": "Panevėžio aplinkl.12, Šilagalio k., Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": 1.769
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": 2.199
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": 0.929
+      }
+    ]
+  },
+  {
+    "stationId": "c87f71b0eb9c7bbc",
+    "company": "Emsi",
+    "region": "Panevėžio r. sav.",
+    "address": "Ramygalos g.186A, Panevėžys",
+    "queryAddress": "Ramygalos g.186A, Panevėžys, Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": 1.769
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": 2.169
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": 0.9
+      }
+    ]
+  },
+  {
+    "stationId": "73ac4c0855e881e0",
+    "company": "Emsi",
+    "region": "Pasvalio r. sav.",
+    "address": "Baltijos kelio g.2, Sereikonių k.",
+    "queryAddress": "Baltijos kelio g.2, Sereikonių k., Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": 1.759
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": 2.219
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": 0.939
+      }
+    ]
+  },
+  {
+    "stationId": "5d096b75a47cc3d7",
+    "company": "Emsi",
+    "region": "Pasvalio r. sav.",
+    "address": "Taikos g.24, Pasvalys",
+    "queryAddress": "Taikos g.24, Pasvalys, Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": 1.759
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": 2.219
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": 0.93
+      }
+    ]
+  },
+  {
+    "stationId": "8198b867e6021f4f",
+    "company": "Emsi",
+    "region": "Radviliškio r. sav.",
+    "address": "Miško g.62, Radviliškis",
+    "queryAddress": "Miško g.62, Radviliškis, Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": 1.789
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": 2.249
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": 0.9
+      }
+    ]
+  },
+  {
+    "stationId": "500cb011873b9b2c",
+    "company": "Emsi",
+    "region": "Raseinių r. sav.",
+    "address": "Raščių k. 1A",
+    "queryAddress": "Raščių k. 1A, Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": 1.739
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": 2.199
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": 0.929
+      }
+    ]
+  },
+  {
+    "stationId": "08a5f4c9b554ea40",
+    "company": "Emsi",
+    "region": "Raseinių r. sav.",
+    "address": "Žemaičių g. 34, Ariogala",
+    "queryAddress": "Žemaičių g. 34, Ariogala, Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": 1.789
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": 2.259
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": 0.949
+      }
+    ]
+  },
+  {
+    "stationId": "0808d78d9c50da19",
+    "company": "Emsi",
+    "region": "Šiaulių m. sav.",
+    "address": "Sembos g.5, Šiauliai",
+    "queryAddress": "Sembos g.5, Šiauliai, Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": 1.749
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": 2.209
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": 0.9
+      }
+    ]
+  },
+  {
+    "stationId": "8399fd2cca471b73",
+    "company": "Emsi",
+    "region": "Šilutės r. sav.",
+    "address": "Gluosnių g.4A, Šilutė",
+    "queryAddress": "Gluosnių g.4A, Šilutė, Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": 1.76
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": 2.19
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": 0.93
+      }
+    ]
+  },
+  {
+    "stationId": "fb9da29fe95426f6",
+    "company": "Emsi",
+    "region": "Trakų r. sav.",
+    "address": "Sausių g.2 Sausių k..",
+    "queryAddress": "Sausių g.2 Sausių k.., Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": 1.75
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": 2.22
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": 0.91
+      }
+    ]
+  },
+  {
+    "stationId": "7087431c041ae056",
+    "company": "Emsi",
+    "region": "Trakų r. sav.",
+    "address": "Sodų g.3A, Lentvaris",
+    "queryAddress": "Sodų g.3A, Lentvaris, Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": 1.76
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": 2.23
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": 0.929
+      }
+    ]
+  },
+  {
+    "stationId": "16420cdeeb4e0c1b",
+    "company": "Emsi",
+    "region": "Vilkaviškio r. sav.",
+    "address": "S.Nėries g.38, Vilkaviškis",
+    "queryAddress": "S.Nėries g.38, Vilkaviškis, Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": 1.759
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": 2.199
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": 0.92
+      }
+    ]
+  },
+  {
+    "stationId": "be88e87eddd54712",
+    "company": "Emsi",
+    "region": "Vilniaus m. sav.",
+    "address": "Gunkliškių g.2F, Vilnius",
+    "queryAddress": "Gunkliškių g.2F, Vilnius, Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": 1.769
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": 2.239
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": 0.929
+      }
+    ]
+  },
+  {
+    "stationId": "1b6119a805a6a701",
+    "company": "Emsi",
+    "region": "Vilniaus m. sav.",
+    "address": "Jeruzalės 2, Vilnius",
+    "queryAddress": "Jeruzalės 2, Vilnius, Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": 1.769
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": 2.249
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": 0.939
+      }
+    ]
+  },
+  {
+    "stationId": "c9470ad735e94e4d",
+    "company": "Emsi",
+    "region": "Vilniaus m. sav.",
+    "address": "Kareivių g. 4, Vilnius",
+    "queryAddress": "Kareivių g. 4, Vilnius, Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": 1.749
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": 2.229
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": 0.939
+      }
+    ]
+  },
+  {
+    "stationId": "78a215b7e15eaa43",
+    "company": "Emsi",
+    "region": "Vilniaus m. sav.",
+    "address": "Kirtimų g. 33, Vilnius",
+    "queryAddress": "Kirtimų g. 33, Vilnius, Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": 1.789
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": 2.199
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": 0.919
+      }
+    ]
+  },
+  {
+    "stationId": "171c195894b6772e",
+    "company": "Emsi",
+    "region": "Vilniaus m. sav.",
+    "address": "Laisvės pr. 80B, Vilnius",
+    "queryAddress": "Laisvės pr. 80B, Vilnius, Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": 1.739
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": 2.239
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": 0.939
+      }
+    ]
+  },
+  {
+    "stationId": "5691f76bb96a489e",
+    "company": "Emsi",
+    "region": "Vilniaus m. sav.",
+    "address": "Liepkalnio g.112A, Vilnius",
+    "queryAddress": "Liepkalnio g.112A, Vilnius, Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": 1.769
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": 2.229
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": 0.91
+      }
+    ]
+  },
+  {
+    "stationId": "8659e46cc5101709",
+    "company": "Emsi",
+    "region": "Vilniaus m. sav.",
+    "address": "Pajautos g. 31, Vilnius (Pilaitė)",
+    "queryAddress": "Pajautos g. 31, Vilnius (Pilaitė), Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": 1.759
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": 2.249
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": 0.95
+      }
+    ]
+  },
+  {
+    "stationId": "047fb18c09c9d059",
+    "company": "Emsi",
+    "region": "Vilniaus m. sav.",
+    "address": "Savanorių 225, Vilnius",
+    "queryAddress": "Savanorių 225, Vilnius, Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": 1.799
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": 2.219
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": 0.919
+      }
+    ]
+  },
+  {
+    "stationId": "13576056051d6453",
+    "company": "Emsi",
+    "region": "Vilniaus m. sav.",
+    "address": "Spyglių g. 2, Vilnius",
+    "queryAddress": "Spyglių g. 2, Vilnius, Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": 1.789
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": 2.259
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": 0.939
+      }
+    ]
+  },
+  {
+    "stationId": "66b5def6f56340e7",
+    "company": "Emsi",
+    "region": "Vilniaus r. sav.",
+    "address": "Bukiškio k. Ukmergės g.437",
+    "queryAddress": "Bukiškio k. Ukmergės g.437, Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": 1.789
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": 2.269
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": 0.94
+      }
+    ]
+  },
+  {
+    "stationId": "5186a6ab5a57d334",
+    "company": "Emsi",
+    "region": "Vilniaus r. sav.",
+    "address": "Mokyklos g. 26, Maišiagalos mstl.",
+    "queryAddress": "Mokyklos g. 26, Maišiagalos mstl., Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": 1.789
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": 2.269
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": 0.949
+      }
+    ]
+  },
+  {
+    "stationId": "b3b5e59417404d8d",
+    "company": "Emsi",
+    "region": "Vilniaus r. sav.",
+    "address": "Pasieniečių g.10, Medininkų k.",
+    "queryAddress": "Pasieniečių g.10, Medininkų k., Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": 1.799
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": 2.259
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": null
+      }
+    ]
+  },
+  {
+    "stationId": "3da71b23f5fc6ba1",
+    "company": "Emsi",
+    "region": "Vilniaus r. sav.",
+    "address": "Taikos g.1, Kreivalaužių k.",
+    "queryAddress": "Taikos g.1, Kreivalaužių k., Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": 1.78
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": 2.24
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": 0.88
       }
     ]
   },
@@ -1025,11 +2333,11 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.749
+        "pricePerLiter": 1.729
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.119
+        "pricePerLiter": 2.189
       },
       {
         "fuelType": "lpg",
@@ -1048,11 +2356,11 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.749
+        "pricePerLiter": 1.729
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.119
+        "pricePerLiter": 2.189
       },
       {
         "fuelType": "lpg",
@@ -1094,11 +2402,11 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.759
+        "pricePerLiter": 1.779
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.189
+        "pricePerLiter": 2.239
       },
       {
         "fuelType": "lpg",
@@ -1117,15 +2425,15 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.733
+        "pricePerLiter": 1.763
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.174
+        "pricePerLiter": 2.224
       },
       {
         "fuelType": "lpg",
-        "pricePerLiter": 0.89
+        "pricePerLiter": 0.92
       }
     ]
   },
@@ -1144,11 +2452,11 @@
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.109
+        "pricePerLiter": 2.169
       },
       {
         "fuelType": "lpg",
-        "pricePerLiter": 0.889
+        "pricePerLiter": 0.929
       }
     ]
   },
@@ -1167,7 +2475,7 @@
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.33
+        "pricePerLiter": 2.29
       },
       {
         "fuelType": "lpg",
@@ -1186,15 +2494,15 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.729
+        "pricePerLiter": 1.739
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.149
+        "pricePerLiter": 2.179
       },
       {
         "fuelType": "lpg",
-        "pricePerLiter": 0.899
+        "pricePerLiter": 0.939
       }
     ]
   },
@@ -1278,7 +2586,7 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.84
+        "pricePerLiter": 1.82
       },
       {
         "fuelType": "diesel",
@@ -1306,6 +2614,10 @@
       {
         "fuelType": "diesel",
         "pricePerLiter": 2.29
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": 0.89
       }
     ]
   },
@@ -1320,11 +2632,11 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.85
+        "pricePerLiter": 1.83
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.33
+        "pricePerLiter": 2.29
       },
       {
         "fuelType": "lpg",
@@ -1347,11 +2659,80 @@
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.099
+        "pricePerLiter": 2.199
       },
       {
         "fuelType": "lpg",
         "pricePerLiter": 0.899
+      }
+    ]
+  },
+  {
+    "stationId": "8f8760f1f6ff0768",
+    "company": "Gazimpeksas",
+    "region": "Rietavo sav.",
+    "address": "Rietavo g. 32, Tverai",
+    "queryAddress": "Rietavo g. 32, Tverai, Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": 1.75
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": 2.19
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": 0.89
+      }
+    ]
+  },
+  {
+    "stationId": "5a4af6330f0b67c9",
+    "company": "Gazimpeksas",
+    "region": "Skuodo r. sav.",
+    "address": "Vytauto g. 20, Skuodas",
+    "queryAddress": "Vytauto g. 20, Skuodas, Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": null
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": null
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": 0.86
+      }
+    ]
+  },
+  {
+    "stationId": "a81c12daadb4a7c8",
+    "company": "Gazimpeksas",
+    "region": "Telšių r. sav.",
+    "address": "Mažeikių g. 7A, Telšiai",
+    "queryAddress": "Mažeikių g. 7A, Telšiai, Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": null
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": null
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": 0.89
       }
     ]
   },
@@ -1398,6 +2779,52 @@
       {
         "fuelType": "lpg",
         "pricePerLiter": 0.92
+      }
+    ]
+  },
+  {
+    "stationId": "0bfe73c68ca31b29",
+    "company": "GM Circle K",
+    "region": "Jurbarko r. sav.",
+    "address": "Muitinės g. 34A, Jurbarkas",
+    "queryAddress": "Muitinės g. 34A, Jurbarkas, Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": 1.857
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": 2.327
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": null
+      }
+    ]
+  },
+  {
+    "stationId": "0b77d54d6a5ec1aa",
+    "company": "GM Circle K",
+    "region": "Šakių r. sav.",
+    "address": "Kauno g. 68, Girėnų k.",
+    "queryAddress": "Kauno g. 68, Girėnų k., Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": 1.857
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": 2.327
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": 0.997
       }
     ]
   },
@@ -1462,7 +2889,7 @@
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.22
+        "pricePerLiter": 2.19
       },
       {
         "fuelType": "lpg",
@@ -1481,15 +2908,15 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.79
+        "pricePerLiter": 1.76
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.27
+        "pricePerLiter": 2.22
       },
       {
         "fuelType": "lpg",
-        "pricePerLiter": null
+        "pricePerLiter": 0.88
       }
     ]
   },
@@ -1540,6 +2967,75 @@
     ]
   },
   {
+    "stationId": "083ac5fc9c5699a5",
+    "company": "Junasa",
+    "region": "Šiaulių m. sav.",
+    "address": "Bačiūnų g. 12a",
+    "queryAddress": "Bačiūnų g. 12a, Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": 1.699
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": 2.189
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": 0.89
+      }
+    ]
+  },
+  {
+    "stationId": "577a0f2ce797e786",
+    "company": "Junasa",
+    "region": "Šiaulių m. sav.",
+    "address": "Žemaitės g. 131c",
+    "queryAddress": "Žemaitės g. 131c, Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": 1.699
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": 2.189
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": 0.89
+      }
+    ]
+  },
+  {
+    "stationId": "abfee66c65069bb4",
+    "company": "Junasa",
+    "region": "Šiaulių r. sav.",
+    "address": "M. Katiliškio g. 50, Gruzdžiai",
+    "queryAddress": "M. Katiliškio g. 50, Gruzdžiai, Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": 1.699
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": 2.189
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": 0.89
+      }
+    ]
+  },
+  {
     "stationId": "c2074ea4e45dc2e8",
     "company": "Madalva",
     "region": "Šilalės r. sav.",
@@ -1586,21 +3082,6 @@
     ]
   },
   {
-    "stationId": "391a49960a685dd0",
-    "company": "Milda",
-    "region": "Telšių r. sav.",
-    "address": "Beržų g. 24/Drąsiųjų 7, Tryškiai",
-    "queryAddress": "Beržų g. 24/Drąsiųjų 7, Tryškiai, Lietuva",
-    "lat": null,
-    "lon": null,
-    "fuelPrices": [
-      {
-        "fuelType": "lpg",
-        "pricePerLiter": 0.89
-      }
-    ]
-  },
-  {
     "stationId": "69e68eb97edf1fef",
     "company": "Naftrus",
     "region": "Pakruojo r. sav.",
@@ -1615,7 +3096,7 @@
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.19
+        "pricePerLiter": 2.16
       },
       {
         "fuelType": "lpg",
@@ -1716,9 +3197,9 @@
     ]
   },
   {
-    "stationId": "b5c350c70057c9b1",
+    "stationId": "8a74c58fd20e9336",
     "company": "Neste Lietuva",
-    "region": "Joniškio r. sav.",
+    "region": "Jonavos r. sav.",
     "address": "Plento g. 7, Gudžionių k.",
     "queryAddress": "Plento g. 7, Gudžionių k., Lietuva",
     "lat": null,
@@ -1726,11 +3207,11 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.844
+        "pricePerLiter": 1.814
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.329
+        "pricePerLiter": 2.279
       },
       {
         "fuelType": "lpg",
@@ -1749,11 +3230,11 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.859
+        "pricePerLiter": null
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.339
+        "pricePerLiter": 2.289
       },
       {
         "fuelType": "lpg",
@@ -1772,11 +3253,11 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": null
+        "pricePerLiter": 1.819
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.329
+        "pricePerLiter": 2.279
       },
       {
         "fuelType": "lpg",
@@ -1795,11 +3276,11 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.854
+        "pricePerLiter": 1.824
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.334
+        "pricePerLiter": 2.289
       },
       {
         "fuelType": "lpg",
@@ -1818,11 +3299,11 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.829
+        "pricePerLiter": 1.814
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.319
+        "pricePerLiter": 2.259
       },
       {
         "fuelType": "lpg",
@@ -1841,11 +3322,11 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.829
+        "pricePerLiter": 1.799
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.319
+        "pricePerLiter": 2.279
       },
       {
         "fuelType": "lpg",
@@ -1864,11 +3345,11 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.829
+        "pricePerLiter": 1.799
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.319
+        "pricePerLiter": 2.259
       },
       {
         "fuelType": "lpg",
@@ -1887,11 +3368,11 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.844
+        "pricePerLiter": 1.819
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.329
+        "pricePerLiter": 2.299
       },
       {
         "fuelType": "lpg",
@@ -1910,11 +3391,11 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.819
+        "pricePerLiter": 1.794
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.319
+        "pricePerLiter": 2.279
       },
       {
         "fuelType": "lpg",
@@ -1933,11 +3414,11 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.829
+        "pricePerLiter": 1.789
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.309
+        "pricePerLiter": 2.259
       },
       {
         "fuelType": "lpg",
@@ -1956,11 +3437,11 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.839
+        "pricePerLiter": 1.799
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.319
+        "pricePerLiter": 2.269
       },
       {
         "fuelType": "lpg",
@@ -1979,11 +3460,11 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.819
+        "pricePerLiter": 1.789
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.299
+        "pricePerLiter": 2.279
       },
       {
         "fuelType": "lpg",
@@ -2002,11 +3483,11 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.849
+        "pricePerLiter": 1.799
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.339
+        "pricePerLiter": 2.299
       },
       {
         "fuelType": "lpg",
@@ -2025,11 +3506,11 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.829
+        "pricePerLiter": 1.779
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.319
+        "pricePerLiter": 2.279
       },
       {
         "fuelType": "lpg",
@@ -2048,11 +3529,11 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.844
+        "pricePerLiter": 1.814
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.314
+        "pricePerLiter": 2.279
       },
       {
         "fuelType": "lpg",
@@ -2071,11 +3552,15 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.85
+        "pricePerLiter": 1.75
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.34
+        "pricePerLiter": 2.19
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": null
       }
     ]
   },
@@ -2090,11 +3575,11 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.789
+        "pricePerLiter": 1.769
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.249
+        "pricePerLiter": 2.239
       },
       {
         "fuelType": "lpg",
@@ -2186,7 +3671,7 @@
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.289
+        "pricePerLiter": 2.279
       },
       {
         "fuelType": "lpg",
@@ -2209,7 +3694,7 @@
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.289
+        "pricePerLiter": 2.279
       },
       {
         "fuelType": "lpg",
@@ -2264,6 +3749,1018 @@
     ]
   },
   {
+    "stationId": "5390ce2586f869d3",
+    "company": "Plungės lagūna",
+    "region": "Rietavo sav.",
+    "address": "Plungės g. 32, Rietavas",
+    "queryAddress": "Plungės g. 32, Rietavas, Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": 1.839
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": 2.349
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": 0.969
+      }
+    ]
+  },
+  {
+    "stationId": "63ec459c234b15ab",
+    "company": "Prie Luksto",
+    "region": "Telšių r. sav.",
+    "address": "Masčio g. 21, Telšiai",
+    "queryAddress": "Masčio g. 21, Telšiai, Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": 1.835
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": 2.325
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": 0.959
+      }
+    ]
+  },
+  {
+    "stationId": "697a143a6a0304d8",
+    "company": "Pynauja",
+    "region": "Šilalės r. sav.",
+    "address": "Dvaro g.1, Papynaujo k.,Kvėdarna",
+    "queryAddress": "Dvaro g.1, Papynaujo k.,Kvėdarna, Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": 1.74
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": 2.21
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": 0.94
+      }
+    ]
+  },
+  {
+    "stationId": "0ef08b459a1def5f",
+    "company": "Regusa",
+    "region": "Kauno m. sav.",
+    "address": "Marijampolės pl. 20, Kaunas",
+    "queryAddress": "Marijampolės pl. 20, Kaunas, Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": 1.7
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": 2.17
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": 0.89
+      }
+    ]
+  },
+  {
+    "stationId": "c91ef419f7ac34fb",
+    "company": "Regusa",
+    "region": "Kazlų Rūdos sav.",
+    "address": "Medelyno g. 4A, Jūrės k.",
+    "queryAddress": "Medelyno g. 4A, Jūrės k., Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": 1.76
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": 2.19
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": 0.91
+      }
+    ]
+  },
+  {
+    "stationId": "58ca64464fbf959a",
+    "company": "Regusa",
+    "region": "Kazlų Rūdos sav.",
+    "address": "S. Daukanto g. 19D, Kazlų Rūda",
+    "queryAddress": "S. Daukanto g. 19D, Kazlų Rūda, Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": 1.76
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": 2.19
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": 0.91
+      }
+    ]
+  },
+  {
+    "stationId": "0e03498cf93772cd",
+    "company": "Regusa",
+    "region": "Marijampolės sav.",
+    "address": "Sodo g. 11, Gavaltuvos k.",
+    "queryAddress": "Sodo g. 11, Gavaltuvos k., Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": 1.74
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": 2.18
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": 0.89
+      }
+    ]
+  },
+  {
+    "stationId": "cd6da7fb3bf8319a",
+    "company": "Regusa",
+    "region": "Vilkaviškio r. sav.",
+    "address": "J. Basanavičiaus g. 45A, Kybartai",
+    "queryAddress": "J. Basanavičiaus g. 45A, Kybartai, Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": 1.78
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": 2.19
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": 0.92
+      }
+    ]
+  },
+  {
+    "stationId": "4392110d5cc50bff",
+    "company": "RV",
+    "region": "Mažeikių r. sav.",
+    "address": "Algirdo g. 42, Mažeikiai",
+    "queryAddress": "Algirdo g. 42, Mažeikiai, Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": null
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": null
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": 0.88
+      }
+    ]
+  },
+  {
+    "stationId": "ecbb53a0e757d018",
+    "company": "RV",
+    "region": "Mažeikių r. sav.",
+    "address": "Daukšos g. 29/Žemaitijos g. 69, Mažeikiai",
+    "queryAddress": "Daukšos g. 29/Žemaitijos g. 69, Mažeikiai, Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": null
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": null
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": 0.92
+      }
+    ]
+  },
+  {
+    "stationId": "34f6bb9bcd2df41e",
+    "company": "RV",
+    "region": "Švenčionių r. sav.",
+    "address": "Mokyklos g. 23, Švenčionys",
+    "queryAddress": "Mokyklos g. 23, Švenčionys, Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": null
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": null
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": 0.95
+      }
+    ]
+  },
+  {
+    "stationId": "23cf4e45156e4543",
+    "company": "Saurida",
+    "region": "Akmenės r. sav.",
+    "address": "Akmenės I kaimas Plento g. 1",
+    "queryAddress": "Akmenės I kaimas Plento g. 1, Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": 1.72
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": 2.2
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": 0.9
+      }
+    ]
+  },
+  {
+    "stationId": "b197eb74b29fcda0",
+    "company": "Saurida",
+    "region": "Akmenės r. sav.",
+    "address": "Naujoji Akmenė V. Kudirkos 18A",
+    "queryAddress": "Naujoji Akmenė V. Kudirkos 18A, Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": 1.72
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": 2.2
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": 0.9
+      }
+    ]
+  },
+  {
+    "stationId": "fe6055f0da897da2",
+    "company": "Saurida",
+    "region": "Akmenės r. sav.",
+    "address": "Pašakarnių km. Pašakarnių g. 1",
+    "queryAddress": "Pašakarnių km. Pašakarnių g. 1, Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": 1.72
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": 2.2
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": 0.9
+      }
+    ]
+  },
+  {
+    "stationId": "0b2654ea6819a833",
+    "company": "Saurida",
+    "region": "Alytaus m. sav.",
+    "address": "Alytus Miškininkų g. 7",
+    "queryAddress": "Alytus Miškininkų g. 7, Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": 1.74
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": 2.19
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": null
+      }
+    ]
+  },
+  {
+    "stationId": "48647e9c5097b71b",
+    "company": "Saurida",
+    "region": "Alytaus m. sav.",
+    "address": "Alytus Pramonės g. 5",
+    "queryAddress": "Alytus Pramonės g. 5, Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": 1.74
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": 2.19
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": null
+      }
+    ]
+  },
+  {
+    "stationId": "4c866ff48c1a9322",
+    "company": "Saurida",
+    "region": "Jurbarko r. sav.",
+    "address": "Pašvenčio km.",
+    "queryAddress": "Pašvenčio km., Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": 1.7
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": 2.14
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": 0.86
+      }
+    ]
+  },
+  {
+    "stationId": "9c481bb12d6c6c0f",
+    "company": "Saurida",
+    "region": "Kaišiadorių r. sav.",
+    "address": "Rumšiškės Lekavičiaus g. 71",
+    "queryAddress": "Rumšiškės Lekavičiaus g. 71, Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": 1.76
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": 2.22
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": 0.91
+      }
+    ]
+  },
+  {
+    "stationId": "4264a188f7a38eb1",
+    "company": "Saurida",
+    "region": "Kalvarijos sav.",
+    "address": "Kreivukės km.",
+    "queryAddress": "Kreivukės km., Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": null
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": null
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": 0.9
+      }
+    ]
+  },
+  {
+    "stationId": "2499661767e45a30",
+    "company": "Saurida",
+    "region": "Kalvarijos sav.",
+    "address": "Kušliškių km. Suvalkijos g. 15",
+    "queryAddress": "Kušliškių km. Suvalkijos g. 15, Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": 1.72
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": 2.14
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": 0.89
+      }
+    ]
+  },
+  {
+    "stationId": "261c1bb46d448322",
+    "company": "Saurida",
+    "region": "Kauno m. sav.",
+    "address": "Kaunas Garažų g. 20",
+    "queryAddress": "Kaunas Garažų g. 20, Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": 1.7
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": 2.2
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": 0.88
+      }
+    ]
+  },
+  {
+    "stationId": "126769cf085068db",
+    "company": "Saurida",
+    "region": "Kauno r. sav.",
+    "address": "Babtai Vandžiogalos g. 3",
+    "queryAddress": "Babtai Vandžiogalos g. 3, Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": 1.73
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": 2.21
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": 0.9
+      }
+    ]
+  },
+  {
+    "stationId": "b04281779c5d6280",
+    "company": "Saurida",
+    "region": "Kauno r. sav.",
+    "address": "Domeikava Muitinės g. 2",
+    "queryAddress": "Domeikava Muitinės g. 2, Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": 1.74
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": 2.2
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": 0.9
+      }
+    ]
+  },
+  {
+    "stationId": "037d0e8f2f372525",
+    "company": "Saurida",
+    "region": "Klaipėdos r. sav.",
+    "address": "Klaipėda Jūrininkų pr. 29",
+    "queryAddress": "Klaipėda Jūrininkų pr. 29, Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": 1.7
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": 2.16
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": 0.88
+      }
+    ]
+  },
+  {
+    "stationId": "69c17499bce47e5d",
+    "company": "Saurida",
+    "region": "Lazdijų r. sav.",
+    "address": "Panarvės km.",
+    "queryAddress": "Panarvės km., Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": 1.72
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": 2.14
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": 0.9
+      }
+    ]
+  },
+  {
+    "stationId": "04da36512ac63f78",
+    "company": "Saurida",
+    "region": "Marijampolės sav.",
+    "address": "Marijampolė Statybininkų g. 8",
+    "queryAddress": "Marijampolė Statybininkų g. 8, Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": 1.72
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": 2.14
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": null
+      }
+    ]
+  },
+  {
+    "stationId": "e543439fead34257",
+    "company": "Saurida",
+    "region": "Prienų r. sav.",
+    "address": "Ignacavos km. Kauno pl. 18",
+    "queryAddress": "Ignacavos km. Kauno pl. 18, Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": 1.74
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": 2.21
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": 0.91
+      }
+    ]
+  },
+  {
+    "stationId": "f0369901e8e5d99b",
+    "company": "Saurida",
+    "region": "Prienų r. sav.",
+    "address": "Mauručiai Liepų g. 20",
+    "queryAddress": "Mauručiai Liepų g. 20, Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": 1.74
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": 2.21
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": 0.91
+      }
+    ]
+  },
+  {
+    "stationId": "eba4ebb771262caa",
+    "company": "Saurida",
+    "region": "Radviliškio r. sav.",
+    "address": "Radviliškis Gedimino g. 50C",
+    "queryAddress": "Radviliškis Gedimino g. 50C, Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": 1.73
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": 2.18
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": 0.9
+      }
+    ]
+  },
+  {
+    "stationId": "2d1b12fc37b5ea0f",
+    "company": "Saurida",
+    "region": "Radviliškio r. sav.",
+    "address": "Velžių km .Radviliškio plentas 2",
+    "queryAddress": "Velžių km .Radviliškio plentas 2, Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": 1.74
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": 2.18
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": 0.88
+      }
+    ]
+  },
+  {
+    "stationId": "b9796cb03e81e79f",
+    "company": "Saurida",
+    "region": "Šakių r. sav.",
+    "address": "Lėkėčių km. Šakių g. 3",
+    "queryAddress": "Lėkėčių km. Šakių g. 3, Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": 1.71
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": 2.21
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": 0.9
+      }
+    ]
+  },
+  {
+    "stationId": "b60610cd6ccd3309",
+    "company": "Saurida",
+    "region": "Šiaulių m. sav.",
+    "address": "Šiauliai Pramonės g. 7C",
+    "queryAddress": "Šiauliai Pramonės g. 7C, Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": 1.74
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": 2.19
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": 0.9
+      }
+    ]
+  },
+  {
+    "stationId": "87e05426f4edd3f9",
+    "company": "Saurida",
+    "region": "Šiaulių m. sav.",
+    "address": "Šiauliai Vilniaus g. 373A",
+    "queryAddress": "Šiauliai Vilniaus g. 373A, Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": 1.74
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": 2.19
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": 0.9
+      }
+    ]
+  },
+  {
+    "stationId": "c1f9e33c964a73d1",
+    "company": "Saurida",
+    "region": "Šilalės r. sav.",
+    "address": "Šilalė Rytinio kelio g. 19",
+    "queryAddress": "Šilalė Rytinio kelio g. 19, Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": 1.72
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": 2.19
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": 0.9
+      }
+    ]
+  },
+  {
+    "stationId": "adaaa9ffb2a3605b",
+    "company": "Saurida",
+    "region": "Skuodo r. sav.",
+    "address": "Skuodas Vytauto g. 20",
+    "queryAddress": "Skuodas Vytauto g. 20, Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": 1.75
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": 2.19
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": 0.9
+      }
+    ]
+  },
+  {
+    "stationId": "19c1ed1a140ae5f9",
+    "company": "Saurida",
+    "region": "Ukmergės r. sav.",
+    "address": "Pageležių km.",
+    "queryAddress": "Pageležių km., Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": 1.75
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": 2.2
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": 0.9
+      }
+    ]
+  },
+  {
+    "stationId": "43f650e74cac2f44",
+    "company": "Saurida",
+    "region": "Ukmergės r. sav.",
+    "address": "Ukmergė Kareivinių g. 64",
+    "queryAddress": "Ukmergė Kareivinių g. 64, Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": 1.75
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": 2.21
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": 0.9
+      }
+    ]
+  },
+  {
+    "stationId": "7b80b99ff074eea1",
+    "company": "Saurida",
+    "region": "Ukmergės r. sav.",
+    "address": "Ukmergė Vilniaus g. 122",
+    "queryAddress": "Ukmergė Vilniaus g. 122, Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": 1.75
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": 2.21
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": 0.9
+      }
+    ]
+  },
+  {
+    "stationId": "5f86b09acc348dd6",
+    "company": "Saurida",
+    "region": "Vilniaus m. sav.",
+    "address": "Jankiškių g. 43a, Vilnius",
+    "queryAddress": "Jankiškių g. 43a, Vilnius, Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": 1.76
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": 2.22
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": 0.9
+      }
+    ]
+  },
+  {
+    "stationId": "7a01279c3249dff2",
+    "company": "Saurida",
+    "region": "Vilniaus m. sav.",
+    "address": "Vilnius Stanevičiaus g. 3A",
+    "queryAddress": "Vilnius Stanevičiaus g. 3A, Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": null
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": null
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": 0.9
+      }
+    ]
+  },
+  {
+    "stationId": "ad9d571048d12167",
+    "company": "Saurida",
+    "region": "Vilniaus r. sav.",
+    "address": "Čekoniškių km",
+    "queryAddress": "Čekoniškių km, Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": 1.76
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": 2.2
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": null
+      }
+    ]
+  },
+  {
+    "stationId": "0f963735c9b4e05b",
+    "company": "Saurida",
+    "region": "Vilniaus r. sav.",
+    "address": "Zujūnai Buivydiškių g. 1A",
+    "queryAddress": "Zujūnai Buivydiškių g. 1A, Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": 1.76
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": 2.22
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": 0.91
+      }
+    ]
+  },
+  {
+    "stationId": "dd4577140118e45f",
+    "company": "Saurida",
+    "region": "Visagino sav.",
+    "address": "Visaginas Kosmoso g. 1",
+    "queryAddress": "Visaginas Kosmoso g. 1, Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": 1.72
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": 2.22
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": 0.9
+      }
+    ]
+  },
+  {
+    "stationId": "e6bea62f78ee8541",
+    "company": "Skaistčio ŽŪB",
+    "region": "Joniškio r. sav.",
+    "address": "Liepų g.22, Skaistgirys",
+    "queryAddress": "Liepų g.22, Skaistgirys, Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": 1.69
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": 2.19
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": null
+      }
+    ]
+  },
+  {
     "stationId": "65f72334ffd9d986",
     "company": "Skulas",
     "region": "Alytaus r. sav.",
@@ -2274,11 +4771,11 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.75
+        "pricePerLiter": 1.72
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.23
+        "pricePerLiter": 2.16
       },
       {
         "fuelType": "lpg",
@@ -2310,6 +4807,604 @@
     ]
   },
   {
+    "stationId": "1eb29eb972e3911d",
+    "company": "Stateta",
+    "region": "Alytaus r. sav.",
+    "address": "Alytaus k.",
+    "queryAddress": "Alytaus k., Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": 1.699
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": 2.093
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": 0.949
+      }
+    ]
+  },
+  {
+    "stationId": "86ad4c5735176937",
+    "company": "Stateta",
+    "region": "Alytaus r. sav.",
+    "address": "Kaniukų k.",
+    "queryAddress": "Kaniukų k., Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": 1.699
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": 2.093
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": 0.949
+      }
+    ]
+  },
+  {
+    "stationId": "ba203af9d8bead30",
+    "company": "Stateta",
+    "region": "Alytaus r. sav.",
+    "address": "Kauno g.1, Miklusėnai",
+    "queryAddress": "Kauno g.1, Miklusėnai, Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": 1.699
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": 2.093
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": 0.949
+      }
+    ]
+  },
+  {
+    "stationId": "7fda1391c5739fec",
+    "company": "Stateta",
+    "region": "Kalvarijos sav.",
+    "address": "Turgaus g. 4, Kreivukė",
+    "queryAddress": "Turgaus g. 4, Kreivukė, Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": 1.699
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": 2.093
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": 0.949
+      }
+    ]
+  },
+  {
+    "stationId": "588eb527d5c866c5",
+    "company": "Stateta",
+    "region": "Kauno r. sav.",
+    "address": "Erdvės g. 78, Ramučių k.",
+    "queryAddress": "Erdvės g. 78, Ramučių k., Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": 1.699
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": 2.093
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": 0.949
+      }
+    ]
+  },
+  {
+    "stationId": "18af7c44bf326d27",
+    "company": "Stateta",
+    "region": "Kupiškio r. sav.",
+    "address": "Panevėžio g. 9, Kupiškis",
+    "queryAddress": "Panevėžio g. 9, Kupiškis, Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": 1.699
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": 2.093
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": 0.949
+      }
+    ]
+  },
+  {
+    "stationId": "26eb1e1a0e833af0",
+    "company": "Stateta",
+    "region": "Marijampolės sav.",
+    "address": "Kantališkių k.",
+    "queryAddress": "Kantališkių k., Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": 1.699
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": 2.093
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": 0.949
+      }
+    ]
+  },
+  {
+    "stationId": "b81715e1e4f07997",
+    "company": "Stateta",
+    "region": "Panevėžio r. sav.",
+    "address": "Žemdirbių g. 15, Paliūniškio k.",
+    "queryAddress": "Žemdirbių g. 15, Paliūniškio k., Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": 1.699
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": 2.093
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": 0.949
+      }
+    ]
+  },
+  {
+    "stationId": "d0fbda6df629b425",
+    "company": "Stateta",
+    "region": "Prienų r. sav.",
+    "address": "Gustaičių k.",
+    "queryAddress": "Gustaičių k., Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": 1.699
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": 2.093
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": 0.949
+      }
+    ]
+  },
+  {
+    "stationId": "51feb279217b0ffd",
+    "company": "Stateta",
+    "region": "Utenos r. sav.",
+    "address": "Palangos g. 66, Utena",
+    "queryAddress": "Palangos g. 66, Utena, Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": 1.699
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": 2.093
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": 0.949
+      }
+    ]
+  },
+  {
+    "stationId": "ba8a6e740f70d347",
+    "company": "Stateta",
+    "region": "Vilniaus m. sav.",
+    "address": "Ukmergės g. 246, Vilnius",
+    "queryAddress": "Ukmergės g. 246, Vilnius, Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": 1.699
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": 2.093
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": 0.949
+      }
+    ]
+  },
+  {
+    "stationId": "96e34f5cdfb60f81",
+    "company": "Tomega",
+    "region": "Druskininkų sav.",
+    "address": "Gardino g. 98, Druskininkai",
+    "queryAddress": "Gardino g. 98, Druskininkai, Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": 1.75
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": 2.2
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": 0.9
+      }
+    ]
+  },
+  {
+    "stationId": "7085270b92e7750d",
+    "company": "Tomega",
+    "region": "Šalčininkų r. sav.",
+    "address": "Dumblės k.",
+    "queryAddress": "Dumblės k., Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": 1.839
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": 2.259
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": null
+      }
+    ]
+  },
+  {
+    "stationId": "960c00b4b2c7be8e",
+    "company": "Tomega",
+    "region": "Šalčininkų r. sav.",
+    "address": "Tartoko k.",
+    "queryAddress": "Tartoko k., Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": 1.879
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": 2.349
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": null
+      }
+    ]
+  },
+  {
+    "stationId": "8f362238e03bae48",
+    "company": "Trevena",
+    "region": "Klaipėdos m. sav.",
+    "address": "Kretingos g. 28A, Klaipėda",
+    "queryAddress": "Kretingos g. 28A, Klaipėda, Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": 1.87
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": 2.34
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": 0.94
+      }
+    ]
+  },
+  {
+    "stationId": "31cfb2c946204f9f",
+    "company": "Trevena",
+    "region": "Klaipėdos m. sav.",
+    "address": "Minijos g. 152A, Klaipėda",
+    "queryAddress": "Minijos g. 152A, Klaipėda, Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": 1.82
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": 2.25
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": 0.96
+      }
+    ]
+  },
+  {
+    "stationId": "0597dd23f777d845",
+    "company": "Trevena",
+    "region": "Klaipėdos r. sav.",
+    "address": "Klaipėdos g. 39, Gargždai",
+    "queryAddress": "Klaipėdos g. 39, Gargždai, Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": 1.76
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": 2.22
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": 0.92
+      }
+    ]
+  },
+  {
+    "stationId": "5d4894d1a204c060",
+    "company": "Trevena",
+    "region": "Klaipėdos r. sav.",
+    "address": "Kretingos pl. 1, Gargždai",
+    "queryAddress": "Kretingos pl. 1, Gargždai, Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": 1.8
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": 2.26
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": 0.96
+      }
+    ]
+  },
+  {
+    "stationId": "862fe33d2ddac367",
+    "company": "Trevena",
+    "region": "Klaipėdos r. sav.",
+    "address": "Šv. Kristoforo g. 4, Dituvos k.",
+    "queryAddress": "Šv. Kristoforo g. 4, Dituvos k., Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": 1.82
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": 2.26
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": 0.96
+      }
+    ]
+  },
+  {
+    "stationId": "601110a381071561",
+    "company": "Trevena",
+    "region": "Klaipėdos r. sav.",
+    "address": "Veiviržėnų g. 29, Pyktiškės k.",
+    "queryAddress": "Veiviržėnų g. 29, Pyktiškės k., Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": 1.82
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": 2.26
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": 0.96
+      }
+    ]
+  },
+  {
+    "stationId": "992a55f701e9a49e",
+    "company": "Trevena",
+    "region": "Kretingos r. sav.",
+    "address": "Laisvės g. 15, Darbėnai",
+    "queryAddress": "Laisvės g. 15, Darbėnai, Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": 1.82
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": 2.26
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": 0.94
+      }
+    ]
+  },
+  {
+    "stationId": "28f128077307cf66",
+    "company": "Trevena",
+    "region": "Kretingos r. sav.",
+    "address": "Vilniaus g. 29B, Kretinga",
+    "queryAddress": "Vilniaus g. 29B, Kretinga, Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": 1.77
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": 2.2
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": 0.92
+      }
+    ]
+  },
+  {
+    "stationId": "4f6ff8b7b0903187",
+    "company": "Trevena",
+    "region": "Rietavo sav.",
+    "address": "Kvėdarnos g. 2, Vatušių k.",
+    "queryAddress": "Kvėdarnos g. 2, Vatušių k., Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": 1.82
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": 2.26
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": 0.96
+      }
+    ]
+  },
+  {
+    "stationId": "edc8cb4e695d8494",
+    "company": "Trevena",
+    "region": "Rietavo sav.",
+    "address": "Lėgų k. 1, Rietavas",
+    "queryAddress": "Lėgų k. 1, Rietavas, Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": 1.82
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": 2.26
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": 0.96
+      }
+    ]
+  },
+  {
+    "stationId": "d4645e3193ad506d",
+    "company": "Trevena",
+    "region": "Šilutės r. sav.",
+    "address": "Liepų g. 4, Žemaitkiemio k.",
+    "queryAddress": "Liepų g. 4, Žemaitkiemio k., Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": 1.87
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": 2.34
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": 0.94
+      }
+    ]
+  },
+  {
+    "stationId": "24be6bab3940b105",
+    "company": "Trevena",
+    "region": "Šilutės r. sav.",
+    "address": "Tilžės g. 21, Saugų k.",
+    "queryAddress": "Tilžės g. 21, Saugų k., Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": 1.77
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": 2.2
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": 0.92
+      }
+    ]
+  },
+  {
     "stationId": "f86f7dcf29ac3fff",
     "company": "Viada",
     "region": "Alytaus r. sav.",
@@ -2320,11 +5415,11 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.889
+        "pricePerLiter": 1.839
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.359
+        "pricePerLiter": 2.199
       },
       {
         "fuelType": "lpg",
@@ -2343,11 +5438,15 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.889
+        "pricePerLiter": 1.839
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.359
+        "pricePerLiter": 2.199
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": null
       }
     ]
   },
@@ -2362,11 +5461,11 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.889
+        "pricePerLiter": 1.839
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.359
+        "pricePerLiter": 2.199
       },
       {
         "fuelType": "lpg",
@@ -2385,11 +5484,11 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.889
+        "pricePerLiter": 1.839
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.359
+        "pricePerLiter": 2.199
       },
       {
         "fuelType": "lpg",
@@ -2408,11 +5507,11 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.889
+        "pricePerLiter": 1.839
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.359
+        "pricePerLiter": 2.199
       },
       {
         "fuelType": "lpg",
@@ -2431,11 +5530,11 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.889
+        "pricePerLiter": 1.839
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.359
+        "pricePerLiter": 2.199
       },
       {
         "fuelType": "lpg",
@@ -2454,11 +5553,11 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.889
+        "pricePerLiter": 1.839
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.359
+        "pricePerLiter": 2.199
       },
       {
         "fuelType": "lpg",
@@ -2477,11 +5576,11 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.889
+        "pricePerLiter": 1.839
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.359
+        "pricePerLiter": 2.199
       },
       {
         "fuelType": "lpg",
@@ -2500,11 +5599,11 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.889
+        "pricePerLiter": 1.839
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.359
+        "pricePerLiter": 2.199
       },
       {
         "fuelType": "lpg",
@@ -2523,11 +5622,11 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.889
+        "pricePerLiter": 1.839
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.359
+        "pricePerLiter": 2.199
       },
       {
         "fuelType": "lpg",
@@ -2546,11 +5645,11 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.839
+        "pricePerLiter": 1.799
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.299
+        "pricePerLiter": 2.199
       },
       {
         "fuelType": "lpg",
@@ -2569,11 +5668,11 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.889
+        "pricePerLiter": 1.839
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.359
+        "pricePerLiter": 2.199
       },
       {
         "fuelType": "lpg",
@@ -2592,11 +5691,15 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.859
+        "pricePerLiter": 1.839
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.349
+        "pricePerLiter": 2.199
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": null
       }
     ]
   },
@@ -2611,11 +5714,11 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.839
+        "pricePerLiter": 1.819
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.329
+        "pricePerLiter": 2.199
       },
       {
         "fuelType": "lpg",
@@ -2634,11 +5737,11 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.889
+        "pricePerLiter": 1.839
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.359
+        "pricePerLiter": 2.199
       },
       {
         "fuelType": "lpg",
@@ -2657,11 +5760,11 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.889
+        "pricePerLiter": 1.839
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.359
+        "pricePerLiter": 2.199
       },
       {
         "fuelType": "lpg",
@@ -2680,11 +5783,11 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.889
+        "pricePerLiter": 1.839
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.359
+        "pricePerLiter": 2.199
       },
       {
         "fuelType": "lpg",
@@ -2703,11 +5806,11 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.889
+        "pricePerLiter": 1.839
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.359
+        "pricePerLiter": 2.199
       },
       {
         "fuelType": "lpg",
@@ -2726,11 +5829,11 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.889
+        "pricePerLiter": 1.839
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.359
+        "pricePerLiter": 2.199
       },
       {
         "fuelType": "lpg",
@@ -2749,11 +5852,11 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.889
+        "pricePerLiter": 1.839
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.359
+        "pricePerLiter": 2.199
       },
       {
         "fuelType": "lpg",
@@ -2772,11 +5875,11 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.889
+        "pricePerLiter": 1.839
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.359
+        "pricePerLiter": 2.199
       },
       {
         "fuelType": "lpg",
@@ -2795,11 +5898,11 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.859
+        "pricePerLiter": 1.839
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.349
+        "pricePerLiter": 2.199
       },
       {
         "fuelType": "lpg",
@@ -2818,11 +5921,11 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.889
+        "pricePerLiter": 1.839
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.359
+        "pricePerLiter": 2.199
       },
       {
         "fuelType": "lpg",
@@ -2841,11 +5944,11 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.889
+        "pricePerLiter": 1.839
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.359
+        "pricePerLiter": 2.199
       },
       {
         "fuelType": "lpg",
@@ -2864,15 +5967,84 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.889
+        "pricePerLiter": 1.839
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.359
+        "pricePerLiter": 2.199
       },
       {
         "fuelType": "lpg",
         "pricePerLiter": 0.959
+      }
+    ]
+  },
+  {
+    "stationId": "d760f348fe2fea89",
+    "company": "Virši",
+    "region": "Marijampolės sav.",
+    "address": "L.Taunio g. 3, Pasūduonės km.",
+    "queryAddress": "L.Taunio g. 3, Pasūduonės km., Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": 1.824
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": 2.314
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": 1.004
+      }
+    ]
+  },
+  {
+    "stationId": "b5be6daea212d74b",
+    "company": "VVARFF",
+    "region": "Plungės r. sav.",
+    "address": "Pramogų g. 4, Truikių k.",
+    "queryAddress": "Pramogų g. 4, Truikių k., Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": 1.829
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": 2.349
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": 0.999
+      }
+    ]
+  },
+  {
+    "stationId": "0d104fa9714e5c4b",
+    "company": "Žibalas",
+    "region": "Jonavos r. sav.",
+    "address": "Taurostos g. 16a, Jonava",
+    "queryAddress": "Taurostos g. 16a, Jonava, Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": 1.83
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": 2.22
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": 0.98
       }
     ]
   }

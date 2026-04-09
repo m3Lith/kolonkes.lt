@@ -5,20 +5,24 @@ import { normalizeWhitespace } from "./normalize";
 import type { RawFuelRow } from "./types";
 
 const EXPECTED_HEADERS = [
+  "Data",
   "Imone (Degaliniu tinklas)",
   "Degalines vieta (Savivaldybe)",
-  "Degalines Vieta (Gyvenviete, Gatve)",
-  "Degalai",
-  "Kaina uz 1 l",
+  "Degalines vieta (Gyvenviete, gatve)",
+  "95 benzinas",
+  "Dyzelinas",
+  "SND",
 ] as const;
 
 interface HeaderMap {
   rowIndex: number;
+  date: number;
   company: number;
   region: number;
   address: number;
-  fuelType: number;
-  price: number;
+  gasoline: number;
+  diesel: number;
+  lpg: number;
 }
 
 const rawRowSchema = z.object({
@@ -41,20 +45,33 @@ function normalizeHeader(value: string): string {
 function findHeaders(rows: Array<Array<string | number>>): HeaderMap {
   for (let i = 0; i < rows.length; i += 1) {
     const row = rows[i].map((v) => normalizeHeader(String(v ?? "")));
-    const company = row.indexOf(EXPECTED_HEADERS[0]);
-    const region = row.indexOf(EXPECTED_HEADERS[1]);
-    const address = row.indexOf(EXPECTED_HEADERS[2]);
-    const fuelType = row.indexOf(EXPECTED_HEADERS[3]);
-    const price = row.indexOf(EXPECTED_HEADERS[4]);
+    const date = row.indexOf(EXPECTED_HEADERS[0]);
+    const company = row.indexOf(EXPECTED_HEADERS[1]);
+    const region = row.indexOf(EXPECTED_HEADERS[2]);
+    const address = row.indexOf(EXPECTED_HEADERS[3]);
+    const gasoline = row.indexOf(EXPECTED_HEADERS[4]);
+    const diesel = row.indexOf(EXPECTED_HEADERS[5]);
+    const lpg = row.indexOf(EXPECTED_HEADERS[6]);
 
     if (
+      date !== -1 &&
       company !== -1 &&
       region !== -1 &&
       address !== -1 &&
-      fuelType !== -1 &&
-      price !== -1
+      gasoline !== -1 &&
+      diesel !== -1 &&
+      lpg !== -1
     ) {
-      return { rowIndex: i, company, region, address, fuelType, price };
+      return {
+        rowIndex: i,
+        date,
+        company,
+        region,
+        address,
+        gasoline,
+        diesel,
+        lpg,
+      };
     }
   }
   throw new Error("Could not find expected Lithuanian header row in workbook.");
@@ -82,23 +99,39 @@ export function parseFuelWorkbook(filePath: string): RawFuelRow[] {
     const companyRaw = row[headers.company];
     const regionRaw = row[headers.region];
     const addressRaw = row[headers.address];
-    const fuelTypeRaw = row[headers.fuelType];
-    const priceRaw = row[headers.price];
     const company = normalizeWhitespace(String(companyRaw ?? ""));
     const region = normalizeWhitespace(String(regionRaw ?? ""));
     const address = normalizeWhitespace(String(addressRaw ?? ""));
-    const fuelType = normalizeWhitespace(String(fuelTypeRaw ?? ""));
-    if (!company || !region || !address || !fuelType) {
+    if (!company || !region || !address) {
       continue;
     }
-    const candidate = {
-      company,
-      region,
-      address,
-      fuelType,
-      priceRaw: typeof priceRaw === "number" ? priceRaw : String(priceRaw ?? ""),
-    };
-    parsed.push(rawRowSchema.parse(candidate));
+
+    const toPrice = (value: unknown): string | number =>
+      typeof value === "number" ? value : String(value ?? "");
+    const candidates: RawFuelRow[] = [
+      {
+        company,
+        region,
+        address,
+        fuelType: "gasoline",
+        priceRaw: toPrice(row[headers.gasoline]),
+      },
+      {
+        company,
+        region,
+        address,
+        fuelType: "diesel",
+        priceRaw: toPrice(row[headers.diesel]),
+      },
+      {
+        company,
+        region,
+        address,
+        fuelType: "lpg",
+        priceRaw: toPrice(row[headers.lpg]),
+      },
+    ];
+    parsed.push(...candidates.map((candidate) => rawRowSchema.parse(candidate)));
   }
 
   if (!parsed.length) {
