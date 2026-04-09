@@ -29,10 +29,10 @@ jobs:
         run: |
           OWNER="${{ github.repository_owner }}"
           REPO="${{ github.event.repository.name }}"
+          CUSTOM_DOMAIN="${{ vars.PAGES_CUSTOM_DOMAIN }}"
 
-          if [ -f public/CNAME ]; then
-            DOMAIN="$(tr -d '\r\n' < public/CNAME)"
-            echo "site=https://${DOMAIN}" >> "$GITHUB_OUTPUT"
+          if [ -n "${CUSTOM_DOMAIN}" ]; then
+            echo "site=https://${CUSTOM_DOMAIN}" >> "$GITHUB_OUTPUT"
             echo "base=/" >> "$GITHUB_OUTPUT"
             exit 0
           fi

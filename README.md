@@ -1,6 +1,7 @@
 # Fuel Map Website
 
 Astro + TypeScript web app that:
+
 - parses Lithuanian fuel price Excel files from `data/`
 - normalizes rows into structured JSON datasets
 - geocodes station addresses with OpenStreetMap Nominatim and persistent cache
@@ -9,14 +10,17 @@ Astro + TypeScript web app that:
 ## Input format
 
 Place files in `data/` using this name format:
+
 - `DK-YYYY-MM-DD.xlsx`
 
 Example:
+
 - `DK-2026-04-08.xlsx` -> dataset date `2026-04-08`
 
 Note: `.xlsx` source files are intentionally ignored by git. CI downloads them on demand.
 
 The parser expects these Lithuanian table columns:
+
 - `Imone (Degaliniu tinklas)`
 - `Degalines vieta (Savivaldybe)`
 - `Degalines Vieta (Gyvenviete, Gatve)`
@@ -28,6 +32,7 @@ The script handles diacritics and non-breaking spaces, and converts `Neprekiauja
 ## Data outputs
 
 Generated files:
+
 - `src/data/fuel-prices/<date>.json`
 - `src/data/fuel-prices/latest.json`
 - `src/data/stations/<date>.json`
@@ -68,12 +73,21 @@ If provider throttling happens, unresolved stations are written to `data/unresol
 This repo includes a workflow at `.github/workflows/deploy.yml` that deploys to GitHub Pages on each push to `main`.
 
 Setup steps in GitHub:
+
 - Go to **Settings -> Pages**
 - Set **Source** to **GitHub Actions**
 
 The workflow automatically computes Astro `site` and `base`:
+
 - User/org site repo (`<owner>.github.io`) -> base `/`
 - Project site repo (`<owner>.github.io/<repo>`) -> base `/<repo>`
+- Custom domain via repository variable `PAGES_CUSTOM_DOMAIN` -> base `/`
+
+For custom domains with GitHub Actions deployment:
+
+- Keep custom domain configured in **Settings -> Pages**
+- Add repository variable `PAGES_CUSTOM_DOMAIN`
+- `public/CNAME` is not required
 
 If you update data before deployment, run:
 
@@ -89,6 +103,7 @@ This repo also includes `.github/workflows/sync-data.yml` that can run daily and
 - `https://www.ena.lt/uploads/<year>-EDAC/dk-degalinese-<year>/DK-<YYYY-MM-DD>.xlsx`
 
 The workflow:
+
 - downloads `DK-YYYY-MM-DD.xlsx` into `data/`
 - runs `npm run build:data` and `npm run build`
 - removes downloaded `.xlsx`
