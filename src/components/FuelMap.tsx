@@ -355,6 +355,8 @@ export default function FuelMap({ dataset }: FuelMapProps) {
 
   const sortIndicator = (key: SortKey) =>
     sortKey === key ? (sortDir === "asc" ? " ↑" : " ↓") : "";
+  const sortableHeaderButtonClass =
+    "cursor-pointer rounded px-1 py-0.5 transition-colors hover:bg-slate-200 hover:text-slate-900";
 
   const onMarkersReady = useCallback(
     (
@@ -539,6 +541,7 @@ export default function FuelMap({ dataset }: FuelMapProps) {
                   <tr className="border-b border-slate-200 text-left">
                     <th className="px-3 py-2">
                       <button
+                        className={sortableHeaderButtonClass}
                         onClick={() => toggleSort("company")}
                         type="button"
                       >
@@ -547,6 +550,7 @@ export default function FuelMap({ dataset }: FuelMapProps) {
                     </th>
                     <th className="px-3 py-2">
                       <button
+                        className={sortableHeaderButtonClass}
                         onClick={() => toggleSort("address")}
                         type="button"
                       >
@@ -555,6 +559,7 @@ export default function FuelMap({ dataset }: FuelMapProps) {
                     </th>
                     <th className="px-3 py-2 text-right">
                       <button
+                        className={sortableHeaderButtonClass}
                         onClick={() => toggleSort("gasoline")}
                         type="button"
                       >
@@ -563,6 +568,7 @@ export default function FuelMap({ dataset }: FuelMapProps) {
                     </th>
                     <th className="px-3 py-2 text-right">
                       <button
+                        className={sortableHeaderButtonClass}
                         onClick={() => toggleSort("diesel")}
                         type="button"
                       >
@@ -570,7 +576,11 @@ export default function FuelMap({ dataset }: FuelMapProps) {
                       </button>
                     </th>
                     <th className="px-3 py-2 text-right">
-                      <button onClick={() => toggleSort("lpg")} type="button">
+                      <button
+                        className={sortableHeaderButtonClass}
+                        onClick={() => toggleSort("lpg")}
+                        type="button"
+                      >
                         SND{sortIndicator("lpg")}
                       </button>
                     </th>
@@ -580,7 +590,7 @@ export default function FuelMap({ dataset }: FuelMapProps) {
                   {sortedTableStations.map((station) => (
                     <tr
                       key={station.stationId}
-                      className="cursor-pointer border-b border-slate-100 hover:bg-slate-50"
+                      className="cursor-default border-b border-slate-100 hover:bg-slate-50"
                       onClick={() => focusStation(station)}
                     >
                       <td className="px-3 py-2">{station.company}</td>
