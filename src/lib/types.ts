@@ -3,9 +3,9 @@ export const FUEL_TYPES = ["gasoline", "diesel", "lpg"] as const;
 export type FuelType = (typeof FUEL_TYPES)[number];
 
 export const FUEL_LABELS_LT: Record<FuelType, string> = {
-  gasoline: "Benzinas 95",
+  gasoline: "Benzinas",
   diesel: "Dyzelinas",
-  lpg: "SND",
+  lpg: "Dujos",
 };
 
 export const FUEL_SORT_ORDER: Record<FuelType, number> = {
