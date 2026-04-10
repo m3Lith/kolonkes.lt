@@ -45,6 +45,11 @@ const FUEL_DOT_CLASS: Record<FuelType, string> = {
   diesel: "fuel-dot-diesel",
   lpg: "fuel-dot-lpg",
 };
+const FUEL_MARKER_BADGE_LABEL: Record<FuelType, string> = {
+  gasoline: "95",
+  diesel: "D",
+  lpg: "L",
+};
 const FUEL_ICON_CLASS: Record<FuelType, string> = {
   gasoline: "text-green-700",
   diesel: "text-black-600",
@@ -83,7 +88,7 @@ function createPriceIcon(
   const label = markerPriceLabel(station, fuelType);
   return L.divIcon({
     className: "fuel-price-marker-wrapper",
-    html: `<div class="fuel-price-marker"><span class="fuel-dot ${FUEL_DOT_CLASS[fuelType]}"></span><span>${label}</span></div>`,
+    html: `<div class="fuel-price-marker"><span class="marker-fuel-badge ${FUEL_DOT_CLASS[fuelType]}">${FUEL_MARKER_BADGE_LABEL[fuelType]}</span><span>${label}</span></div>`,
     iconSize: [62, 24],
     iconAnchor: [31, 12],
     popupAnchor: [0, -10],
@@ -402,9 +407,11 @@ export default function FuelMap({ dataset }: FuelMapProps) {
 
   const sortIndicator = (fuelType: FuelType) =>
     markerFuelType === fuelType ? (sortDir === "asc" ? " ↑" : " ↓") : "";
-  const fuelLabelWithDot = (fuelType: FuelType) => (
+  const fuelLabelWithBadge = (fuelType: FuelType) => (
     <span className="inline-flex items-center gap-1">
-      <span className={`fuel-dot ${FUEL_DOT_CLASS[fuelType]}`} />
+      <span className={`marker-fuel-badge ${FUEL_DOT_CLASS[fuelType]}`}>
+        {FUEL_MARKER_BADGE_LABEL[fuelType]}
+      </span>
       {FUEL_LABELS_LT[fuelType]}
     </span>
   );
@@ -486,6 +493,19 @@ export default function FuelMap({ dataset }: FuelMapProps) {
         }
         .fuel-dot-lpg {
           background: #ed2f23;
+        }
+        .marker-fuel-badge {
+          width: 15px;
+          height: 15px;
+          border-radius: 9999px;
+          display: inline-flex;
+          align-items: center;
+          justify-content: center;
+          color: #ffffff;
+          font-size: 9px;
+          line-height: 1;
+          font-weight: 700;
+          flex-shrink: 0;
         }
         .map-control-stack {
           overflow: hidden;
@@ -629,7 +649,7 @@ export default function FuelMap({ dataset }: FuelMapProps) {
                         onClick={() => toggleSort("gasoline")}
                         type="button"
                       >
-                        {fuelLabelWithDot("gasoline")}
+                        {fuelLabelWithBadge("gasoline")}
                         {sortIndicator("gasoline")}
                       </button>
                     </th>
@@ -639,7 +659,7 @@ export default function FuelMap({ dataset }: FuelMapProps) {
                         onClick={() => toggleSort("diesel")}
                         type="button"
                       >
-                        {fuelLabelWithDot("diesel")}
+                        {fuelLabelWithBadge("diesel")}
                         {sortIndicator("diesel")}
                       </button>
                     </th>
@@ -649,7 +669,7 @@ export default function FuelMap({ dataset }: FuelMapProps) {
                         onClick={() => toggleSort("lpg")}
                         type="button"
                       >
-                        {fuelLabelWithDot("lpg")}
+                        {fuelLabelWithBadge("lpg")}
                         {sortIndicator("lpg")}
                       </button>
                     </th>
@@ -755,7 +775,7 @@ export default function FuelMap({ dataset }: FuelMapProps) {
                       checked={markerFuelType === fuelType}
                       onCheckedChange={() => setMarkerFuelType(fuelType)}
                     >
-                      {fuelLabelWithDot(fuelType)}
+                      {fuelLabelWithBadge(fuelType)}
                     </DropdownMenuCheckboxItem>
                   ),
                 )}
