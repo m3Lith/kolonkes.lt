@@ -6,9 +6,11 @@ import L from 'leaflet'
 import markerIcon2xUrl from 'leaflet/dist/images/marker-icon-2x.png?url'
 import markerIconUrl from 'leaflet/dist/images/marker-icon.png?url'
 import markerShadowUrl from 'leaflet/dist/images/marker-shadow.png?url'
-import { useEffect, useMemo, useState } from 'react'
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { renderToStaticMarkup } from 'react-dom/server'
 import { MapContainer, TileLayer, useMap } from 'react-leaflet'
+
+import { MagnifyingGlassIcon } from '@radix-ui/react-icons'
 
 import { StationPopup } from './StationPopup'
 import { Button } from './ui/button'
@@ -22,7 +24,7 @@ import {
   DropdownMenuTrigger,
 } from './ui/dropdown-menu'
 
-import type { StationDataset, StationRecord } from "../lib/types";
+import type { FuelType, StationDataset, StationRecord } from "../lib/types";
 // Prevent Leaflet Icon.Default from prepending its own imagePath.
 delete (L.Icon.Default.prototype as { _getIconUrl?: unknown })._getIconUrl;
 L.Icon.Default.mergeOptions({
@@ -35,18 +37,57 @@ interface FuelMapProps {
   dataset: StationDataset;
 }
 
+type SortKey = "company" | "address" | FuelType;
+type SortDir = "asc" | "desc";
+
+function getFuelPrice(
+  station: StationRecord,
+  fuelType: FuelType,
+): number | null {
+  const fuel = station.fuelPrices.find((item) => item.fuelType === fuelType);
+  return fuel?.pricePerLiter ?? null;
+}
+
+function formatPrice(value: number | null): string {
+  return value === null ? "-" : value.toFixed(3);
+}
+
+function compareNullableNumber(
+  a: number | null,
+  b: number | null,
+  direction: SortDir,
+): number {
+  if (a === null && b === null) {
+    return 0;
+  }
+  if (a === null) {
+    return 1;
+  }
+  if (b === null) {
+    return -1;
+  }
+  return direction === "asc" ? a - b : b - a;
+}
+
 function ClusteredMarkers({
   stations,
   date,
+  onMarkersReady,
 }: {
   stations: StationRecord[];
   date: string;
+  onMarkersReady: (
+    markerIndex: Map<string, L.Marker>,
+    clusterLayer: L.MarkerClusterGroup | null,
+  ) => void;
 }) {
   const map = useMap();
+  const hasInitialFitDoneRef = useRef(false);
 
   useEffect(() => {
     let mounted = true;
     let clusterLayer: L.MarkerClusterGroup | null = null;
+    const markerIndex = new Map<string, L.Marker>();
 
     const run = async () => {
       await import("leaflet.markercluster");
@@ -70,17 +111,23 @@ function ClusteredMarkers({
         marker.bindPopup(
           renderToStaticMarkup(<StationPopup station={station} date={date} />),
         );
+        markerIndex.set(station.stationId, marker);
         clusterLayer.addLayer(marker);
       }
 
       map.addLayer(clusterLayer);
+      onMarkersReady(markerIndex, clusterLayer);
       if (valid.length) {
-        const bounds = L.latLngBounds(
-          valid.map(
-            (station) => [station.lat!, station.lon!] as [number, number],
-          ),
-        );
-        map.fitBounds(bounds.pad(0.1));
+        // Fit only once on initial load; keep user zoom/center on later filter updates.
+        if (!hasInitialFitDoneRef.current) {
+          const bounds = L.latLngBounds(
+            valid.map(
+              (station) => [station.lat!, station.lon!] as [number, number],
+            ),
+          );
+          map.fitBounds(bounds.pad(0.1));
+          hasInitialFitDoneRef.current = true;
+        }
       }
     };
 
@@ -90,21 +137,102 @@ function ClusteredMarkers({
 
     return () => {
       mounted = false;
+      onMarkersReady(new Map(), null);
       if (clusterLayer) {
         map.removeLayer(clusterLayer);
       }
     };
-  }, [date, map, stations]);
+  }, [date, map, onMarkersReady, stations]);
+
+  return null;
+}
+
+function MapViewportTracker({
+  onMapReady,
+  onBoundsChange,
+}: {
+  onMapReady: (map: L.Map | null) => void;
+  onBoundsChange: (bounds: L.LatLngBounds) => void;
+}) {
+  const map = useMap();
+
+  useEffect(() => {
+    onMapReady(map);
+    const update = () => onBoundsChange(map.getBounds());
+    update();
+    map.on("moveend zoomend", update);
+    return () => {
+      map.off("moveend zoomend", update);
+      onMapReady(null);
+    };
+  }, [map, onBoundsChange, onMapReady]);
+
+  return null;
+}
+
+function MapResizeHandler({ trigger }: { trigger: string }) {
+  const map = useMap();
+
+  useEffect(() => {
+    // Let layout settle, then force Leaflet to recalculate tile viewport.
+    const id = window.setTimeout(() => {
+      map.invalidateSize({ animate: false });
+    }, 0);
+    return () => window.clearTimeout(id);
+  }, [map, trigger]);
+
+  return null;
+}
+
+function MapGeolocateOnLoad() {
+  const map = useMap();
+
+  useEffect(() => {
+    if (!('geolocation' in navigator)) {
+      return;
+    }
+
+    navigator.geolocation.getCurrentPosition(
+      (position) => {
+        const { latitude, longitude } = position.coords;
+        map.setView([latitude, longitude], 13, { animate: false });
+      },
+      () => {
+        // User denied location or browser failed to resolve it; keep default map behavior.
+      },
+      {
+        enableHighAccuracy: false,
+        timeout: 8000,
+        maximumAge: 120000,
+      },
+    );
+  }, [map]);
 
   return null;
 }
 
 export default function FuelMap({ dataset }: FuelMapProps) {
   const center = useMemo<[number, number]>(() => [55.1694, 23.8813], []);
+  const geocodedStations = useMemo(
+    () =>
+      dataset.stations.filter(
+        (station) => station.lat !== null && station.lon !== null,
+      ),
+    [dataset.stations],
+  );
+  const [showTable, setShowTable] = useState(true);
+  const [syncTableWithMap, setSyncTableWithMap] = useState(true);
+  const [sortKey, setSortKey] = useState<SortKey>("gasoline");
+  const [sortDir, setSortDir] = useState<SortDir>("asc");
+  const [mapBounds, setMapBounds] = useState<L.LatLngBounds | null>(null);
+  const [mapInstance, setMapInstance] = useState<L.Map | null>(null);
+  const markerIndexRef = useRef<Map<string, L.Marker>>(new Map());
+  const clusterLayerRef = useRef<L.MarkerClusterGroup | null>(null);
+
   const companies = useMemo(
     () =>
-      [...new Set(dataset.stations.map((station) => station.company))].sort(),
-    [dataset.stations],
+      [...new Set(geocodedStations.map((station) => station.company))].sort(),
+    [geocodedStations],
   );
   const [selectedCompanies, setSelectedCompanies] =
     useState<string[]>(companies);
@@ -119,11 +247,43 @@ export default function FuelMap({ dataset }: FuelMapProps) {
   );
   const filteredStations = useMemo(
     () =>
-      dataset.stations.filter((station) =>
+      geocodedStations.filter((station) =>
         selectedCompanySet.has(station.company),
       ),
-    [dataset.stations, selectedCompanySet],
+    [geocodedStations, selectedCompanySet],
   );
+
+  const viewportStations = useMemo(
+    () =>
+      filteredStations.filter(
+        (station) =>
+          station.lat !== null &&
+          station.lon !== null &&
+          mapBounds?.contains([station.lat, station.lon]),
+      ),
+    [filteredStations, mapBounds],
+  );
+
+  const tableSourceStations = useMemo(
+    () => (syncTableWithMap ? viewportStations : filteredStations),
+    [filteredStations, syncTableWithMap, viewportStations],
+  );
+
+  const sortedTableStations = useMemo(() => {
+    return [...tableSourceStations].sort((a, b) => {
+      if (sortKey === "company" || sortKey === "address") {
+        const av = a[sortKey];
+        const bv = b[sortKey];
+        const compared = av.localeCompare(bv);
+        return sortDir === "asc" ? compared : -compared;
+      }
+      return compareNullableNumber(
+        getFuelPrice(a, sortKey),
+        getFuelPrice(b, sortKey),
+        sortDir,
+      );
+    });
+  }, [sortDir, sortKey, tableSourceStations]);
 
   const toggleCompany = (company: string) => {
     setSelectedCompanies((current) =>
@@ -131,6 +291,52 @@ export default function FuelMap({ dataset }: FuelMapProps) {
         ? current.filter((item) => item !== company)
         : [...current, company],
     );
+  };
+
+  const toggleSort = (nextKey: SortKey) => {
+    if (sortKey === nextKey) {
+      setSortDir((current) => (current === "asc" ? "desc" : "asc"));
+      return;
+    }
+    setSortKey(nextKey);
+    setSortDir("asc");
+  };
+
+  const sortIndicator = (key: SortKey) =>
+    sortKey === key ? (sortDir === "asc" ? " ↑" : " ↓") : "";
+
+  const onMarkersReady = useCallback(
+    (
+      markerIndex: Map<string, L.Marker>,
+      clusterLayer: L.MarkerClusterGroup | null,
+    ) => {
+      markerIndexRef.current = markerIndex;
+      clusterLayerRef.current = clusterLayer;
+    },
+    [],
+  );
+
+  const focusStation = (station: StationRecord) => {
+    if (!mapInstance) {
+      return;
+    }
+    const marker = markerIndexRef.current.get(station.stationId);
+    if (!marker) {
+      return;
+    }
+    const cluster = clusterLayerRef.current;
+    if (cluster) {
+      cluster.zoomToShowLayer(marker, () => {
+        mapInstance.panTo(marker.getLatLng());
+        marker.openPopup();
+      });
+      return;
+    }
+    mapInstance.setView(
+      marker.getLatLng(),
+      Math.max(mapInstance.getZoom(), 15),
+    );
+    marker.openPopup();
   };
 
   return (
@@ -171,23 +377,149 @@ export default function FuelMap({ dataset }: FuelMapProps) {
             ))}
           </DropdownMenuContent>
         </DropdownMenu>
+        <Button
+          className="h-8 px-2 text-xs"
+          title="Centruoti žemėlapį"
+          aria-label="Centruoti žemėlapį"
+          onClick={() => {
+            if (!mapInstance) {
+              return;
+            }
+            const points = filteredStations
+              .filter((station) => station.lat !== null && station.lon !== null)
+              .map(
+                (station) => [station.lat!, station.lon!] as [number, number],
+              );
+            if (!points.length) {
+              return;
+            }
+            mapInstance.fitBounds(L.latLngBounds(points).pad(0.1));
+          }}
+        >
+          <MagnifyingGlassIcon className="h-4 w-4" />
+        </Button>
         <span className="text-sm text-slate-700">
           Rodoma degalinių: <strong>{filteredStations.length}</strong> /{" "}
-          {dataset.stations.length}
+          {geocodedStations.length}
         </span>
+        <Button
+          className="h-8 px-2 text-xs"
+          onClick={() => setShowTable((v) => !v)}
+        >
+          {showTable ? "Slėpti lentelę" : "Rodyti lentelę"}
+        </Button>
+        {showTable && (
+          <Button
+            className="h-8 px-2 text-xs"
+            onClick={() => setSyncTableWithMap((v) => !v)}
+          >
+            Lentelės sinchronizacija:{" "}
+            {syncTableWithMap ? "Įjungta" : "Išjungta"}
+          </Button>
+        )}
       </div>
 
-      <MapContainer
-        center={center}
-        zoom={7}
-        style={{ height: "78vh", width: "100%" }}
-      >
-        <TileLayer
-          attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-          url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-        />
-        <ClusteredMarkers stations={filteredStations} date={dataset.date} />
-      </MapContainer>
+      <div className="flex h-[78vh] gap-3">
+        {showTable && (
+          <div className="h-full w-[45%] min-w-[380px] rounded-md border border-slate-200 bg-white">
+            <div className="border-b border-slate-200 px-3 py-2 text-sm text-slate-700">
+              Lentelėje rodoma: <strong>{sortedTableStations.length}</strong>{" "}
+              {syncTableWithMap
+                ? "(tik matomame žemėlapio plote)"
+                : "(visos degalinės)"}
+            </div>
+            <div className="h-[calc(78vh-41px)] overflow-auto">
+              <table className="min-w-full border-collapse text-sm">
+                <thead className="sticky top-0 z-10 bg-slate-50">
+                  <tr className="border-b border-slate-200 text-left">
+                    <th className="px-3 py-2">
+                      <button
+                        onClick={() => toggleSort("company")}
+                        type="button"
+                      >
+                        Įmonė{sortIndicator("company")}
+                      </button>
+                    </th>
+                    <th className="px-3 py-2">
+                      <button
+                        onClick={() => toggleSort("address")}
+                        type="button"
+                      >
+                        Adresas{sortIndicator("address")}
+                      </button>
+                    </th>
+                    <th className="px-3 py-2 text-right">
+                      <button
+                        onClick={() => toggleSort("gasoline")}
+                        type="button"
+                      >
+                        Benzinas{sortIndicator("gasoline")}
+                      </button>
+                    </th>
+                    <th className="px-3 py-2 text-right">
+                      <button
+                        onClick={() => toggleSort("diesel")}
+                        type="button"
+                      >
+                        Dyzelinas{sortIndicator("diesel")}
+                      </button>
+                    </th>
+                    <th className="px-3 py-2 text-right">
+                      <button onClick={() => toggleSort("lpg")} type="button">
+                        SND{sortIndicator("lpg")}
+                      </button>
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {sortedTableStations.map((station) => (
+                    <tr
+                      key={station.stationId}
+                      className="cursor-pointer border-b border-slate-100 hover:bg-slate-50"
+                      onClick={() => focusStation(station)}
+                    >
+                      <td className="px-3 py-2">{station.company}</td>
+                      <td className="px-3 py-2">{station.address}</td>
+                      <td className="px-3 py-2 text-right">
+                        {formatPrice(getFuelPrice(station, "gasoline"))}
+                      </td>
+                      <td className="px-3 py-2 text-right">
+                        {formatPrice(getFuelPrice(station, "diesel"))}
+                      </td>
+                      <td className="px-3 py-2 text-right">
+                        {formatPrice(getFuelPrice(station, "lpg"))}
+                      </td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </div>
+        )}
+        <div className={showTable ? "h-full flex-1" : "h-full w-full"}>
+          <MapContainer
+            center={center}
+            zoom={7}
+            style={{ height: "100%", width: "100%" }}
+          >
+            <TileLayer
+              attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+              url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+            />
+            <MapGeolocateOnLoad />
+            <MapResizeHandler trigger={showTable ? "table-on" : "table-off"} />
+            <MapViewportTracker
+              onMapReady={setMapInstance}
+              onBoundsChange={setMapBounds}
+            />
+            <ClusteredMarkers
+              stations={filteredStations}
+              date={dataset.date}
+              onMarkersReady={onMarkersReady}
+            />
+          </MapContainer>
+        </div>
+      </div>
     </>
   );
 }
