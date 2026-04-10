@@ -10,7 +10,7 @@ import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { renderToStaticMarkup } from 'react-dom/server'
 import { MapContainer, TileLayer, useMap } from 'react-leaflet'
 
-import { CornersIcon, Crosshair2Icon } from '@radix-ui/react-icons'
+import { CornersIcon, Crosshair2Icon, TableIcon, UpdateIcon } from '@radix-ui/react-icons'
 
 import { StationPopup } from './StationPopup'
 import { Button } from './ui/button'
@@ -192,7 +192,7 @@ function MapGeolocateOnLoad({
   const map = useMap();
 
   useEffect(() => {
-    if (!('geolocation' in navigator)) {
+    if (!("geolocation" in navigator)) {
       return;
     }
 
@@ -206,13 +206,13 @@ function MapGeolocateOnLoad({
 
         locationMarker = L.circleMarker([latitude, longitude], {
           radius: 8,
-          color: '#dc2626',
+          color: "#dc2626",
           weight: 2,
-          fillColor: '#ef4444',
+          fillColor: "#ef4444",
           fillOpacity: 0.9,
         })
           .addTo(map)
-          .bindPopup('Jūsų vieta');
+          .bindPopup("Jūsų vieta");
       },
       () => {
         // User denied location or browser failed to resolve it; keep default map behavior.
@@ -252,7 +252,9 @@ export default function FuelMap({ dataset }: FuelMapProps) {
   const [syncTableWithMap, setSyncTableWithMap] = useState(true);
   const [sortKey, setSortKey] = useState<SortKey>("gasoline");
   const [sortDir, setSortDir] = useState<SortDir>("asc");
-  const [userLocation, setUserLocation] = useState<[number, number] | null>(null);
+  const [userLocation, setUserLocation] = useState<[number, number] | null>(
+    null,
+  );
   const [mapBounds, setMapBounds] = useState<L.LatLngBounds | null>(null);
   const [mapInstance, setMapInstance] = useState<L.Map | null>(null);
   const markerIndexRef = useRef<Map<string, L.Marker>>(new Map());
@@ -263,23 +265,39 @@ export default function FuelMap({ dataset }: FuelMapProps) {
       [...new Set(geocodedStations.map((station) => station.company))].sort(),
     [geocodedStations],
   );
-  const [selectedCompanies, setSelectedCompanies] =
-    useState<string[]>(companies);
+  const regions = useMemo(
+    () =>
+      [...new Set(geocodedStations.map((station) => station.region))].sort(),
+    [geocodedStations],
+  );
+  const [selectedCompanies, setSelectedCompanies] = useState<string[]>([]);
+  const [selectedRegion, setSelectedRegion] = useState<string | null>(null);
 
   useEffect(() => {
-    setSelectedCompanies(companies);
+    setSelectedCompanies([]);
   }, [companies]);
+  useEffect(() => {
+    setSelectedRegion(null);
+  }, [regions]);
 
   const selectedCompanySet = useMemo(
     () => new Set(selectedCompanies),
     [selectedCompanies],
   );
+  const isAllCompaniesSelected = selectedCompanies.length === 0;
   const filteredStations = useMemo(
     () =>
-      geocodedStations.filter((station) =>
-        selectedCompanySet.has(station.company),
+      geocodedStations.filter(
+        (station) =>
+          (isAllCompaniesSelected || selectedCompanySet.has(station.company)) &&
+          (selectedRegion === null || station.region === selectedRegion),
       ),
-    [geocodedStations, selectedCompanySet],
+    [
+      geocodedStations,
+      isAllCompaniesSelected,
+      selectedCompanySet,
+      selectedRegion,
+    ],
   );
 
   const viewportStations = useMemo(
@@ -315,11 +333,15 @@ export default function FuelMap({ dataset }: FuelMapProps) {
   }, [sortDir, sortKey, tableSourceStations]);
 
   const toggleCompany = (company: string) => {
-    setSelectedCompanies((current) =>
-      current.includes(company)
+    setSelectedCompanies((current) => {
+      const next = current.includes(company)
         ? current.filter((item) => item !== company)
-        : [...current, company],
-    );
+        : [...current, company];
+      if (next.length === companies.length) {
+        return [];
+      }
+      return next;
+    });
   };
 
   const toggleSort = (nextKey: SortKey) => {
@@ -371,24 +393,33 @@ export default function FuelMap({ dataset }: FuelMapProps) {
   return (
     <>
       <div className="mb-3 flex flex-wrap items-center gap-3">
+        <Button
+          className={`h-8 w-8 p-0 ${showTable ? "bg-slate-200 text-slate-700 hover:bg-slate-300" : "bg-white text-slate-500 hover:bg-slate-100"}`}
+          title={showTable ? "Slėpti lentelę" : "Rodyti lentelę"}
+          aria-label={showTable ? "Slėpti lentelę" : "Rodyti lentelę"}
+          aria-pressed={showTable}
+          onClick={() => setShowTable((v) => !v)}
+        >
+          <TableIcon className="h-4 w-4" />
+        </Button>
         <DropdownMenu>
           <DropdownMenuTrigger asChild>
             <Button className="font-semibold">
-              Įmonės ({selectedCompanies.length}/{companies.length})
+              Tinklai (
+              {isAllCompaniesSelected
+                ? companies.length
+                : selectedCompanies.length}
+              /{companies.length})
               <DropdownMenuChevron />
             </Button>
           </DropdownMenuTrigger>
           <DropdownMenuContent className="max-h-80 overflow-auto">
-            <DropdownMenuLabel>Filtruoti pagal įmonę</DropdownMenuLabel>
-            <div className="flex gap-2 px-2 py-1">
+            <div className="flex items-center justify-between px-2 py-1.5">
+              <DropdownMenuLabel className="p-0">
+                Filtruoti pagal tinklą
+              </DropdownMenuLabel>
               <Button
-                className="h-8 px-2 text-xs"
-                onClick={() => setSelectedCompanies(companies)}
-              >
-                Rodyti visas
-              </Button>
-              <Button
-                className="h-8 px-2 text-xs"
+                className="h-7 px-2 text-xs"
                 onClick={() => setSelectedCompanies([])}
               >
                 Išvalyti
@@ -402,6 +433,38 @@ export default function FuelMap({ dataset }: FuelMapProps) {
                 onCheckedChange={() => toggleCompany(company)}
               >
                 {company}
+              </DropdownMenuCheckboxItem>
+            ))}
+          </DropdownMenuContent>
+        </DropdownMenu>
+        <DropdownMenu>
+          <DropdownMenuTrigger asChild>
+            <Button className="font-semibold">
+              Regionai ({selectedRegion === null ? regions.length : 1}/
+              {regions.length})
+              <DropdownMenuChevron />
+            </Button>
+          </DropdownMenuTrigger>
+          <DropdownMenuContent className="max-h-80 overflow-auto">
+            <div className="flex items-center justify-between px-2 py-1.5">
+              <DropdownMenuLabel className="p-0">
+                Filtruoti pagal regioną
+              </DropdownMenuLabel>
+              <Button
+                className="h-7 px-2 text-xs"
+                onClick={() => setSelectedRegion(null)}
+              >
+                Išvalyti
+              </Button>
+            </div>
+            <DropdownMenuSeparator />
+            {regions.map((region) => (
+              <DropdownMenuCheckboxItem
+                key={region}
+                checked={selectedRegion === region}
+                onCheckedChange={() => setSelectedRegion(region)}
+              >
+                {region}
               </DropdownMenuCheckboxItem>
             ))}
           </DropdownMenuContent>
@@ -446,31 +509,29 @@ export default function FuelMap({ dataset }: FuelMapProps) {
           Rodoma degalinių: <strong>{filteredStations.length}</strong> /{" "}
           {geocodedStations.length}
         </span>
-        <Button
-          className="h-8 px-2 text-xs"
-          onClick={() => setShowTable((v) => !v)}
-        >
-          {showTable ? "Slėpti lentelę" : "Rodyti lentelę"}
-        </Button>
-        {showTable && (
-          <Button
-            className="h-8 px-2 text-xs"
-            onClick={() => setSyncTableWithMap((v) => !v)}
-          >
-            Lentelės sinchronizacija:{" "}
-            {syncTableWithMap ? "Įjungta" : "Išjungta"}
-          </Button>
-        )}
       </div>
 
       <div className="flex flex-col gap-3 lg:h-[78vh] lg:flex-row">
         {showTable && (
           <div className="w-full rounded-md border border-slate-200 bg-white lg:h-full lg:w-[45%] lg:min-w-[380px]">
-            <div className="border-b border-slate-200 px-3 py-2 text-sm text-slate-700">
-              Lentelėje rodoma: <strong>{sortedTableStations.length}</strong>{" "}
-              {syncTableWithMap
-                ? "(tik matomame žemėlapio plote)"
-                : "(visos degalinės)"}
+            <div className="flex items-center justify-between border-b border-slate-200 px-3 py-2 text-sm text-slate-700">
+              <span>
+                Lentelėje rodoma: <strong>{sortedTableStations.length}</strong>{" "}
+                {syncTableWithMap
+                  ? "(sinchronizuota su žemėlapiu)"
+                  : "(visos degalinės)"}
+              </span>
+              <Button
+                className={`h-7 w-7 p-0 ${syncTableWithMap ? "bg-slate-200 text-slate-700 hover:bg-slate-300" : "bg-white text-slate-500 hover:bg-slate-100"}`}
+                title={`Sinchronizacija su žemėlapiu: ${syncTableWithMap ? "įjungta" : "išjungta"}`}
+                aria-label={`Sinchronizacija su žemėlapiu: ${syncTableWithMap ? "įjungta" : "išjungta"}`}
+                aria-pressed={syncTableWithMap}
+                onClick={() => setSyncTableWithMap((v) => !v)}
+              >
+                <UpdateIcon
+                  className={`h-4 w-4 ${syncTableWithMap ? "" : "opacity-60"}`}
+                />
+              </Button>
             </div>
             <div className="h-[40vh] overflow-auto lg:h-[calc(78vh-41px)]">
               <table className="min-w-full border-collapse text-sm">
@@ -481,7 +542,7 @@ export default function FuelMap({ dataset }: FuelMapProps) {
                         onClick={() => toggleSort("company")}
                         type="button"
                       >
-                        Įmonė{sortIndicator("company")}
+                        Tinklas{sortIndicator("company")}
                       </button>
                     </th>
                     <th className="px-3 py-2">

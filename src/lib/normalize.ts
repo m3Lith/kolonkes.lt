@@ -14,6 +14,10 @@ export function normalizeWhitespace(input: string): string {
   return input.replace(/\u00a0/g, " ").replace(/\s+/g, " ").trim();
 }
 
+function normalizeAddressValue(input: string): string {
+  return normalizeWhitespace(input).replace(/(?:,\s*)+$/, "");
+}
+
 export function removeDiacritics(input: string): string {
   return input.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
 }
@@ -31,7 +35,7 @@ function looksLikeStreetPart(value: string): boolean {
 }
 
 export function normalizeAddressTownLast(address: string): string {
-  const clean = normalizeWhitespace(address);
+  const clean = normalizeAddressValue(address);
   const parts = clean.split(",").map((part) => normalizeWhitespace(part));
   if (parts.length !== 2) {
     return clean;
@@ -82,6 +86,7 @@ export function normalizePrice(value: string | number): number | null {
   return Number(parsed.toFixed(3));
 }
 
+/** Stable id: hash includes raw workbook address (not parsed) so normalization tweaks do not change station_id. */
 export function buildStationId(
   company: string,
   region: string,

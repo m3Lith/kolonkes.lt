@@ -39,4 +39,10 @@ describe("normalize helpers", () => {
       "Sidabros g. 2A, Satkūnų k.",
     );
   });
+
+  it("removes trailing spaces and commas from address values", () => {
+    expect(normalizeAddressTownLast(" Vilniaus g. 1,   ")).toBe("Vilniaus g. 1");
+    expect(normalizeAddressTownLast("Kauno g. 12,,")).toBe("Kauno g. 12");
+    expect(normalizeAddressTownLast("Klaipeda")).toBe("Klaipeda");
+  });
 });

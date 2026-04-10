@@ -1,5 +1,12 @@
 [
   {
+    "station_id": "009d82999aabd1b4",
+    "date": "2026-04-10",
+    "gasoline": 1.799,
+    "diesel": 2.199,
+    "lpg": 0.959
+  },
+  {
     "station_id": "00d67077c92a9f32",
     "date": "2026-04-10",
     "gasoline": 1.839,
@@ -7,18 +14,18 @@
     "lpg": 0.959
   },
   {
-    "station_id": "01aa5851e3056137",
+    "station_id": "0199cd7875b9eb18",
     "date": "2026-04-10",
-    "gasoline": 1.799,
+    "gasoline": 1.839,
     "diesel": 2.199,
     "lpg": 0.959
   },
   {
-    "station_id": "0263182de79b2f6e",
+    "station_id": "01b2ed2e0c16b240",
     "date": "2026-04-10",
-    "gasoline": 1.73,
-    "diesel": 2.14,
-    "lpg": 0.91
+    "gasoline": null,
+    "diesel": null,
+    "lpg": 0.89
   },
   {
     "station_id": "02694b0ce0025c29",
@@ -26,6 +33,13 @@
     "gasoline": 1.809,
     "diesel": 2.219,
     "lpg": 0.99
+  },
+  {
+    "station_id": "02a956d7a48f4a1c",
+    "date": "2026-04-10",
+    "gasoline": 1.779,
+    "diesel": 2.199,
+    "lpg": null
   },
   {
     "station_id": "037d0e8f2f372525",
@@ -42,25 +56,11 @@
     "lpg": 0.919
   },
   {
-    "station_id": "04af31c4d5621882",
-    "date": "2026-04-10",
-    "gasoline": 1.729,
-    "diesel": 2.139,
-    "lpg": 0.939
-  },
-  {
     "station_id": "04da36512ac63f78",
     "date": "2026-04-10",
     "gasoline": 1.72,
     "diesel": 2.14,
     "lpg": 0.89
-  },
-  {
-    "station_id": "0521dd846c33bfeb",
-    "date": "2026-04-10",
-    "gasoline": 1.839,
-    "diesel": 2.199,
-    "lpg": 0.959
   },
   {
     "station_id": "052ba1f87a69214b",
@@ -70,11 +70,11 @@
     "lpg": null
   },
   {
-    "station_id": "0595d03413da1254",
+    "station_id": "054b14031f9e5f8d",
     "date": "2026-04-10",
-    "gasoline": 1.839,
-    "diesel": 2.199,
-    "lpg": 0.959
+    "gasoline": 1.66,
+    "diesel": 2.07,
+    "lpg": 0.85
   },
   {
     "station_id": "0597dd23f777d845",
@@ -84,18 +84,18 @@
     "lpg": 0.92
   },
   {
-    "station_id": "05d0a6275eb5b482",
+    "station_id": "05ca6ef50a726774",
     "date": "2026-04-10",
-    "gasoline": 1.839,
-    "diesel": 2.199,
-    "lpg": 0.959
+    "gasoline": 1.75,
+    "diesel": 2.21,
+    "lpg": 0.92
   },
   {
-    "station_id": "060958110393af48",
+    "station_id": "05cabe10c33a59aa",
     "date": "2026-04-10",
-    "gasoline": 1.839,
-    "diesel": 2.199,
-    "lpg": 0.999
+    "gasoline": null,
+    "diesel": 2.069,
+    "lpg": null
   },
   {
     "station_id": "0650454cfb481710",
@@ -133,13 +133,6 @@
     "lpg": 0.989
   },
   {
-    "station_id": "07edcba30c67874c",
-    "date": "2026-04-10",
-    "gasoline": 1.839,
-    "diesel": 2.199,
-    "lpg": 0.979
-  },
-  {
     "station_id": "0808d78d9c50da19",
     "date": "2026-04-10",
     "gasoline": 1.729,
@@ -147,18 +140,18 @@
     "lpg": 0.9
   },
   {
+    "station_id": "081dd7fe02093305",
+    "date": "2026-04-10",
+    "gasoline": 1.76,
+    "diesel": 2.19,
+    "lpg": 0.89
+  },
+  {
     "station_id": "083ac5fc9c5699a5",
     "date": "2026-04-10",
     "gasoline": 1.699,
     "diesel": 2.099,
     "lpg": 0.89
-  },
-  {
-    "station_id": "088e99889af27280",
-    "date": "2026-04-10",
-    "gasoline": 1.739,
-    "diesel": 2.099,
-    "lpg": 0.949
   },
   {
     "station_id": "08a5f4c9b554ea40",
@@ -175,11 +168,25 @@
     "lpg": 0.94
   },
   {
-    "station_id": "09addf5eea196c9c",
+    "station_id": "097be907d39dd561",
     "date": "2026-04-10",
-    "gasoline": 1.789,
-    "diesel": 2.179,
+    "gasoline": 1.839,
+    "diesel": 2.199,
     "lpg": 0.959
+  },
+  {
+    "station_id": "099c76b0372e1f40",
+    "date": "2026-04-10",
+    "gasoline": 1.739,
+    "diesel": 2.099,
+    "lpg": null
+  },
+  {
+    "station_id": "0a8876d5dff0c71d",
+    "date": "2026-04-10",
+    "gasoline": 1.839,
+    "diesel": 2.199,
+    "lpg": 0.989
   },
   {
     "station_id": "0ab609a1bc0f8ba9",
@@ -203,13 +210,6 @@
     "lpg": 0.997
   },
   {
-    "station_id": "0bcd836a1a486540",
-    "date": "2026-04-10",
-    "gasoline": 1.829,
-    "diesel": 2.199,
-    "lpg": 0.999
-  },
-  {
     "station_id": "0bfe73c68ca31b29",
     "date": "2026-04-10",
     "gasoline": 1.857,
@@ -231,11 +231,11 @@
     "lpg": null
   },
   {
-    "station_id": "0c868b5b768d7572",
+    "station_id": "0cabb74d326b2883",
     "date": "2026-04-10",
-    "gasoline": 1.76,
-    "diesel": 2.19,
-    "lpg": 0.89
+    "gasoline": 1.799,
+    "diesel": 2.199,
+    "lpg": 0.959
   },
   {
     "station_id": "0ce4e3cc1cb04e25",
@@ -245,20 +245,6 @@
     "lpg": null
   },
   {
-    "station_id": "0d104fa9714e5c4b",
-    "date": "2026-04-10",
-    "gasoline": 1.83,
-    "diesel": 2.22,
-    "lpg": 0.98
-  },
-  {
-    "station_id": "0d16302824f4fa4b",
-    "date": "2026-04-10",
-    "gasoline": 1.799,
-    "diesel": 2.199,
-    "lpg": 0.959
-  },
-  {
     "station_id": "0d2d38105b17cdd8",
     "date": "2026-04-10",
     "gasoline": 1.719,
@@ -266,23 +252,9 @@
     "lpg": null
   },
   {
-    "station_id": "0d3858124214aea5",
+    "station_id": "0d818bbb23f60afd",
     "date": "2026-04-10",
     "gasoline": 1.839,
-    "diesel": 2.199,
-    "lpg": 0.999
-  },
-  {
-    "station_id": "0daffb8e91ce256c",
-    "date": "2026-04-10",
-    "gasoline": 1.839,
-    "diesel": 2.199,
-    "lpg": 0.959
-  },
-  {
-    "station_id": "0dc334dc495f1465",
-    "date": "2026-04-10",
-    "gasoline": 1.799,
     "diesel": 2.199,
     "lpg": 0.959
   },
@@ -301,13 +273,6 @@
     "lpg": 0.929
   },
   {
-    "station_id": "0deb8d5dab49016a",
-    "date": "2026-04-10",
-    "gasoline": 1.799,
-    "diesel": 2.199,
-    "lpg": 0.979
-  },
-  {
     "station_id": "0e03498cf93772cd",
     "date": "2026-04-10",
     "gasoline": 1.74,
@@ -315,25 +280,11 @@
     "lpg": 0.89
   },
   {
-    "station_id": "0eb904062c73eb7f",
-    "date": "2026-04-10",
-    "gasoline": 1.729,
-    "diesel": 2.159,
-    "lpg": 0.949
-  },
-  {
     "station_id": "0ed1fd1bd6469665",
     "date": "2026-04-10",
     "gasoline": 1.749,
     "diesel": 2.149,
     "lpg": null
-  },
-  {
-    "station_id": "0ed659cfde4088bc",
-    "date": "2026-04-10",
-    "gasoline": 1.819,
-    "diesel": 2.199,
-    "lpg": 0.959
   },
   {
     "station_id": "0ef08b459a1def5f",
@@ -357,25 +308,11 @@
     "lpg": 0.91
   },
   {
-    "station_id": "0fdc387c6186a8ba",
+    "station_id": "0fd40f8722deb491",
     "date": "2026-04-10",
     "gasoline": 1.839,
     "diesel": 2.199,
     "lpg": 0.959
-  },
-  {
-    "station_id": "10b9c1b134d20a77",
-    "date": "2026-04-10",
-    "gasoline": 1.829,
-    "diesel": 2.199,
-    "lpg": 0.959
-  },
-  {
-    "station_id": "10d5bf433cf3b1d1",
-    "date": "2026-04-10",
-    "gasoline": null,
-    "diesel": null,
-    "lpg": 0.83
   },
   {
     "station_id": "10ee607690b1c0ab",
@@ -385,53 +322,11 @@
     "lpg": 0.899
   },
   {
-    "station_id": "10f2ba6ffb4cfd6a",
-    "date": "2026-04-10",
-    "gasoline": 1.819,
-    "diesel": 2.259,
-    "lpg": 0.959
-  },
-  {
-    "station_id": "1142190c488e9091",
-    "date": "2026-04-10",
-    "gasoline": 1.65,
-    "diesel": 2.07,
-    "lpg": 0.85
-  },
-  {
-    "station_id": "120074a806b462b9",
-    "date": "2026-04-10",
-    "gasoline": 1.759,
-    "diesel": 2.179,
-    "lpg": 0.9
-  },
-  {
     "station_id": "126769cf085068db",
     "date": "2026-04-10",
     "gasoline": 1.73,
     "diesel": 2.21,
     "lpg": 0.9
-  },
-  {
-    "station_id": "127cc14d4e3d6d2b",
-    "date": "2026-04-10",
-    "gasoline": 1.75,
-    "diesel": 2.13,
-    "lpg": 0.87
-  },
-  {
-    "station_id": "13576056051d6453",
-    "date": "2026-04-10",
-    "gasoline": 1.779,
-    "diesel": 2.199,
-    "lpg": 0.929
-  },
-  {
-    "station_id": "135775799fb76544",
-    "date": "2026-04-10",
-    "gasoline": 1.799,
-    "diesel": 2.199,
-    "lpg": 0.959
   },
   {
     "station_id": "137e3fe4e1adc316",
@@ -441,6 +336,13 @@
     "lpg": null
   },
   {
+    "station_id": "13c35f7a0eb6462b",
+    "date": "2026-04-10",
+    "gasoline": 1.769,
+    "diesel": 2.149,
+    "lpg": 0.929
+  },
+  {
     "station_id": "143c2457c46785b6",
     "date": "2026-04-10",
     "gasoline": 1.809,
@@ -448,11 +350,46 @@
     "lpg": 0.959
   },
   {
+    "station_id": "144fc86faf69810c",
+    "date": "2026-04-10",
+    "gasoline": 1.829,
+    "diesel": 2.199,
+    "lpg": 0.969
+  },
+  {
+    "station_id": "14be12c863f80595",
+    "date": "2026-04-10",
+    "gasoline": 1.689,
+    "diesel": 2.089,
+    "lpg": 0.899
+  },
+  {
     "station_id": "15542ee221fdaf08",
     "date": "2026-04-10",
     "gasoline": 1.719,
     "diesel": 2.139,
     "lpg": null
+  },
+  {
+    "station_id": "15790dbeada3cb08",
+    "date": "2026-04-10",
+    "gasoline": 1.829,
+    "diesel": 2.199,
+    "lpg": 0.969
+  },
+  {
+    "station_id": "15c3a7ba3901e878",
+    "date": "2026-04-10",
+    "gasoline": 1.839,
+    "diesel": 2.199,
+    "lpg": 0.999
+  },
+  {
+    "station_id": "15fab909f0122ce6",
+    "date": "2026-04-10",
+    "gasoline": 1.7,
+    "diesel": 2.12,
+    "lpg": 0.9
   },
   {
     "station_id": "16420cdeeb4e0c1b",
@@ -476,11 +413,11 @@
     "lpg": 0.929
   },
   {
-    "station_id": "16c414a406f8612e",
+    "station_id": "16d1cf79797f445b",
     "date": "2026-04-10",
-    "gasoline": 1.75,
-    "diesel": 2.13,
-    "lpg": 0.85
+    "gasoline": 1.839,
+    "diesel": 2.199,
+    "lpg": 0.959
   },
   {
     "station_id": "171c195894b6772e",
@@ -518,11 +455,39 @@
     "lpg": null
   },
   {
+    "station_id": "18a5c3b2320bfd88",
+    "date": "2026-04-10",
+    "gasoline": 1.76,
+    "diesel": 2.22,
+    "lpg": 0.9
+  },
+  {
+    "station_id": "18aefa494dd975ec",
+    "date": "2026-04-10",
+    "gasoline": 1.65,
+    "diesel": 2.07,
+    "lpg": 0.85
+  },
+  {
     "station_id": "18af7c44bf326d27",
     "date": "2026-04-10",
     "gasoline": 1.699,
     "diesel": 2.109,
     "lpg": 0.949
+  },
+  {
+    "station_id": "18e2ab17093d330f",
+    "date": "2026-04-10",
+    "gasoline": 1.839,
+    "diesel": 2.189,
+    "lpg": 0.959
+  },
+  {
+    "station_id": "1913a0dd77abd436",
+    "date": "2026-04-10",
+    "gasoline": 1.699,
+    "diesel": 2.119,
+    "lpg": 0.919
   },
   {
     "station_id": "19c1ed1a140ae5f9",
@@ -539,32 +504,11 @@
     "lpg": null
   },
   {
-    "station_id": "1a3179a49fcc85d0",
-    "date": "2026-04-10",
-    "gasoline": 1.789,
-    "diesel": 2.199,
-    "lpg": 0.889
-  },
-  {
     "station_id": "1a5358a4f9caaa03",
     "date": "2026-04-10",
     "gasoline": 1.859,
     "diesel": 2.259,
     "lpg": 0.999
-  },
-  {
-    "station_id": "1a7f465f18d3f2cf",
-    "date": "2026-04-10",
-    "gasoline": 1.839,
-    "diesel": 2.199,
-    "lpg": 0.969
-  },
-  {
-    "station_id": "1a84cf79df0cc234",
-    "date": "2026-04-10",
-    "gasoline": 1.799,
-    "diesel": 2.199,
-    "lpg": 0.959
   },
   {
     "station_id": "1b583172780083eb",
@@ -588,14 +532,21 @@
     "lpg": 0.88
   },
   {
-    "station_id": "1cbdef748050c74d",
+    "station_id": "1bb18ca4e76a4530",
     "date": "2026-04-10",
-    "gasoline": 1.839,
-    "diesel": 2.199,
-    "lpg": 0.959
+    "gasoline": 1.819,
+    "diesel": 2.229,
+    "lpg": 0.989
   },
   {
-    "station_id": "1d52d3c02d002c63",
+    "station_id": "1bbf8b9bc6326c0d",
+    "date": "2026-04-10",
+    "gasoline": 1.769,
+    "diesel": 2.189,
+    "lpg": 0.889
+  },
+  {
+    "station_id": "1cbdef748050c74d",
     "date": "2026-04-10",
     "gasoline": 1.839,
     "diesel": 2.199,
@@ -616,6 +567,13 @@
     "lpg": null
   },
   {
+    "station_id": "1e59c41b086d9658",
+    "date": "2026-04-10",
+    "gasoline": 1.749,
+    "diesel": 2.169,
+    "lpg": 0.919
+  },
+  {
     "station_id": "1e8b23a8afbda341",
     "date": "2026-04-10",
     "gasoline": 1.759,
@@ -630,25 +588,25 @@
     "lpg": 0.949
   },
   {
-    "station_id": "1f5daa43fe4a3915",
+    "station_id": "1f506ae3c6af54ee",
     "date": "2026-04-10",
-    "gasoline": 1.839,
-    "diesel": 2.199,
-    "lpg": 0.999
-  },
-  {
-    "station_id": "1fe787269dad9a0a",
-    "date": "2026-04-10",
-    "gasoline": 1.829,
+    "gasoline": 1.799,
     "diesel": 2.199,
     "lpg": 0.959
   },
   {
-    "station_id": "1fedfba376779033",
+    "station_id": "1ff0854cdda43fdb",
+    "date": "2026-04-10",
+    "gasoline": 1.829,
+    "diesel": 2.189,
+    "lpg": 0.93
+  },
+  {
+    "station_id": "1ff14d2215707834",
     "date": "2026-04-10",
     "gasoline": 1.839,
     "diesel": 2.199,
-    "lpg": 0.979
+    "lpg": 0.959
   },
   {
     "station_id": "202eabe54f1fbf17",
@@ -679,11 +637,46 @@
     "lpg": 0.95
   },
   {
+    "station_id": "21e4ecf47119b167",
+    "date": "2026-04-10",
+    "gasoline": 1.799,
+    "diesel": 2.199,
+    "lpg": 0.959
+  },
+  {
+    "station_id": "2321e6f479660016",
+    "date": "2026-04-10",
+    "gasoline": 1.739,
+    "diesel": 2.159,
+    "lpg": 0.949
+  },
+  {
+    "station_id": "237c12c592caeeb6",
+    "date": "2026-04-10",
+    "gasoline": 1.819,
+    "diesel": 2.199,
+    "lpg": 0.959
+  },
+  {
+    "station_id": "2394e2875422f0cb",
+    "date": "2026-04-10",
+    "gasoline": 1.759,
+    "diesel": 2.179,
+    "lpg": 0.9
+  },
+  {
     "station_id": "23cf4e45156e4543",
     "date": "2026-04-10",
     "gasoline": 1.72,
     "diesel": 2.2,
     "lpg": 0.9
+  },
+  {
+    "station_id": "2426ed4032892ba1",
+    "date": "2026-04-10",
+    "gasoline": 1.755,
+    "diesel": 2.205,
+    "lpg": 0.949
   },
   {
     "station_id": "2499661767e45a30",
@@ -698,20 +691,6 @@
     "gasoline": 1.77,
     "diesel": 2.2,
     "lpg": 0.92
-  },
-  {
-    "station_id": "24e234c1896ffe08",
-    "date": "2026-04-10",
-    "gasoline": 1.799,
-    "diesel": 2.199,
-    "lpg": 0.959
-  },
-  {
-    "station_id": "24e3dc2eece562ff",
-    "date": "2026-04-10",
-    "gasoline": 1.839,
-    "diesel": 2.199,
-    "lpg": 0.999
   },
   {
     "station_id": "25029d50e2f38c40",
@@ -756,6 +735,13 @@
     "lpg": null
   },
   {
+    "station_id": "264b0ba8ac1926c5",
+    "date": "2026-04-10",
+    "gasoline": 1.799,
+    "diesel": 2.199,
+    "lpg": 0.959
+  },
+  {
     "station_id": "26535e26b6de3ad5",
     "date": "2026-04-10",
     "gasoline": 1.839,
@@ -784,13 +770,6 @@
     "lpg": null
   },
   {
-    "station_id": "27826acc6d061fcd",
-    "date": "2026-04-10",
-    "gasoline": 1.779,
-    "diesel": 2.199,
-    "lpg": null
-  },
-  {
     "station_id": "28f128077307cf66",
     "date": "2026-04-10",
     "gasoline": 1.83,
@@ -805,13 +784,6 @@
     "lpg": 0.95
   },
   {
-    "station_id": "2966e8042adc35fb",
-    "date": "2026-04-10",
-    "gasoline": 1.799,
-    "diesel": 2.199,
-    "lpg": 0.959
-  },
-  {
     "station_id": "296701713273c4d9",
     "date": "2026-04-10",
     "gasoline": 1.779,
@@ -819,16 +791,9 @@
     "lpg": null
   },
   {
-    "station_id": "29cc8aaab17b545a",
+    "station_id": "2a0f990ab6ccb2df",
     "date": "2026-04-10",
-    "gasoline": 1.7,
-    "diesel": 2.05,
-    "lpg": 0.87
-  },
-  {
-    "station_id": "2a023df5777b41f4",
-    "date": "2026-04-10",
-    "gasoline": 1.829,
+    "gasoline": 1.819,
     "diesel": 2.199,
     "lpg": 0.959
   },
@@ -845,13 +810,6 @@
     "gasoline": 1.819,
     "diesel": 2.199,
     "lpg": 0.96
-  },
-  {
-    "station_id": "2a5db21202984509",
-    "date": "2026-04-10",
-    "gasoline": 1.769,
-    "diesel": 2.179,
-    "lpg": 0.949
   },
   {
     "station_id": "2a6377c2e7513736",
@@ -889,6 +847,20 @@
     "lpg": null
   },
   {
+    "station_id": "2be30516a51254f8",
+    "date": "2026-04-10",
+    "gasoline": 1.749,
+    "diesel": 2.169,
+    "lpg": null
+  },
+  {
+    "station_id": "2c1d5687632b87b1",
+    "date": "2026-04-10",
+    "gasoline": 1.799,
+    "diesel": 2.199,
+    "lpg": 0.959
+  },
+  {
     "station_id": "2c86a958fd17c2a3",
     "date": "2026-04-10",
     "gasoline": 1.759,
@@ -917,17 +889,45 @@
     "lpg": 0.999
   },
   {
-    "station_id": "2e268714627518e3",
+    "station_id": "2ddb5ac9e80d0030",
     "date": "2026-04-10",
-    "gasoline": 1.66,
-    "diesel": 2.08,
-    "lpg": 0.85
+    "gasoline": null,
+    "diesel": null,
+    "lpg": 0.88
   },
   {
     "station_id": "2e49278504f8666a",
     "date": "2026-04-10",
     "gasoline": 1.794,
     "diesel": 2.204,
+    "lpg": null
+  },
+  {
+    "station_id": "2f015e6abade2e4b",
+    "date": "2026-04-10",
+    "gasoline": null,
+    "diesel": null,
+    "lpg": 0.83
+  },
+  {
+    "station_id": "2f2c16c0692abbd4",
+    "date": "2026-04-10",
+    "gasoline": 1.839,
+    "diesel": 2.199,
+    "lpg": 0.959
+  },
+  {
+    "station_id": "304d11951c8356ad",
+    "date": "2026-04-10",
+    "gasoline": 1.839,
+    "diesel": 2.199,
+    "lpg": 0.999
+  },
+  {
+    "station_id": "304f8c372d8563cb",
+    "date": "2026-04-10",
+    "gasoline": 1.799,
+    "diesel": 2.199,
     "lpg": null
   },
   {
@@ -938,11 +938,11 @@
     "lpg": null
   },
   {
-    "station_id": "30ae6e57d85273a4",
+    "station_id": "311d9d2219dc3612",
     "date": "2026-04-10",
-    "gasoline": 1.73,
-    "diesel": 2.1,
-    "lpg": null
+    "gasoline": 1.749,
+    "diesel": 2.229,
+    "lpg": 0.929
   },
   {
     "station_id": "317a1913e4ba575e",
@@ -966,6 +966,13 @@
     "lpg": null
   },
   {
+    "station_id": "31cd93d645bbb042",
+    "date": "2026-04-10",
+    "gasoline": 1.759,
+    "diesel": 2.179,
+    "lpg": 0.919
+  },
+  {
     "station_id": "31cfb2c946204f9f",
     "date": "2026-04-10",
     "gasoline": 1.78,
@@ -987,18 +994,11 @@
     "lpg": 0.879
   },
   {
-    "station_id": "32e537df757d21a5",
+    "station_id": "32addb4aaf9c601a",
     "date": "2026-04-10",
-    "gasoline": 1.769,
-    "diesel": 2.189,
-    "lpg": null
-  },
-  {
-    "station_id": "336e77e4c8f68aa0",
-    "date": "2026-04-10",
-    "gasoline": 1.749,
-    "diesel": 2.179,
-    "lpg": 0.94
+    "gasoline": 1.72,
+    "diesel": 2.18,
+    "lpg": 0.9
   },
   {
     "station_id": "33d549f3c4390606",
@@ -1022,13 +1022,6 @@
     "lpg": 0.95
   },
   {
-    "station_id": "3523add88211eeed",
-    "date": "2026-04-10",
-    "gasoline": 1.799,
-    "diesel": 2.199,
-    "lpg": 0.979
-  },
-  {
     "station_id": "352bb1f5854645e3",
     "date": "2026-04-10",
     "gasoline": 1.799,
@@ -1041,6 +1034,20 @@
     "gasoline": 1.71,
     "diesel": 2.11,
     "lpg": 0.94
+  },
+  {
+    "station_id": "35322905eb2c9187",
+    "date": "2026-04-10",
+    "gasoline": 1.739,
+    "diesel": 2.099,
+    "lpg": 0.899
+  },
+  {
+    "station_id": "35b6268df6c12608",
+    "date": "2026-04-10",
+    "gasoline": 1.839,
+    "diesel": 2.199,
+    "lpg": 0.959
   },
   {
     "station_id": "3628372287a26119",
@@ -1071,13 +1078,6 @@
     "lpg": null
   },
   {
-    "station_id": "37a4d0b923edbd5e",
-    "date": "2026-04-10",
-    "gasoline": 1.799,
-    "diesel": 2.199,
-    "lpg": 0.939
-  },
-  {
     "station_id": "37ad15c762e57464",
     "date": "2026-04-10",
     "gasoline": 1.799,
@@ -1099,25 +1099,25 @@
     "lpg": 0.95
   },
   {
-    "station_id": "38c317ced2afafe5",
+    "station_id": "38a0af67307714c4",
     "date": "2026-04-10",
-    "gasoline": 1.839,
-    "diesel": 2.199,
-    "lpg": 0.959
+    "gasoline": 1.709,
+    "diesel": 2.099,
+    "lpg": 0.949
   },
   {
-    "station_id": "390cd74288026a79",
+    "station_id": "39018bd6c2bed7b2",
     "date": "2026-04-10",
-    "gasoline": 1.839,
-    "diesel": 2.199,
-    "lpg": 0.999
+    "gasoline": 1.809,
+    "diesel": 2.229,
+    "lpg": 0.949
   },
   {
-    "station_id": "394e64b88b52247c",
+    "station_id": "395b72796606b0b0",
     "date": "2026-04-10",
-    "gasoline": 1.839,
-    "diesel": 2.199,
-    "lpg": 0.959
+    "gasoline": 1.739,
+    "diesel": 2.099,
+    "lpg": 0.929
   },
   {
     "station_id": "3965d2cbacf90369",
@@ -1148,18 +1148,18 @@
     "lpg": 0.975
   },
   {
-    "station_id": "39df5d0e12094af0",
+    "station_id": "39b76fba8769dc97",
     "date": "2026-04-10",
-    "gasoline": 1.829,
-    "diesel": 2.189,
-    "lpg": 0.93
+    "gasoline": 1.7,
+    "diesel": 2.08,
+    "lpg": 0.85
   },
   {
-    "station_id": "3a4cf3c15b586dac",
+    "station_id": "39c05639d588c1eb",
     "date": "2026-04-10",
-    "gasoline": 1.829,
-    "diesel": 2.299,
-    "lpg": null
+    "gasoline": 1.66,
+    "diesel": 2.08,
+    "lpg": 0.85
   },
   {
     "station_id": "3a8f9917192d6866",
@@ -1190,18 +1190,18 @@
     "lpg": null
   },
   {
-    "station_id": "3b972a21d7b9ed50",
+    "station_id": "3ba1814f79c57ea2",
     "date": "2026-04-10",
-    "gasoline": 1.739,
-    "diesel": 2.099,
-    "lpg": null
+    "gasoline": 1.799,
+    "diesel": 2.199,
+    "lpg": 0.959
   },
   {
-    "station_id": "3bb9ef9678c8f0e7",
+    "station_id": "3c1897f25f6a59df",
     "date": "2026-04-10",
-    "gasoline": 1.7,
-    "diesel": 2.05,
-    "lpg": 0.87
+    "gasoline": 1.749,
+    "diesel": 2.149,
+    "lpg": 0.889
   },
   {
     "station_id": "3c303f4acc343d5a",
@@ -1211,18 +1211,18 @@
     "lpg": 0.99
   },
   {
-    "station_id": "3ccc8a2dc50c8e13",
-    "date": "2026-04-10",
-    "gasoline": 1.759,
-    "diesel": 2.149,
-    "lpg": 0.939
-  },
-  {
     "station_id": "3ce4024d77de4619",
     "date": "2026-04-10",
     "gasoline": 1.779,
     "diesel": 2.199,
     "lpg": 0.949
+  },
+  {
+    "station_id": "3d0f675dee547ea9",
+    "date": "2026-04-10",
+    "gasoline": 1.799,
+    "diesel": 2.199,
+    "lpg": 0.959
   },
   {
     "station_id": "3d8337369b3de5f6",
@@ -1253,6 +1253,20 @@
     "lpg": 0.959
   },
   {
+    "station_id": "3e77dd3d86bd8bc2",
+    "date": "2026-04-10",
+    "gasoline": 1.739,
+    "diesel": 2.139,
+    "lpg": 0.959
+  },
+  {
+    "station_id": "3e7bb5bad08f3642",
+    "date": "2026-04-10",
+    "gasoline": 1.799,
+    "diesel": 2.199,
+    "lpg": 0.959
+  },
+  {
     "station_id": "3eb30ea5bcf6ad46",
     "date": "2026-04-10",
     "gasoline": 1.7,
@@ -1260,23 +1274,44 @@
     "lpg": 0.92
   },
   {
-    "station_id": "3ed647f5501293e8",
+    "station_id": "3f895870d0cda84c",
+    "date": "2026-04-10",
+    "gasoline": 1.749,
+    "diesel": 2.179,
+    "lpg": 0.94
+  },
+  {
+    "station_id": "3f8f79cd43070296",
     "date": "2026-04-10",
     "gasoline": 1.839,
     "diesel": 2.199,
     "lpg": 0.999
   },
   {
-    "station_id": "3f87b3551dee6fc7",
-    "date": "2026-04-10",
-    "gasoline": 1.709,
-    "diesel": 2.099,
-    "lpg": 0.949
-  },
-  {
-    "station_id": "3fd0ea2c22125dbb",
+    "station_id": "400ba10dad8abc98",
     "date": "2026-04-10",
     "gasoline": 1.799,
+    "diesel": 2.199,
+    "lpg": 0.959
+  },
+  {
+    "station_id": "402284ea3998162a",
+    "date": "2026-04-10",
+    "gasoline": 1.799,
+    "diesel": 2.199,
+    "lpg": 0.959
+  },
+  {
+    "station_id": "4064a6f4274b63ff",
+    "date": "2026-04-10",
+    "gasoline": 1.819,
+    "diesel": 2.259,
+    "lpg": 0.959
+  },
+  {
+    "station_id": "40c4d479e5048c2c",
+    "date": "2026-04-10",
+    "gasoline": 1.839,
     "diesel": 2.199,
     "lpg": 0.959
   },
@@ -1295,11 +1330,11 @@
     "lpg": 0.89
   },
   {
-    "station_id": "4185f99ff774d3e3",
+    "station_id": "417c9931a25e90bd",
     "date": "2026-04-10",
-    "gasoline": 1.749,
-    "diesel": 2.159,
-    "lpg": 0.949
+    "gasoline": 1.79,
+    "diesel": 2.1,
+    "lpg": 0.95
   },
   {
     "station_id": "41d08421ee211dc3",
@@ -1309,11 +1344,11 @@
     "lpg": null
   },
   {
-    "station_id": "41e1ec020ca317e9",
+    "station_id": "41f297655a48a685",
     "date": "2026-04-10",
-    "gasoline": 1.799,
-    "diesel": 2.229,
-    "lpg": 0.889
+    "gasoline": 1.839,
+    "diesel": 2.199,
+    "lpg": 0.959
   },
   {
     "station_id": "42034d88be32d1fd",
@@ -1323,32 +1358,11 @@
     "lpg": null
   },
   {
-    "station_id": "4230016c2626880d",
-    "date": "2026-04-10",
-    "gasoline": 1.839,
-    "diesel": 2.199,
-    "lpg": 0.959
-  },
-  {
-    "station_id": "425bcf3ad499e317",
-    "date": "2026-04-10",
-    "gasoline": 1.839,
-    "diesel": 2.199,
-    "lpg": null
-  },
-  {
     "station_id": "4264a188f7a38eb1",
     "date": "2026-04-10",
     "gasoline": null,
     "diesel": null,
     "lpg": 0.9
-  },
-  {
-    "station_id": "427b115c067bd810",
-    "date": "2026-04-10",
-    "gasoline": 1.839,
-    "diesel": 2.199,
-    "lpg": 0.959
   },
   {
     "station_id": "430720829feee276",
@@ -1372,6 +1386,13 @@
     "lpg": 0.959
   },
   {
+    "station_id": "43cc62d4c4086d2a",
+    "date": "2026-04-10",
+    "gasoline": 1.839,
+    "diesel": 2.199,
+    "lpg": 0.979
+  },
+  {
     "station_id": "43daf22b204ab120",
     "date": "2026-04-10",
     "gasoline": 1.839,
@@ -1383,6 +1404,27 @@
     "date": "2026-04-10",
     "gasoline": 1.75,
     "diesel": 2.21,
+    "lpg": 0.9
+  },
+  {
+    "station_id": "440377e54c3959f3",
+    "date": "2026-04-10",
+    "gasoline": 1.809,
+    "diesel": 2.229,
+    "lpg": 0.969
+  },
+  {
+    "station_id": "4454dfbee3a456e2",
+    "date": "2026-04-10",
+    "gasoline": 1.7,
+    "diesel": 2.12,
+    "lpg": null
+  },
+  {
+    "station_id": "4459c84504918d87",
+    "date": "2026-04-10",
+    "gasoline": 1.75,
+    "diesel": 2.18,
     "lpg": 0.9
   },
   {
@@ -1407,16 +1449,16 @@
     "lpg": null
   },
   {
-    "station_id": "4582fefe2eda9c92",
+    "station_id": "45deca09132b37d8",
     "date": "2026-04-10",
-    "gasoline": 1.75,
-    "diesel": 2.21,
-    "lpg": 0.92
+    "gasoline": 1.805,
+    "diesel": 2.199,
+    "lpg": 0.959
   },
   {
-    "station_id": "459ee734431738bb",
+    "station_id": "4690a63bce63f567",
     "date": "2026-04-10",
-    "gasoline": 1.839,
+    "gasoline": 1.829,
     "diesel": 2.199,
     "lpg": 0.959
   },
@@ -1428,25 +1470,32 @@
     "lpg": 0.999
   },
   {
-    "station_id": "46b81c1550adba8c",
+    "station_id": "469f4ad311da6c0d",
     "date": "2026-04-10",
-    "gasoline": 1.809,
-    "diesel": 2.229,
-    "lpg": 0.949
-  },
-  {
-    "station_id": "4732bf4cf85907c7",
-    "date": "2026-04-10",
-    "gasoline": 1.66,
-    "diesel": 2.08,
-    "lpg": 0.85
-  },
-  {
-    "station_id": "475be9ab3381a211",
-    "date": "2026-04-10",
-    "gasoline": 1.839,
+    "gasoline": 1.769,
     "diesel": 2.199,
-    "lpg": null
+    "lpg": 0.93
+  },
+  {
+    "station_id": "4719d233fd2f0003",
+    "date": "2026-04-10",
+    "gasoline": 1.799,
+    "diesel": 2.229,
+    "lpg": 0.889
+  },
+  {
+    "station_id": "4740e2f48d6b0ffe",
+    "date": "2026-04-10",
+    "gasoline": 1.709,
+    "diesel": 2.119,
+    "lpg": 0.939
+  },
+  {
+    "station_id": "47669fa0241cf88e",
+    "date": "2026-04-10",
+    "gasoline": 1.819,
+    "diesel": 2.199,
+    "lpg": 0.959
   },
   {
     "station_id": "476a15c5d212640d",
@@ -1456,18 +1505,18 @@
     "lpg": 0.89
   },
   {
+    "station_id": "4785cac7711dd74d",
+    "date": "2026-04-10",
+    "gasoline": 1.799,
+    "diesel": 2.199,
+    "lpg": 0.959
+  },
+  {
     "station_id": "47f39897bfc7589f",
     "date": "2026-04-10",
     "gasoline": 1.7,
     "diesel": 2.12,
     "lpg": null
-  },
-  {
-    "station_id": "48384a7620a16e3b",
-    "date": "2026-04-10",
-    "gasoline": 1.839,
-    "diesel": 2.199,
-    "lpg": 0.959
   },
   {
     "station_id": "48647e9c5097b71b",
@@ -1484,11 +1533,11 @@
     "lpg": 0.939
   },
   {
-    "station_id": "4a39668cb2767c34",
+    "station_id": "49b9fd3dc4848a52",
     "date": "2026-04-10",
-    "gasoline": 1.719,
-    "diesel": 2.149,
-    "lpg": 0.91
+    "gasoline": 1.739,
+    "diesel": 2.099,
+    "lpg": 0.949
   },
   {
     "station_id": "4af56430b63fbf52",
@@ -1505,11 +1554,25 @@
     "lpg": 0.91
   },
   {
+    "station_id": "4c6ff91f9092f572",
+    "date": "2026-04-10",
+    "gasoline": 1.839,
+    "diesel": 2.199,
+    "lpg": 0.959
+  },
+  {
     "station_id": "4c866ff48c1a9322",
     "date": "2026-04-10",
     "gasoline": 1.7,
     "diesel": 2.14,
     "lpg": 0.86
+  },
+  {
+    "station_id": "4d6f9c82ea284911",
+    "date": "2026-04-10",
+    "gasoline": 1.829,
+    "diesel": 2.229,
+    "lpg": 0.899
   },
   {
     "station_id": "4d96856f3c339ecc",
@@ -1540,6 +1603,13 @@
     "lpg": 0.89
   },
   {
+    "station_id": "4e060a8338462f28",
+    "date": "2026-04-10",
+    "gasoline": 1.839,
+    "diesel": 2.199,
+    "lpg": 0.959
+  },
+  {
     "station_id": "4e216158e95629f0",
     "date": "2026-04-10",
     "gasoline": 1.809,
@@ -1554,18 +1624,25 @@
     "lpg": 0.909
   },
   {
-    "station_id": "4e96aa7515536585",
-    "date": "2026-04-10",
-    "gasoline": 1.819,
-    "diesel": 2.229,
-    "lpg": 0.989
-  },
-  {
     "station_id": "4eea54d1b5d37aed",
     "date": "2026-04-10",
     "gasoline": 1.699,
     "diesel": 2.139,
     "lpg": 0.939
+  },
+  {
+    "station_id": "4f13003fb736ba4f",
+    "date": "2026-04-10",
+    "gasoline": 1.839,
+    "diesel": 2.199,
+    "lpg": 0.999
+  },
+  {
+    "station_id": "4f3f3b9592a87072",
+    "date": "2026-04-10",
+    "gasoline": 1.839,
+    "diesel": 2.199,
+    "lpg": 0.999
   },
   {
     "station_id": "4f456ba01baa3dc0",
@@ -1617,6 +1694,13 @@
     "lpg": null
   },
   {
+    "station_id": "51127f93cdfd6767",
+    "date": "2026-04-10",
+    "gasoline": 1.789,
+    "diesel": 2.149,
+    "lpg": 0.949
+  },
+  {
     "station_id": "5130cc8051f65536",
     "date": "2026-04-10",
     "gasoline": 1.769,
@@ -1638,11 +1722,11 @@
     "lpg": 0.949
   },
   {
-    "station_id": "524f531147e0eb1c",
+    "station_id": "52501570250d5a9b",
     "date": "2026-04-10",
-    "gasoline": 1.829,
-    "diesel": 2.189,
-    "lpg": 0.949
+    "gasoline": 1.66,
+    "diesel": 2.08,
+    "lpg": 0.85
   },
   {
     "station_id": "52b51de0846fee63",
@@ -1659,13 +1743,6 @@
     "lpg": 0.949
   },
   {
-    "station_id": "53278fabe2ebc4a5",
-    "date": "2026-04-10",
-    "gasoline": 1.839,
-    "diesel": 2.199,
-    "lpg": 0.999
-  },
-  {
     "station_id": "535ba9d0d4aa026a",
     "date": "2026-04-10",
     "gasoline": 1.699,
@@ -1680,25 +1757,25 @@
     "lpg": 0.979
   },
   {
-    "station_id": "54eddb4da03196ee",
+    "station_id": "552c9bce21f5be78",
     "date": "2026-04-10",
-    "gasoline": 1.819,
+    "gasoline": 1.839,
     "diesel": 2.199,
     "lpg": 0.959
   },
   {
-    "station_id": "5590feea7de606b3",
+    "station_id": "55aeb1ebca6051f6",
     "date": "2026-04-10",
-    "gasoline": 1.73,
-    "diesel": 2.15,
-    "lpg": 0.94
+    "gasoline": 1.7,
+    "diesel": 2.05,
+    "lpg": 0.87
   },
   {
-    "station_id": "55badaaf0514fb5f",
+    "station_id": "56166fc042369de6",
     "date": "2026-04-10",
-    "gasoline": 1.759,
-    "diesel": 2.159,
-    "lpg": 0.949
+    "gasoline": 1.829,
+    "diesel": 2.229,
+    "lpg": 0.929
   },
   {
     "station_id": "56385b4c84872f25",
@@ -1708,6 +1785,13 @@
     "lpg": null
   },
   {
+    "station_id": "5672244ad5267611",
+    "date": "2026-04-10",
+    "gasoline": 1.739,
+    "diesel": 2.099,
+    "lpg": 0.899
+  },
+  {
     "station_id": "5691f76bb96a489e",
     "date": "2026-04-10",
     "gasoline": 1.749,
@@ -1715,18 +1799,11 @@
     "lpg": 0.93
   },
   {
-    "station_id": "569724bfb7f2253d",
+    "station_id": "56d07b9945c12620",
     "date": "2026-04-10",
     "gasoline": 1.839,
     "diesel": 2.199,
-    "lpg": 0.969
-  },
-  {
-    "station_id": "573d9332994834c0",
-    "date": "2026-04-10",
-    "gasoline": 1.66,
-    "diesel": 2.08,
-    "lpg": 0.85
+    "lpg": 0.959
   },
   {
     "station_id": "577a0f2ce797e786",
@@ -1743,13 +1820,6 @@
     "lpg": null
   },
   {
-    "station_id": "57d0560342e41d8d",
-    "date": "2026-04-10",
-    "gasoline": 1.809,
-    "diesel": 2.229,
-    "lpg": 0.949
-  },
-  {
     "station_id": "588eb527d5c866c5",
     "date": "2026-04-10",
     "gasoline": 1.699,
@@ -1764,13 +1834,6 @@
     "lpg": 0.91
   },
   {
-    "station_id": "58d96e328d90895d",
-    "date": "2026-04-10",
-    "gasoline": 1.749,
-    "diesel": 2.149,
-    "lpg": 0.889
-  },
-  {
     "station_id": "593c08bc3395f150",
     "date": "2026-04-10",
     "gasoline": 1.839,
@@ -1778,18 +1841,25 @@
     "lpg": 0.989
   },
   {
+    "station_id": "5972c4996edd4e03",
+    "date": "2026-04-10",
+    "gasoline": 1.839,
+    "diesel": 2.199,
+    "lpg": 0.999
+  },
+  {
+    "station_id": "598ca344b3e34585",
+    "date": "2026-04-10",
+    "gasoline": 1.839,
+    "diesel": 2.199,
+    "lpg": 0.959
+  },
+  {
     "station_id": "59c4d330b4158e5f",
     "date": "2026-04-10",
     "gasoline": 1.759,
     "diesel": 2.179,
     "lpg": null
-  },
-  {
-    "station_id": "5a4af6330f0b67c9",
-    "date": "2026-04-10",
-    "gasoline": null,
-    "diesel": null,
-    "lpg": 0.86
   },
   {
     "station_id": "5a8efb4e276c9a7b",
@@ -1813,11 +1883,25 @@
     "lpg": 0.97
   },
   {
-    "station_id": "5aed21a6996d3a87",
+    "station_id": "5b2f78ac21947bb0",
     "date": "2026-04-10",
-    "gasoline": 1.729,
-    "diesel": 2.099,
-    "lpg": 0.939
+    "gasoline": 1.66,
+    "diesel": 2.08,
+    "lpg": 0.85
+  },
+  {
+    "station_id": "5bbe925a731b781a",
+    "date": "2026-04-10",
+    "gasoline": 1.839,
+    "diesel": 2.199,
+    "lpg": 0.999
+  },
+  {
+    "station_id": "5bdbbe10e3c2bc85",
+    "date": "2026-04-10",
+    "gasoline": 1.79,
+    "diesel": 2.19,
+    "lpg": 0.93
   },
   {
     "station_id": "5beba82f3a1ff7da",
@@ -1834,11 +1918,11 @@
     "lpg": 0.92
   },
   {
-    "station_id": "5cc81e5da5d1ec4b",
+    "station_id": "5c97c75a5965990d",
     "date": "2026-04-10",
-    "gasoline": 1.799,
-    "diesel": 2.199,
-    "lpg": 0.959
+    "gasoline": 1.64,
+    "diesel": 2.16,
+    "lpg": 0.79
   },
   {
     "station_id": "5ce2ac5f5fd03c98",
@@ -1862,20 +1946,6 @@
     "lpg": null
   },
   {
-    "station_id": "5d096b75a47cc3d7",
-    "date": "2026-04-10",
-    "gasoline": 1.749,
-    "diesel": 2.169,
-    "lpg": 0.93
-  },
-  {
-    "station_id": "5d0c6b07ff46eee7",
-    "date": "2026-04-10",
-    "gasoline": 1.839,
-    "diesel": 2.199,
-    "lpg": 0.979
-  },
-  {
     "station_id": "5d4894d1a204c060",
     "date": "2026-04-10",
     "gasoline": 1.8,
@@ -1890,13 +1960,6 @@
     "lpg": 0.919
   },
   {
-    "station_id": "5dad36b75be4a544",
-    "date": "2026-04-10",
-    "gasoline": 1.709,
-    "diesel": 2.099,
-    "lpg": 0.859
-  },
-  {
     "station_id": "5e1a4858af7e1f7c",
     "date": "2026-04-10",
     "gasoline": 1.834,
@@ -1904,11 +1967,32 @@
     "lpg": 0.959
   },
   {
-    "station_id": "5e85a48976191c14",
+    "station_id": "5e78818fff8f2ac8",
     "date": "2026-04-10",
-    "gasoline": null,
-    "diesel": null,
-    "lpg": 0.9
+    "gasoline": 1.799,
+    "diesel": 2.199,
+    "lpg": 0.969
+  },
+  {
+    "station_id": "5e91e341f34dac69",
+    "date": "2026-04-10",
+    "gasoline": 1.839,
+    "diesel": 2.199,
+    "lpg": 0.979
+  },
+  {
+    "station_id": "5ead27765fdf2c4c",
+    "date": "2026-04-10",
+    "gasoline": 1.68,
+    "diesel": 2.09,
+    "lpg": 0.91
+  },
+  {
+    "station_id": "5f0a5e91d0abb8ba",
+    "date": "2026-04-10",
+    "gasoline": 1.83,
+    "diesel": 2.22,
+    "lpg": 0.98
   },
   {
     "station_id": "5f2d02d3cd492c9d",
@@ -1925,18 +2009,11 @@
     "lpg": 0.965
   },
   {
-    "station_id": "5f86b09acc348dd6",
+    "station_id": "5fb2bcc6ef39bc92",
     "date": "2026-04-10",
-    "gasoline": 1.76,
-    "diesel": 2.22,
-    "lpg": 0.9
-  },
-  {
-    "station_id": "5feb550a1ee54c5a",
-    "date": "2026-04-10",
-    "gasoline": 1.755,
-    "diesel": 2.205,
-    "lpg": 0.949
+    "gasoline": 1.859,
+    "diesel": 2.299,
+    "lpg": null
   },
   {
     "station_id": "601110a381071561",
@@ -1946,11 +2023,11 @@
     "lpg": 0.96
   },
   {
-    "station_id": "60ab504f0bd00eed",
+    "station_id": "60f0e66f414ec4fd",
     "date": "2026-04-10",
-    "gasoline": 1.759,
-    "diesel": 2.179,
-    "lpg": 0.919
+    "gasoline": 1.66,
+    "diesel": 2.08,
+    "lpg": 0.85
   },
   {
     "station_id": "6123b1238dd5633d",
@@ -1960,25 +2037,18 @@
     "lpg": null
   },
   {
-    "station_id": "6164e58a3f87b8de",
-    "date": "2026-04-10",
-    "gasoline": 1.819,
-    "diesel": 2.199,
-    "lpg": 0.949
-  },
-  {
-    "station_id": "61746719847ea9b9",
-    "date": "2026-04-10",
-    "gasoline": 1.839,
-    "diesel": 2.199,
-    "lpg": 0.959
-  },
-  {
     "station_id": "627349a33cdafb85",
     "date": "2026-04-10",
     "gasoline": 1.859,
     "diesel": 2.239,
     "lpg": 0.959
+  },
+  {
+    "station_id": "6279c75f06a9e673",
+    "date": "2026-04-10",
+    "gasoline": 1.76,
+    "diesel": 2.15,
+    "lpg": 0.85
   },
   {
     "station_id": "62cbac4ba7322b23",
@@ -1988,7 +2058,14 @@
     "lpg": 0.93
   },
   {
-    "station_id": "62f12a8c67e0d625",
+    "station_id": "62ed14e8f2f56cc1",
+    "date": "2026-04-10",
+    "gasoline": 1.799,
+    "diesel": 2.199,
+    "lpg": null
+  },
+  {
+    "station_id": "636a6c8970498c6d",
     "date": "2026-04-10",
     "gasoline": 1.679,
     "diesel": 2.099,
@@ -2009,6 +2086,13 @@
     "lpg": 0.899
   },
   {
+    "station_id": "63a1bf9707a1ba65",
+    "date": "2026-04-10",
+    "gasoline": 1.799,
+    "diesel": 2.199,
+    "lpg": 0.959
+  },
+  {
     "station_id": "63ca617bb234511d",
     "date": "2026-04-10",
     "gasoline": 1.769,
@@ -2016,18 +2100,18 @@
     "lpg": null
   },
   {
-    "station_id": "63ec459c234b15ab",
+    "station_id": "63f1b9122ed016d0",
     "date": "2026-04-10",
-    "gasoline": 1.805,
+    "gasoline": 1.839,
     "diesel": 2.199,
     "lpg": 0.959
   },
   {
-    "station_id": "64670ef07a442c71",
+    "station_id": "64c15b5ce06b6a8d",
     "date": "2026-04-10",
-    "gasoline": 1.739,
-    "diesel": 2.099,
-    "lpg": 0.949
+    "gasoline": 1.7,
+    "diesel": 2.22,
+    "lpg": 0.88
   },
   {
     "station_id": "64eb903f2caebc8e",
@@ -2037,25 +2121,11 @@
     "lpg": 0.934
   },
   {
-    "station_id": "650a579e8d958cf4",
+    "station_id": "66331ef8fa57d57f",
     "date": "2026-04-10",
-    "gasoline": 1.689,
-    "diesel": 2.089,
-    "lpg": 0.899
-  },
-  {
-    "station_id": "65ebb460aacb87db",
-    "date": "2026-04-10",
-    "gasoline": 1.66,
-    "diesel": 2.08,
-    "lpg": 0.88
-  },
-  {
-    "station_id": "65f72334ffd9d986",
-    "date": "2026-04-10",
-    "gasoline": 1.68,
-    "diesel": 2.09,
-    "lpg": 0.91
+    "gasoline": 1.819,
+    "diesel": 2.199,
+    "lpg": 0.959
   },
   {
     "station_id": "6638d92dc9f0d86d",
@@ -2065,13 +2135,6 @@
     "lpg": 0.959
   },
   {
-    "station_id": "663f131b19e4bf92",
-    "date": "2026-04-10",
-    "gasoline": 1.839,
-    "diesel": 2.199,
-    "lpg": 0.999
-  },
-  {
     "station_id": "66b5def6f56340e7",
     "date": "2026-04-10",
     "gasoline": 1.759,
@@ -2079,18 +2142,25 @@
     "lpg": 0.94
   },
   {
-    "station_id": "6777c6db4e1e35e5",
+    "station_id": "672fa13ed1ac3739",
     "date": "2026-04-10",
     "gasoline": 1.839,
     "diesel": 2.199,
     "lpg": 0.959
   },
   {
-    "station_id": "687afa1f75219710",
+    "station_id": "6732734a41a1a152",
     "date": "2026-04-10",
-    "gasoline": 1.799,
-    "diesel": 2.199,
-    "lpg": 0.959
+    "gasoline": 1.749,
+    "diesel": 2.169,
+    "lpg": 0.939
+  },
+  {
+    "station_id": "67db205b29551eb2",
+    "date": "2026-04-10",
+    "gasoline": 1.809,
+    "diesel": 2.229,
+    "lpg": 0.949
   },
   {
     "station_id": "68b12cd8837801a8",
@@ -2103,27 +2173,6 @@
     "station_id": "692c106ef8a7b465",
     "date": "2026-04-10",
     "gasoline": 1.784,
-    "diesel": 2.199,
-    "lpg": 0.959
-  },
-  {
-    "station_id": "695dbc78f6c2a8fa",
-    "date": "2026-04-10",
-    "gasoline": 1.719,
-    "diesel": 2.149,
-    "lpg": 0.929
-  },
-  {
-    "station_id": "69603c88e9e35f90",
-    "date": "2026-04-10",
-    "gasoline": 1.839,
-    "diesel": 2.199,
-    "lpg": 0.959
-  },
-  {
-    "station_id": "6961a02c2aec35d2",
-    "date": "2026-04-10",
-    "gasoline": 1.799,
     "diesel": 2.199,
     "lpg": 0.959
   },
@@ -2156,74 +2205,11 @@
     "lpg": 0.87
   },
   {
-    "station_id": "6abf5680045ca271",
+    "station_id": "6d59dcc3bdef4ea5",
     "date": "2026-04-10",
-    "gasoline": 1.79,
-    "diesel": 2.19,
-    "lpg": 0.93
-  },
-  {
-    "station_id": "6afa303a8a0de016",
-    "date": "2026-04-10",
-    "gasoline": 1.75,
-    "diesel": 2.15,
-    "lpg": 0.88
-  },
-  {
-    "station_id": "6b1fb52abaa96f96",
-    "date": "2026-04-10",
-    "gasoline": 1.7,
-    "diesel": 2.12,
-    "lpg": 0.9
-  },
-  {
-    "station_id": "6b8d5bfacb63df12",
-    "date": "2026-04-10",
-    "gasoline": 1.769,
-    "diesel": 2.189,
-    "lpg": 0.889
-  },
-  {
-    "station_id": "6bf709940d8de95e",
-    "date": "2026-04-10",
-    "gasoline": 1.789,
-    "diesel": 2.149,
+    "gasoline": 1.759,
+    "diesel": 2.159,
     "lpg": 0.949
-  },
-  {
-    "station_id": "6c0b6967c79746e7",
-    "date": "2026-04-10",
-    "gasoline": null,
-    "diesel": null,
-    "lpg": 0.85
-  },
-  {
-    "station_id": "6c38e324b22ee568",
-    "date": "2026-04-10",
-    "gasoline": 1.799,
-    "diesel": 2.189,
-    "lpg": null
-  },
-  {
-    "station_id": "6c97a1e379258547",
-    "date": "2026-04-10",
-    "gasoline": 1.709,
-    "diesel": 2.119,
-    "lpg": 0.939
-  },
-  {
-    "station_id": "6cc3fe60b1cdcf8a",
-    "date": "2026-04-10",
-    "gasoline": 1.829,
-    "diesel": 2.199,
-    "lpg": 0.999
-  },
-  {
-    "station_id": "6d36198f9ee42239",
-    "date": "2026-04-10",
-    "gasoline": 1.799,
-    "diesel": 2.199,
-    "lpg": 0.959
   },
   {
     "station_id": "6db6067b744e86cd",
@@ -2231,6 +2217,20 @@
     "gasoline": 1.759,
     "diesel": 2.179,
     "lpg": null
+  },
+  {
+    "station_id": "6e2d1462833f8426",
+    "date": "2026-04-10",
+    "gasoline": 1.719,
+    "diesel": 2.149,
+    "lpg": 0.91
+  },
+  {
+    "station_id": "6e56a279931dc42d",
+    "date": "2026-04-10",
+    "gasoline": 1.749,
+    "diesel": 2.169,
+    "lpg": 0.929
   },
   {
     "station_id": "6ea747cb4d01cddf",
@@ -2254,18 +2254,18 @@
     "lpg": 0.9
   },
   {
+    "station_id": "6ee6a4e025cba345",
+    "date": "2026-04-10",
+    "gasoline": 1.749,
+    "diesel": 2.179,
+    "lpg": 0.919
+  },
+  {
     "station_id": "6f1cef2deae8d8d5",
     "date": "2026-04-10",
     "gasoline": 1.859,
     "diesel": 2.259,
     "lpg": 0.929
-  },
-  {
-    "station_id": "6f459fb45c41630b",
-    "date": "2026-04-10",
-    "gasoline": 1.699,
-    "diesel": 2.119,
-    "lpg": 0.919
   },
   {
     "station_id": "7085270b92e7750d",
@@ -2289,25 +2289,39 @@
     "lpg": 0.9
   },
   {
-    "station_id": "7233ddedad299481",
+    "station_id": "7176b8f31cef9f2e",
     "date": "2026-04-10",
     "gasoline": 1.739,
-    "diesel": 2.169,
+    "diesel": 2.099,
     "lpg": 0.929
   },
   {
-    "station_id": "725a884656d944bc",
+    "station_id": "71a63265a1a65d8e",
     "date": "2026-04-10",
-    "gasoline": 1.749,
-    "diesel": 2.179,
-    "lpg": 0.919
+    "gasoline": 1.829,
+    "diesel": 2.199,
+    "lpg": 0.959
   },
   {
-    "station_id": "7398f8fed0d18d0c",
+    "station_id": "71aa0237f6759f5d",
     "date": "2026-04-10",
-    "gasoline": 1.809,
-    "diesel": 2.229,
-    "lpg": 0.949
+    "gasoline": 1.799,
+    "diesel": 2.199,
+    "lpg": 0.959
+  },
+  {
+    "station_id": "71ab74898d7b00bf",
+    "date": "2026-04-10",
+    "gasoline": 1.73,
+    "diesel": 2.15,
+    "lpg": 0.94
+  },
+  {
+    "station_id": "7300e06e55c0b255",
+    "date": "2026-04-10",
+    "gasoline": null,
+    "diesel": null,
+    "lpg": 0.83
   },
   {
     "station_id": "73a96102c5a8744f",
@@ -2317,11 +2331,25 @@
     "lpg": 0.899
   },
   {
-    "station_id": "73ac4c0855e881e0",
+    "station_id": "742121cc0ec4715c",
     "date": "2026-04-10",
-    "gasoline": 1.749,
-    "diesel": 2.169,
-    "lpg": 0.939
+    "gasoline": 1.829,
+    "diesel": 2.199,
+    "lpg": 0.959
+  },
+  {
+    "station_id": "74213744af9ba74e",
+    "date": "2026-04-10",
+    "gasoline": 1.829,
+    "diesel": 2.299,
+    "lpg": null
+  },
+  {
+    "station_id": "74314cfd39d52802",
+    "date": "2026-04-10",
+    "gasoline": 1.829,
+    "diesel": 2.199,
+    "lpg": 0.959
   },
   {
     "station_id": "744fc110ca3c988c",
@@ -2331,11 +2359,46 @@
     "lpg": 0.929
   },
   {
-    "station_id": "749839f49e63199f",
+    "station_id": "74ab956c3384325f",
     "date": "2026-04-10",
     "gasoline": 1.72,
-    "diesel": 2.18,
+    "diesel": 2.19,
     "lpg": 0.9
+  },
+  {
+    "station_id": "750205d893e2f95f",
+    "date": "2026-04-10",
+    "gasoline": 1.839,
+    "diesel": 2.199,
+    "lpg": 0.959
+  },
+  {
+    "station_id": "752f62b93ca7624d",
+    "date": "2026-04-10",
+    "gasoline": 1.839,
+    "diesel": 2.199,
+    "lpg": 0.979
+  },
+  {
+    "station_id": "7538c55f2c7bc056",
+    "date": "2026-04-10",
+    "gasoline": null,
+    "diesel": null,
+    "lpg": 0.83
+  },
+  {
+    "station_id": "7539302769c83f9d",
+    "date": "2026-04-10",
+    "gasoline": 1.819,
+    "diesel": 2.229,
+    "lpg": 0.989
+  },
+  {
+    "station_id": "75518fe86f4181a6",
+    "date": "2026-04-10",
+    "gasoline": 1.839,
+    "diesel": 2.199,
+    "lpg": 0.959
   },
   {
     "station_id": "75bbe7538922de4d",
@@ -2352,17 +2415,31 @@
     "lpg": 0.929
   },
   {
-    "station_id": "76848bd842022a34",
+    "station_id": "764bfd8fb311da2c",
     "date": "2026-04-10",
-    "gasoline": 1.76,
-    "diesel": 2.22,
-    "lpg": 0.88
+    "gasoline": 1.839,
+    "diesel": 2.199,
+    "lpg": 0.959
+  },
+  {
+    "station_id": "76820f740dfbbbf4",
+    "date": "2026-04-10",
+    "gasoline": 1.809,
+    "diesel": 2.229,
+    "lpg": 0.949
   },
   {
     "station_id": "76ce4c52884fb526",
     "date": "2026-04-10",
     "gasoline": 1.839,
     "diesel": 2.204,
+    "lpg": 0.959
+  },
+  {
+    "station_id": "774165026e992be7",
+    "date": "2026-04-10",
+    "gasoline": 1.839,
+    "diesel": 2.199,
     "lpg": 0.959
   },
   {
@@ -2387,25 +2464,11 @@
     "lpg": 0.949
   },
   {
-    "station_id": "78741dc12445b429",
-    "date": "2026-04-10",
-    "gasoline": 1.829,
-    "diesel": 2.199,
-    "lpg": 0.959
-  },
-  {
     "station_id": "78a215b7e15eaa43",
     "date": "2026-04-10",
     "gasoline": 1.749,
     "diesel": 2.169,
     "lpg": 0.909
-  },
-  {
-    "station_id": "78cbe9b648211a3a",
-    "date": "2026-04-10",
-    "gasoline": 1.72,
-    "diesel": 2.19,
-    "lpg": 0.9
   },
   {
     "station_id": "78d5372e3e253ca1",
@@ -2422,11 +2485,25 @@
     "lpg": null
   },
   {
-    "station_id": "797a67e8b1605b42",
+    "station_id": "796187d3b8766983",
     "date": "2026-04-10",
-    "gasoline": 1.66,
-    "diesel": 2.08,
-    "lpg": 0.85
+    "gasoline": 1.75,
+    "diesel": 2.13,
+    "lpg": 0.87
+  },
+  {
+    "station_id": "798c9654c0cb6857",
+    "date": "2026-04-10",
+    "gasoline": 1.799,
+    "diesel": 2.199,
+    "lpg": 0.959
+  },
+  {
+    "station_id": "79e565ea26c75363",
+    "date": "2026-04-10",
+    "gasoline": 1.839,
+    "diesel": 2.199,
+    "lpg": 0.999
   },
   {
     "station_id": "7a01279c3249dff2",
@@ -2436,18 +2513,18 @@
     "lpg": 0.9
   },
   {
+    "station_id": "7a17fa1165b8dbbf",
+    "date": "2026-04-10",
+    "gasoline": 1.729,
+    "diesel": 2.179,
+    "lpg": 0.929
+  },
+  {
     "station_id": "7a2fed52dcec22cd",
     "date": "2026-04-10",
     "gasoline": 1.749,
     "diesel": 2.169,
     "lpg": 0.929
-  },
-  {
-    "station_id": "7a6380d556a2e46d",
-    "date": "2026-04-10",
-    "gasoline": 1.769,
-    "diesel": 2.199,
-    "lpg": 0.93
   },
   {
     "station_id": "7ac5e49deba98471",
@@ -2457,13 +2534,6 @@
     "lpg": 0.939
   },
   {
-    "station_id": "7b4dcc2bd7e64c17",
-    "date": "2026-04-10",
-    "gasoline": 1.7,
-    "diesel": 2.08,
-    "lpg": 0.88
-  },
-  {
     "station_id": "7b80b99ff074eea1",
     "date": "2026-04-10",
     "gasoline": 1.75,
@@ -2471,30 +2541,30 @@
     "lpg": 0.9
   },
   {
-    "station_id": "7c06ecf1b27e9965",
+    "station_id": "7bd98b8520fd66a2",
     "date": "2026-04-10",
-    "gasoline": 1.799,
+    "gasoline": 1.839,
     "diesel": 2.199,
-    "lpg": 0.959
+    "lpg": 0.999
   },
   {
-    "station_id": "7c2b71ec7050f00c",
+    "station_id": "7ce9141761868a58",
     "date": "2026-04-10",
-    "gasoline": 1.739,
-    "diesel": 2.159,
-    "lpg": 0.949
+    "gasoline": 1.829,
+    "diesel": 2.199,
+    "lpg": 0.999
   },
   {
-    "station_id": "7c690d060aa79035",
+    "station_id": "7d534c3d260a73cb",
     "date": "2026-04-10",
     "gasoline": 1.839,
     "diesel": 2.199,
     "lpg": 0.979
   },
   {
-    "station_id": "7d4c4077f8ba42ab",
+    "station_id": "7e18811b699d480d",
     "date": "2026-04-10",
-    "gasoline": 1.829,
+    "gasoline": 1.799,
     "diesel": 2.199,
     "lpg": 0.959
   },
@@ -2506,25 +2576,25 @@
     "lpg": 0.899
   },
   {
-    "station_id": "7e445b198c3d36aa",
+    "station_id": "7e7adc108b20f5a3",
     "date": "2026-04-10",
-    "gasoline": 1.79,
-    "diesel": 2.1,
-    "lpg": 0.95
+    "gasoline": 1.729,
+    "diesel": 2.159,
+    "lpg": 0.949
   },
   {
-    "station_id": "7edc164c20c2fd72",
+    "station_id": "7eaaa93724d2033e",
     "date": "2026-04-10",
-    "gasoline": 1.839,
-    "diesel": 2.199,
-    "lpg": 0.999
+    "gasoline": 1.75,
+    "diesel": 2.21,
+    "lpg": 0.92
   },
   {
-    "station_id": "7f7091f483c9c348",
+    "station_id": "7ef6384b4df5f4b3",
     "date": "2026-04-10",
-    "gasoline": 1.839,
+    "gasoline": 1.829,
     "diesel": 2.199,
-    "lpg": 0.999
+    "lpg": 0.959
   },
   {
     "station_id": "7fa3668dfa8e964c",
@@ -2548,6 +2618,13 @@
     "lpg": 0.979
   },
   {
+    "station_id": "8054ae9c3eadbb66",
+    "date": "2026-04-10",
+    "gasoline": 1.789,
+    "diesel": 2.179,
+    "lpg": 0.959
+  },
+  {
     "station_id": "805904405d3d5241",
     "date": "2026-04-10",
     "gasoline": 1.759,
@@ -2555,18 +2632,11 @@
     "lpg": 0.949
   },
   {
-    "station_id": "80b96b0c6f8c13a7",
+    "station_id": "81294e22fcbd28df",
     "date": "2026-04-10",
-    "gasoline": 1.799,
-    "diesel": 2.199,
-    "lpg": null
-  },
-  {
-    "station_id": "80fc044778dcc043",
-    "date": "2026-04-10",
-    "gasoline": 1.799,
-    "diesel": 2.199,
-    "lpg": 0.959
+    "gasoline": 1.739,
+    "diesel": 2.099,
+    "lpg": 0.91
   },
   {
     "station_id": "8198b867e6021f4f",
@@ -2590,13 +2660,6 @@
     "lpg": 1.029
   },
   {
-    "station_id": "82774dee387a4ec8",
-    "date": "2026-04-10",
-    "gasoline": 1.64,
-    "diesel": 2.16,
-    "lpg": 0.79
-  },
-  {
     "station_id": "829d4d249d86836f",
     "date": "2026-04-10",
     "gasoline": 1.839,
@@ -2604,18 +2667,11 @@
     "lpg": 0.959
   },
   {
-    "station_id": "82be084dfa1fa8a0",
+    "station_id": "82d837ca76b55fdd",
     "date": "2026-04-10",
-    "gasoline": 1.729,
-    "diesel": 2.179,
-    "lpg": 0.929
-  },
-  {
-    "station_id": "831761db7b2dab8f",
-    "date": "2026-04-10",
-    "gasoline": 1.839,
-    "diesel": 2.199,
-    "lpg": 0.959
+    "gasoline": 1.66,
+    "diesel": 2.08,
+    "lpg": 0.88
   },
   {
     "station_id": "8399fd2cca471b73",
@@ -2625,18 +2681,32 @@
     "lpg": 0.93
   },
   {
-    "station_id": "8455e4e90cffec7e",
-    "date": "2026-04-10",
-    "gasoline": 1.719,
-    "diesel": 2.149,
-    "lpg": 0.91
-  },
-  {
-    "station_id": "8503bd7b3560fcac",
+    "station_id": "840b773deaf0fe8b",
     "date": "2026-04-10",
     "gasoline": 1.839,
     "diesel": 2.199,
+    "lpg": 0.999
+  },
+  {
+    "station_id": "844ff69f23ea912a",
+    "date": "2026-04-10",
+    "gasoline": 1.829,
+    "diesel": 2.199,
     "lpg": 0.959
+  },
+  {
+    "station_id": "846949e935d658ba",
+    "date": "2026-04-10",
+    "gasoline": 1.75,
+    "diesel": 2.15,
+    "lpg": 0.88
+  },
+  {
+    "station_id": "84cce49575015cbe",
+    "date": "2026-04-10",
+    "gasoline": 1.739,
+    "diesel": 2.149,
+    "lpg": 0.929
   },
   {
     "station_id": "85950bc2d5df1200",
@@ -2646,18 +2716,25 @@
     "lpg": null
   },
   {
+    "station_id": "85c1af25a6f1f39c",
+    "date": "2026-04-10",
+    "gasoline": 1.749,
+    "diesel": 2.169,
+    "lpg": 0.93
+  },
+  {
+    "station_id": "8627c6c688b92b21",
+    "date": "2026-04-10",
+    "gasoline": 1.749,
+    "diesel": 2.149,
+    "lpg": 0.919
+  },
+  {
     "station_id": "862fe33d2ddac367",
     "date": "2026-04-10",
     "gasoline": 1.78,
     "diesel": 2.19,
     "lpg": 0.96
-  },
-  {
-    "station_id": "864d351d1e053209",
-    "date": "2026-04-10",
-    "gasoline": 1.739,
-    "diesel": 2.169,
-    "lpg": 0.929
   },
   {
     "station_id": "8659e46cc5101709",
@@ -2679,6 +2756,13 @@
     "gasoline": 1.859,
     "diesel": 2.179,
     "lpg": 0.999
+  },
+  {
+    "station_id": "8716886b641f08ee",
+    "date": "2026-04-10",
+    "gasoline": 1.839,
+    "diesel": 2.199,
+    "lpg": 0.959
   },
   {
     "station_id": "87959120bb320c36",
@@ -2723,13 +2807,6 @@
     "lpg": null
   },
   {
-    "station_id": "88cf15e01c19bf50",
-    "date": "2026-04-10",
-    "gasoline": 1.66,
-    "diesel": 2.08,
-    "lpg": 0.85
-  },
-  {
     "station_id": "891bee3c5569ea45",
     "date": "2026-04-10",
     "gasoline": 1.86,
@@ -2737,11 +2814,11 @@
     "lpg": 0.94
   },
   {
-    "station_id": "8968e28f4ed0971e",
+    "station_id": "894d3226d54a549a",
     "date": "2026-04-10",
-    "gasoline": 1.819,
+    "gasoline": 1.839,
     "diesel": 2.199,
-    "lpg": 0.959
+    "lpg": null
   },
   {
     "station_id": "898871a68b331188",
@@ -2765,13 +2842,6 @@
     "lpg": null
   },
   {
-    "station_id": "8a86f7458a8c4b5c",
-    "date": "2026-04-10",
-    "gasoline": 1.839,
-    "diesel": 2.199,
-    "lpg": 0.999
-  },
-  {
     "station_id": "8a9229169c49c2e0",
     "date": "2026-04-10",
     "gasoline": 1.839,
@@ -2779,11 +2849,11 @@
     "lpg": 0.999
   },
   {
-    "station_id": "8b3f4c61debc216b",
+    "station_id": "8b11b6f13b01740a",
     "date": "2026-04-10",
-    "gasoline": null,
-    "diesel": null,
-    "lpg": 0.88
+    "gasoline": 1.75,
+    "diesel": 2.19,
+    "lpg": 0.89
   },
   {
     "station_id": "8b8ca06dec2d25b5",
@@ -2814,25 +2884,18 @@
     "lpg": 0.929
   },
   {
+    "station_id": "8c320060d9cf1d6f",
+    "date": "2026-04-10",
+    "gasoline": 1.839,
+    "diesel": 2.199,
+    "lpg": 0.959
+  },
+  {
     "station_id": "8c59863bef8b9ddb",
     "date": "2026-04-10",
     "gasoline": 1.78,
     "diesel": 2.17,
     "lpg": 0.92
-  },
-  {
-    "station_id": "8ddd147c3699f377",
-    "date": "2026-04-10",
-    "gasoline": null,
-    "diesel": 2.069,
-    "lpg": null
-  },
-  {
-    "station_id": "8de71112d36e0849",
-    "date": "2026-04-10",
-    "gasoline": 1.829,
-    "diesel": 2.229,
-    "lpg": 0.929
   },
   {
     "station_id": "8ed79c490f8403cf",
@@ -2842,11 +2905,11 @@
     "lpg": 0.879
   },
   {
-    "station_id": "8eec79ae617e541b",
+    "station_id": "8f0015c2bb9625cd",
     "date": "2026-04-10",
-    "gasoline": null,
-    "diesel": null,
-    "lpg": 0.83
+    "gasoline": 1.799,
+    "diesel": 2.199,
+    "lpg": 0.959
   },
   {
     "station_id": "8f15b261a2db8199",
@@ -2854,13 +2917,6 @@
     "gasoline": 1.759,
     "diesel": 2.179,
     "lpg": 0.929
-  },
-  {
-    "station_id": "8f237e3a792b846c",
-    "date": "2026-04-10",
-    "gasoline": 1.739,
-    "diesel": 2.099,
-    "lpg": 0.899
   },
   {
     "station_id": "8f362238e03bae48",
@@ -2884,11 +2940,11 @@
     "lpg": 0.949
   },
   {
-    "station_id": "8f8760f1f6ff0768",
+    "station_id": "8f9282431515d1d9",
     "date": "2026-04-10",
-    "gasoline": 1.75,
-    "diesel": 2.19,
-    "lpg": 0.89
+    "gasoline": 1.839,
+    "diesel": 2.199,
+    "lpg": 0.999
   },
   {
     "station_id": "90b278a8ec236126",
@@ -2919,24 +2975,17 @@
     "lpg": 0.929
   },
   {
-    "station_id": "91ae8ffbafd6342e",
+    "station_id": "91dd9a9984a6a40b",
     "date": "2026-04-10",
-    "gasoline": 1.7,
-    "diesel": 2.05,
-    "lpg": 0.87
+    "gasoline": 1.839,
+    "diesel": 2.199,
+    "lpg": 0.999
   },
   {
     "station_id": "9218e52d0d8e11e0",
     "date": "2026-04-10",
     "gasoline": 1.829,
     "diesel": 2.239,
-    "lpg": null
-  },
-  {
-    "station_id": "9298da4de198f28e",
-    "date": "2026-04-10",
-    "gasoline": 1.839,
-    "diesel": 2.199,
     "lpg": null
   },
   {
@@ -2968,6 +3017,13 @@
     "lpg": 0.949
   },
   {
+    "station_id": "9316c158ee626113",
+    "date": "2026-04-10",
+    "gasoline": 1.739,
+    "diesel": 2.099,
+    "lpg": null
+  },
+  {
     "station_id": "9348849996a222c9",
     "date": "2026-04-10",
     "gasoline": 1.699,
@@ -2975,11 +3031,11 @@
     "lpg": 0.929
   },
   {
-    "station_id": "93e72b90ff55ca9d",
+    "station_id": "93fad2a35bdde798",
     "date": "2026-04-10",
     "gasoline": 1.739,
     "diesel": 2.099,
-    "lpg": 0.929
+    "lpg": 0.91
   },
   {
     "station_id": "941fc3491c525acc",
@@ -2989,18 +3045,11 @@
     "lpg": 0.949
   },
   {
-    "station_id": "947a81005251ff0d",
+    "station_id": "942dc1b7f65f2385",
     "date": "2026-04-10",
-    "gasoline": 1.839,
-    "diesel": 2.199,
-    "lpg": 0.959
-  },
-  {
-    "station_id": "94b1a5ce9ae53459",
-    "date": "2026-04-10",
-    "gasoline": 1.839,
-    "diesel": 2.199,
-    "lpg": 0.999
+    "gasoline": 1.799,
+    "diesel": 2.189,
+    "lpg": null
   },
   {
     "station_id": "95482274ba29f19b",
@@ -3024,18 +3073,11 @@
     "lpg": null
   },
   {
-    "station_id": "962ae69c1578b08f",
+    "station_id": "96aa3867625fbe34",
     "date": "2026-04-10",
-    "gasoline": 1.839,
-    "diesel": 2.199,
-    "lpg": 0.959
-  },
-  {
-    "station_id": "964f856da69c610f",
-    "date": "2026-04-10",
-    "gasoline": 1.829,
-    "diesel": 2.199,
-    "lpg": 0.969
+    "gasoline": 1.729,
+    "diesel": 2.099,
+    "lpg": 0.9
   },
   {
     "station_id": "96e34f5cdfb60f81",
@@ -3080,11 +3122,11 @@
     "lpg": 0.899
   },
   {
-    "station_id": "982b9bc76d35b5dc",
+    "station_id": "989b96d6218b54e4",
     "date": "2026-04-10",
-    "gasoline": 1.839,
-    "diesel": 2.189,
-    "lpg": 0.959
+    "gasoline": 1.779,
+    "diesel": 2.199,
+    "lpg": 0.929
   },
   {
     "station_id": "98a8af890d4fa4ac",
@@ -3094,20 +3136,6 @@
     "lpg": 0.94
   },
   {
-    "station_id": "98adcb3d156fc33a",
-    "date": "2026-04-10",
-    "gasoline": 1.839,
-    "diesel": 2.199,
-    "lpg": 0.989
-  },
-  {
-    "station_id": "98b64bb97259d741",
-    "date": "2026-04-10",
-    "gasoline": 1.829,
-    "diesel": 2.229,
-    "lpg": 0.899
-  },
-  {
     "station_id": "98e52fbb5b9a57de",
     "date": "2026-04-10",
     "gasoline": 1.749,
@@ -3115,11 +3143,18 @@
     "lpg": 0.9
   },
   {
-    "station_id": "98f082b32cdf0f9f",
+    "station_id": "990e7a55d1381643",
     "date": "2026-04-10",
-    "gasoline": 1.819,
-    "diesel": 2.229,
-    "lpg": 0.989
+    "gasoline": 1.7,
+    "diesel": 2.12,
+    "lpg": 0.9
+  },
+  {
+    "station_id": "9925e400a71dec78",
+    "date": "2026-04-10",
+    "gasoline": 1.799,
+    "diesel": 2.199,
+    "lpg": 0.959
   },
   {
     "station_id": "992a55f701e9a49e",
@@ -3136,11 +3171,25 @@
     "lpg": 0.959
   },
   {
+    "station_id": "997031afd4071a4f",
+    "date": "2026-04-10",
+    "gasoline": 1.799,
+    "diesel": 2.199,
+    "lpg": 0.979
+  },
+  {
     "station_id": "99e939c5be3362b2",
     "date": "2026-04-10",
     "gasoline": 1.759,
     "diesel": 2.149,
     "lpg": null
+  },
+  {
+    "station_id": "9a24426c255a0ef6",
+    "date": "2026-04-10",
+    "gasoline": 1.839,
+    "diesel": 2.199,
+    "lpg": 0.959
   },
   {
     "station_id": "9a462a1d7d471e27",
@@ -3150,6 +3199,13 @@
     "lpg": 0.92
   },
   {
+    "station_id": "9a96a0751246f3f7",
+    "date": "2026-04-10",
+    "gasoline": 1.759,
+    "diesel": 2.149,
+    "lpg": 0.939
+  },
+  {
     "station_id": "9ae61a71698e8ccd",
     "date": "2026-04-10",
     "gasoline": 1.724,
@@ -3157,11 +3213,11 @@
     "lpg": null
   },
   {
-    "station_id": "9b613c161d635156",
+    "station_id": "9bccd4c057dbc966",
     "date": "2026-04-10",
-    "gasoline": 1.699,
-    "diesel": 2.119,
-    "lpg": 0.939
+    "gasoline": 1.839,
+    "diesel": 2.199,
+    "lpg": 0.959
   },
   {
     "station_id": "9c481bb12d6c6c0f",
@@ -3171,18 +3227,18 @@
     "lpg": 0.91
   },
   {
-    "station_id": "9cda6e95973787fc",
+    "station_id": "9d2b3f76bd5ef5f2",
     "date": "2026-04-10",
-    "gasoline": 1.749,
-    "diesel": 2.169,
-    "lpg": 0.929
+    "gasoline": 1.699,
+    "diesel": 2.129,
+    "lpg": 0.939
   },
   {
-    "station_id": "9ced2bbe03bd6aeb",
+    "station_id": "9d5a2e3ed5ab674a",
     "date": "2026-04-10",
-    "gasoline": 1.739,
-    "diesel": 2.099,
-    "lpg": 0.899
+    "gasoline": 1.769,
+    "diesel": 2.189,
+    "lpg": null
   },
   {
     "station_id": "9db8146f77c70f52",
@@ -3199,13 +3255,6 @@
     "lpg": 0.939
   },
   {
-    "station_id": "9dd2073239cb9564",
-    "date": "2026-04-10",
-    "gasoline": 1.839,
-    "diesel": 2.199,
-    "lpg": 0.959
-  },
-  {
     "station_id": "9e21b3e15ca05b9f",
     "date": "2026-04-10",
     "gasoline": 1.7,
@@ -3213,18 +3262,11 @@
     "lpg": 0.9
   },
   {
-    "station_id": "9e5a8408ca9d2423",
+    "station_id": "9e4af091dddd7b76",
     "date": "2026-04-10",
-    "gasoline": 1.779,
-    "diesel": 2.179,
-    "lpg": 0.919
-  },
-  {
-    "station_id": "9e836b591cae8ed0",
-    "date": "2026-04-10",
-    "gasoline": 1.699,
-    "diesel": 2.129,
-    "lpg": 0.939
+    "gasoline": 1.839,
+    "diesel": 2.199,
+    "lpg": 0.999
   },
   {
     "station_id": "9f15827d0a029d9d",
@@ -3234,11 +3276,11 @@
     "lpg": 0.959
   },
   {
-    "station_id": "9fc23e23fea1f52c",
+    "station_id": "9f2b312128ddf8cb",
     "date": "2026-04-10",
-    "gasoline": 1.839,
-    "diesel": 2.199,
-    "lpg": 0.959
+    "gasoline": 1.739,
+    "diesel": 2.099,
+    "lpg": 0.919
   },
   {
     "station_id": "a003b65bb56e3545",
@@ -3248,32 +3290,18 @@
     "lpg": null
   },
   {
-    "station_id": "a014bad41b834f32",
-    "date": "2026-04-10",
-    "gasoline": 1.699,
-    "diesel": 2.129,
-    "lpg": 0.94
-  },
-  {
-    "station_id": "a05d2a39de1ad5fd",
-    "date": "2026-04-10",
-    "gasoline": 1.819,
-    "diesel": 2.199,
-    "lpg": 0.959
-  },
-  {
-    "station_id": "a0615ba5e622a7cf",
-    "date": "2026-04-10",
-    "gasoline": 1.75,
-    "diesel": 2.21,
-    "lpg": 0.92
-  },
-  {
     "station_id": "a0c0f6bb9b2b7d6f",
     "date": "2026-04-10",
     "gasoline": 1.769,
     "diesel": 2.169,
     "lpg": 0.929
+  },
+  {
+    "station_id": "a0f2c1065d05561f",
+    "date": "2026-04-10",
+    "gasoline": 1.839,
+    "diesel": 2.199,
+    "lpg": 0.959
   },
   {
     "station_id": "a13ed7ddbbde8546",
@@ -3283,11 +3311,18 @@
     "lpg": null
   },
   {
-    "station_id": "a2aca0d8aedd2c5d",
+    "station_id": "a299f2a40158477a",
     "date": "2026-04-10",
-    "gasoline": 1.799,
+    "gasoline": 1.839,
     "diesel": 2.199,
     "lpg": 0.959
+  },
+  {
+    "station_id": "a2b2228ad6f971d0",
+    "date": "2026-04-10",
+    "gasoline": 1.789,
+    "diesel": 2.199,
+    "lpg": 0.889
   },
   {
     "station_id": "a2d89a0afeb47129",
@@ -3304,25 +3339,25 @@
     "lpg": null
   },
   {
-    "station_id": "a49dd78609a3a84d",
+    "station_id": "a494e2bc3754e91a",
     "date": "2026-04-10",
     "gasoline": 1.839,
     "diesel": 2.199,
     "lpg": 0.959
   },
   {
-    "station_id": "a4bb4ab463e8a097",
+    "station_id": "a4b61d6d8719bcd4",
     "date": "2026-04-10",
-    "gasoline": 1.819,
-    "diesel": 2.199,
-    "lpg": 0.959
+    "gasoline": 1.69,
+    "diesel": 2.19,
+    "lpg": null
   },
   {
-    "station_id": "a51ee56b1e898e33",
+    "station_id": "a4cc629aa7b2f33c",
     "date": "2026-04-10",
-    "gasoline": 1.789,
-    "diesel": 2.199,
-    "lpg": 0.969
+    "gasoline": 1.699,
+    "diesel": 2.129,
+    "lpg": 0.909
   },
   {
     "station_id": "a5378e88be6a8086",
@@ -3332,25 +3367,11 @@
     "lpg": 0.949
   },
   {
-    "station_id": "a574d9210837559d",
-    "date": "2026-04-10",
-    "gasoline": 1.7,
-    "diesel": 2.12,
-    "lpg": null
-  },
-  {
-    "station_id": "a59d53fba7a00d8d",
+    "station_id": "a550dd724cabac8c",
     "date": "2026-04-10",
     "gasoline": 1.799,
     "diesel": 2.199,
     "lpg": 0.959
-  },
-  {
-    "station_id": "a5f288a17f9a2d5f",
-    "date": "2026-04-10",
-    "gasoline": 1.749,
-    "diesel": 2.169,
-    "lpg": 0.919
   },
   {
     "station_id": "a632293d3e281876",
@@ -3365,13 +3386,6 @@
     "gasoline": 1.814,
     "diesel": 2.239,
     "lpg": null
-  },
-  {
-    "station_id": "a81c12daadb4a7c8",
-    "date": "2026-04-10",
-    "gasoline": null,
-    "diesel": null,
-    "lpg": 0.89
   },
   {
     "station_id": "a86fbc011cd95ec4",
@@ -3423,21 +3437,28 @@
     "lpg": 0.969
   },
   {
-    "station_id": "aaee1d8f63c340d7",
+    "station_id": "aa4bb5a297063685",
     "date": "2026-04-10",
-    "gasoline": 1.749,
-    "diesel": 2.149,
-    "lpg": null
+    "gasoline": 1.739,
+    "diesel": 2.169,
+    "lpg": 0.929
   },
   {
-    "station_id": "ab0e7ec01e6b8c10",
+    "station_id": "ab23cf752ea1799d",
     "date": "2026-04-10",
-    "gasoline": 1.75,
-    "diesel": 2.16,
+    "gasoline": 1.76,
+    "diesel": 2.22,
     "lpg": 0.88
   },
   {
-    "station_id": "abc9e74e2511ee7f",
+    "station_id": "ab7cfb17889ccd68",
+    "date": "2026-04-10",
+    "gasoline": 1.829,
+    "diesel": 2.159,
+    "lpg": 0.959
+  },
+  {
+    "station_id": "ab9b4d2af2fc1baa",
     "date": "2026-04-10",
     "gasoline": 1.839,
     "diesel": 2.199,
@@ -3465,11 +3486,39 @@
     "lpg": null
   },
   {
+    "station_id": "ac5886bb15a32612",
+    "date": "2026-04-10",
+    "gasoline": 1.829,
+    "diesel": 2.199,
+    "lpg": 0.959
+  },
+  {
     "station_id": "ac5e1d6201d1ce71",
     "date": "2026-04-10",
     "gasoline": 1.779,
     "diesel": 2.209,
     "lpg": 0.979
+  },
+  {
+    "station_id": "ac9355da3ce2e0af",
+    "date": "2026-04-10",
+    "gasoline": 1.73,
+    "diesel": 2.14,
+    "lpg": 0.91
+  },
+  {
+    "station_id": "ad07448d7b04408f",
+    "date": "2026-04-10",
+    "gasoline": 1.839,
+    "diesel": 2.199,
+    "lpg": 0.959
+  },
+  {
+    "station_id": "ad5ee10fe75f1bb2",
+    "date": "2026-04-10",
+    "gasoline": 1.699,
+    "diesel": 2.129,
+    "lpg": 0.94
   },
   {
     "station_id": "ad9d571048d12167",
@@ -3500,6 +3549,13 @@
     "lpg": 0.969
   },
   {
+    "station_id": "ae39c1c5273dd76a",
+    "date": "2026-04-10",
+    "gasoline": 1.839,
+    "diesel": 2.199,
+    "lpg": 0.999
+  },
+  {
     "station_id": "ae4d6d08e3e3883f",
     "date": "2026-04-10",
     "gasoline": 1.759,
@@ -3507,11 +3563,18 @@
     "lpg": 0.929
   },
   {
-    "station_id": "ae8f62dbaad9a8d7",
+    "station_id": "af53f7e7504971c0",
     "date": "2026-04-10",
-    "gasoline": 1.829,
-    "diesel": 2.159,
-    "lpg": 0.959
+    "gasoline": 1.739,
+    "diesel": 2.169,
+    "lpg": 0.92
+  },
+  {
+    "station_id": "af5f4d3540ec8c90",
+    "date": "2026-04-10",
+    "gasoline": null,
+    "diesel": null,
+    "lpg": 0.85
   },
   {
     "station_id": "af88f16a75256861",
@@ -3521,18 +3584,11 @@
     "lpg": 0.9
   },
   {
-    "station_id": "afdc1a9b07ed93c1",
+    "station_id": "afc06199a80f5710",
     "date": "2026-04-10",
-    "gasoline": 1.7,
-    "diesel": 2.08,
-    "lpg": 0.85
-  },
-  {
-    "station_id": "aff617c1cc01273a",
-    "date": "2026-04-10",
-    "gasoline": 1.809,
-    "diesel": 2.229,
-    "lpg": 0.969
+    "gasoline": 1.739,
+    "diesel": 2.099,
+    "lpg": 0.919
   },
   {
     "station_id": "b04281779c5d6280",
@@ -3570,25 +3626,11 @@
     "lpg": 0.9
   },
   {
-    "station_id": "b22bbb141be2e6bb",
-    "date": "2026-04-10",
-    "gasoline": 1.839,
-    "diesel": 2.199,
-    "lpg": 0.959
-  },
-  {
     "station_id": "b2307ff2db45c065",
     "date": "2026-04-10",
     "gasoline": 1.71,
     "diesel": 2.15,
     "lpg": 0.85
-  },
-  {
-    "station_id": "b335691dbc95fe48",
-    "date": "2026-04-10",
-    "gasoline": 1.839,
-    "diesel": 2.199,
-    "lpg": 0.959
   },
   {
     "station_id": "b39602b728e4582c",
@@ -3598,20 +3640,6 @@
     "lpg": null
   },
   {
-    "station_id": "b3b5e59417404d8d",
-    "date": "2026-04-10",
-    "gasoline": 1.859,
-    "diesel": 2.299,
-    "lpg": null
-  },
-  {
-    "station_id": "b3be5dd83a6be8af",
-    "date": "2026-04-10",
-    "gasoline": 1.769,
-    "diesel": 2.189,
-    "lpg": 0.939
-  },
-  {
     "station_id": "b3e2f4dfccd45ea3",
     "date": "2026-04-10",
     "gasoline": 1.73,
@@ -3619,18 +3647,18 @@
     "lpg": null
   },
   {
-    "station_id": "b485d839d7994607",
+    "station_id": "b424193b24f72f21",
     "date": "2026-04-10",
-    "gasoline": 1.799,
-    "diesel": 2.199,
-    "lpg": 0.959
+    "gasoline": 1.729,
+    "diesel": 2.139,
+    "lpg": 0.939
   },
   {
-    "station_id": "b4b56ad1e327b75c",
+    "station_id": "b4433f193bb82bd8",
     "date": "2026-04-10",
     "gasoline": 1.839,
     "diesel": 2.199,
-    "lpg": 0.959
+    "lpg": 0.999
   },
   {
     "station_id": "b51415639e671f14",
@@ -3638,6 +3666,34 @@
     "gasoline": 1.779,
     "diesel": 2.199,
     "lpg": 0.94
+  },
+  {
+    "station_id": "b57f68bd3055aebe",
+    "date": "2026-04-10",
+    "gasoline": 1.799,
+    "diesel": 2.199,
+    "lpg": 0.979
+  },
+  {
+    "station_id": "b581f5f277a3accb",
+    "date": "2026-04-10",
+    "gasoline": 1.829,
+    "diesel": 2.199,
+    "lpg": 0.999
+  },
+  {
+    "station_id": "b5a4d92a9c87363c",
+    "date": "2026-04-10",
+    "gasoline": 1.83,
+    "diesel": 2.25,
+    "lpg": 0.97
+  },
+  {
+    "station_id": "b5acad9129b52fb4",
+    "date": "2026-04-10",
+    "gasoline": null,
+    "diesel": null,
+    "lpg": 0.86
   },
   {
     "station_id": "b5bc86a990bce7bb",
@@ -3652,27 +3708,6 @@
     "gasoline": 1.74,
     "diesel": 2.19,
     "lpg": 0.9
-  },
-  {
-    "station_id": "b60d085aa28b1777",
-    "date": "2026-04-10",
-    "gasoline": 1.839,
-    "diesel": 2.199,
-    "lpg": 0.999
-  },
-  {
-    "station_id": "b62de21a16954cb0",
-    "date": "2026-04-10",
-    "gasoline": 1.799,
-    "diesel": 2.199,
-    "lpg": 0.959
-  },
-  {
-    "station_id": "b72cc9678d518157",
-    "date": "2026-04-10",
-    "gasoline": null,
-    "diesel": null,
-    "lpg": 0.88
   },
   {
     "station_id": "b7417b9d409f9456",
@@ -3694,6 +3729,13 @@
     "gasoline": 1.699,
     "diesel": 2.109,
     "lpg": 0.949
+  },
+  {
+    "station_id": "b88ba0f6e327e50a",
+    "date": "2026-04-10",
+    "gasoline": 1.839,
+    "diesel": 2.199,
+    "lpg": 0.959
   },
   {
     "station_id": "b8af83e5bca3f8fa",
@@ -3724,18 +3766,18 @@
     "lpg": null
   },
   {
+    "station_id": "b9506ece9e25770d",
+    "date": "2026-04-10",
+    "gasoline": 1.829,
+    "diesel": 2.189,
+    "lpg": 0.949
+  },
+  {
     "station_id": "b9796cb03e81e79f",
     "date": "2026-04-10",
     "gasoline": 1.71,
     "diesel": 2.21,
     "lpg": 0.9
-  },
-  {
-    "station_id": "b984e154e6fb666c",
-    "date": "2026-04-10",
-    "gasoline": 1.839,
-    "diesel": 2.199,
-    "lpg": 0.959
   },
   {
     "station_id": "b989dba23fa5987b",
@@ -3766,18 +3808,18 @@
     "lpg": 0.969
   },
   {
-    "station_id": "ba47c2d33d60666c",
-    "date": "2026-04-10",
-    "gasoline": 1.839,
-    "diesel": 2.199,
-    "lpg": 0.959
-  },
-  {
     "station_id": "ba68fa025481fbae",
     "date": "2026-04-10",
     "gasoline": 1.739,
     "diesel": 2.139,
     "lpg": 0.909
+  },
+  {
+    "station_id": "ba71c13741b41b89",
+    "date": "2026-04-10",
+    "gasoline": 1.729,
+    "diesel": 2.099,
+    "lpg": 0.939
   },
   {
     "station_id": "ba8a6e740f70d347",
@@ -3787,25 +3829,25 @@
     "lpg": 0.949
   },
   {
-    "station_id": "bc281656e1a7aeb0",
+    "station_id": "ba933e00b5d317de",
     "date": "2026-04-10",
     "gasoline": 1.839,
     "diesel": 2.199,
     "lpg": 0.999
   },
   {
-    "station_id": "bc722c499d923d95",
+    "station_id": "bb2ee2116ef01a4f",
     "date": "2026-04-10",
-    "gasoline": 1.839,
+    "gasoline": 1.829,
     "diesel": 2.199,
     "lpg": 0.959
   },
   {
-    "station_id": "bd1b01668fa253f8",
+    "station_id": "bbba0e8018bdcf1b",
     "date": "2026-04-10",
-    "gasoline": 1.83,
-    "diesel": 2.25,
-    "lpg": 0.97
+    "gasoline": 1.839,
+    "diesel": 2.199,
+    "lpg": 0.959
   },
   {
     "station_id": "bdf3b266849b2d7b",
@@ -3829,9 +3871,9 @@
     "lpg": 0.894
   },
   {
-    "station_id": "be36994188b86f2e",
+    "station_id": "be2c2d834de19b48",
     "date": "2026-04-10",
-    "gasoline": 1.839,
+    "gasoline": 1.819,
     "diesel": 2.199,
     "lpg": 0.959
   },
@@ -3843,10 +3885,17 @@
     "lpg": 0.929
   },
   {
-    "station_id": "bf8b3ce7ed2f0cb1",
+    "station_id": "bfba5e181d75d0eb",
     "date": "2026-04-10",
-    "gasoline": 1.7,
-    "diesel": 2.08,
+    "gasoline": 1.799,
+    "diesel": 2.199,
+    "lpg": 0.959
+  },
+  {
+    "station_id": "bfd1944f678dc117",
+    "date": "2026-04-10",
+    "gasoline": 1.75,
+    "diesel": 2.16,
     "lpg": 0.88
   },
   {
@@ -3864,13 +3913,6 @@
     "lpg": null
   },
   {
-    "station_id": "c0438541fd768bb5",
-    "date": "2026-04-10",
-    "gasoline": 1.739,
-    "diesel": 2.099,
-    "lpg": null
-  },
-  {
     "station_id": "c07cc301049e6fcd",
     "date": "2026-04-10",
     "gasoline": 1.699,
@@ -3883,6 +3925,20 @@
     "gasoline": 1.779,
     "diesel": 2.159,
     "lpg": null
+  },
+  {
+    "station_id": "c12794a95c2f8a42",
+    "date": "2026-04-10",
+    "gasoline": 1.749,
+    "diesel": 2.159,
+    "lpg": 0.949
+  },
+  {
+    "station_id": "c12fa6cd4cf3e6e8",
+    "date": "2026-04-10",
+    "gasoline": 1.699,
+    "diesel": 2.119,
+    "lpg": 0.939
   },
   {
     "station_id": "c184b09120777282",
@@ -3899,6 +3955,13 @@
     "lpg": 0.969
   },
   {
+    "station_id": "c1e62a15b01c185b",
+    "date": "2026-04-10",
+    "gasoline": 1.839,
+    "diesel": 2.199,
+    "lpg": 0.999
+  },
+  {
     "station_id": "c1f9e33c964a73d1",
     "date": "2026-04-10",
     "gasoline": 1.72,
@@ -3913,32 +3976,18 @@
     "lpg": 0.84
   },
   {
-    "station_id": "c26f5a9848ed43c3",
-    "date": "2026-04-10",
-    "gasoline": 1.769,
-    "diesel": 2.149,
-    "lpg": 0.929
-  },
-  {
-    "station_id": "c3f49c0f4e949c37",
-    "date": "2026-04-10",
-    "gasoline": 1.76,
-    "diesel": 2.15,
-    "lpg": 0.85
-  },
-  {
-    "station_id": "c47a9fc83c935021",
-    "date": "2026-04-10",
-    "gasoline": 1.799,
-    "diesel": 2.199,
-    "lpg": 0.959
-  },
-  {
     "station_id": "c47ecb99d24ef34a",
     "date": "2026-04-10",
     "gasoline": 1.769,
     "diesel": 2.179,
     "lpg": 0.949
+  },
+  {
+    "station_id": "c48fa5c8e728a58c",
+    "date": "2026-04-10",
+    "gasoline": 1.7,
+    "diesel": 2.05,
+    "lpg": 0.87
   },
   {
     "station_id": "c4a4560e6966d47a",
@@ -3955,18 +4004,25 @@
     "lpg": 0.924
   },
   {
+    "station_id": "c52d98f7659980bf",
+    "date": "2026-04-10",
+    "gasoline": null,
+    "diesel": null,
+    "lpg": 0.88
+  },
+  {
+    "station_id": "c55a96890932d71d",
+    "date": "2026-04-10",
+    "gasoline": 1.749,
+    "diesel": 2.149,
+    "lpg": null
+  },
+  {
     "station_id": "c645a8d2beb00389",
     "date": "2026-04-10",
     "gasoline": 1.829,
     "diesel": 2.259,
     "lpg": 0.95
-  },
-  {
-    "station_id": "c64b6fbd60fd00d4",
-    "date": "2026-04-10",
-    "gasoline": 1.749,
-    "diesel": 2.149,
-    "lpg": 0.919
   },
   {
     "station_id": "c693bb8239904548",
@@ -3976,17 +4032,17 @@
     "lpg": 0.939
   },
   {
+    "station_id": "c735f2b832618fdd",
+    "date": "2026-04-10",
+    "gasoline": 1.799,
+    "diesel": 2.199,
+    "lpg": 0.959
+  },
+  {
     "station_id": "c776b032985306a5",
     "date": "2026-04-10",
     "gasoline": 1.829,
     "diesel": 2.219,
-    "lpg": 0.959
-  },
-  {
-    "station_id": "c8096dc5cea0c82c",
-    "date": "2026-04-10",
-    "gasoline": 1.839,
-    "diesel": 2.199,
     "lpg": 0.959
   },
   {
@@ -4009,6 +4065,13 @@
     "gasoline": 1.75,
     "diesel": 2.17,
     "lpg": 0.91
+  },
+  {
+    "station_id": "c93aa3c7cd36e788",
+    "date": "2026-04-10",
+    "gasoline": 1.799,
+    "diesel": 2.199,
+    "lpg": 0.959
   },
   {
     "station_id": "c9470ad735e94e4d",
@@ -4039,20 +4102,6 @@
     "lpg": 0.959
   },
   {
-    "station_id": "cbb26385676f1609",
-    "date": "2026-04-10",
-    "gasoline": 1.73,
-    "diesel": 2.15,
-    "lpg": 0.86
-  },
-  {
-    "station_id": "cbbf23ea34242cef",
-    "date": "2026-04-10",
-    "gasoline": 1.829,
-    "diesel": 2.199,
-    "lpg": 0.969
-  },
-  {
     "station_id": "cbec339e4516602a",
     "date": "2026-04-10",
     "gasoline": 1.839,
@@ -4060,18 +4109,11 @@
     "lpg": 0.979
   },
   {
-    "station_id": "cc7599d1d35b6884",
+    "station_id": "cc70d9a4856c9494",
     "date": "2026-04-10",
-    "gasoline": 1.829,
+    "gasoline": 1.839,
     "diesel": 2.199,
-    "lpg": 0.959
-  },
-  {
-    "station_id": "cc9b362e07adb90e",
-    "date": "2026-04-10",
-    "gasoline": 1.739,
-    "diesel": 2.099,
-    "lpg": 0.919
+    "lpg": null
   },
   {
     "station_id": "ccaadb447355707e",
@@ -4088,18 +4130,18 @@
     "lpg": 0.95
   },
   {
+    "station_id": "cd173cc57a31c54d",
+    "date": "2026-04-10",
+    "gasoline": 1.66,
+    "diesel": 2.08,
+    "lpg": 0.85
+  },
+  {
     "station_id": "cd6da7fb3bf8319a",
     "date": "2026-04-10",
     "gasoline": 1.76,
     "diesel": 2.17,
     "lpg": 0.92
-  },
-  {
-    "station_id": "cdcc8ab00613c49c",
-    "date": "2026-04-10",
-    "gasoline": 1.749,
-    "diesel": 2.229,
-    "lpg": 0.929
   },
   {
     "station_id": "ce2eb04b7b3c1e62",
@@ -4116,13 +4158,6 @@
     "lpg": 0.939
   },
   {
-    "station_id": "cfc39cb6fccba6e8",
-    "date": "2026-04-10",
-    "gasoline": 1.839,
-    "diesel": 2.199,
-    "lpg": 0.999
-  },
-  {
     "station_id": "cfe24c5a18f7b1b5",
     "date": "2026-04-10",
     "gasoline": 1.859,
@@ -4135,6 +4170,13 @@
     "gasoline": 1.699,
     "diesel": 2.119,
     "lpg": 0.939
+  },
+  {
+    "station_id": "d0d30c2a5501798a",
+    "date": "2026-04-10",
+    "gasoline": 1.839,
+    "diesel": 2.199,
+    "lpg": 0.999
   },
   {
     "station_id": "d0fbda6df629b425",
@@ -4151,18 +4193,18 @@
     "lpg": 0.939
   },
   {
-    "station_id": "d17f9d3bd927d17c",
+    "station_id": "d195aee53dbdc3bb",
+    "date": "2026-04-10",
+    "gasoline": 1.66,
+    "diesel": 2.08,
+    "lpg": 0.85
+  },
+  {
+    "station_id": "d21fbae108dda6df",
     "date": "2026-04-10",
     "gasoline": 1.839,
     "diesel": 2.199,
     "lpg": 0.999
-  },
-  {
-    "station_id": "d1fa914b0c66a7a5",
-    "date": "2026-04-10",
-    "gasoline": 1.739,
-    "diesel": 2.169,
-    "lpg": 0.92
   },
   {
     "station_id": "d2766a2a2f0859e0",
@@ -4242,13 +4284,6 @@
     "lpg": null
   },
   {
-    "station_id": "d5bf6e00df1a8e74",
-    "date": "2026-04-10",
-    "gasoline": 1.65,
-    "diesel": 2.07,
-    "lpg": 0.88
-  },
-  {
     "station_id": "d6b514319145e89c",
     "date": "2026-04-10",
     "gasoline": 1.769,
@@ -4263,32 +4298,11 @@
     "lpg": 1.004
   },
   {
-    "station_id": "d7b48a336594fa35",
+    "station_id": "d8057b060c834ccb",
     "date": "2026-04-10",
-    "gasoline": 1.819,
-    "diesel": 2.199,
-    "lpg": 0.959
-  },
-  {
-    "station_id": "d83a1aa5a0e9f42e",
-    "date": "2026-04-10",
-    "gasoline": 1.799,
-    "diesel": 2.199,
-    "lpg": 0.959
-  },
-  {
-    "station_id": "d885f0e0920e7b04",
-    "date": "2026-04-10",
-    "gasoline": 1.839,
-    "diesel": 2.199,
-    "lpg": 0.959
-  },
-  {
-    "station_id": "d8f790347063dac6",
-    "date": "2026-04-10",
-    "gasoline": 1.839,
-    "diesel": 2.199,
-    "lpg": 0.959
+    "gasoline": 1.739,
+    "diesel": 2.099,
+    "lpg": 0.949
   },
   {
     "station_id": "d911adb3459efbb9",
@@ -4298,18 +4312,18 @@
     "lpg": 0.999
   },
   {
-    "station_id": "d95b498f61a71555",
-    "date": "2026-04-10",
-    "gasoline": 1.65,
-    "diesel": 2.07,
-    "lpg": 0.85
-  },
-  {
     "station_id": "d9c8a8c063689dc5",
     "date": "2026-04-10",
     "gasoline": 1.739,
     "diesel": 2.129,
     "lpg": 0.949
+  },
+  {
+    "station_id": "da431ce5a3f4c982",
+    "date": "2026-04-10",
+    "gasoline": 1.709,
+    "diesel": 2.119,
+    "lpg": 0.939
   },
   {
     "station_id": "da4e8b451f2f0ece",
@@ -4326,18 +4340,11 @@
     "lpg": null
   },
   {
-    "station_id": "dab436e5b37489bc",
+    "station_id": "daa0e6c9f864ede8",
     "date": "2026-04-10",
-    "gasoline": 1.749,
-    "diesel": 2.169,
-    "lpg": null
-  },
-  {
-    "station_id": "dadf7234c3d40fc0",
-    "date": "2026-04-10",
-    "gasoline": 1.739,
-    "diesel": 2.099,
-    "lpg": 0.919
+    "gasoline": 1.839,
+    "diesel": 2.199,
+    "lpg": 0.959
   },
   {
     "station_id": "db95c51d708384a1",
@@ -4347,11 +4354,11 @@
     "lpg": null
   },
   {
-    "station_id": "dc112be71eeb6630",
+    "station_id": "dbba7276eefc8f67",
     "date": "2026-04-10",
-    "gasoline": 1.769,
-    "diesel": 2.189,
-    "lpg": 0.919
+    "gasoline": 1.839,
+    "diesel": 2.199,
+    "lpg": 0.969
   },
   {
     "station_id": "dc84a0ecaf2bacd3",
@@ -4368,11 +4375,25 @@
     "lpg": 0.909
   },
   {
+    "station_id": "dcca42444ba2bd4d",
+    "date": "2026-04-10",
+    "gasoline": 1.65,
+    "diesel": 2.07,
+    "lpg": 0.85
+  },
+  {
     "station_id": "dd4577140118e45f",
     "date": "2026-04-10",
     "gasoline": 1.72,
     "diesel": 2.22,
     "lpg": 0.9
+  },
+  {
+    "station_id": "dd649e2599cfa190",
+    "date": "2026-04-10",
+    "gasoline": 1.799,
+    "diesel": 2.189,
+    "lpg": 0.949
   },
   {
     "station_id": "ddb1cbbf6eae8870",
@@ -4389,11 +4410,25 @@
     "lpg": null
   },
   {
+    "station_id": "de6ccfc84aa0f715",
+    "date": "2026-04-10",
+    "gasoline": 1.839,
+    "diesel": 2.199,
+    "lpg": 0.999
+  },
+  {
     "station_id": "dee5b04eb4105c25",
     "date": "2026-04-10",
     "gasoline": 1.764,
     "diesel": 2.164,
     "lpg": null
+  },
+  {
+    "station_id": "df051ab4733427d1",
+    "date": "2026-04-10",
+    "gasoline": 1.799,
+    "diesel": 2.199,
+    "lpg": 0.939
   },
   {
     "station_id": "df0d3177c3ece981",
@@ -4424,18 +4459,32 @@
     "lpg": 0.959
   },
   {
-    "station_id": "e1289e3f416a6dc7",
+    "station_id": "e168df46226994d6",
     "date": "2026-04-10",
-    "gasoline": 1.839,
+    "gasoline": 1.799,
     "diesel": 2.199,
-    "lpg": 0.999
+    "lpg": 0.959
   },
   {
-    "station_id": "e189f2fec104bdd3",
+    "station_id": "e17a1853308eb7cf",
     "date": "2026-04-10",
-    "gasoline": 1.66,
-    "diesel": 2.07,
-    "lpg": 0.85
+    "gasoline": null,
+    "diesel": null,
+    "lpg": 0.88
+  },
+  {
+    "station_id": "e1b60ff452f20186",
+    "date": "2026-04-10",
+    "gasoline": 1.739,
+    "diesel": 2.169,
+    "lpg": 0.929
+  },
+  {
+    "station_id": "e1d19b7bbaf04050",
+    "date": "2026-04-10",
+    "gasoline": 1.799,
+    "diesel": 2.199,
+    "lpg": 0.959
   },
   {
     "station_id": "e1dd04c9b441f393",
@@ -4452,6 +4501,13 @@
     "lpg": 0.959
   },
   {
+    "station_id": "e277f5a47c312479",
+    "date": "2026-04-10",
+    "gasoline": 1.73,
+    "diesel": 2.1,
+    "lpg": null
+  },
+  {
     "station_id": "e283c042203f3757",
     "date": "2026-04-10",
     "gasoline": 1.689,
@@ -4459,11 +4515,18 @@
     "lpg": null
   },
   {
-    "station_id": "e2bb053b91fe17ca",
+    "station_id": "e2cbc667a9c7d0f5",
     "date": "2026-04-10",
-    "gasoline": 1.709,
-    "diesel": 2.119,
-    "lpg": 0.939
+    "gasoline": null,
+    "diesel": null,
+    "lpg": 0.9
+  },
+  {
+    "station_id": "e2d6b1443d71ea5f",
+    "date": "2026-04-10",
+    "gasoline": 1.799,
+    "diesel": 2.199,
+    "lpg": 0.959
   },
   {
     "station_id": "e2f12d7e655e4d49",
@@ -4473,13 +4536,6 @@
     "lpg": 0.889
   },
   {
-    "station_id": "e2fafe8be8455ca3",
-    "date": "2026-04-10",
-    "gasoline": 1.739,
-    "diesel": 2.139,
-    "lpg": 0.959
-  },
-  {
     "station_id": "e32179ba8efcb34d",
     "date": "2026-04-10",
     "gasoline": 1.839,
@@ -4487,11 +4543,18 @@
     "lpg": 0.959
   },
   {
-    "station_id": "e36e69ba9e84da11",
+    "station_id": "e36e75a947e9600e",
     "date": "2026-04-10",
-    "gasoline": 1.729,
-    "diesel": 2.099,
-    "lpg": 0.9
+    "gasoline": 1.799,
+    "diesel": 2.199,
+    "lpg": 0.959
+  },
+  {
+    "station_id": "e3efa06750fccfe5",
+    "date": "2026-04-10",
+    "gasoline": 1.719,
+    "diesel": 2.149,
+    "lpg": 0.91
   },
   {
     "station_id": "e44493daf5016f1b",
@@ -4508,11 +4571,11 @@
     "lpg": 0.939
   },
   {
-    "station_id": "e4d5fb413fdeb802",
+    "station_id": "e4aebc14e8b3bb63",
     "date": "2026-04-10",
-    "gasoline": 1.739,
-    "diesel": 2.099,
-    "lpg": 0.91
+    "gasoline": 1.719,
+    "diesel": 2.149,
+    "lpg": 0.929
   },
   {
     "station_id": "e50016fc11667623",
@@ -4520,13 +4583,6 @@
     "gasoline": 1.759,
     "diesel": 2.169,
     "lpg": 0.929
-  },
-  {
-    "station_id": "e509d714aa3140c0",
-    "date": "2026-04-10",
-    "gasoline": 1.839,
-    "diesel": 2.199,
-    "lpg": 0.999
   },
   {
     "station_id": "e53434dc2a7009c7",
@@ -4543,6 +4599,13 @@
     "lpg": 0.91
   },
   {
+    "station_id": "e5d5e126ac6c182f",
+    "date": "2026-04-10",
+    "gasoline": 1.819,
+    "diesel": 2.199,
+    "lpg": 0.949
+  },
+  {
     "station_id": "e5d7e222524f6bbd",
     "date": "2026-04-10",
     "gasoline": 1.789,
@@ -4550,11 +4613,11 @@
     "lpg": 0.929
   },
   {
-    "station_id": "e6bea62f78ee8541",
+    "station_id": "e778ed8fdb341bd8",
     "date": "2026-04-10",
-    "gasoline": 1.69,
-    "diesel": 2.19,
-    "lpg": null
+    "gasoline": 1.839,
+    "diesel": 2.199,
+    "lpg": 0.999
   },
   {
     "station_id": "e7ba0e7d3ef6aae0",
@@ -4571,13 +4634,6 @@
     "lpg": 0.92
   },
   {
-    "station_id": "e87e82502baf9469",
-    "date": "2026-04-10",
-    "gasoline": 1.839,
-    "diesel": 2.199,
-    "lpg": 0.999
-  },
-  {
     "station_id": "e8a060b44e33da12",
     "date": "2026-04-10",
     "gasoline": 1.779,
@@ -4592,30 +4648,16 @@
     "lpg": null
   },
   {
-    "station_id": "e90ca747c0d47622",
+    "station_id": "ea0fef856bdd74fd",
     "date": "2026-04-10",
-    "gasoline": 1.739,
+    "gasoline": 1.709,
     "diesel": 2.099,
-    "lpg": 0.929
+    "lpg": 0.859
   },
   {
-    "station_id": "e9ee36dcb1d5ada6",
+    "station_id": "ea91e46e5ba33f6d",
     "date": "2026-04-10",
-    "gasoline": 1.7,
-    "diesel": 2.22,
-    "lpg": 0.88
-  },
-  {
-    "station_id": "ea1bc698ca5bda8d",
-    "date": "2026-04-10",
-    "gasoline": null,
-    "diesel": null,
-    "lpg": 0.83
-  },
-  {
-    "station_id": "ea38fb9469e86d13",
-    "date": "2026-04-10",
-    "gasoline": 1.799,
+    "gasoline": 1.839,
     "diesel": 2.199,
     "lpg": 0.959
   },
@@ -4627,11 +4669,18 @@
     "lpg": null
   },
   {
-    "station_id": "eab7f3847d2aa5df",
+    "station_id": "eac62c63fd8eeae7",
     "date": "2026-04-10",
     "gasoline": 1.839,
     "diesel": 2.199,
     "lpg": 0.959
+  },
+  {
+    "station_id": "ead192c3df5fce52",
+    "date": "2026-04-10",
+    "gasoline": 1.65,
+    "diesel": 2.07,
+    "lpg": 0.88
   },
   {
     "station_id": "eb0c9ea979faf92e",
@@ -4655,6 +4704,13 @@
     "lpg": 0.9
   },
   {
+    "station_id": "ec4751c9c739adc5",
+    "date": "2026-04-10",
+    "gasoline": 1.839,
+    "diesel": 2.199,
+    "lpg": 0.959
+  },
+  {
     "station_id": "ecbb53a0e757d018",
     "date": "2026-04-10",
     "gasoline": null,
@@ -4676,18 +4732,32 @@
     "lpg": 0.95
   },
   {
-    "station_id": "eebf1399d34d08c2",
+    "station_id": "ee3335525dcea8c3",
     "date": "2026-04-10",
-    "gasoline": null,
-    "diesel": null,
+    "gasoline": 1.7,
+    "diesel": 2.08,
     "lpg": 0.88
   },
   {
-    "station_id": "eedb77b0196c1e25",
+    "station_id": "eeaa5048627f31d1",
     "date": "2026-04-10",
-    "gasoline": 1.739,
-    "diesel": 2.149,
-    "lpg": 0.929
+    "gasoline": 1.819,
+    "diesel": 2.199,
+    "lpg": 0.959
+  },
+  {
+    "station_id": "eecf08affb05f6b0",
+    "date": "2026-04-10",
+    "gasoline": 1.73,
+    "diesel": 2.15,
+    "lpg": 0.86
+  },
+  {
+    "station_id": "efddc215bceb7a8a",
+    "date": "2026-04-10",
+    "gasoline": 1.789,
+    "diesel": 2.199,
+    "lpg": 0.969
   },
   {
     "station_id": "efe0da39d21a1915",
@@ -4725,6 +4795,20 @@
     "lpg": 0.975
   },
   {
+    "station_id": "f1dc958c0d4a20ad",
+    "date": "2026-04-10",
+    "gasoline": 1.839,
+    "diesel": 2.199,
+    "lpg": null
+  },
+  {
+    "station_id": "f1f5e2b9d6ede368",
+    "date": "2026-04-10",
+    "gasoline": 1.769,
+    "diesel": 2.179,
+    "lpg": 0.949
+  },
+  {
     "station_id": "f2487e5be46a4d3a",
     "date": "2026-04-10",
     "gasoline": 1.769,
@@ -4732,16 +4816,16 @@
     "lpg": null
   },
   {
-    "station_id": "f2a9fd68a3949aba",
+    "station_id": "f2aeea5c3586e519",
     "date": "2026-04-10",
-    "gasoline": 1.66,
-    "diesel": 2.08,
-    "lpg": 0.85
+    "gasoline": 1.7,
+    "diesel": 2.05,
+    "lpg": 0.87
   },
   {
-    "station_id": "f2d260be439650c5",
+    "station_id": "f2d867ec97ad9e80",
     "date": "2026-04-10",
-    "gasoline": 1.799,
+    "gasoline": 1.819,
     "diesel": 2.199,
     "lpg": 0.959
   },
@@ -4751,13 +4835,6 @@
     "gasoline": 1.809,
     "diesel": 2.259,
     "lpg": 0.999
-  },
-  {
-    "station_id": "f40fc16e78e767e0",
-    "date": "2026-04-10",
-    "gasoline": 1.799,
-    "diesel": 2.199,
-    "lpg": null
   },
   {
     "station_id": "f5a0e33dc7948079",
@@ -4781,39 +4858,11 @@
     "lpg": 0.959
   },
   {
-    "station_id": "f656e42597fbdda3",
-    "date": "2026-04-10",
-    "gasoline": 1.799,
-    "diesel": 2.199,
-    "lpg": 0.959
-  },
-  {
     "station_id": "f68532d38934a70e",
     "date": "2026-04-10",
     "gasoline": 1.749,
     "diesel": 2.149,
     "lpg": 0.899
-  },
-  {
-    "station_id": "f68c5788f110b2ea",
-    "date": "2026-04-10",
-    "gasoline": 1.839,
-    "diesel": 2.199,
-    "lpg": 0.999
-  },
-  {
-    "station_id": "f6dfdb5c231e10d3",
-    "date": "2026-04-10",
-    "gasoline": 1.819,
-    "diesel": 2.199,
-    "lpg": 0.959
-  },
-  {
-    "station_id": "f6ffabb2d6503154",
-    "date": "2026-04-10",
-    "gasoline": 1.829,
-    "diesel": 2.199,
-    "lpg": 0.959
   },
   {
     "station_id": "f70b92aa884f5d17",
@@ -4823,18 +4872,25 @@
     "lpg": 0.999
   },
   {
-    "station_id": "f7c68784e42368a5",
+    "station_id": "f741ffd3e44ccaf0",
+    "date": "2026-04-10",
+    "gasoline": 1.839,
+    "diesel": 2.199,
+    "lpg": 0.969
+  },
+  {
+    "station_id": "f7583930b81c3594",
+    "date": "2026-04-10",
+    "gasoline": 1.839,
+    "diesel": 2.199,
+    "lpg": 0.999
+  },
+  {
+    "station_id": "f7c2491d2706b8ed",
     "date": "2026-04-10",
     "gasoline": 1.839,
     "diesel": 2.199,
     "lpg": 0.959
-  },
-  {
-    "station_id": "f7decbf9a244a292",
-    "date": "2026-04-10",
-    "gasoline": 1.699,
-    "diesel": 2.129,
-    "lpg": 0.909
   },
   {
     "station_id": "f7f71613bee4c966",
@@ -4844,39 +4900,11 @@
     "lpg": null
   },
   {
-    "station_id": "f84a20b0fa8fc3f5",
-    "date": "2026-04-10",
-    "gasoline": 1.799,
-    "diesel": 2.199,
-    "lpg": 0.959
-  },
-  {
-    "station_id": "f86f7dcf29ac3fff",
-    "date": "2026-04-10",
-    "gasoline": 1.839,
-    "diesel": 2.199,
-    "lpg": 0.999
-  },
-  {
-    "station_id": "f8a4361c59014f91",
-    "date": "2026-04-10",
-    "gasoline": 1.839,
-    "diesel": 2.199,
-    "lpg": 0.959
-  },
-  {
     "station_id": "f8b5a539326e7e6b",
     "date": "2026-04-10",
     "gasoline": 1.789,
     "diesel": 2.183,
     "lpg": 0.999
-  },
-  {
-    "station_id": "f8f85a0da9938eb5",
-    "date": "2026-04-10",
-    "gasoline": 1.799,
-    "diesel": 2.199,
-    "lpg": 0.959
   },
   {
     "station_id": "f9501b1e12af7c74",
@@ -4886,11 +4914,18 @@
     "lpg": 0.939
   },
   {
-    "station_id": "f998241c69956c5d",
+    "station_id": "f95dc7a67ca73f1f",
     "date": "2026-04-10",
-    "gasoline": 1.829,
-    "diesel": 2.199,
-    "lpg": 0.959
+    "gasoline": 1.7,
+    "diesel": 2.08,
+    "lpg": 0.88
+  },
+  {
+    "station_id": "f9adcfb97e43e6e2",
+    "date": "2026-04-10",
+    "gasoline": 1.769,
+    "diesel": 2.189,
+    "lpg": 0.939
   },
   {
     "station_id": "f9fb9b503d59d9bf",
@@ -4914,32 +4949,11 @@
     "lpg": 0.9
   },
   {
-    "station_id": "fa600c250e0b51f0",
+    "station_id": "fa31bc448dee01e8",
     "date": "2026-04-10",
-    "gasoline": 1.7,
-    "diesel": 2.12,
-    "lpg": 0.9
-  },
-  {
-    "station_id": "fa95d8db3490b716",
-    "date": "2026-04-10",
-    "gasoline": 1.799,
-    "diesel": 2.199,
-    "lpg": 0.959
-  },
-  {
-    "station_id": "fa9c3a2b5800ccae",
-    "date": "2026-04-10",
-    "gasoline": 1.739,
-    "diesel": 2.099,
-    "lpg": 0.91
-  },
-  {
-    "station_id": "fb2625e0969542a6",
-    "date": "2026-04-10",
-    "gasoline": 1.839,
-    "diesel": 2.199,
-    "lpg": 0.959
+    "gasoline": 1.779,
+    "diesel": 2.179,
+    "lpg": 0.919
   },
   {
     "station_id": "fb36f30a2687fc5b",
@@ -4970,25 +4984,18 @@
     "lpg": 0.91
   },
   {
+    "station_id": "fba9710d3259587a",
+    "date": "2026-04-10",
+    "gasoline": 1.75,
+    "diesel": 2.13,
+    "lpg": 0.85
+  },
+  {
     "station_id": "fbc7b0b82472d678",
     "date": "2026-04-10",
     "gasoline": 1.839,
     "diesel": 2.199,
     "lpg": 0.99
-  },
-  {
-    "station_id": "fc0a4bb0662c45bb",
-    "date": "2026-04-10",
-    "gasoline": 1.75,
-    "diesel": 2.18,
-    "lpg": 0.9
-  },
-  {
-    "station_id": "fcf0fa52a9eb6a92",
-    "date": "2026-04-10",
-    "gasoline": 1.799,
-    "diesel": 2.199,
-    "lpg": 0.969
   },
   {
     "station_id": "fcf28588ffa6687e",
@@ -4999,20 +5006,6 @@
   },
   {
     "station_id": "fcff39ab722f95eb",
-    "date": "2026-04-10",
-    "gasoline": 1.839,
-    "diesel": 2.199,
-    "lpg": 0.999
-  },
-  {
-    "station_id": "fd4c39f39d3bd625",
-    "date": "2026-04-10",
-    "gasoline": 1.829,
-    "diesel": 2.199,
-    "lpg": 0.959
-  },
-  {
-    "station_id": "fd687f21c8d64003",
     "date": "2026-04-10",
     "gasoline": 1.839,
     "diesel": 2.199,
@@ -5040,11 +5033,25 @@
     "lpg": null
   },
   {
+    "station_id": "fd98c6c8f2d7815c",
+    "date": "2026-04-10",
+    "gasoline": 1.829,
+    "diesel": 2.199,
+    "lpg": 0.959
+  },
+  {
     "station_id": "fd9d0e343d577cc1",
     "date": "2026-04-10",
     "gasoline": 1.739,
     "diesel": 2.159,
     "lpg": 0.979
+  },
+  {
+    "station_id": "fe19d2a0819482b1",
+    "date": "2026-04-10",
+    "gasoline": 1.769,
+    "diesel": 2.189,
+    "lpg": 0.919
   },
   {
     "station_id": "fe6055f0da897da2",
@@ -5054,11 +5061,11 @@
     "lpg": 0.9
   },
   {
-    "station_id": "fe68927ff9ae9d94",
+    "station_id": "fe87eb8601e036d1",
     "date": "2026-04-10",
-    "gasoline": 1.799,
-    "diesel": 2.189,
-    "lpg": 0.949
+    "gasoline": 1.839,
+    "diesel": 2.199,
+    "lpg": 0.999
   },
   {
     "station_id": "ff239143cfea10ea",
@@ -5066,12 +5073,5 @@
     "gasoline": 1.729,
     "diesel": 2.139,
     "lpg": null
-  },
-  {
-    "station_id": "ffbbfb33583ad66c",
-    "date": "2026-04-10",
-    "gasoline": 1.839,
-    "diesel": 2.199,
-    "lpg": 0.999
   }
 ]

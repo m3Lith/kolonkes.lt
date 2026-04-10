@@ -98,12 +98,14 @@ function normalizeRows(filePath: string, date: string): NormalizedFuelRow[] {
       parsedAddress,
       fuelType: normalizeFuelType(row.fuelType),
       pricePerLiter: normalizePrice(row.priceRaw),
-      stationId: buildStationId(company, region, parsedAddress),
+      stationId: buildStationId(company, region, rawAddress),
     };
   });
 }
 
-function rowsToStationSnapshot(rows: NormalizedFuelRow[]): StationCatalogRecord[] {
+function rowsToStationSnapshot(
+  rows: NormalizedFuelRow[],
+): StationCatalogRecord[] {
   const stationMap = new Map<string, StationCatalogRecord>();
   for (const row of rows) {
     if (stationMap.has(row.stationId)) {
@@ -122,7 +124,9 @@ function rowsToStationSnapshot(rows: NormalizedFuelRow[]): StationCatalogRecord[
   return [...stationMap.values()];
 }
 
-function rowsToDailyFuelPrices(rows: NormalizedFuelRow[]): DailyFuelPriceRecord[] {
+function rowsToDailyFuelPrices(
+  rows: NormalizedFuelRow[],
+): DailyFuelPriceRecord[] {
   const byStation = new Map<string, DailyFuelPriceRecord>();
   for (const row of rows) {
     if (!byStation.has(row.stationId)) {
@@ -137,12 +141,19 @@ function rowsToDailyFuelPrices(rows: NormalizedFuelRow[]): DailyFuelPriceRecord[
     const record = byStation.get(row.stationId)!;
     record[row.fuelType] = row.pricePerLiter;
   }
-  return [...byStation.values()].sort((a, b) => a.station_id.localeCompare(b.station_id));
+  return [...byStation.values()].sort((a, b) =>
+    a.station_id.localeCompare(b.station_id),
+  );
 }
 
 function isLegacyFuelRow(
   value: unknown,
-): value is { stationId: string; date: string; fuelType: FuelType; pricePerLiter: number | null } {
+): value is {
+  stationId: string;
+  date: string;
+  fuelType: FuelType;
+  pricePerLiter: number | null;
+} {
   if (!value || typeof value !== "object") {
     return false;
   }
@@ -150,12 +161,19 @@ function isLegacyFuelRow(
   return (
     typeof row.stationId === "string" &&
     typeof row.date === "string" &&
-    (row.fuelType === "gasoline" || row.fuelType === "diesel" || row.fuelType === "lpg")
+    (row.fuelType === "gasoline" ||
+      row.fuelType === "diesel" ||
+      row.fuelType === "lpg")
   );
 }
 
 function legacyRowsToDailyFuelPrices(
-  rows: Array<{ stationId: string; date: string; fuelType: FuelType; pricePerLiter: number | null }>,
+  rows: Array<{
+    stationId: string;
+    date: string;
+    fuelType: FuelType;
+    pricePerLiter: number | null;
+  }>,
 ): DailyFuelPriceRecord[] {
   const grouped = new Map<string, DailyFuelPriceRecord>();
   for (const row of rows) {
@@ -173,7 +191,8 @@ function legacyRowsToDailyFuelPrices(
     record[row.fuelType] = row.pricePerLiter;
   }
   return [...grouped.values()].sort(
-    (a, b) => a.date.localeCompare(b.date) || a.station_id.localeCompare(b.station_id),
+    (a, b) =>
+      a.date.localeCompare(b.date) || a.station_id.localeCompare(b.station_id),
   );
 }
 
@@ -245,6 +264,14 @@ function mergeStationCatalog(
   );
 }
 
+function geocodeQueryMatchesParsedAddress(
+  geocodeQuery: string,
+  parsedAddress: string,
+): boolean {
+  const fromQuery = geocodeQuery.replace(/,\s*Lietuva\s*$/i, "").trim();
+  return buildGeocodeKey(fromQuery) === buildGeocodeKey(parsedAddress);
+}
+
 function seedStationGeocodes(
   catalog: StationCatalogRecord[],
   cache: GeocodeCache,
@@ -268,15 +295,32 @@ function seedStationGeocodes(
           status: "resolved" as const,
         };
       }
+      const query = `${station.parsed_address}, Lietuva`;
       if (existing) {
-        return { ...existing };
+        if (
+          !geocodeQueryMatchesParsedAddress(
+            existing.query,
+            station.parsed_address,
+          )
+        ) {
+          return {
+            station_id: station.station_id,
+            lat: null,
+            lon: null,
+            display_name: null,
+            query,
+            geocode_updated_at: null,
+            status: "unresolved" as const,
+          };
+        }
+        return { ...existing, query };
       }
       return {
         station_id: station.station_id,
         lat: null,
         lon: null,
         display_name: null,
-        query: `${station.parsed_address}, Lietuva`,
+        query,
         geocode_updated_at: null,
         status: "unresolved" as const,
       };
@@ -389,9 +433,21 @@ async function writeOutputs(
   const fuelLatestPath = path.join(OUTPUT_FUEL_DIR, "latest.json");
 
   await Promise.all([
-    fs.writeFile(fuelByDatePath, `${JSON.stringify(dailyPrices, null, 2)}\n`, "utf8"),
-    fs.writeFile(fuelLatestPath, `${JSON.stringify(dailyPrices, null, 2)}\n`, "utf8"),
-    fs.writeFile(OUTPUT_STATION_CATALOG, `${JSON.stringify(catalog, null, 2)}\n`, "utf8"),
+    fs.writeFile(
+      fuelByDatePath,
+      `${JSON.stringify(dailyPrices, null, 2)}\n`,
+      "utf8",
+    ),
+    fs.writeFile(
+      fuelLatestPath,
+      `${JSON.stringify(dailyPrices, null, 2)}\n`,
+      "utf8",
+    ),
+    fs.writeFile(
+      OUTPUT_STATION_CATALOG,
+      `${JSON.stringify(catalog, null, 2)}\n`,
+      "utf8",
+    ),
     fs.writeFile(
       OUTPUT_STATION_GEOCODES,
       `${JSON.stringify(geocodes, null, 2)}\n`,
@@ -423,13 +479,21 @@ async function cleanupLegacyOutputs(): Promise<void> {
       }
       const filePath = path.join(OUTPUT_FUEL_DIR, fileName);
       const parsed = await readJsonOptional<unknown>(filePath, []);
-      if (!Array.isArray(parsed) || parsed.length === 0 || !isLegacyFuelRow(parsed[0])) {
+      if (
+        !Array.isArray(parsed) ||
+        parsed.length === 0 ||
+        !isLegacyFuelRow(parsed[0])
+      ) {
         continue;
       }
       const migrated = legacyRowsToDailyFuelPrices(
         parsed.filter(isLegacyFuelRow),
       );
-      await fs.writeFile(filePath, `${JSON.stringify(migrated, null, 2)}\n`, "utf8");
+      await fs.writeFile(
+        filePath,
+        `${JSON.stringify(migrated, null, 2)}\n`,
+        "utf8",
+      );
     }
   } catch (error) {
     const maybe = error as NodeJS.ErrnoException;
@@ -442,7 +506,10 @@ async function cleanupLegacyOutputs(): Promise<void> {
     const stationFiles = await fs.readdir(OUTPUT_STATION_DIR);
     await Promise.all(
       stationFiles
-        .filter((fileName) => fileName.endsWith(".json") && fileName !== "catalog.json")
+        .filter(
+          (fileName) =>
+            fileName.endsWith(".json") && fileName !== "catalog.json",
+        )
         .map((fileName) => fs.unlink(path.join(OUTPUT_STATION_DIR, fileName))),
     );
   } catch (error) {
@@ -472,7 +539,9 @@ async function main(): Promise<void> {
 
   const existingCatalog = await loadStationCatalog();
   const catalog = mergeStationCatalog(existingCatalog, stationSnapshot, nowIso);
-  const catalogById = new Map(catalog.map((station) => [station.station_id, station] as const));
+  const catalogById = new Map(
+    catalog.map((station) => [station.station_id, station] as const),
+  );
 
   const cache = await loadGeocodeCache(CACHE_PATH);
   const existingGeocodes = await loadStationGeocodes();
