@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-09",
-  "fuelPricesPath": "src/data/fuel-prices/2026-04-09.json",
-  "stationsPath": "src/data/stations/2026-04-09.json"
+  "date": "2026-04-10",
+  "fuelPricesPath": "src/data/fuel-prices/2026-04-10.json",
+  "stationsPath": "src/data/stations/2026-04-10.json"
 }

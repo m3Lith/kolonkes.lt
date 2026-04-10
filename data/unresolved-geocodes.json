@@ -1,5 +1,28 @@
 [
   {
+    "stationId": "2b69907393fefb0a",
+    "company": "Adukesta",
+    "region": "Klaipėdos r. sav.",
+    "address": "Laisvės g. 50, Maciuičių k.",
+    "queryAddress": "Laisvės g. 50, Maciuičių k., Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": 1.78
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": 2.26
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": 0.95
+      }
+    ]
+  },
+  {
     "stationId": "45053d593e016a11",
     "company": "Alauša",
     "region": "Alytaus r. sav.",
@@ -10,15 +33,15 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.714
+        "pricePerLiter": 1.669
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.144
+        "pricePerLiter": 2.089
       },
       {
         "fuelType": "lpg",
-        "pricePerLiter": 0.879
+        "pricePerLiter": 0.934
       }
     ]
   },
@@ -33,11 +56,11 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.759
+        "pricePerLiter": 1.739
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.199
+        "pricePerLiter": 2.169
       },
       {
         "fuelType": "lpg",
@@ -56,11 +79,11 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.759
+        "pricePerLiter": 1.669
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.229
+        "pricePerLiter": 2.089
       },
       {
         "fuelType": "lpg",
@@ -79,11 +102,11 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.824
+        "pricePerLiter": 1.759
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.264
+        "pricePerLiter": 2.179
       },
       {
         "fuelType": "lpg",
@@ -102,11 +125,11 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.764
+        "pricePerLiter": 1.669
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.199
+        "pricePerLiter": 2.089
       },
       {
         "fuelType": "lpg",
@@ -125,15 +148,15 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.835
+        "pricePerLiter": 1.759
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.275
+        "pricePerLiter": 2.159
       },
       {
         "fuelType": "lpg",
-        "pricePerLiter": 0.965
+        "pricePerLiter": 0.975
       }
     ]
   },
@@ -152,7 +175,7 @@
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.269
+        "pricePerLiter": 2.159
       },
       {
         "fuelType": "lpg",
@@ -175,7 +198,7 @@
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.289
+        "pricePerLiter": 2.189
       },
       {
         "fuelType": "lpg",
@@ -194,11 +217,11 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.839
+        "pricePerLiter": 1.789
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.329
+        "pricePerLiter": 2.229
       },
       {
         "fuelType": "lpg",
@@ -217,11 +240,11 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.74
+        "pricePerLiter": 1.7
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.16
+        "pricePerLiter": 2.12
       },
       {
         "fuelType": "lpg",
@@ -240,11 +263,11 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.779
+        "pricePerLiter": 1.769
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.239
+        "pricePerLiter": 2.189
       },
       {
         "fuelType": "lpg",
@@ -263,11 +286,11 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.769
+        "pricePerLiter": 1.759
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.229
+        "pricePerLiter": 2.159
       },
       {
         "fuelType": "lpg",
@@ -286,11 +309,11 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.849
+        "pricePerLiter": 1.809
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.299
+        "pricePerLiter": 2.169
       },
       {
         "fuelType": "lpg",
@@ -313,7 +336,7 @@
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.229
+        "pricePerLiter": 2.179
       },
       {
         "fuelType": "lpg",
@@ -332,11 +355,11 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.739
+        "pricePerLiter": 1.689
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.179
+        "pricePerLiter": 2.089
       },
       {
         "fuelType": "lpg",
@@ -355,11 +378,11 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.809
+        "pricePerLiter": 1.789
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.289
+        "pricePerLiter": 2.199
       },
       {
         "fuelType": "lpg",
@@ -378,11 +401,11 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.769
+        "pricePerLiter": 1.739
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.259
+        "pricePerLiter": 2.099
       },
       {
         "fuelType": "lpg",
@@ -401,11 +424,11 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.789
+        "pricePerLiter": 1.739
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.259
+        "pricePerLiter": 2.099
       },
       {
         "fuelType": "lpg",
@@ -428,7 +451,7 @@
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.15
+        "pricePerLiter": 2.1
       },
       {
         "fuelType": "lpg",
@@ -447,15 +470,15 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.829
+        "pricePerLiter": 1.799
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.299
+        "pricePerLiter": 2.229
       },
       {
         "fuelType": "lpg",
-        "pricePerLiter": 0.879
+        "pricePerLiter": 0.889
       }
     ]
   },
@@ -470,11 +493,11 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.749
+        "pricePerLiter": 1.739
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.219
+        "pricePerLiter": 2.169
       },
       {
         "fuelType": "lpg",
@@ -497,7 +520,7 @@
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.289
+        "pricePerLiter": 2.229
       },
       {
         "fuelType": "lpg",
@@ -516,11 +539,11 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.79
+        "pricePerLiter": 1.73
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.23
+        "pricePerLiter": 2.1
       },
       {
         "fuelType": "lpg",
@@ -566,7 +589,7 @@
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.309
+        "pricePerLiter": 2.229
       },
       {
         "fuelType": "lpg",
@@ -585,11 +608,11 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.789
+        "pricePerLiter": 1.749
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.229
+        "pricePerLiter": 2.149
       },
       {
         "fuelType": "lpg",
@@ -612,7 +635,7 @@
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.199
+        "pricePerLiter": 2.169
       },
       {
         "fuelType": "lpg",
@@ -631,11 +654,11 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.769
+        "pricePerLiter": 1.759
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.199
+        "pricePerLiter": 2.159
       },
       {
         "fuelType": "lpg",
@@ -654,11 +677,11 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.759
+        "pricePerLiter": 1.739
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.229
+        "pricePerLiter": 2.129
       },
       {
         "fuelType": "lpg",
@@ -681,7 +704,7 @@
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.22
+        "pricePerLiter": 2.19
       },
       {
         "fuelType": "lpg",
@@ -700,11 +723,11 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.789
+        "pricePerLiter": 1.739
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.249
+        "pricePerLiter": 2.099
       },
       {
         "fuelType": "lpg",
@@ -723,11 +746,11 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.769
+        "pricePerLiter": 1.739
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.159
+        "pricePerLiter": 2.099
       },
       {
         "fuelType": "lpg",
@@ -750,7 +773,7 @@
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.19
+        "pricePerLiter": 2.18
       },
       {
         "fuelType": "lpg",
@@ -773,7 +796,7 @@
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.279
+        "pricePerLiter": 2.259
       },
       {
         "fuelType": "lpg",
@@ -796,7 +819,7 @@
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.259
+        "pricePerLiter": 2.189
       },
       {
         "fuelType": "lpg",
@@ -815,11 +838,11 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.889
+        "pricePerLiter": 1.839
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.229
+        "pricePerLiter": 2.199
       },
       {
         "fuelType": "lpg",
@@ -838,11 +861,11 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.898
+        "pricePerLiter": 1.859
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.299
+        "pricePerLiter": 2.259
       },
       {
         "fuelType": "lpg",
@@ -861,11 +884,11 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.898
+        "pricePerLiter": 1.859
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.299
+        "pricePerLiter": 2.259
       },
       {
         "fuelType": "lpg",
@@ -888,7 +911,7 @@
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.299
+        "pricePerLiter": 2.259
       },
       {
         "fuelType": "lpg",
@@ -907,11 +930,11 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.859
+        "pricePerLiter": 1.804
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.299
+        "pricePerLiter": 2.219
       },
       {
         "fuelType": "lpg",
@@ -930,11 +953,11 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.898
+        "pricePerLiter": 1.859
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.299
+        "pricePerLiter": 2.259
       },
       {
         "fuelType": "lpg",
@@ -953,15 +976,15 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.879
+        "pricePerLiter": 1.859
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.299
+        "pricePerLiter": 2.259
       },
       {
         "fuelType": "lpg",
-        "pricePerLiter": 1.01
+        "pricePerLiter": 0.99
       }
     ]
   },
@@ -976,11 +999,11 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.829
+        "pricePerLiter": 1.809
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.249
+        "pricePerLiter": 2.209
       },
       {
         "fuelType": "lpg",
@@ -999,15 +1022,15 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.849
+        "pricePerLiter": 1.819
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.299
+        "pricePerLiter": 2.189
       },
       {
         "fuelType": "lpg",
-        "pricePerLiter": 1.039
+        "pricePerLiter": 0.999
       }
     ]
   },
@@ -1022,11 +1045,11 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.829
+        "pricePerLiter": 1.799
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.299
+        "pricePerLiter": 2.189
       },
       {
         "fuelType": "lpg",
@@ -1045,15 +1068,15 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.898
+        "pricePerLiter": 1.859
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.299
+        "pricePerLiter": 2.259
       },
       {
         "fuelType": "lpg",
-        "pricePerLiter": 1.029
+        "pricePerLiter": 0.989
       }
     ]
   },
@@ -1068,15 +1091,15 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.898
+        "pricePerLiter": 1.859
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.299
+        "pricePerLiter": 2.259
       },
       {
         "fuelType": "lpg",
-        "pricePerLiter": 1.029
+        "pricePerLiter": 0.989
       }
     ]
   },
@@ -1091,15 +1114,15 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.898
+        "pricePerLiter": 1.859
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.299
+        "pricePerLiter": 2.259
       },
       {
         "fuelType": "lpg",
-        "pricePerLiter": 1.029
+        "pricePerLiter": 0.999
       }
     ]
   },
@@ -1114,15 +1137,15 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.898
+        "pricePerLiter": 1.859
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.299
+        "pricePerLiter": 2.259
       },
       {
         "fuelType": "lpg",
-        "pricePerLiter": 1.029
+        "pricePerLiter": 0.999
       }
     ]
   },
@@ -1137,11 +1160,11 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.829
+        "pricePerLiter": 1.819
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.269
+        "pricePerLiter": 2.199
       },
       {
         "fuelType": "lpg",
@@ -1160,11 +1183,11 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.819
+        "pricePerLiter": 1.759
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.299
+        "pricePerLiter": 2.179
       },
       {
         "fuelType": "lpg",
@@ -1187,7 +1210,7 @@
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.279
+        "pricePerLiter": 2.189
       },
       {
         "fuelType": "lpg",
@@ -1233,7 +1256,7 @@
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.229
+        "pricePerLiter": 2.199
       },
       {
         "fuelType": "lpg",
@@ -1279,7 +1302,7 @@
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.199
+        "pricePerLiter": 2.169
       },
       {
         "fuelType": "lpg",
@@ -1298,11 +1321,11 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.789
+        "pricePerLiter": 1.769
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.259
+        "pricePerLiter": 2.219
       },
       {
         "fuelType": "lpg",
@@ -1344,11 +1367,11 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.789
+        "pricePerLiter": 1.749
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.189
+        "pricePerLiter": 2.169
       },
       {
         "fuelType": "lpg",
@@ -1367,11 +1390,11 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.749
+        "pricePerLiter": 1.739
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.219
+        "pricePerLiter": 2.169
       },
       {
         "fuelType": "lpg",
@@ -1390,15 +1413,15 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.749
+        "pricePerLiter": 1.759
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.219
+        "pricePerLiter": 2.169
       },
       {
         "fuelType": "lpg",
-        "pricePerLiter": 0.919
+        "pricePerLiter": 0.939
       }
     ]
   },
@@ -1413,11 +1436,11 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.769
+        "pricePerLiter": 1.729
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.199
+        "pricePerLiter": 2.179
       },
       {
         "fuelType": "lpg",
@@ -1436,11 +1459,11 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.759
+        "pricePerLiter": 1.749
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.219
+        "pricePerLiter": 2.169
       },
       {
         "fuelType": "lpg",
@@ -1463,7 +1486,7 @@
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.199
+        "pricePerLiter": 2.169
       },
       {
         "fuelType": "lpg",
@@ -1486,7 +1509,7 @@
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.22
+        "pricePerLiter": 2.17
       },
       {
         "fuelType": "lpg",
@@ -1505,11 +1528,11 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.789
+        "pricePerLiter": 1.759
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.269
+        "pricePerLiter": 2.179
       },
       {
         "fuelType": "lpg",
@@ -1528,11 +1551,11 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.789
+        "pricePerLiter": 1.759
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.269
+        "pricePerLiter": 2.179
       },
       {
         "fuelType": "lpg",
@@ -1551,11 +1574,11 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.799
+        "pricePerLiter": 1.859
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.259
+        "pricePerLiter": 2.299
       },
       {
         "fuelType": "lpg",
@@ -1574,15 +1597,15 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.78
+        "pricePerLiter": 1.77
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.24
+        "pricePerLiter": 2.19
       },
       {
         "fuelType": "lpg",
-        "pricePerLiter": 0.88
+        "pricePerLiter": 0.91
       }
     ]
   },
@@ -1666,11 +1689,11 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.779
+        "pricePerLiter": 1.759
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.239
+        "pricePerLiter": 2.189
       },
       {
         "fuelType": "lpg",
@@ -1689,11 +1712,11 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.763
+        "pricePerLiter": 1.753
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.224
+        "pricePerLiter": 2.214
       },
       {
         "fuelType": "lpg",
@@ -1762,7 +1785,7 @@
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.179
+        "pricePerLiter": 2.159
       },
       {
         "fuelType": "lpg",
@@ -1785,7 +1808,7 @@
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.28
+        "pricePerLiter": 2.19
       },
       {
         "fuelType": "lpg",
@@ -1804,11 +1827,11 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.74
+        "pricePerLiter": 1.72
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.24
+        "pricePerLiter": 2.19
       },
       {
         "fuelType": "lpg",
@@ -1850,11 +1873,11 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.82
+        "pricePerLiter": 1.72
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.29
+        "pricePerLiter": 2.19
       },
       {
         "fuelType": "lpg",
@@ -1877,11 +1900,11 @@
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.29
+        "pricePerLiter": 2.19
       },
       {
         "fuelType": "lpg",
-        "pricePerLiter": 0.89
+        "pricePerLiter": 0.94
       }
     ]
   },
@@ -1900,7 +1923,7 @@
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.29
+        "pricePerLiter": 2.19
       },
       {
         "fuelType": "lpg",
@@ -1928,6 +1951,98 @@
       {
         "fuelType": "lpg",
         "pricePerLiter": 0.899
+      }
+    ]
+  },
+  {
+    "stationId": "a632293d3e281876",
+    "company": "Eu Verslas",
+    "region": "Mažeikių r. sav.",
+    "address": "Viekšnių g. 24, Mažeikiai",
+    "queryAddress": "Viekšnių g. 24, Mažeikiai, Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": 1.669
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": 2.089
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": 0.92
+      }
+    ]
+  },
+  {
+    "stationId": "78d5372e3e253ca1",
+    "company": "Eu Verslas",
+    "region": "Plungės r. sav.",
+    "address": "Rietavo g. 107, Pakerų k.",
+    "queryAddress": "Rietavo g. 107, Pakerų k., Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": 1.699
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": 2.109
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": null
+      }
+    ]
+  },
+  {
+    "stationId": "ccaadb447355707e",
+    "company": "Eu Verslas",
+    "region": "Plungės r. sav.",
+    "address": "Stoties g. 7C, Plungė",
+    "queryAddress": "Stoties g. 7C, Plungė, Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": 1.68
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": 2.1
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": 0.91
+      }
+    ]
+  },
+  {
+    "stationId": "e7ba0e7d3ef6aae0",
+    "company": "Eu Verslas",
+    "region": "Plungės r. sav.",
+    "address": "Telšių g. 127, Jovaišiškės k.",
+    "queryAddress": "Telšių g. 127, Jovaišiškės k., Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": 1.699
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": 2.109
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": 0.91
       }
     ]
   },
@@ -2011,11 +2126,11 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.78
+        "pricePerLiter": 1.7
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.26
+        "pricePerLiter": 2.12
       },
       {
         "fuelType": "lpg",
@@ -2034,11 +2149,11 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.759
+        "pricePerLiter": 1.739
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.249
+        "pricePerLiter": 2.169
       },
       {
         "fuelType": "lpg",
@@ -2061,7 +2176,7 @@
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.327
+        "pricePerLiter": 2.297
       },
       {
         "fuelType": "lpg",
@@ -2084,7 +2199,7 @@
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.327
+        "pricePerLiter": 2.297
       },
       {
         "fuelType": "lpg",
@@ -2103,7 +2218,7 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.76
+        "pricePerLiter": 1.7
       },
       {
         "fuelType": "diesel",
@@ -2149,11 +2264,11 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.76
+        "pricePerLiter": 1.66
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.19
+        "pricePerLiter": 2.08
       },
       {
         "fuelType": "lpg",
@@ -2172,11 +2287,11 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.76
+        "pricePerLiter": 1.65
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.22
+        "pricePerLiter": 2.07
       },
       {
         "fuelType": "lpg",
@@ -2195,11 +2310,11 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.76
+        "pricePerLiter": 1.66
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.22
+        "pricePerLiter": 2.08
       },
       {
         "fuelType": "lpg",
@@ -2218,15 +2333,15 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.76
+        "pricePerLiter": 1.65
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.22
+        "pricePerLiter": 2.07
       },
       {
         "fuelType": "lpg",
-        "pricePerLiter": 0.88
+        "pricePerLiter": 0.85
       }
     ]
   },
@@ -2245,7 +2360,7 @@
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.189
+        "pricePerLiter": 2.099
       },
       {
         "fuelType": "lpg",
@@ -2268,7 +2383,7 @@
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.189
+        "pricePerLiter": 2.099
       },
       {
         "fuelType": "lpg",
@@ -2291,7 +2406,7 @@
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.189
+        "pricePerLiter": 2.129
       },
       {
         "fuelType": "lpg",
@@ -2346,6 +2461,75 @@
     ]
   },
   {
+    "stationId": "a0615ba5e622a7cf",
+    "company": "Melkasta",
+    "region": "Lazdijų r. sav.",
+    "address": "Algirdo g. 35A, Seirijų mstl.",
+    "queryAddress": "Algirdo g. 35A, Seirijų mstl., Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": 1.75
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": 2.21
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": 0.92
+      }
+    ]
+  },
+  {
+    "stationId": "4582fefe2eda9c92",
+    "company": "Melkasta",
+    "region": "Lazdijų r. sav.",
+    "address": "Lazdijų pl. 29, Kalvelių k.",
+    "queryAddress": "Lazdijų pl. 29, Kalvelių k., Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": 1.75
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": 2.21
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": 0.92
+      }
+    ]
+  },
+  {
+    "stationId": "3eb30ea5bcf6ad46",
+    "company": "Melkasta",
+    "region": "Vilkaviškio r. sav.",
+    "address": "Gulbiniškių k. 7",
+    "queryAddress": "Gulbiniškių k. 7, Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": 1.7
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": 2.13
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": 0.92
+      }
+    ]
+  },
+  {
     "stationId": "69e68eb97edf1fef",
     "company": "Naftrus",
     "region": "Pakruojo r. sav.",
@@ -2383,7 +2567,7 @@
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.224
+        "pricePerLiter": 2.23
       },
       {
         "fuelType": "lpg",
@@ -2471,11 +2655,11 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.814
+        "pricePerLiter": 1.779
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.279
+        "pricePerLiter": 2.189
       },
       {
         "fuelType": "lpg",
@@ -2498,7 +2682,7 @@
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.289
+        "pricePerLiter": 2.179
       },
       {
         "fuelType": "lpg",
@@ -2517,11 +2701,11 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.819
+        "pricePerLiter": 1.779
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.279
+        "pricePerLiter": 2.169
       },
       {
         "fuelType": "lpg",
@@ -2540,11 +2724,11 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.824
+        "pricePerLiter": 1.759
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.289
+        "pricePerLiter": 2.179
       },
       {
         "fuelType": "lpg",
@@ -2563,11 +2747,11 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.814
+        "pricePerLiter": 1.754
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.259
+        "pricePerLiter": 2.159
       },
       {
         "fuelType": "lpg",
@@ -2586,11 +2770,11 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.799
+        "pricePerLiter": 1.779
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.279
+        "pricePerLiter": 2.179
       },
       {
         "fuelType": "lpg",
@@ -2609,11 +2793,11 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.799
+        "pricePerLiter": 1.779
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.259
+        "pricePerLiter": 2.169
       },
       {
         "fuelType": "lpg",
@@ -2632,11 +2816,11 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.819
+        "pricePerLiter": 1.744
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.299
+        "pricePerLiter": 2.174
       },
       {
         "fuelType": "lpg",
@@ -2655,11 +2839,11 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.794
+        "pricePerLiter": 1.739
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.279
+        "pricePerLiter": 2.169
       },
       {
         "fuelType": "lpg",
@@ -2678,11 +2862,11 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.789
+        "pricePerLiter": 1.759
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.259
+        "pricePerLiter": 2.149
       },
       {
         "fuelType": "lpg",
@@ -2701,11 +2885,11 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.799
+        "pricePerLiter": 1.769
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.269
+        "pricePerLiter": 2.159
       },
       {
         "fuelType": "lpg",
@@ -2724,11 +2908,11 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.789
+        "pricePerLiter": 1.774
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.279
+        "pricePerLiter": 2.179
       },
       {
         "fuelType": "lpg",
@@ -2747,11 +2931,11 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.799
+        "pricePerLiter": 1.789
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.299
+        "pricePerLiter": 2.239
       },
       {
         "fuelType": "lpg",
@@ -2770,11 +2954,11 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.779
+        "pricePerLiter": 1.769
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.279
+        "pricePerLiter": 2.219
       },
       {
         "fuelType": "lpg",
@@ -2793,11 +2977,11 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.814
+        "pricePerLiter": 1.769
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.279
+        "pricePerLiter": 2.189
       },
       {
         "fuelType": "lpg",
@@ -2816,11 +3000,11 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.75
+        "pricePerLiter": 1.73
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.19
+        "pricePerLiter": 2.16
       },
       {
         "fuelType": "lpg",
@@ -2843,7 +3027,7 @@
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.239
+        "pricePerLiter": 2.199
       },
       {
         "fuelType": "lpg",
@@ -2862,11 +3046,11 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.789
+        "pricePerLiter": 1.769
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.249
+        "pricePerLiter": 2.179
       },
       {
         "fuelType": "lpg",
@@ -2889,7 +3073,7 @@
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.239
+        "pricePerLiter": 2.199
       },
       {
         "fuelType": "lpg",
@@ -2912,7 +3096,7 @@
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.199
+        "pricePerLiter": 2.179
       },
       {
         "fuelType": "lpg",
@@ -2935,11 +3119,11 @@
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.279
+        "pricePerLiter": 2.249
       },
       {
         "fuelType": "lpg",
-        "pricePerLiter": 0.979
+        "pricePerLiter": 0.969
       }
     ]
   },
@@ -2958,11 +3142,11 @@
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.279
+        "pricePerLiter": 2.249
       },
       {
         "fuelType": "lpg",
-        "pricePerLiter": 0.959
+        "pricePerLiter": 0.949
       }
     ]
   },
@@ -3013,8 +3197,31 @@
     ]
   },
   {
-    "stationId": "5390ce2586f869d3",
-    "company": "Plungės lagūna",
+    "stationId": "4e403c2008e350f6",
+    "company": "Plovimo sistemos",
+    "region": "Šiaulių m.",
+    "address": "Gegužių g. 28",
+    "queryAddress": "Gegužių g. 28, Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": null
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": null
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": 0.909
+      }
+    ]
+  },
+  {
+    "stationId": "c1b2ccd4e1ffff4a",
+    "company": "Plungės lagūna (Circle K)",
     "region": "Rietavo sav.",
     "address": "Plungės g. 32, Rietavas",
     "queryAddress": "Plungės g. 32, Rietavas, Lietuva",
@@ -3046,15 +3253,61 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.835
+        "pricePerLiter": 1.805
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.325
+        "pricePerLiter": 2.199
       },
       {
         "fuelType": "lpg",
         "pricePerLiter": 0.959
+      }
+    ]
+  },
+  {
+    "stationId": "e83d8f6cd165aa1c",
+    "company": "Propano ir butano dujų centras",
+    "region": "Ignalinos r. sav.",
+    "address": "Švenčionių 35, Ignalina",
+    "queryAddress": "Švenčionių 35, Ignalina, Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": 1.789
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": 2.179
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": 0.92
+      }
+    ]
+  },
+  {
+    "stationId": "34bc22ac3d9e95c3",
+    "company": "Propano ir butano dujų centras",
+    "region": "Švenčionių r. sav.",
+    "address": "Aukštaičių g. 2a, Cirkliškio k.",
+    "queryAddress": "Aukštaičių g. 2a, Cirkliškio k., Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": 1.81
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": 2.17
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": 0.95
       }
     ]
   },
@@ -3092,11 +3345,11 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.7
+        "pricePerLiter": 1.69
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.17
+        "pricePerLiter": 2.14
       },
       {
         "fuelType": "lpg",
@@ -3115,11 +3368,11 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.76
+        "pricePerLiter": 1.75
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.19
+        "pricePerLiter": 2.17
       },
       {
         "fuelType": "lpg",
@@ -3138,11 +3391,11 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.76
+        "pricePerLiter": 1.75
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.19
+        "pricePerLiter": 2.17
       },
       {
         "fuelType": "lpg",
@@ -3165,7 +3418,7 @@
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.18
+        "pricePerLiter": 2.14
       },
       {
         "fuelType": "lpg",
@@ -3184,11 +3437,11 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.78
+        "pricePerLiter": 1.76
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.19
+        "pricePerLiter": 2.17
       },
       {
         "fuelType": "lpg",
@@ -3376,7 +3629,7 @@
       },
       {
         "fuelType": "lpg",
-        "pricePerLiter": null
+        "pricePerLiter": 0.9
       }
     ]
   },
@@ -3606,7 +3859,7 @@
       },
       {
         "fuelType": "lpg",
-        "pricePerLiter": null
+        "pricePerLiter": 0.89
       }
     ]
   },
@@ -3648,11 +3901,11 @@
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.21
+        "pricePerLiter": 2.19
       },
       {
         "fuelType": "lpg",
-        "pricePerLiter": 0.91
+        "pricePerLiter": null
       }
     ]
   },
@@ -4035,15 +4288,15 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.72
+        "pricePerLiter": 1.68
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.16
+        "pricePerLiter": 2.09
       },
       {
         "fuelType": "lpg",
-        "pricePerLiter": 0.93
+        "pricePerLiter": 0.91
       }
     ]
   },
@@ -4085,7 +4338,7 @@
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.093
+        "pricePerLiter": 2.109
       },
       {
         "fuelType": "lpg",
@@ -4108,7 +4361,7 @@
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.093
+        "pricePerLiter": 2.109
       },
       {
         "fuelType": "lpg",
@@ -4131,7 +4384,7 @@
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.093
+        "pricePerLiter": 2.109
       },
       {
         "fuelType": "lpg",
@@ -4154,7 +4407,7 @@
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.093
+        "pricePerLiter": 2.109
       },
       {
         "fuelType": "lpg",
@@ -4177,7 +4430,7 @@
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.093
+        "pricePerLiter": 2.109
       },
       {
         "fuelType": "lpg",
@@ -4200,7 +4453,7 @@
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.093
+        "pricePerLiter": 2.109
       },
       {
         "fuelType": "lpg",
@@ -4223,7 +4476,7 @@
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.093
+        "pricePerLiter": 2.109
       },
       {
         "fuelType": "lpg",
@@ -4246,7 +4499,7 @@
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.093
+        "pricePerLiter": 2.109
       },
       {
         "fuelType": "lpg",
@@ -4269,7 +4522,7 @@
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.093
+        "pricePerLiter": 2.109
       },
       {
         "fuelType": "lpg",
@@ -4292,7 +4545,7 @@
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.093
+        "pricePerLiter": 2.109
       },
       {
         "fuelType": "lpg",
@@ -4315,11 +4568,34 @@
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.093
+        "pricePerLiter": 2.109
       },
       {
         "fuelType": "lpg",
         "pricePerLiter": 0.949
+      }
+    ]
+  },
+  {
+    "stationId": "8276afbaefb0409f",
+    "company": "Šventosios investicijos",
+    "region": "Palangos sav.",
+    "address": "Elijos g.26 Palanga (Šventoji)",
+    "queryAddress": "Elijos g.26 Palanga (Šventoji), Lietuva",
+    "lat": null,
+    "lon": null,
+    "fuelPrices": [
+      {
+        "fuelType": "gasoline",
+        "pricePerLiter": 1.859
+      },
+      {
+        "fuelType": "diesel",
+        "pricePerLiter": 2.199
+      },
+      {
+        "fuelType": "lpg",
+        "pricePerLiter": 1.029
       }
     ]
   },
@@ -4357,11 +4633,11 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.839
+        "pricePerLiter": 1.829
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.259
+        "pricePerLiter": 2.209
       },
       {
         "fuelType": "lpg",
@@ -4380,11 +4656,11 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.879
+        "pricePerLiter": 1.819
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.349
+        "pricePerLiter": 2.199
       },
       {
         "fuelType": "lpg",
@@ -4403,15 +4679,15 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.87
+        "pricePerLiter": 1.78
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.34
+        "pricePerLiter": 2.19
       },
       {
         "fuelType": "lpg",
-        "pricePerLiter": 0.94
+        "pricePerLiter": 0.96
       }
     ]
   },
@@ -4426,11 +4702,11 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.82
+        "pricePerLiter": 1.78
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.25
+        "pricePerLiter": 2.19
       },
       {
         "fuelType": "lpg",
@@ -4449,11 +4725,11 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.76
+        "pricePerLiter": 1.75
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.22
+        "pricePerLiter": 2.19
       },
       {
         "fuelType": "lpg",
@@ -4476,7 +4752,7 @@
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.26
+        "pricePerLiter": 2.22
       },
       {
         "fuelType": "lpg",
@@ -4495,11 +4771,11 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.82
+        "pricePerLiter": 1.78
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.26
+        "pricePerLiter": 2.19
       },
       {
         "fuelType": "lpg",
@@ -4518,11 +4794,11 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.82
+        "pricePerLiter": 1.78
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.26
+        "pricePerLiter": 2.19
       },
       {
         "fuelType": "lpg",
@@ -4541,11 +4817,11 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.82
+        "pricePerLiter": 1.83
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.26
+        "pricePerLiter": 2.29
       },
       {
         "fuelType": "lpg",
@@ -4564,15 +4840,15 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.77
+        "pricePerLiter": 1.83
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.2
+        "pricePerLiter": 2.29
       },
       {
         "fuelType": "lpg",
-        "pricePerLiter": 0.92
+        "pricePerLiter": 0.94
       }
     ]
   },
@@ -4587,15 +4863,15 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.82
+        "pricePerLiter": 1.78
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.26
+        "pricePerLiter": 2.19
       },
       {
         "fuelType": "lpg",
-        "pricePerLiter": 0.96
+        "pricePerLiter": 0.94
       }
     ]
   },
@@ -4610,11 +4886,11 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.82
+        "pricePerLiter": 1.78
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.26
+        "pricePerLiter": 2.19
       },
       {
         "fuelType": "lpg",
@@ -4633,15 +4909,15 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.87
+        "pricePerLiter": 1.77
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.34
+        "pricePerLiter": 2.2
       },
       {
         "fuelType": "lpg",
-        "pricePerLiter": 0.94
+        "pricePerLiter": 0.92
       }
     ]
   },
@@ -4955,11 +5231,11 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.839
+        "pricePerLiter": 1.799
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.199
+        "pricePerLiter": 2.189
       },
       {
         "fuelType": "lpg",
@@ -4978,7 +5254,7 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.819
+        "pricePerLiter": 1.799
       },
       {
         "fuelType": "diesel",
@@ -5162,7 +5438,7 @@
     "fuelPrices": [
       {
         "fuelType": "gasoline",
-        "pricePerLiter": 1.839
+        "pricePerLiter": 1.829
       },
       {
         "fuelType": "diesel",
@@ -5212,7 +5488,7 @@
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.199
+        "pricePerLiter": 2.189
       },
       {
         "fuelType": "lpg",
@@ -5258,7 +5534,7 @@
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.314
+        "pricePerLiter": 2.294
       },
       {
         "fuelType": "lpg",
@@ -5267,8 +5543,8 @@
     ]
   },
   {
-    "stationId": "b5be6daea212d74b",
-    "company": "VVARFF",
+    "stationId": "2a266ec1cc53d22e",
+    "company": "VVARFF (Circle K)",
     "region": "Plungės r. sav.",
     "address": "Pramogų g. 4, Truikių k.",
     "queryAddress": "Pramogų g. 4, Truikių k., Lietuva",
@@ -5281,7 +5557,7 @@
       },
       {
         "fuelType": "diesel",
-        "pricePerLiter": 2.349
+        "pricePerLiter": 2.279
       },
       {
         "fuelType": "lpg",
