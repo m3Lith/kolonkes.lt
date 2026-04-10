@@ -243,7 +243,12 @@ export default function FuelMap({ dataset }: FuelMapProps) {
       ),
     [dataset.stations],
   );
-  const [showTable, setShowTable] = useState(true);
+  const [showTable, setShowTable] = useState(() => {
+    if (typeof window === "undefined") {
+      return true;
+    }
+    return !window.matchMedia("(max-width: 1023px)").matches;
+  });
   const [syncTableWithMap, setSyncTableWithMap] = useState(true);
   const [sortKey, setSortKey] = useState<SortKey>("gasoline");
   const [sortDir, setSortDir] = useState<SortDir>("asc");
@@ -458,16 +463,16 @@ export default function FuelMap({ dataset }: FuelMapProps) {
         )}
       </div>
 
-      <div className="flex h-[78vh] gap-3">
+      <div className="flex flex-col gap-3 lg:h-[78vh] lg:flex-row">
         {showTable && (
-          <div className="h-full w-[45%] min-w-[380px] rounded-md border border-slate-200 bg-white">
+          <div className="w-full rounded-md border border-slate-200 bg-white lg:h-full lg:w-[45%] lg:min-w-[380px]">
             <div className="border-b border-slate-200 px-3 py-2 text-sm text-slate-700">
               Lentelėje rodoma: <strong>{sortedTableStations.length}</strong>{" "}
               {syncTableWithMap
                 ? "(tik matomame žemėlapio plote)"
                 : "(visos degalinės)"}
             </div>
-            <div className="h-[calc(78vh-41px)] overflow-auto">
+            <div className="h-[40vh] overflow-auto lg:h-[calc(78vh-41px)]">
               <table className="min-w-full border-collapse text-sm">
                 <thead className="sticky top-0 z-10 bg-slate-50">
                   <tr className="border-b border-slate-200 text-left">
@@ -535,7 +540,13 @@ export default function FuelMap({ dataset }: FuelMapProps) {
             </div>
           </div>
         )}
-        <div className={showTable ? "h-full flex-1" : "h-full w-full"}>
+        <div
+          className={
+            showTable
+              ? "h-[52vh] w-full lg:h-full lg:flex-1"
+              : "h-[78vh] w-full"
+          }
+        >
           <MapContainer
             center={center}
             zoom={7}
