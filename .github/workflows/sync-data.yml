@@ -49,6 +49,7 @@ jobs:
           DEST="data/dk-${DATE_ISO}.xlsx"
           mkdir -p data
           echo "Downloading (lowercase first): $URL_LOWER"
+          echo "Downloading (uppercase second): $URL_UPPER"
           if curl -fL "$URL_LOWER" -o "$DEST"; then
             echo "downloaded=true" >> "$GITHUB_OUTPUT"
             echo "file=$DEST" >> "$GITHUB_OUTPUT"
