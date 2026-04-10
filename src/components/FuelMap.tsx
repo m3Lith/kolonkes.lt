@@ -10,7 +10,7 @@ import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { renderToStaticMarkup } from 'react-dom/server'
 import { MapContainer, TileLayer, useMap } from 'react-leaflet'
 
-import { MagnifyingGlassIcon } from '@radix-ui/react-icons'
+import { CornersIcon, Crosshair2Icon } from '@radix-ui/react-icons'
 
 import { StationPopup } from './StationPopup'
 import { Button } from './ui/button'
@@ -184,7 +184,11 @@ function MapResizeHandler({ trigger }: { trigger: string }) {
   return null;
 }
 
-function MapGeolocateOnLoad() {
+function MapGeolocateOnLoad({
+  onResolved,
+}: {
+  onResolved: (location: [number, number]) => void;
+}) {
   const map = useMap();
 
   useEffect(() => {
@@ -192,10 +196,23 @@ function MapGeolocateOnLoad() {
       return;
     }
 
+    let locationMarker: L.CircleMarker | null = null;
+
     navigator.geolocation.getCurrentPosition(
       (position) => {
         const { latitude, longitude } = position.coords;
+        onResolved([latitude, longitude]);
         map.setView([latitude, longitude], 13, { animate: false });
+
+        locationMarker = L.circleMarker([latitude, longitude], {
+          radius: 8,
+          color: '#dc2626',
+          weight: 2,
+          fillColor: '#ef4444',
+          fillOpacity: 0.9,
+        })
+          .addTo(map)
+          .bindPopup('Jūsų vieta');
       },
       () => {
         // User denied location or browser failed to resolve it; keep default map behavior.
@@ -206,7 +223,13 @@ function MapGeolocateOnLoad() {
         maximumAge: 120000,
       },
     );
-  }, [map]);
+
+    return () => {
+      if (locationMarker) {
+        map.removeLayer(locationMarker);
+      }
+    };
+  }, [map, onResolved]);
 
   return null;
 }
@@ -224,6 +247,7 @@ export default function FuelMap({ dataset }: FuelMapProps) {
   const [syncTableWithMap, setSyncTableWithMap] = useState(true);
   const [sortKey, setSortKey] = useState<SortKey>("gasoline");
   const [sortDir, setSortDir] = useState<SortDir>("asc");
+  const [userLocation, setUserLocation] = useState<[number, number] | null>(null);
   const [mapBounds, setMapBounds] = useState<L.LatLngBounds | null>(null);
   const [mapInstance, setMapInstance] = useState<L.Map | null>(null);
   const markerIndexRef = useRef<Map<string, L.Marker>>(new Map());
@@ -396,8 +420,23 @@ export default function FuelMap({ dataset }: FuelMapProps) {
             mapInstance.fitBounds(L.latLngBounds(points).pad(0.1));
           }}
         >
-          <MagnifyingGlassIcon className="h-4 w-4" />
+          <CornersIcon className="h-4 w-4" />
         </Button>
+        {userLocation && (
+          <Button
+            className="h-8 px-2 text-xs"
+            title="Grįžti į mano vietą"
+            aria-label="Grįžti į mano vietą"
+            onClick={() => {
+              if (!mapInstance) {
+                return;
+              }
+              mapInstance.setView(userLocation, 13, { animate: false });
+            }}
+          >
+            <Crosshair2Icon className="h-4 w-4" />
+          </Button>
+        )}
         <span className="text-sm text-slate-700">
           Rodoma degalinių: <strong>{filteredStations.length}</strong> /{" "}
           {geocodedStations.length}
@@ -506,7 +545,7 @@ export default function FuelMap({ dataset }: FuelMapProps) {
               attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
               url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
             />
-            <MapGeolocateOnLoad />
+            <MapGeolocateOnLoad onResolved={setUserLocation} />
             <MapResizeHandler trigger={showTable ? "table-on" : "table-off"} />
             <MapViewportTracker
               onMapReady={setMapInstance}
