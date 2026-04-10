@@ -26,7 +26,8 @@ export interface NormalizedFuelRow {
   date: string;
   company: string;
   region: string;
-  address: string;
+  rawAddress: string;
+  parsedAddress: string;
   fuelType: FuelType;
   pricePerLiter: number | null;
   stationId: string;
@@ -47,12 +48,40 @@ export interface StationPrice {
   pricePerLiter: number | null;
 }
 
+export interface StationCatalogRecord {
+  station_id: string;
+  company: string;
+  region: string;
+  raw_address: string;
+  parsed_address: string;
+  created_at: string;
+  updated_at: string;
+}
+
+export interface StationGeocodeRecord {
+  station_id: string;
+  lat: number | null;
+  lon: number | null;
+  display_name: string | null;
+  query: string;
+  geocode_updated_at: string | null;
+  status: "resolved" | "unresolved";
+}
+
+export interface DailyFuelPriceRecord {
+  station_id: string;
+  date: string;
+  gasoline: number | null;
+  diesel: number | null;
+  lpg: number | null;
+}
+
 export interface StationRecord {
   stationId: string;
   company: string;
   region: string;
   address: string;
-  queryAddress: string;
+  rawAddress: string;
   lat: number | null;
   lon: number | null;
   fuelPrices: StationPrice[];
@@ -60,6 +89,5 @@ export interface StationRecord {
 
 export interface StationDataset {
   date: string;
-  generatedAt: string;
   stations: StationRecord[];
 }

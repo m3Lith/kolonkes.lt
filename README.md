@@ -37,11 +37,10 @@ Generated files:
 
 - `src/data/fuel-prices/<date>.json`
 - `src/data/fuel-prices/latest.json`
-- `src/data/stations/<date>.json`
-- `src/data/stations/latest.json`
+- `src/data/stations/catalog.json`
+- `src/data/station-geocodes/latest.json`
 - `src/data/latest.json`
 - `data/geocode-cache.json`
-- `data/unresolved-geocodes.json`
 
 ## Commands
 
@@ -68,7 +67,7 @@ export NOMINATIM_REFERER="https://your-domain.com"
 npm run geocode:data
 ```
 
-If provider throttling happens, unresolved stations are written to `data/unresolved-geocodes.json`. Re-run `npm run geocode:data` later; cached results are reused and only missing addresses are queried.
+If provider throttling happens, unresolved stations remain in `src/data/station-geocodes/latest.json` with `status: "unresolved"` and `lat/lon: null`. Re-run `npm run geocode:data` later; cached results are reused and only missing addresses are queried.
 
 ## GitHub Pages deployment
 

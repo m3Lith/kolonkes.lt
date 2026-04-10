@@ -1,8 +1,18 @@
 ---
 import FuelMap from "../components/FuelMap";
 import latest from "../data/latest.json";
-import stationDataset from "../data/stations/latest.json";
+import stationCatalog from "../data/stations/catalog.json";
+import stationGeocodes from "../data/station-geocodes/latest.json";
+import dailyPrices from "../data/fuel-prices/latest.json";
+import { composeStationDataset } from "../lib/composeStationDataset";
 import "../styles/global.css";
+
+const stationDataset = composeStationDataset(
+  latest.date,
+  stationCatalog,
+  stationGeocodes,
+  dailyPrices,
+);
 
 const geocodedCount = stationDataset.stations.filter(
   (station) => station.lat !== null && station.lon !== null,
