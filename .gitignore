@@ -25,3 +25,5 @@ pnpm-debug.log*
 
 # source spreadsheets are downloaded in CI, not committed
 data/*.xlsx
+
+data/addresses.sqlite

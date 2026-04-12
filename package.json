@@ -12,6 +12,7 @@
     "astro": "astro",
     "import:data": "tsx scripts/build-dataset.ts --mode import",
     "geocode:data": "tsx scripts/build-dataset.ts --mode geocode",
+    "geocode:sqlite": "tsx scripts/geocode-from-sqlite.ts",
     "build:data": "tsx scripts/build-dataset.ts --mode build",
     "test": "vitest run"
   },

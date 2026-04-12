@@ -4,7 +4,7 @@ Astro + TypeScript web app that:
 
 - parses Lithuanian fuel price Excel files from `data/`
 - normalizes rows into structured JSON datasets
-- geocodes station addresses with OpenStreetMap Nominatim and persistent cache
+- geocodes station addresses (Google Geocoding API by default) with persistent cache
 - renders clustered station markers on a Leaflet map
 
 ## Input format
@@ -52,18 +52,30 @@ Generated files:
 - `npm run build` - production build
 - `npm run test` - run unit tests
 
-## Nominatim usage
+## Geocoding provider setup
 
-Geocoding uses OSM Nominatim and follows low request rate. Set identifiable values in your environment:
+Geocoding is provider-based:
 
+- default provider: `google`
+- optional provider: `nominatim`
+
+Google setup (default):
+
+- `GOOGLE_GEOCODING_API_KEY` (required)
+- `GOOGLE_GEOCODING_LANGUAGE` (optional, default `lt`)
+- `GOOGLE_GEOCODING_REGION` (optional, default `lt`)
+
+Optional fallback to Nominatim:
+
+- `GEOCODING_PROVIDER=nominatim`
 - `NOMINATIM_USER_AGENT`
 - `NOMINATIM_REFERER`
 
-Example:
+Example (Google):
 
 ```sh
-export NOMINATIM_USER_AGENT="fuel-map/1.0 (you@your-domain.com)"
-export NOMINATIM_REFERER="https://your-domain.com"
+export GEOCODING_PROVIDER=google
+export GOOGLE_GEOCODING_API_KEY="your-api-key"
 npm run geocode:data
 ```
 

@@ -1,7 +1,11 @@
-import fs from 'node:fs/promises'
-import path from 'node:path'
+import fs from "node:fs/promises";
+import path from "node:path";
 
-import { geocodeWithRateLimit, loadGeocodeCache, saveGeocodeCache } from '../src/lib/geocodeNominatim'
+import {
+  geocodeWithRateLimit,
+  loadGeocodeCache,
+  saveGeocodeCache,
+} from "../src/lib/geocode";
 import {
   buildGeocodeKey,
   buildStationId,
@@ -10,8 +14,8 @@ import {
   normalizePrice,
   normalizeWhitespace,
   parseDateFromFilename,
-} from '../src/lib/normalize'
-import { parseFuelWorkbook } from '../src/lib/parseFuelWorkbook'
+} from "../src/lib/normalize";
+import { parseFuelWorkbook } from "../src/lib/parseFuelWorkbook";
 
 import type {
   DailyFuelPriceRecord,
@@ -146,9 +150,7 @@ function rowsToDailyFuelPrices(
   );
 }
 
-function isLegacyFuelRow(
-  value: unknown,
-): value is {
+function isLegacyFuelRow(value: unknown): value is {
   stationId: string;
   date: string;
   fuelType: FuelType;
@@ -266,10 +268,20 @@ function mergeStationCatalog(
 
 function geocodeQueryMatchesParsedAddress(
   geocodeQuery: string,
-  parsedAddress: string,
+  station: Pick<StationCatalogRecord, "company" | "parsed_address">,
 ): boolean {
-  const fromQuery = geocodeQuery.replace(/,\s*Lietuva\s*$/i, "").trim();
-  return buildGeocodeKey(fromQuery) === buildGeocodeKey(parsedAddress);
+  const expected = buildStationGeocodeQuery(station);
+  const legacy = `${station.parsed_address}, Lietuva`;
+  const queryKey = buildGeocodeKey(geocodeQuery);
+  return (
+    queryKey === buildGeocodeKey(expected) || queryKey === buildGeocodeKey(legacy)
+  );
+}
+
+function buildStationGeocodeQuery(
+  station: Pick<StationCatalogRecord, "company" | "parsed_address">,
+): string {
+  return `${station.company}, ${station.parsed_address}, Lietuva`;
 }
 
 function seedStationGeocodes(
@@ -284,24 +296,21 @@ function seedStationGeocodes(
     .map((station) => {
       const existing = existingMap.get(station.station_id);
       const cacheEntry = cache[buildGeocodeKey(station.parsed_address)];
+      const query = buildStationGeocodeQuery(station);
       if (cacheEntry) {
         return {
           station_id: station.station_id,
           lat: cacheEntry.lat,
           lon: cacheEntry.lon,
           display_name: cacheEntry.displayName ?? null,
-          query: cacheEntry.query,
+          query,
           geocode_updated_at: cacheEntry.updatedAt,
           status: "resolved" as const,
         };
       }
-      const query = `${station.parsed_address}, Lietuva`;
       if (existing) {
         if (
-          !geocodeQueryMatchesParsedAddress(
-            existing.query,
-            station.parsed_address,
-          )
+          !geocodeQueryMatchesParsedAddress(existing.query, station)
         ) {
           return {
             station_id: station.station_id,
@@ -357,11 +366,7 @@ async function geocodeStations(
       continue;
     }
 
-    const resolved = await geocodeWithRateLimit(
-      geocode.query,
-      USER_AGENT,
-      1337,
-    );
+    const resolved = await geocodeWithRateLimit(geocode.query, USER_AGENT, 250);
     processed += 1;
 
     if (!resolved) {

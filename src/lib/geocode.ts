@@ -1,10 +1,13 @@
-import fs from 'node:fs/promises'
-import path from 'node:path'
-import { domainToASCII } from 'node:url'
+import fs from "node:fs/promises";
+import path from "node:path";
+import { domainToASCII } from "node:url";
 
 import type { GeocodeCache, GeocodeEntry } from "./types";
 
 const NOMINATIM_URL = "https://nominatim.openstreetmap.org/search";
+const GOOGLE_GEOCODING_URL =
+  "https://maps.googleapis.com/maps/api/geocode/json";
+type GeocodingProvider = "google" | "nominatim";
 
 function sleep(ms: number): Promise<void> {
   return new Promise((resolve) => setTimeout(resolve, ms));
@@ -29,6 +32,16 @@ function normalizeReferer(value: string): string | undefined {
   } catch {
     return undefined;
   }
+}
+
+function getGeocodingProvider(): GeocodingProvider {
+  const raw = (process.env.GEOCODING_PROVIDER ?? "google").trim().toLowerCase();
+  if (raw === "google" || raw === "nominatim") {
+    return raw;
+  }
+  throw new Error(
+    `Unsupported GEOCODING_PROVIDER "${process.env.GEOCODING_PROVIDER}". Use "google" or "nominatim".`,
+  );
 }
 
 export async function loadGeocodeCache(
@@ -129,12 +142,110 @@ export async function geocodeWithNominatim(
   return null;
 }
 
+export async function geocodeWithGoogle(
+  queryAddress: string,
+): Promise<GeocodeEntry | null> {
+  const apiKey = process.env.GOOGLE_GEOCODING_API_KEY?.trim();
+  if (!apiKey) {
+    throw new Error("Missing GOOGLE_GEOCODING_API_KEY for Google geocoding.");
+  }
+
+  const language = (process.env.GOOGLE_GEOCODING_LANGUAGE ?? "lt").trim();
+  const region = (process.env.GOOGLE_GEOCODING_REGION ?? "lt").trim();
+  const url = new URL(GOOGLE_GEOCODING_URL);
+  url.searchParams.set("address", queryAddress);
+  url.searchParams.set("key", apiKey);
+  if (language) {
+    url.searchParams.set("language", language);
+  }
+  if (region) {
+    url.searchParams.set("region", region);
+  }
+  url.searchParams.set("components", "country:LT");
+
+  for (let attempt = 1; attempt <= 3; attempt += 1) {
+    let response: Response;
+    try {
+      response = await fetch(url, { signal: AbortSignal.timeout(15_000) });
+    } catch (error) {
+      if (attempt < 3) {
+        await sleep(attempt * 1500);
+        continue;
+      }
+      throw error;
+    }
+
+    if (!response.ok) {
+      if (attempt < 3) {
+        await sleep(attempt * 1500);
+        continue;
+      }
+      return null;
+    }
+
+    const data = (await response.json()) as {
+      status?: string;
+      error_message?: string;
+      results?: Array<{
+        formatted_address?: string;
+        geometry?: { location?: { lat?: number; lng?: number } };
+      }>;
+    };
+    console.log("data", data);
+    const status = data.status ?? "UNKNOWN_ERROR";
+
+    if (status === "OK") {
+      const hit = data.results?.[0];
+      const lat = hit?.geometry?.location?.lat;
+      const lon = hit?.geometry?.location?.lng;
+      if (typeof lat !== "number" || typeof lon !== "number") {
+        return null;
+      }
+      return {
+        lat,
+        lon,
+        displayName: hit?.formatted_address,
+        updatedAt: new Date().toISOString(),
+        query: queryAddress,
+      };
+    }
+
+    if (status === "ZERO_RESULTS") {
+      return null;
+    }
+
+    if (status === "UNKNOWN_ERROR" && attempt < 3) {
+      await sleep(attempt * 1500);
+      continue;
+    }
+
+    if (
+      status === "REQUEST_DENIED" ||
+      status === "INVALID_REQUEST" ||
+      status === "OVER_DAILY_LIMIT" ||
+      status === "OVER_QUERY_LIMIT"
+    ) {
+      throw new Error(
+        `Google geocoding failed with ${status}${data.error_message ? `: ${data.error_message}` : ""}`,
+      );
+    }
+
+    return null;
+  }
+
+  return null;
+}
+
 export async function geocodeWithRateLimit(
   queryAddress: string,
   userAgent: string,
   delayMs: number,
 ): Promise<GeocodeEntry | null> {
-  const result = await geocodeWithNominatim(queryAddress, userAgent);
+  const provider = getGeocodingProvider();
+  const result =
+    provider === "google"
+      ? await geocodeWithGoogle(queryAddress)
+      : await geocodeWithNominatim(queryAddress, userAgent);
   await sleep(delayMs);
   return result;
 }
