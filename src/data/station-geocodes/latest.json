@@ -234,6 +234,15 @@
     "status": "resolved"
   },
   {
+    "station_id": "09fc501e973d3c69",
+    "lat": 54.5840427,
+    "lon": 23.3603293,
+    "display_name": "Gėlyno g. 25, Marijampolė, 68229 Marijampolės sav., Lietuva",
+    "query": "Topgas, Gėlyno g.25, Marijampolė, Lietuva",
+    "geocode_updated_at": "2026-04-13T09:44:03.153Z",
+    "status": "resolved"
+  },
+  {
     "station_id": "0a8876d5dff0c71d",
     "lat": 54.8809236,
     "lon": 24.0098105,
@@ -1413,6 +1422,15 @@
     "status": "resolved"
   },
   {
+    "station_id": "386569f60428451a",
+    "lat": 55.2914709,
+    "lon": 23.961049,
+    "display_name": "Gedimino g. 50, Kėdainiai, 57309 Kėdainių r. sav., Lietuva",
+    "query": "S.Savicko įmonė, Gedimino g. 50 , Kėdainiai, Lietuva",
+    "geocode_updated_at": "2026-04-13T09:44:03.665Z",
+    "status": "resolved"
+  },
+  {
     "station_id": "38a0af67307714c4",
     "lat": 54.22072970000001,
     "lon": 23.5088049,
@@ -2031,6 +2049,15 @@
     "display_name": "Ramygalos g. 145B, 36220 Panevėžys, Lietuva",
     "query": "Neste Lietuva, Ramygalos g. 145B, Panevėžys, Lietuva",
     "geocode_updated_at": "2026-04-10T18:08:33.516Z",
+    "status": "resolved"
+  },
+  {
+    "station_id": "4da5480c06473c88",
+    "lat": 55.9233977,
+    "lon": 21.0757934,
+    "display_name": "Ganyklų g. 28C, Palanga, 00126 Palangos m. sav., Lietuva",
+    "query": "Baltic Petroleum, Ganyklų g. 28C, Palanga, Lietuva",
+    "geocode_updated_at": "2026-04-10T18:09:11.455Z",
     "status": "resolved"
   },
   {
@@ -2916,6 +2943,15 @@
     "status": "resolved"
   },
   {
+    "station_id": "700d99f99deb1b85",
+    "lat": 54.32043669999999,
+    "lon": 23.1399587,
+    "display_name": "Europos g. 17, Salaperaugis, 69286 Kalvarijos sav., Lietuva",
+    "query": "AS 24 Lietuva, Europos g. 17, Salaperaugio k., Lietuva",
+    "geocode_updated_at": "2026-04-10T18:11:29.446Z",
+    "status": "resolved"
+  },
+  {
     "station_id": "7085270b92e7750d",
     "lat": 55.97666899999999,
     "lon": 25.824976,
@@ -2976,6 +3012,15 @@
     "display_name": "Alytaus g. 48, 64313 Simnas, Lietuva",
     "query": "Skulas, Alytaus g. 48, Simnas, Lietuva",
     "geocode_updated_at": "2026-04-10T18:09:14.483Z",
+    "status": "resolved"
+  },
+  {
+    "station_id": "7239e6a277c3a9f2",
+    "lat": 54.8652831,
+    "lon": 24.4337528,
+    "display_name": "Paukštininkų g. 13, 56161 Kaišiadorys, Lietuva",
+    "query": "Topgas, Paukštininkų g.13, Kaišiadorys, Lietuva",
+    "geocode_updated_at": "2026-04-13T09:44:04.099Z",
     "status": "resolved"
   },
   {
@@ -3267,12 +3312,30 @@
     "status": "resolved"
   },
   {
+    "station_id": "7b850d0f29a7394a",
+    "lat": 55.2843482,
+    "lon": 24.2482243,
+    "display_name": "Dariaus ir Girėno g. 23, 58130 Šėta, Lietuva",
+    "query": "S.Savicko įmonė, Dariaus ir Girėno 23 A, Kėdainiai, Lietuva",
+    "geocode_updated_at": "2026-04-13T09:44:04.539Z",
+    "status": "resolved"
+  },
+  {
     "station_id": "7bd98b8520fd66a2",
     "lat": 54.78459729999999,
     "lon": 24.6544334,
     "display_name": "Elektrinės g. 6, 26109 Elektrėnai, Lietuva",
     "query": "Viada, Elektrinės g. 6, Elektrėnai, Lietuva",
     "geocode_updated_at": "2026-04-10T18:09:27.197Z",
+    "status": "resolved"
+  },
+  {
+    "station_id": "7bedd10e07b6fc16",
+    "lat": 56.0129574,
+    "lon": 21.103805,
+    "display_name": "Elijos g.26,Palanga(Šventoji, 00170 Šventoji, Lietuva",
+    "query": "Šventosios investicijos, Elijos g.26 Palanga (Šventoji), Lietuva",
+    "geocode_updated_at": "2026-04-10T18:09:33.275Z",
     "status": "resolved"
   },
   {
@@ -3435,6 +3498,15 @@
     "display_name": "Klaipėda, Klaipėdos m. sav., Lietuva",
     "query": "Jozita, Klaipėdos. 1, Traksėdžių k., Lietuva",
     "geocode_updated_at": "2026-04-10T18:09:34.051Z",
+    "status": "resolved"
+  },
+  {
+    "station_id": "839903855082146f",
+    "lat": 55.9154815,
+    "lon": 21.0781248,
+    "display_name": "Klaipėdos pl. 44, 00111 Palanga, Lietuva",
+    "query": "Baltic Petroleum, Klaipėdos pl. 44, Palanga, Lietuva",
+    "geocode_updated_at": "2026-04-10T18:08:00.217Z",
     "status": "resolved"
   },
   {
@@ -4995,6 +5067,15 @@
     "status": "resolved"
   },
   {
+    "station_id": "bf6f40597dbd1609",
+    "lat": 56.0677168,
+    "lon": 24.3851898,
+    "display_name": "Stoties g. 25, Pasvalys, 39107 Pasvalio r. sav., Lietuva",
+    "query": "Topgas, Stoties g.25, Pasvalys, Lietuva",
+    "geocode_updated_at": "2026-04-13T09:44:04.970Z",
+    "status": "resolved"
+  },
+  {
     "station_id": "bfba5e181d75d0eb",
     "lat": 55.68315579999999,
     "lon": 21.1603651,
@@ -5109,6 +5190,15 @@
     "display_name": "Pramonės g. 10a, 72323 Tauragė, Lietuva",
     "query": "Madalva, Gineikių k., Lietuva",
     "geocode_updated_at": "2026-04-10T18:10:45.918Z",
+    "status": "resolved"
+  },
+  {
+    "station_id": "c420995fc79d6f03",
+    "lat": 55.8314111,
+    "lon": 25.0198712,
+    "display_name": "Slavinčiškio g., 40333 k, Lietuva",
+    "query": "Topgas, Slavinčiškio g.18, Slavinčiškis, Lietuva",
+    "geocode_updated_at": "2026-04-13T09:44:05.398Z",
     "status": "resolved"
   },
   {
@@ -5526,6 +5616,15 @@
     "status": "resolved"
   },
   {
+    "station_id": "d7c5caa212fb6f02",
+    "lat": 55.2973511,
+    "lon": 24.0012339,
+    "display_name": "Šėtos g. 120, 58115 Kėdainiai, Lietuva",
+    "query": "S.Savicko įmonė, Šėtos g. 120 , Kėdainiai, Lietuva",
+    "geocode_updated_at": "2026-04-13T09:44:05.811Z",
+    "status": "resolved"
+  },
+  {
     "station_id": "d8057b060c834ccb",
     "lat": 54.5556873,
     "lon": 23.3752979,
@@ -5539,7 +5638,7 @@
     "lat": 55.6851306,
     "lon": 21.1471005,
     "display_name": "Minijos g. 94, Klaipėda, 93239 Klaipėdos m. sav., Lietuva",
-    "query": "Stateta, Minijos g. 90, Klaipėda, Lietuva",
+    "query": "Circle K, Minijos g. 90, Klaipėda, Lietuva",
     "geocode_updated_at": "2026-04-10T18:09:54.163Z",
     "status": "resolved"
   },
@@ -5733,6 +5832,15 @@
     "status": "resolved"
   },
   {
+    "station_id": "e139ef2e13d1bc47",
+    "lat": 54.9476209,
+    "lon": 23.8850721,
+    "display_name": "Vandžiogalos pl. 29, 47420 Kaunas, Lietuva",
+    "query": "S.Savicko įmonė, Vandžiogalos g 29,Saviečių k., Lietuva",
+    "geocode_updated_at": "2026-04-13T09:44:06.221Z",
+    "status": "resolved"
+  },
+  {
     "station_id": "e168df46226994d6",
     "lat": 54.6672458,
     "lon": 25.1739183,
@@ -5809,7 +5917,7 @@
     "lat": 54.71582129999999,
     "lon": 25.2291253,
     "display_name": "Rygos g. 2, 05259 Vilnius, Lietuva",
-    "query": "Neste Lietuva, Rygos g. 2, Vilnius, Lietuva",
+    "query": "Saurida, Rygos g. 2, Vilnius, Lietuva",
     "geocode_updated_at": "2026-04-10T18:09:51.904Z",
     "status": "resolved"
   },
@@ -5973,6 +6081,15 @@
     "display_name": "Taikos pr. 60, 93225 Klaipėda, Lietuva",
     "query": "Neste Lietuva, Taikos pr. 60, Klaipėda, Lietuva",
     "geocode_updated_at": "2026-04-10T18:11:22.252Z",
+    "status": "resolved"
+  },
+  {
+    "station_id": "e94810c1d58cef7c",
+    "lat": 55.91475,
+    "lon": 21.077732,
+    "display_name": "Kretingos g. 56, 00111 Palanga, Lietuva",
+    "query": "Circle K, Kretingos g. 56, Palanga, Lietuva",
+    "geocode_updated_at": "2026-04-10T18:09:55.262Z",
     "status": "resolved"
   },
   {
@@ -6327,6 +6444,15 @@
     "status": "resolved"
   },
   {
+    "station_id": "f9aa6e3c1fcfbdc6",
+    "lat": 55.8576932,
+    "lon": 25.7319221,
+    "display_name": "Vytėnų vs 9, Vytėnai, 42255 Rokiškio r. sav., Lietuva",
+    "query": "Lašų ŽŪB, Vytėnų vs 9, Vytėnai, Lietuva",
+    "geocode_updated_at": "2026-04-13T09:44:06.635Z",
+    "status": "resolved"
+  },
+  {
     "station_id": "f9adcfb97e43e6e2",
     "lat": 53.99776629999999,
     "lon": 24.0190878,
@@ -6462,6 +6588,15 @@
     "status": "resolved"
   },
   {
+    "station_id": "fd80d45906a9f0e6",
+    "lat": 55.9057715,
+    "lon": 23.258872,
+    "display_name": "Gegužių g. 28, 78348 Šiauliai, Lietuva",
+    "query": "Plovimo sistemos, Gegužių g. 28, Lietuva",
+    "geocode_updated_at": "2026-04-10T18:08:35.713Z",
+    "status": "resolved"
+  },
+  {
     "station_id": "fd920d62f0ac9652",
     "lat": 54.67684389999999,
     "lon": 25.3094619,
@@ -6522,6 +6657,15 @@
     "display_name": "Stoties g. 4C, 68112 Marijampolė, Lietuva",
     "query": "Neste Lietuva, Stoties g. 4C, Marijampolė, Lietuva",
     "geocode_updated_at": "2026-04-10T18:11:45.892Z",
+    "status": "resolved"
+  },
+  {
+    "station_id": "ffdc13087a1ba094",
+    "lat": 55.2973511,
+    "lon": 24.0012339,
+    "display_name": "Šėtos g. 120, 58115 Kėdainiai, Lietuva",
+    "query": "S.Savicko įmonė (Circle K), J.Basanavičiaus g. 103, Kėdainiai, Lietuva",
+    "geocode_updated_at": "2026-04-13T09:44:07.081Z",
     "status": "resolved"
   }
 ]

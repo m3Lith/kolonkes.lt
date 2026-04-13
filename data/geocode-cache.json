@@ -5059,5 +5059,75 @@
     "displayName": "Stoties g. 4C, 68112 Marijampolė, Lietuva",
     "updatedAt": "2026-04-10T18:11:45.892Z",
     "query": "Neste Lietuva, Stoties g. 4C, Marijampolė, Lietuva"
+  },
+  "gelyno g.25, marijampole": {
+    "lat": 54.5840427,
+    "lon": 23.3603293,
+    "displayName": "Gėlyno g. 25, Marijampolė, 68229 Marijampolės sav., Lietuva",
+    "updatedAt": "2026-04-13T09:44:03.153Z",
+    "query": "Topgas, Gėlyno g.25, Marijampolė, Lietuva"
+  },
+  "gedimino g. 50 , kedainiai": {
+    "lat": 55.2914709,
+    "lon": 23.961049,
+    "displayName": "Gedimino g. 50, Kėdainiai, 57309 Kėdainių r. sav., Lietuva",
+    "updatedAt": "2026-04-13T09:44:03.665Z",
+    "query": "S.Savicko įmonė, Gedimino g. 50 , Kėdainiai, Lietuva"
+  },
+  "paukstininku g.13, kaisiadorys": {
+    "lat": 54.8652831,
+    "lon": 24.4337528,
+    "displayName": "Paukštininkų g. 13, 56161 Kaišiadorys, Lietuva",
+    "updatedAt": "2026-04-13T09:44:04.099Z",
+    "query": "Topgas, Paukštininkų g.13, Kaišiadorys, Lietuva"
+  },
+  "dariaus ir gireno 23 a, kedainiai": {
+    "lat": 55.2843482,
+    "lon": 24.2482243,
+    "displayName": "Dariaus ir Girėno g. 23, 58130 Šėta, Lietuva",
+    "updatedAt": "2026-04-13T09:44:04.539Z",
+    "query": "S.Savicko įmonė, Dariaus ir Girėno 23 A, Kėdainiai, Lietuva"
+  },
+  "stoties g.25, pasvalys": {
+    "lat": 56.0677168,
+    "lon": 24.3851898,
+    "displayName": "Stoties g. 25, Pasvalys, 39107 Pasvalio r. sav., Lietuva",
+    "updatedAt": "2026-04-13T09:44:04.970Z",
+    "query": "Topgas, Stoties g.25, Pasvalys, Lietuva"
+  },
+  "slavinciskio g.18, slavinciskis": {
+    "lat": 55.8314111,
+    "lon": 25.0198712,
+    "displayName": "Slavinčiškio g., 40333 k, Lietuva",
+    "updatedAt": "2026-04-13T09:44:05.398Z",
+    "query": "Topgas, Slavinčiškio g.18, Slavinčiškis, Lietuva"
+  },
+  "setos g. 120 , kedainiai": {
+    "lat": 55.2973511,
+    "lon": 24.0012339,
+    "displayName": "Šėtos g. 120, 58115 Kėdainiai, Lietuva",
+    "updatedAt": "2026-04-13T09:44:05.811Z",
+    "query": "S.Savicko įmonė, Šėtos g. 120 , Kėdainiai, Lietuva"
+  },
+  "vandziogalos g 29,savieciu k.": {
+    "lat": 54.9476209,
+    "lon": 23.8850721,
+    "displayName": "Vandžiogalos pl. 29, 47420 Kaunas, Lietuva",
+    "updatedAt": "2026-04-13T09:44:06.221Z",
+    "query": "S.Savicko įmonė, Vandžiogalos g 29,Saviečių k., Lietuva"
+  },
+  "vytenu vs 9, vytenai": {
+    "lat": 55.8576932,
+    "lon": 25.7319221,
+    "displayName": "Vytėnų vs 9, Vytėnai, 42255 Rokiškio r. sav., Lietuva",
+    "updatedAt": "2026-04-13T09:44:06.635Z",
+    "query": "Lašų ŽŪB, Vytėnų vs 9, Vytėnai, Lietuva"
+  },
+  "j.basanaviciaus g. 103, kedainiai": {
+    "lat": 55.2973511,
+    "lon": 24.0012339,
+    "displayName": "Šėtos g. 120, 58115 Kėdainiai, Lietuva",
+    "updatedAt": "2026-04-13T09:44:07.081Z",
+    "query": "S.Savicko įmonė (Circle K), J.Basanavičiaus g. 103, Kėdainiai, Lietuva"
   }
 }
