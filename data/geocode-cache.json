@@ -5129,5 +5129,19 @@
     "displayName": "Šėtos g. 120, 58115 Kėdainiai, Lietuva",
     "updatedAt": "2026-04-13T09:44:07.081Z",
     "query": "S.Savicko įmonė (Circle K), J.Basanavičiaus g. 103, Kėdainiai, Lietuva"
+  },
+  "plento g. 24, gudzioniu k.": {
+    "lat": 55.0991583,
+    "lon": 24.3159346,
+    "displayName": "Plento g. 24, Gudžioniai, 55462 Jonavos r. sav., Lietuva",
+    "updatedAt": "2026-04-14T11:34:26.267Z",
+    "query": "Baltic Petroleum, Plento g. 24, Gudžionių k., Lietuva"
+  },
+  "taikos pr. 47": {
+    "lat": 55.5904661,
+    "lon": 26.4632957,
+    "displayName": "Taikos pr. 47, Visaginas, 31217 Visagino sav., Lietuva",
+    "updatedAt": "2026-04-14T11:34:26.671Z",
+    "query": "Autograndas, Taikos pr. 47, Lietuva"
   }
 }

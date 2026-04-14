@@ -252,6 +252,15 @@
     "status": "resolved"
   },
   {
+    "station_id": "0a950dba4f7b352a",
+    "lat": 55.0991583,
+    "lon": 24.3159346,
+    "display_name": "Plento g. 24, Gudžioniai, 55462 Jonavos r. sav., Lietuva",
+    "query": "Baltic Petroleum, Plento g. 24, Gudžionių k., Lietuva",
+    "geocode_updated_at": "2026-04-14T11:34:26.267Z",
+    "status": "resolved"
+  },
+  {
     "station_id": "0ab609a1bc0f8ba9",
     "lat": 54.8930908,
     "lon": 23.9957727,
@@ -996,6 +1005,15 @@
     "display_name": "A. Goštauto g. 13, 01108 Vilnius, Lietuva",
     "query": "Circle K, A. Goštauto g. 13, Vilnius, Lietuva",
     "geocode_updated_at": "2026-04-10T18:07:49.135Z",
+    "status": "resolved"
+  },
+  {
+    "station_id": "289576c41a32e756",
+    "lat": 55.5904661,
+    "lon": 26.4632957,
+    "display_name": "Taikos pr. 47, Visaginas, 31217 Visagino sav., Lietuva",
+    "query": "Autograndas, Taikos pr. 47, Lietuva",
+    "geocode_updated_at": "2026-04-14T11:34:26.671Z",
     "status": "resolved"
   },
   {
@@ -2364,6 +2382,15 @@
     "display_name": "Raudondvario pl. 103, 47185 Kaunas, Lietuva",
     "query": "Neste Lietuva, Raudondvario pl. 103, Kaunas, Lietuva",
     "geocode_updated_at": "2026-04-10T18:08:46.520Z",
+    "status": "resolved"
+  },
+  {
+    "station_id": "5835c88d7bf62599",
+    "lat": 54.3761674,
+    "lon": 23.1920321,
+    "display_name": "Kalvarijos sav., Lietuva",
+    "query": "Nostrada (RV Transport), Kazlavo km. 4 Kalvarijos sav., Lietuva",
+    "geocode_updated_at": "2026-04-10T18:10:27.217Z",
     "status": "resolved"
   },
   {
@@ -5271,6 +5298,15 @@
     "display_name": "Vilniaus pl 13, Jakai, 92498 Klaipėdos r. sav., Lietuva",
     "query": "Orlen, Vilniaus pl. 13, Jakų k., Lietuva",
     "geocode_updated_at": "2026-04-10T18:10:49.045Z",
+    "status": "resolved"
+  },
+  {
+    "station_id": "c6f14b89b42121cf",
+    "lat": 54.7277146,
+    "lon": 25.2353443,
+    "display_name": "Laisvės pr. 125A, 06118 Vilnius, Lietuva",
+    "query": "Alauša, Laisvės pr. 125A, Vilnius, Lietuva",
+    "geocode_updated_at": "2026-04-10T18:10:33.146Z",
     "status": "resolved"
   },
   {
