@@ -5391,6 +5391,15 @@
     "status": "resolved"
   },
   {
+    "station_id": "cb7883a4c01e4612",
+    "lat": 54.5579384,
+    "lon": 23.6562605,
+    "display_name": "Prienų g. 7, Igliauka, 69117 Marijampolės sav., Lietuva",
+    "query": "Valdegra, Prienų g.7, Igliaukos k., Lietuva",
+    "geocode_updated_at": "2026-04-15T10:19:45.329Z",
+    "status": "resolved"
+  },
+  {
     "station_id": "cb835b6e43e6065b",
     "lat": 54.7028432,
     "lon": 25.2639275,

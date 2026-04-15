@@ -5143,5 +5143,12 @@
     "displayName": "Taikos pr. 47, Visaginas, 31217 Visagino sav., Lietuva",
     "updatedAt": "2026-04-14T11:34:26.671Z",
     "query": "Autograndas, Taikos pr. 47, Lietuva"
+  },
+  "prienu g.7, igliaukos k.": {
+    "lat": 54.5579384,
+    "lon": 23.6562605,
+    "displayName": "Prienų g. 7, Igliauka, 69117 Marijampolės sav., Lietuva",
+    "updatedAt": "2026-04-15T10:19:45.329Z",
+    "query": "Valdegra, Prienų g.7, Igliaukos k., Lietuva"
   }
 }
