@@ -5150,5 +5150,12 @@
     "displayName": "Prienų g. 7, Igliauka, 69117 Marijampolės sav., Lietuva",
     "updatedAt": "2026-04-15T10:19:45.329Z",
     "query": "Valdegra, Prienų g.7, Igliaukos k., Lietuva"
+  },
+  "pramones g. 6, taurage": {
+    "lat": 55.2382414,
+    "lon": 22.2977363,
+    "displayName": "Pramonės g. 6, 72324 Tauragė, Lietuva",
+    "updatedAt": "2026-04-16T12:03:53.778Z",
+    "query": "Littaura, Pramonės g. 6, Tauragė, Lietuva"
   }
 }

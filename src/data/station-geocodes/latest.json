@@ -6192,6 +6192,15 @@
     "status": "resolved"
   },
   {
+    "station_id": "eb2cdcbe6c9d47c2",
+    "lat": 55.2382414,
+    "lon": 22.2977363,
+    "display_name": "Pramonės g. 6, 72324 Tauragė, Lietuva",
+    "query": "Littaura, Pramonės g. 6, Tauragė, Lietuva",
+    "geocode_updated_at": "2026-04-16T12:03:53.778Z",
+    "status": "resolved"
+  },
+  {
     "station_id": "eb6786e832f4ecf8",
     "lat": 54.5571255,
     "lon": 23.3540073,
