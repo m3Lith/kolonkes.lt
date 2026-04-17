@@ -5157,5 +5157,12 @@
     "displayName": "Pramonės g. 6, 72324 Tauragė, Lietuva",
     "updatedAt": "2026-04-16T12:03:53.778Z",
     "query": "Littaura, Pramonės g. 6, Tauragė, Lietuva"
+  },
+  "siauliu g.12, radviliskis": {
+    "lat": 55.8154166,
+    "lon": 23.5435181,
+    "displayName": "Šiaulių g. 12, 82142 Radviliškis, Lietuva",
+    "updatedAt": "2026-04-17T11:05:13.302Z",
+    "query": "Apsaga, Šiaulių g.12, Radviliškis, Lietuva"
   }
 }
