@@ -2389,7 +2389,7 @@
     "lat": 54.3761674,
     "lon": 23.1920321,
     "display_name": "Kalvarijos sav., Lietuva",
-    "query": "Nostrada (RV Transport), Kazlavo km. 4 Kalvarijos sav., Lietuva",
+    "query": "Nostrada, Kazlavo km. 4 Kalvarijos sav., Lietuva",
     "geocode_updated_at": "2026-04-10T18:10:27.217Z",
     "status": "resolved"
   },
@@ -2974,7 +2974,7 @@
     "lat": 54.32043669999999,
     "lon": 23.1399587,
     "display_name": "Europos g. 17, Salaperaugis, 69286 Kalvarijos sav., Lietuva",
-    "query": "AS 24 Lietuva, Europos g. 17, Salaperaugio k., Lietuva",
+    "query": "Alauša, Europos g. 17, Salaperaugio k., Lietuva",
     "geocode_updated_at": "2026-04-10T18:11:29.446Z",
     "status": "resolved"
   },
@@ -3363,6 +3363,15 @@
     "display_name": "Elijos g.26,Palanga(Šventoji, 00170 Šventoji, Lietuva",
     "query": "Šventosios investicijos, Elijos g.26 Palanga (Šventoji), Lietuva",
     "geocode_updated_at": "2026-04-10T18:09:33.275Z",
+    "status": "resolved"
+  },
+  {
+    "station_id": "7caab3aade15b5a2",
+    "lat": 56.2723261,
+    "lon": 24.3677868,
+    "display_name": "Pasienio g. 10, Škilinpamūšis, 39421 Brunavas pagasts, Lietuva",
+    "query": "Pakelės namai, Pasienio g. 10, Škilinpamūšio k., Lietuva",
+    "geocode_updated_at": "2026-04-20T11:11:09.826Z",
     "status": "resolved"
   },
   {
@@ -5692,7 +5701,7 @@
     "lat": 55.6851306,
     "lon": 21.1471005,
     "display_name": "Minijos g. 94, Klaipėda, 93239 Klaipėdos m. sav., Lietuva",
-    "query": "Circle K, Minijos g. 90, Klaipėda, Lietuva",
+    "query": "Stateta, Minijos g. 90, Klaipėda, Lietuva",
     "geocode_updated_at": "2026-04-10T18:09:54.163Z",
     "status": "resolved"
   },
@@ -5971,7 +5980,7 @@
     "lat": 54.71582129999999,
     "lon": 25.2291253,
     "display_name": "Rygos g. 2, 05259 Vilnius, Lietuva",
-    "query": "Saurida, Rygos g. 2, Vilnius, Lietuva",
+    "query": "Neste Lietuva, Rygos g. 2, Vilnius, Lietuva",
     "geocode_updated_at": "2026-04-10T18:09:51.904Z",
     "status": "resolved"
   },

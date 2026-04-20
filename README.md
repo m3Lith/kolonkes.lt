@@ -31,6 +31,24 @@ The parser expects these Lithuanian table columns:
 
 The script handles diacritics and non-breaking spaces, and converts `Neprekiauja` to `null`.
 
+### Import directly from SharePoint
+
+If you do not want to place `.xlsx` files in `data/` manually, run:
+
+```sh
+npm run import:sharepoint
+```
+
+Optional examples:
+
+```sh
+# Import a specific date discovered from ENA page
+npm run import:sharepoint -- --date 2026-04-20
+
+# Import from an explicit SharePoint URL
+npm run import:sharepoint -- --url "https://ltenergagen.sharepoint.com/:x:/s/intra/doc/..."
+```
+
 ## Data outputs
 
 Generated files:
@@ -45,9 +63,11 @@ Generated files:
 ## Commands
 
 - `npm install` - install dependencies
-- `npm run import:data` - parse and normalize latest workbook
-- `npm run geocode:data` - geocode latest stations and refresh outputs
+- `npm run import:sharepoint` - discover/download SharePoint workbook and import directly
+- `npm run import:workbook -- --workbook /path/to/dk-YYYY-MM-DD.xlsx --date YYYY-MM-DD` - import from an explicit workbook path
+- `npm run geocode:data` - geocode stations from existing catalog/geocode data (no local XLSX required)
 - `npm run build:data` - full pipeline (parse + geocode + outputs)
+- `npm run discover:ena-source` - print selected ENA SharePoint source entry
 - `npm run dev` - start local app
 - `npm run build` - production build
 - `npm run test` - run unit tests
@@ -111,13 +131,15 @@ npm run build
 
 ## Scheduled ENA sync
 
-This repo also includes `.github/workflows/sync-data.yml` that can run daily and fetch the source file from:
+This repo also includes `.github/workflows/sync-data.yml` that can run daily and discover the latest source file from:
 
-- `https://www.ena.lt/uploads/<year>-EDAC/dk-degalinese-<year>/dk-<YYYY-MM-DD>.xlsx` (fallback to uppercase `DK-...`)
+- `https://www.ena.lt/degalu-kainos-degalinese/` (`Pranešimai apie degalų kainas ir pradiniai duomenys (Excel)`)
+- it parses SharePoint links by date from anchor `title` (`Degalų kainos YYYY-MM-DD`) with a fallback to anchor text (`Naujausios degalų kainos (YYYY-MM-DD)`)
+- discovery logic is shared in `scripts/discover-ena-source.mjs` (used by CI and usable locally)
 
 The workflow:
 
-- downloads `dk-YYYY-MM-DD.xlsx` into `data/`
+- downloads the resolved `dk-YYYY-MM-DD.xlsx` into `data/`
 - runs `npm run build:data` and `npm run build`
 - removes downloaded `.xlsx`
 - commits changed JSON data files back to `main`

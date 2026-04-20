@@ -32,37 +32,63 @@ jobs:
           node-version: 24
           cache: npm
 
-      - name: Resolve target date
-        id: date
-        run: |
-          INPUT_DATE="${{ github.event.inputs.date }}"
-          if [ -n "$INPUT_DATE" ]; then
-            TARGET_DATE="$INPUT_DATE"
-          else
-            TARGET_DATE="$(TZ=Europe/Vilnius date +%F)"
-          fi
-          echo "value=$TARGET_DATE" >> "$GITHUB_OUTPUT"
-
-      - name: Download ENA XLSX
+      - name: Discover and download ENA XLSX
         id: download
         run: |
-          DATE_ISO="${{ steps.date.outputs.value }}"
-          YEAR="${DATE_ISO%%-*}"
-          URL_LOWER="https://www.ena.lt/uploads/${YEAR}-EDAC/dk-degalinese-${YEAR}/dk-${DATE_ISO}.xlsx"
-          URL_UPPER="https://www.ena.lt/uploads/${YEAR}-EDAC/dk-degalinese-${YEAR}/DK-${DATE_ISO}.xlsx"
-          DEST="data/dk-${DATE_ISO}.xlsx"
+          TARGET_DATE="${{ github.event.inputs.date }}"
+          PAGE_URL="https://www.ena.lt/degalu-kainos-degalinese/"
           mkdir -p data
-          echo "Downloading (lowercase first): $URL_LOWER"
-          echo "Downloading (uppercase second): $URL_UPPER"
-          if curl -fL "$URL_LOWER" -o "$DEST"; then
-            echo "downloaded=true" >> "$GITHUB_OUTPUT"
-            echo "file=$DEST" >> "$GITHUB_OUTPUT"
-          elif curl -fL "$URL_UPPER" -o "$DEST"; then
-            echo "downloaded=true" >> "$GITHUB_OUTPUT"
-            echo "file=$DEST" >> "$GITHUB_OUTPUT"
+
+          echo "Discovering ENA SharePoint source from: $PAGE_URL"
+          DISCOVERY_ARGS=(--page-url "$PAGE_URL" --format tsv)
+          if [ -n "$TARGET_DATE" ]; then
+            DISCOVERY_ARGS+=(--date "$TARGET_DATE")
+          fi
+          if ! DISCOVERY_LINE="$(node scripts/discover-ena-source.mjs "${DISCOVERY_ARGS[@]}")"
+          then
+            echo "downloaded=false" >> "$GITHUB_OUTPUT"
+            if [ -n "$TARGET_DATE" ]; then
+              echo "No SharePoint source found for requested date $TARGET_DATE."
+            else
+              echo "No SharePoint source found on ENA page."
+            fi
+            exit 0
+          fi
+
+          IFS=$'\t' read -r DATE_ISO SOURCE_URL _ <<< "$DISCOVERY_LINE"
+          DEST="data/dk-${DATE_ISO}.xlsx"
+          echo "date=$DATE_ISO" >> "$GITHUB_OUTPUT"
+          echo "source_url=$SOURCE_URL" >> "$GITHUB_OUTPUT"
+
+          case "$SOURCE_URL" in
+            *\?*) DOWNLOAD_URL="${SOURCE_URL}&download=1" ;;
+            *) DOWNLOAD_URL="${SOURCE_URL}?download=1" ;;
+          esac
+
+          echo "Downloading SharePoint file for $DATE_ISO"
+          COOKIE_JAR="$(mktemp)"
+          if curl -fL -A "Mozilla/5.0" -c "$COOKIE_JAR" -b "$COOKIE_JAR" "$DOWNLOAD_URL" -o "$DEST"; then
+            if python3 - "$DEST" <<'PY'
+import sys
+with open(sys.argv[1], "rb") as handle:
+    header = handle.read(2)
+if header != b"PK":
+    raise SystemExit(1)
+PY
+            then
+              echo "downloaded=true" >> "$GITHUB_OUTPUT"
+              echo "file=$DEST" >> "$GITHUB_OUTPUT"
+              rm -f "$COOKIE_JAR"
+            else
+              rm -f "$DEST"
+              echo "downloaded=false" >> "$GITHUB_OUTPUT"
+              echo "Downloaded content was not an XLSX file."
+              rm -f "$COOKIE_JAR"
+            fi
           else
             echo "downloaded=false" >> "$GITHUB_OUTPUT"
-            echo "No source file available for $DATE_ISO (tried lowercase and uppercase), skipping."
+            echo "Failed to download SharePoint file: $DOWNLOAD_URL"
+            rm -f "$COOKIE_JAR"
           fi
 
       - name: Install dependencies
@@ -89,7 +115,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/geocode-cache.json src/data
-          git commit -m "chore(data): sync ENA fuel data for ${{ steps.date.outputs.value }}"
+          git commit -m "chore(data): sync ENA fuel data for ${{ steps.download.outputs.date }}"
           git push origin HEAD:main
 
       - name: Upload Pages artifact

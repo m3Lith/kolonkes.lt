@@ -10,9 +10,11 @@
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "import:data": "tsx scripts/build-dataset.ts --mode import",
+    "import:sharepoint": "node scripts/import-from-sharepoint.mjs",
+    "import:workbook": "tsx scripts/build-dataset.ts --mode import",
     "geocode:data": "tsx scripts/build-dataset.ts --mode geocode",
     "geocode:sqlite": "tsx scripts/geocode-from-sqlite.ts",
+    "discover:ena-source": "node scripts/discover-ena-source.mjs",
     "build:data": "tsx scripts/build-dataset.ts --mode build",
     "test": "vitest run"
   },

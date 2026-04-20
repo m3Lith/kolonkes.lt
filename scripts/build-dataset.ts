@@ -65,6 +65,47 @@ function getMode(): Mode {
   throw new Error("Unsupported mode. Use import, geocode, or build.");
 }
 
+function getCliArg(name: string): string | null {
+  const joinedArg = process.argv.find((arg) => arg.startsWith(`--${name}=`));
+  if (joinedArg) {
+    const value = joinedArg.slice(name.length + 3).trim();
+    return value || null;
+  }
+
+  const flagIndex = process.argv.findIndex((arg) => arg === `--${name}`);
+  if (flagIndex !== -1) {
+    const value = process.argv[flagIndex + 1]?.trim();
+    return value || null;
+  }
+
+  return null;
+}
+
+function resolveWorkbookOverride(): { filePath: string; date: string } | null {
+  const workbook = getCliArg("workbook");
+  if (!workbook) {
+    return null;
+  }
+
+  const filePath = path.resolve(ROOT, workbook);
+  const explicitDate = getCliArg("date");
+  let date = explicitDate;
+  if (!date) {
+    try {
+      date = parseDateFromFilename(path.basename(filePath));
+    } catch {
+      throw new Error(
+        [
+          "Could not infer date from --workbook file name.",
+          "Use --date YYYY-MM-DD, or pass a file named dk-YYYY-MM-DD.xlsx.",
+        ].join(" "),
+      );
+    }
+  }
+
+  return { filePath, date };
+}
+
 async function findLatestWorkbook(): Promise<{
   filePath: string;
   date: string;
@@ -81,6 +122,7 @@ async function findLatestWorkbook(): Promise<{
       [
         `No dk-YYYY-MM-DD.xlsx files found in ${DATA_DIR}.`,
         "Download one source file temporarily into data/ and rerun,",
+        "or pass --workbook /path/to/dk-YYYY-MM-DD.xlsx (optionally with --date),",
         "or run the scheduled GitHub Actions sync workflow which downloads it automatically.",
       ].join(" "),
     );
@@ -475,6 +517,24 @@ async function writeOutputs(
   ]);
 }
 
+async function writeGeocodeOutputs(
+  catalog: StationCatalogRecord[],
+  geocodes: StationGeocodeRecord[],
+): Promise<void> {
+  await Promise.all([
+    fs.writeFile(
+      OUTPUT_STATION_CATALOG,
+      `${JSON.stringify(catalog, null, 2)}\n`,
+      "utf8",
+    ),
+    fs.writeFile(
+      OUTPUT_STATION_GEOCODES,
+      `${JSON.stringify(geocodes, null, 2)}\n`,
+      "utf8",
+    ),
+  ]);
+}
+
 async function cleanupLegacyOutputs(): Promise<void> {
   try {
     const fuelFiles = await fs.readdir(OUTPUT_FUEL_DIR);
@@ -534,8 +594,51 @@ async function cleanupLegacyOutputs(): Promise<void> {
 
 async function main(): Promise<void> {
   const mode = getMode();
-  const latest = await findLatestWorkbook();
+  const workbookOverride = resolveWorkbookOverride();
   await ensureOutputDirs();
+
+  if (mode === "geocode" && !workbookOverride) {
+    const catalog = await loadStationCatalog();
+    if (catalog.length === 0) {
+      throw new Error(
+        [
+          "No station catalog available for geocoding.",
+          "Run npm run import:sharepoint first (or use --workbook with geocode mode).",
+        ].join(" "),
+      );
+    }
+
+    const catalogById = new Map(
+      catalog.map((station) => [station.station_id, station] as const),
+    );
+    const cache = await loadGeocodeCache(CACHE_PATH);
+    const existingGeocodes = await loadStationGeocodes();
+    const geocodes = seedStationGeocodes(catalog, cache, existingGeocodes);
+
+    const { unresolvedCount, updatedCache } = await geocodeStations(
+      geocodes,
+      catalogById,
+      cache,
+    );
+    await saveGeocodeCache(CACHE_PATH, updatedCache);
+    await writeGeocodeOutputs(catalog, geocodes);
+    await cleanupLegacyOutputs();
+
+    console.log(
+      `Geocoded dataset: ${catalog.length} stations, ${unresolvedCount} unresolved.`,
+    );
+    return;
+  }
+
+  if (mode === "import" && !workbookOverride) {
+    throw new Error(
+      [
+        "Import mode no longer scans data/ for local XLSX files.",
+        "Use npm run import:sharepoint or pass --workbook /path/to/file.xlsx.",
+      ].join(" "),
+    );
+  }
+  const latest = workbookOverride ?? (await findLatestWorkbook());
 
   const rows = normalizeRows(latest.filePath, latest.date);
   const stationSnapshot = rowsToStationSnapshot(rows);
