@@ -139,6 +139,8 @@ This repo also includes `.github/workflows/sync-data.yml` that can run daily and
 
 The workflow:
 
+- schedules checks every 15 minutes on weekdays, but only proceeds during 10:00-16:59 (`Europe/Vilnius`)
+- skips repeat runs for the same day when the discovered SharePoint URL matches the already-processed daily URL marker
 - downloads the resolved `dk-YYYY-MM-DD.xlsx` into `data/`
 - runs `npm run build:data` and `npm run build`
 - removes downloaded `.xlsx`

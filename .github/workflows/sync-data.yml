@@ -2,7 +2,7 @@ name: Sync Fuel Data
 
 on:
   schedule:
-    - cron: "20 12 * * *"
+    - cron: "*/15 * * * 1-5"
   workflow_dispatch:
     inputs:
       date:
@@ -32,11 +32,29 @@ jobs:
           node-version: 24
           cache: npm
 
+      - name: Check schedule window (Europe/Vilnius)
+        id: window
+        run: |
+          if [ "${{ github.event_name }}" != "schedule" ]; then
+            echo "allowed=true" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          DAY="$(TZ=Europe/Vilnius date +%u)"
+          HOUR="$(TZ=Europe/Vilnius date +%H)"
+          if [ "$DAY" -ge 1 ] && [ "$DAY" -le 5 ] && [ "$HOUR" -ge 10 ] && [ "$HOUR" -le 16 ]; then
+            echo "allowed=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "allowed=false" >> "$GITHUB_OUTPUT"
+            echo "Outside allowed schedule window (Mon-Fri, 10:00-16:59 Europe/Vilnius)."
+          fi
+
       - name: Discover and download ENA XLSX
         id: download
+        if: steps.window.outputs.allowed == 'true'
         run: |
           TARGET_DATE="${{ github.event.inputs.date }}"
           PAGE_URL="https://www.ena.lt/degalu-kainos-degalinese/"
+          MARKER_PATH=".github/state/ena-sharepoint-url-state.json"
           mkdir -p data
 
           echo "Discovering ENA SharePoint source from: $PAGE_URL"
@@ -56,6 +74,28 @@ jobs:
           fi
 
           IFS=$'\t' read -r DATE_ISO SOURCE_URL _ <<< "$DISCOVERY_LINE"
+          if [ -z "$TARGET_DATE" ] && [ -f "$MARKER_PATH" ]; then
+            LAST_STATE="$(python3 - "$MARKER_PATH" <<'PY'
+import json
+import sys
+from pathlib import Path
+path = Path(sys.argv[1])
+try:
+    data = json.loads(path.read_text(encoding="utf-8"))
+except Exception:
+    print("\t")
+    raise SystemExit(0)
+print(f"{data.get('date', '')}\t{data.get('source_url', '')}")
+PY
+            )"
+            IFS=$'\t' read -r LAST_DATE LAST_URL <<< "$LAST_STATE"
+            if [ "$LAST_DATE" = "$DATE_ISO" ] && [ "$LAST_URL" = "$SOURCE_URL" ]; then
+              echo "downloaded=false" >> "$GITHUB_OUTPUT"
+              echo "SharePoint URL for $DATE_ISO already processed, skipping repeat run."
+              exit 0
+            fi
+          fi
+
           DEST="data/dk-${DATE_ISO}.xlsx"
           echo "date=$DATE_ISO" >> "$GITHUB_OUTPUT"
           echo "source_url=$SOURCE_URL" >> "$GITHUB_OUTPUT"
@@ -105,16 +145,38 @@ PY
         if: steps.download.outputs.downloaded == 'true'
         run: rm -f data/dk-*.xlsx
 
+      - name: Update daily SharePoint marker
+        if: steps.download.outputs.downloaded == 'true'
+        run: |
+          mkdir -p .github/state
+          python3 - <<'PY' "${{ steps.download.outputs.date }}" "${{ steps.download.outputs.source_url }}"
+import json
+import sys
+from datetime import datetime, timezone
+from pathlib import Path
+date_iso = sys.argv[1]
+source_url = sys.argv[2]
+payload = {
+    "date": date_iso,
+    "source_url": source_url,
+    "marked_at": datetime.now(timezone.utc).isoformat(),
+}
+Path(".github/state/ena-sharepoint-url-state.json").write_text(
+    json.dumps(payload, ensure_ascii=False, indent=2) + "\n",
+    encoding="utf-8",
+)
+PY
+
       - name: Commit and push updates
         if: steps.download.outputs.downloaded == 'true'
         run: |
-          if git diff --quiet; then
+          git add data/geocode-cache.json src/data .github/state/ena-sharepoint-url-state.json
+          if git diff --cached --quiet; then
             echo "No changes to commit."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/geocode-cache.json src/data
           git commit -m "chore(data): sync ENA fuel data for ${{ steps.download.outputs.date }}"
           git push origin HEAD:main
 
