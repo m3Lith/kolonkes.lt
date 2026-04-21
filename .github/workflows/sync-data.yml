@@ -75,19 +75,7 @@ jobs:
 
           IFS=$'\t' read -r DATE_ISO SOURCE_URL _ <<< "$DISCOVERY_LINE"
           if [ -z "$TARGET_DATE" ] && [ -f "$MARKER_PATH" ]; then
-            LAST_STATE="$(python3 - "$MARKER_PATH" <<'PY'
-import json
-import sys
-from pathlib import Path
-path = Path(sys.argv[1])
-try:
-    data = json.loads(path.read_text(encoding="utf-8"))
-except Exception:
-    print("\t")
-    raise SystemExit(0)
-print(f"{data.get('date', '')}\t{data.get('source_url', '')}")
-PY
-            )"
+            LAST_STATE="$(node scripts/workflow-utils.mjs read-marker "$MARKER_PATH")"
             IFS=$'\t' read -r LAST_DATE LAST_URL <<< "$LAST_STATE"
             if [ "$LAST_DATE" = "$DATE_ISO" ] && [ "$LAST_URL" = "$SOURCE_URL" ]; then
               echo "downloaded=false" >> "$GITHUB_OUTPUT"
@@ -108,14 +96,7 @@ PY
           echo "Downloading SharePoint file for $DATE_ISO"
           COOKIE_JAR="$(mktemp)"
           if curl -fL -A "Mozilla/5.0" -c "$COOKIE_JAR" -b "$COOKIE_JAR" "$DOWNLOAD_URL" -o "$DEST"; then
-            if python3 - "$DEST" <<'PY'
-import sys
-with open(sys.argv[1], "rb") as handle:
-    header = handle.read(2)
-if header != b"PK":
-    raise SystemExit(1)
-PY
-            then
+            if node scripts/workflow-utils.mjs is-xlsx "$DEST"; then
               echo "downloaded=true" >> "$GITHUB_OUTPUT"
               echo "file=$DEST" >> "$GITHUB_OUTPUT"
               rm -f "$COOKIE_JAR"
@@ -148,24 +129,10 @@ PY
       - name: Update daily SharePoint marker
         if: steps.download.outputs.downloaded == 'true'
         run: |
-          mkdir -p .github/state
-          python3 - <<'PY' "${{ steps.download.outputs.date }}" "${{ steps.download.outputs.source_url }}"
-import json
-import sys
-from datetime import datetime, timezone
-from pathlib import Path
-date_iso = sys.argv[1]
-source_url = sys.argv[2]
-payload = {
-    "date": date_iso,
-    "source_url": source_url,
-    "marked_at": datetime.now(timezone.utc).isoformat(),
-}
-Path(".github/state/ena-sharepoint-url-state.json").write_text(
-    json.dumps(payload, ensure_ascii=False, indent=2) + "\n",
-    encoding="utf-8",
-)
-PY
+          node scripts/workflow-utils.mjs write-marker \
+            ".github/state/ena-sharepoint-url-state.json" \
+            "${{ steps.download.outputs.date }}" \
+            "${{ steps.download.outputs.source_url }}"
 
       - name: Commit and push updates
         if: steps.download.outputs.downloaded == 'true'
