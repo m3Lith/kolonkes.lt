@@ -1,6 +1,6 @@
 {
-  "date": "2026-04-24",
+  "date": "2026-04-27",
   "stations_catalog_path": "src/data/stations/catalog.json",
   "station_geocodes_path": "src/data/station-geocodes/latest.json",
-  "fuel_prices_path": "src/data/fuel-prices/2026-04-24.json"
+  "fuel_prices_path": "src/data/fuel-prices/2026-04-27.json"
 }
