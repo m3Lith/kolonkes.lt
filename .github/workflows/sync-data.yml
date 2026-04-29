@@ -105,6 +105,8 @@ jobs:
         run: |
           npm run build:data
           npm run build
+        env:
+          GOOGLE_GEOCODING_API_KEY: ${{ secrets.GOOGLE_GEOCODING_API_KEY }}
 
       - name: Remove downloaded spreadsheet
         if: steps.download.outputs.downloaded == 'true'
