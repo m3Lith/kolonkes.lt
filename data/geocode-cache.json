@@ -5171,5 +5171,26 @@
     "displayName": "Pasienio g. 10, Škilinpamūšis, 39421 Brunavas pagasts, Lietuva",
     "updatedAt": "2026-04-20T11:11:09.826Z",
     "query": "Pakelės namai, Pasienio g. 10, Škilinpamūšio k., Lietuva"
+  },
+  "raudondvario pl.234,kaunas": {
+    "lat": 54.9207305,
+    "lon": 23.8238569,
+    "displayName": "Raudondvario pl. 234, 47158 Kaunas, Lietuva",
+    "updatedAt": "2026-04-29T11:07:17.918Z",
+    "query": "Deguva, Raudondvario pl.234,Kaunas, Lietuva"
+  },
+  "ramuciu g.43": {
+    "lat": 55.3587178,
+    "lon": 21.5031205,
+    "displayName": "Ramučių g. 43, 99150 Šilutė, Lietuva",
+    "updatedAt": "2026-04-29T11:07:18.268Z",
+    "query": "Andopas, Ramučių g.43, Lietuva"
+  },
+  "kalviu g. 4, sventininku k.": {
+    "lat": 54.7259818,
+    "lon": 24.2361877,
+    "displayName": "Kalvių gatvė 4, 56292 Migonys, Lietuva",
+    "updatedAt": "2026-04-29T11:07:18.646Z",
+    "query": "A. Praškevičiaus IĮ, Kalvių g. 4, Šventininkų k., Lietuva"
   }
 }

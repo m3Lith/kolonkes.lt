@@ -5031,6 +5031,15 @@
     "status": "resolved"
   },
   {
+    "station_id": "ba790f41a655f4e5",
+    "lat": 54.9207305,
+    "lon": 23.8238569,
+    "display_name": "Raudondvario pl. 234, 47158 Kaunas, Lietuva",
+    "query": "Deguva, Raudondvario pl.234,Kaunas, Lietuva",
+    "geocode_updated_at": "2026-04-29T11:07:17.918Z",
+    "status": "resolved"
+  },
+  {
     "station_id": "ba8a6e740f70d347",
     "lat": 54.72319719999999,
     "lon": 25.2417044,
@@ -6102,6 +6111,15 @@
     "status": "resolved"
   },
   {
+    "station_id": "e73a8c864890570a",
+    "lat": 55.3587178,
+    "lon": 21.5031205,
+    "display_name": "Ramučių g. 43, 99150 Šilutė, Lietuva",
+    "query": "Andopas, Ramučių g.43, Lietuva",
+    "geocode_updated_at": "2026-04-29T11:07:18.268Z",
+    "status": "resolved"
+  },
+  {
     "station_id": "e778ed8fdb341bd8",
     "lat": 55.5415534,
     "lon": 24.1078355,
@@ -6243,6 +6261,15 @@
     "display_name": "Žemaitės g. 2c, 42164 Rokiškis, Lietuva",
     "query": "Viada, Žemaitės g. 2C, Rokiškis, Lietuva",
     "geocode_updated_at": "2026-04-10T18:11:25.870Z",
+    "status": "resolved"
+  },
+  {
+    "station_id": "ec47589b5675fa21",
+    "lat": 54.7259818,
+    "lon": 24.2361877,
+    "display_name": "Kalvių gatvė 4, 56292 Migonys, Lietuva",
+    "query": "A. Praškevičiaus IĮ, Kalvių g. 4, Šventininkų k., Lietuva",
+    "geocode_updated_at": "2026-04-29T11:07:18.646Z",
     "status": "resolved"
   },
   {
