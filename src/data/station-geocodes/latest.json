@@ -459,6 +459,15 @@
     "status": "resolved"
   },
   {
+    "station_id": "13e7ddd7590eebb4",
+    "lat": 55.8282179,
+    "lon": 22.8545149,
+    "display_name": "86377 Ramučiai, Lietuva",
+    "query": "Raimondo Balsio IĮ, Luokės 2, Ramučių k., Lietuva",
+    "geocode_updated_at": "2026-04-30T08:46:40.816Z",
+    "status": "resolved"
+  },
+  {
     "station_id": "143c2457c46785b6",
     "lat": 55.977007,
     "lon": 22.265474,
@@ -1104,6 +1113,15 @@
     "display_name": "Laisvės g. 50, 89223 Mažeikiai, Lietuva",
     "query": "Adukesta, Laisvės g. 50, Maciuičių k., Lietuva",
     "geocode_updated_at": "2026-04-10T18:07:52.975Z",
+    "status": "resolved"
+  },
+  {
+    "station_id": "2b96c2ef29217da1",
+    "lat": 56.2582033,
+    "lon": 22.3094884,
+    "display_name": "Laukų g. 2C, 89330 Tirkšliai, Lietuva",
+    "query": "Visvilas, Laukų g. 2C.,Tirkšlių m., Lietuva",
+    "geocode_updated_at": "2026-04-30T08:46:41.285Z",
     "status": "resolved"
   },
   {
@@ -2013,6 +2031,15 @@
     "display_name": "Musninkų g. 21, 19126 Širvintos, Lietuva",
     "query": "Baltic Petroleum, Musninkų g. 21, Širvintos, Lietuva",
     "geocode_updated_at": "2026-04-10T18:08:31.176Z",
+    "status": "resolved"
+  },
+  {
+    "station_id": "4a0a1ccc16221f0c",
+    "lat": 54.57635519999999,
+    "lon": 25.196853,
+    "display_name": "Durpių g. 45, 14119 Pagiriai, Lietuva",
+    "query": "Medelsta, Durpių g.45, Pagirių k., Lietuva",
+    "geocode_updated_at": "2026-04-30T08:46:41.748Z",
     "status": "resolved"
   },
   {
@@ -3591,6 +3618,15 @@
     "status": "resolved"
   },
   {
+    "station_id": "8516b31f55908341",
+    "lat": 55.72011680000001,
+    "lon": 21.2928578,
+    "display_name": "Dvaro g. 1, Gobergiškė, 92498 Klaipėdos r. sav., Lietuva",
+    "query": "Vlantana, Dvaro g. 1, Gobergiškės k., Lietuva",
+    "geocode_updated_at": "2026-04-30T08:46:42.223Z",
+    "status": "resolved"
+  },
+  {
     "station_id": "85950bc2d5df1200",
     "lat": 54.8948358,
     "lon": 23.944216,
@@ -4041,6 +4077,15 @@
     "status": "resolved"
   },
   {
+    "station_id": "951b3602fcb331d7",
+    "lat": 54.64014719999999,
+    "lon": 23.9480508,
+    "display_name": "Kauno g. 2A, Prienai, 59147 Prienų r. sav., Lietuva",
+    "query": "Vimijula, Kauno g. 2A, Ručiūnų k., Lietuva",
+    "geocode_updated_at": "2026-04-30T08:46:42.696Z",
+    "status": "resolved"
+  },
+  {
     "station_id": "95482274ba29f19b",
     "lat": 54.8985207,
     "lon": 23.9035965,
@@ -4245,6 +4290,15 @@
     "display_name": "Šilutės pl. 30, 91177 Klaipėda, Lietuva",
     "query": "Neste Lietuva, Šilutės pl. 30, Klaipėda, Lietuva",
     "geocode_updated_at": "2026-04-10T18:10:03.281Z",
+    "status": "resolved"
+  },
+  {
+    "station_id": "9b3dfc9b36fbc6c3",
+    "lat": 55.2407301,
+    "lon": 24.787548,
+    "display_name": "Dariaus ir Girėno g. 31, 20154 Ukmergė, Lietuva",
+    "query": "Bemija, Dariaus ir Girėmo g. 31, Ukmergė, Lietuva",
+    "geocode_updated_at": "2026-04-30T08:46:43.165Z",
     "status": "resolved"
   },
   {
@@ -4545,6 +4599,15 @@
     "status": "resolved"
   },
   {
+    "station_id": "aaa614f89459a883",
+    "lat": 54.6433432,
+    "lon": 23.0530058,
+    "display_name": "Vytauto g. 2D, 70137 Vilkaviškis, Lietuva",
+    "query": "Vildega, Vytauto g. 2D, Vilkaviškis, Lietuva",
+    "geocode_updated_at": "2026-04-30T08:46:43.637Z",
+    "status": "resolved"
+  },
+  {
     "station_id": "ab23cf752ea1799d",
     "lat": 55.751372,
     "lon": 21.1731172,
@@ -4779,6 +4842,15 @@
     "status": "resolved"
   },
   {
+    "station_id": "b1f717aeaba1364e",
+    "lat": 55.2424214,
+    "lon": 22.2500299,
+    "display_name": "Tilžės pl. 46, 72142 Taurai, Lietuva",
+    "query": "Bonsa, Tilžės pl. 46, Taurai, Lietuva",
+    "geocode_updated_at": "2026-04-30T08:46:44.117Z",
+    "status": "resolved"
+  },
+  {
     "station_id": "b2307ff2db45c065",
     "lat": 54.9213919,
     "lon": 23.8322727,
@@ -4884,6 +4956,15 @@
     "display_name": "Pramonės g. 7C, 78138 Šiauliai, Lietuva",
     "query": "Saurida, Šiauliai Pramonės g. 7C, Lietuva",
     "geocode_updated_at": "2026-04-10T18:10:30.756Z",
+    "status": "resolved"
+  },
+  {
+    "station_id": "b64955d34467e11b",
+    "lat": 55.4828079,
+    "lon": 25.5704907,
+    "display_name": "Molėtų g. 94, 28106 Utena, Lietuva",
+    "query": "Dujotena, Molėtų g. 94, Utena, Lietuva",
+    "geocode_updated_at": "2026-04-30T08:46:44.529Z",
     "status": "resolved"
   },
   {
@@ -6345,6 +6426,15 @@
     "status": "resolved"
   },
   {
+    "station_id": "f029077ef2d38fa8",
+    "lat": 55.94306229999999,
+    "lon": 25.585633,
+    "display_name": "Panevėžio g. 7C, 42163 Rokiškis, Lietuva",
+    "query": "DVS Topolis, Panevėžio 7c, Rokiškis, Lietuva",
+    "geocode_updated_at": "2026-04-30T08:46:44.891Z",
+    "status": "resolved"
+  },
+  {
     "station_id": "f032236655df1194",
     "lat": 54.32043669999999,
     "lon": 23.1399587,
@@ -6684,6 +6774,15 @@
     "display_name": "Versmės g. 2, 82197 Radviliškis, Lietuva",
     "query": "Neste Lietuva, Versmės g. 2, Radviliškis, Lietuva",
     "geocode_updated_at": "2026-04-10T18:11:43.210Z",
+    "status": "resolved"
+  },
+  {
+    "station_id": "fd7b8fc73337ab5e",
+    "lat": 55.38255299999999,
+    "lon": 23.960529,
+    "display_name": "Vaidatoniai, Kėdainių r. sav., Lietuva",
+    "query": "Bonsa, Vaidatonių k. 1, Lietuva",
+    "geocode_updated_at": "2026-04-30T08:46:45.247Z",
     "status": "resolved"
   },
   {

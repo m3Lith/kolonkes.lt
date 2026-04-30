@@ -5192,5 +5192,82 @@
     "displayName": "Kalvių gatvė 4, 56292 Migonys, Lietuva",
     "updatedAt": "2026-04-29T11:07:18.646Z",
     "query": "A. Praškevičiaus IĮ, Kalvių g. 4, Šventininkų k., Lietuva"
+  },
+  "luokes 2, ramuciu k.": {
+    "lat": 55.8282179,
+    "lon": 22.8545149,
+    "displayName": "86377 Ramučiai, Lietuva",
+    "updatedAt": "2026-04-30T08:46:40.816Z",
+    "query": "Raimondo Balsio IĮ, Luokės 2, Ramučių k., Lietuva"
+  },
+  "lauku g. 2c.,tirksliu m.": {
+    "lat": 56.2582033,
+    "lon": 22.3094884,
+    "displayName": "Laukų g. 2C, 89330 Tirkšliai, Lietuva",
+    "updatedAt": "2026-04-30T08:46:41.285Z",
+    "query": "Visvilas, Laukų g. 2C.,Tirkšlių m., Lietuva"
+  },
+  "durpiu g.45, pagiriu k.": {
+    "lat": 54.57635519999999,
+    "lon": 25.196853,
+    "displayName": "Durpių g. 45, 14119 Pagiriai, Lietuva",
+    "updatedAt": "2026-04-30T08:46:41.748Z",
+    "query": "Medelsta, Durpių g.45, Pagirių k., Lietuva"
+  },
+  "dvaro g. 1, gobergiskes k.": {
+    "lat": 55.72011680000001,
+    "lon": 21.2928578,
+    "displayName": "Dvaro g. 1, Gobergiškė, 92498 Klaipėdos r. sav., Lietuva",
+    "updatedAt": "2026-04-30T08:46:42.223Z",
+    "query": "Vlantana, Dvaro g. 1, Gobergiškės k., Lietuva"
+  },
+  "kauno g. 2a, ruciunu k.": {
+    "lat": 54.64014719999999,
+    "lon": 23.9480508,
+    "displayName": "Kauno g. 2A, Prienai, 59147 Prienų r. sav., Lietuva",
+    "updatedAt": "2026-04-30T08:46:42.696Z",
+    "query": "Vimijula, Kauno g. 2A, Ručiūnų k., Lietuva"
+  },
+  "dariaus ir giremo g. 31, ukmerge": {
+    "lat": 55.2407301,
+    "lon": 24.787548,
+    "displayName": "Dariaus ir Girėno g. 31, 20154 Ukmergė, Lietuva",
+    "updatedAt": "2026-04-30T08:46:43.165Z",
+    "query": "Bemija, Dariaus ir Girėmo g. 31, Ukmergė, Lietuva"
+  },
+  "vytauto g. 2d, vilkaviskis": {
+    "lat": 54.6433432,
+    "lon": 23.0530058,
+    "displayName": "Vytauto g. 2D, 70137 Vilkaviškis, Lietuva",
+    "updatedAt": "2026-04-30T08:46:43.637Z",
+    "query": "Vildega, Vytauto g. 2D, Vilkaviškis, Lietuva"
+  },
+  "tilzes pl. 46, taurai": {
+    "lat": 55.2424214,
+    "lon": 22.2500299,
+    "displayName": "Tilžės pl. 46, 72142 Taurai, Lietuva",
+    "updatedAt": "2026-04-30T08:46:44.117Z",
+    "query": "Bonsa, Tilžės pl. 46, Taurai, Lietuva"
+  },
+  "moletu g. 94, utena": {
+    "lat": 55.4828079,
+    "lon": 25.5704907,
+    "displayName": "Molėtų g. 94, 28106 Utena, Lietuva",
+    "updatedAt": "2026-04-30T08:46:44.529Z",
+    "query": "Dujotena, Molėtų g. 94, Utena, Lietuva"
+  },
+  "panevezio 7c, rokiskis": {
+    "lat": 55.94306229999999,
+    "lon": 25.585633,
+    "displayName": "Panevėžio g. 7C, 42163 Rokiškis, Lietuva",
+    "updatedAt": "2026-04-30T08:46:44.891Z",
+    "query": "DVS Topolis, Panevėžio 7c, Rokiškis, Lietuva"
+  },
+  "vaidatoniu k. 1": {
+    "lat": 55.38255299999999,
+    "lon": 23.960529,
+    "displayName": "Vaidatoniai, Kėdainių r. sav., Lietuva",
+    "updatedAt": "2026-04-30T08:46:45.247Z",
+    "query": "Bonsa, Vaidatonių k. 1, Lietuva"
   }
 }
