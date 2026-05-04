@@ -2682,6 +2682,15 @@
     "status": "resolved"
   },
   {
+    "station_id": "604f78833f004795",
+    "lat": 56.30528959999999,
+    "lon": 22.342462,
+    "display_name": "Sedos g. 16, 89233 Mažeikiai, Lietuva",
+    "query": "Tripletas, Sedos g. 16, Mažeikiai, Lietuva",
+    "geocode_updated_at": "2026-05-04T14:51:08.076Z",
+    "status": "resolved"
+  },
+  {
     "station_id": "60f0e66f414ec4fd",
     "lat": 54.9227321,
     "lon": 23.8699581,

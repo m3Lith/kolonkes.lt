@@ -5269,5 +5269,12 @@
     "displayName": "Vaidatoniai, Kėdainių r. sav., Lietuva",
     "updatedAt": "2026-04-30T08:46:45.247Z",
     "query": "Bonsa, Vaidatonių k. 1, Lietuva"
+  },
+  "sedos g. 16, mazeikiai": {
+    "lat": 56.30528959999999,
+    "lon": 22.342462,
+    "displayName": "Sedos g. 16, 89233 Mažeikiai, Lietuva",
+    "updatedAt": "2026-05-04T14:51:08.076Z",
+    "query": "Tripletas, Sedos g. 16, Mažeikiai, Lietuva"
   }
 }
