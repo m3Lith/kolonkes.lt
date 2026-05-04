@@ -4,7 +4,8 @@ import fs from "node:fs/promises";
 
 const DEFAULT_PAGE_URL = "https://www.ena.lt/degalu-kainos-degalinese/";
 const DATE_FROM_TITLE_RE = /Degal\u0173 kainos (\d{4}-\d{2}-\d{2})/;
-const DATE_FROM_TEXT_RE = /Naujausios degal\u0173 kainos \((\d{4}-\d{2}-\d{2})\)/;
+const DATE_FROM_TEXT_RE =
+  /Naujausios degal\u0173 kainos \((\d{4}-\d{2}-\d{2})\)/;
 const ANCHOR_RE = /<a\b([^>]*)>([\s\S]*?)<\/a>/gi;
 const ATTR_RE = /([^\s=]+)\s*=\s*("([^"]*)"|'([^']*)'|([^\s>]+))/g;
 
@@ -62,7 +63,12 @@ function parseArgs(argv) {
     throw new Error("Invalid --format. Allowed: json, tsv");
   }
 
-  return { date: date.trim(), pageUrl: pageUrl.trim(), outputPath: outputPath.trim(), format };
+  return {
+    date: date.trim(),
+    pageUrl: pageUrl.trim(),
+    outputPath: outputPath.trim(),
+    format,
+  };
 }
 
 function printHelp() {
@@ -84,13 +90,18 @@ function printHelp() {
 }
 
 function normalizeSpace(value) {
-  return value.replace(/\u00a0/g, " ").replace(/\s+/g, " ").trim();
+  return value
+    .replace(/\u00a0/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
 }
 
 function decodeHtml(value) {
   return value
     .replace(/&#(\d+);/g, (_full, code) => String.fromCodePoint(Number(code)))
-    .replace(/&#x([0-9a-f]+);/gi, (_full, code) => String.fromCodePoint(Number.parseInt(code, 16)))
+    .replace(/&#x([0-9a-f]+);/gi, (_full, code) =>
+      String.fromCodePoint(Number.parseInt(code, 16)),
+    )
     .replace(/&nbsp;/gi, " ")
     .replace(/&amp;/gi, "&")
     .replace(/&quot;/gi, '"')
@@ -175,12 +186,34 @@ async function discover({ date, pageUrl }) {
 
   const html = await response.text();
   const entries = extractEntries(html, pageUrl);
-  const filtered = date ? entries.filter((entry) => entry.date === date) : entries;
+  const filtered = date
+    ? entries.filter((entry) => entry.date === date)
+    : entries;
   if (filtered.length === 0) {
-    throw new Error(date ? `No SharePoint source found for date ${date}` : "No SharePoint source found");
+    throw new Error(
+      date
+        ? `No SharePoint source found for date ${date}`
+        : "No SharePoint source found",
+    );
   }
 
-  return filtered.reduce((latest, candidate) => (candidate.date > latest.date ? candidate : latest));
+  // Prefer :x:/s/ (shareable) URLs over :x:/r/ (requires auth) when dates are equal
+  return filtered.reduce((latest, candidate) => {
+    if (candidate.date > latest.date) {
+      return candidate;
+    }
+    if (candidate.date === latest.date) {
+      const candidateIsShareable = candidate.href.includes(":x:/s/");
+      const latestIsShareable = latest.href.includes(":x:/s/");
+      if (candidateIsShareable && !latestIsShareable) {
+        return candidate;
+      }
+      if (!candidateIsShareable && latestIsShareable) {
+        return latest;
+      }
+    }
+    return latest;
+  });
 }
 
 function toStdout(entry, format) {
@@ -195,7 +228,11 @@ async function main() {
   const selected = await discover(options);
 
   if (options.outputPath) {
-    await fs.writeFile(options.outputPath, `${JSON.stringify(selected, null, 2)}\n`, "utf8");
+    await fs.writeFile(
+      options.outputPath,
+      `${JSON.stringify(selected, null, 2)}\n`,
+      "utf8",
+    );
   }
 
   process.stdout.write(toStdout(selected, options.format));
