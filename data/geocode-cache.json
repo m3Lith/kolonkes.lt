@@ -5276,5 +5276,89 @@
     "displayName": "Sedos g. 16, 89233 Mažeikiai, Lietuva",
     "updatedAt": "2026-05-04T14:51:08.076Z",
     "query": "Tripletas, Sedos g. 16, Mažeikiai, Lietuva"
+  },
+  "basanaviciaus g. 91e, kedainiai": {
+    "lat": 55.2778715,
+    "lon": 23.9592758,
+    "displayName": "J. Basanavičiaus g. 91E, Kėdainiai, 57356 Kėdainių r. sav., Lietuva",
+    "updatedAt": "2026-05-08T11:51:10.847Z",
+    "query": "Dujovita, Basanavičiaus g. 91E, Kėdainiai, Lietuva"
+  },
+  "senkelio g. 13, trakai": {
+    "lat": 54.63064259999999,
+    "lon": 24.9221628,
+    "displayName": "Senkelio g. 13, Trakai, 21107 Trakų r. sav., Lietuva",
+    "updatedAt": "2026-05-08T11:51:11.321Z",
+    "query": "Kriketas, Senkelio g. 13, Trakai, Lietuva"
+  },
+  "linkuvos g. 77, kaunas": {
+    "lat": 54.9142301,
+    "lon": 23.8877759,
+    "displayName": "Linkuvos g. 77, Kaunas, 48314 Kauno m. sav., Lietuva",
+    "updatedAt": "2026-05-08T11:51:11.779Z",
+    "query": "Tormenta, Linkuvos g. 77, Kaunas, Lietuva"
+  },
+  "telsiu g. 66, lt-88238, luoke": {
+    "lat": 55.9013404,
+    "lon": 22.5063119,
+    "displayName": "Telšių gatvė 66, 88236 Luokė, Lietuva",
+    "updatedAt": "2026-05-08T11:51:12.260Z",
+    "query": "Leosta, Telšių g. 66, LT-88238, Luokė, Lietuva"
+  },
+  "kedainiu g. 44 singaliu k.": {
+    "lat": 55.7502466,
+    "lon": 23.7606923,
+    "displayName": "Kėdainių g. 44, Šeduva, 82230 Radviliškio r. sav., Lietuva",
+    "updatedAt": "2026-05-08T11:51:12.705Z",
+    "query": "M.Augustinaičio IĮ, Kėdainių g. 44 Šingalių k., Lietuva"
+  },
+  "baznycios 7., pavilnucio k.": {
+    "lat": 55.169438,
+    "lon": 23.881275,
+    "displayName": "Lietuva",
+    "updatedAt": "2026-05-08T11:51:13.169Z",
+    "query": "V.Marcinkevičiaus IĮ, Bažnyčios 7., Pavilnučio k., Lietuva"
+  },
+  "misko g.6, kena": {
+    "lat": 54.6459779,
+    "lon": 25.6250893,
+    "displayName": "Miško g. 6, 13146 Kena, Lietuva",
+    "updatedAt": "2026-05-08T11:51:13.613Z",
+    "query": "Kenaoil, Miško g.6, Kena, Lietuva"
+  },
+  "islandijos pl. 191d, kaunas": {
+    "lat": 54.931596,
+    "lon": 23.9513408,
+    "displayName": "Islandijos pl. 191D, 49170 Kaunas, Lietuva",
+    "updatedAt": "2026-05-08T11:51:14.085Z",
+    "query": "Dujovita, Islandijos pl. 191D, Kaunas, Lietuva"
+  },
+  "miskininku g. 14, pelednagiai": {
+    "lat": 55.2524683,
+    "lon": 23.9679968,
+    "displayName": "Miškininkų g. 14, 58163 Pelėdnagiai, Lietuva",
+    "updatedAt": "2026-05-08T11:51:14.547Z",
+    "query": "S.Rimkevičiaus komercinė įmonė, Miškininkų g. 14, Pelėdnagiai, Lietuva"
+  },
+  "kretingos 51, kartena": {
+    "lat": 55.9158628,
+    "lon": 21.4881651,
+    "displayName": "Alanto g. 13, 97341 Kartena, Lietuva",
+    "updatedAt": "2026-05-08T11:51:15.000Z",
+    "query": "I.Stonkuvienės prekybos įmonė, Kretingos 51, Kartena, Lietuva"
+  },
+  "ramygalos g 55, seta": {
+    "lat": 55.708439,
+    "lon": 24.3752447,
+    "displayName": "Ramygalos g., Lietuva",
+    "updatedAt": "2026-05-08T11:51:15.436Z",
+    "query": "Mindega, Ramygalos g 55, Šėta, Lietuva"
+  },
+  "turgaus g. 3, joniskis": {
+    "lat": 56.2289519,
+    "lon": 23.6101329,
+    "displayName": "Turgaus g. 3, 84174 Joniškis, Lietuva",
+    "updatedAt": "2026-05-08T11:51:15.789Z",
+    "query": "S.Rimkevičiaus komercinė įmonė, Turgaus g. 3, Joniškis, Lietuva"
   }
 }

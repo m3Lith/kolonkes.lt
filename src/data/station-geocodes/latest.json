@@ -855,6 +855,15 @@
     "status": "resolved"
   },
   {
+    "station_id": "223c7b5823ab8600",
+    "lat": 55.2778715,
+    "lon": 23.9592758,
+    "display_name": "J. Basanavičiaus g. 91E, Kėdainiai, 57356 Kėdainių r. sav., Lietuva",
+    "query": "Dujovita, Basanavičiaus g. 91E, Kėdainiai, Lietuva",
+    "geocode_updated_at": "2026-05-08T11:51:10.847Z",
+    "status": "resolved"
+  },
+  {
     "station_id": "2321e6f479660016",
     "lat": 54.6285926,
     "lon": 23.9585095,
@@ -1575,6 +1584,15 @@
     "status": "resolved"
   },
   {
+    "station_id": "3b722995c95ee01d",
+    "lat": 54.63064259999999,
+    "lon": 24.9221628,
+    "display_name": "Senkelio g. 13, Trakai, 21107 Trakų r. sav., Lietuva",
+    "query": "Kriketas, Senkelio g. 13, Trakai, Lietuva",
+    "geocode_updated_at": "2026-05-08T11:51:11.321Z",
+    "status": "resolved"
+  },
+  {
     "station_id": "3b765a1ee64a6b58",
     "lat": 54.7015391,
     "lon": 25.2637273,
@@ -2124,6 +2142,15 @@
     "status": "resolved"
   },
   {
+    "station_id": "4dd4d33fa2d9519d",
+    "lat": 54.9142301,
+    "lon": 23.8877759,
+    "display_name": "Linkuvos g. 77, Kaunas, 48314 Kauno m. sav., Lietuva",
+    "query": "Tormenta, Linkuvos g. 77, Kaunas, Lietuva",
+    "geocode_updated_at": "2026-05-08T11:51:11.779Z",
+    "status": "resolved"
+  },
+  {
     "station_id": "4dd8995bc099694b",
     "lat": 56.2838621,
     "lon": 21.8330632,
@@ -2346,6 +2373,15 @@
     "display_name": "Plento g. 2, 76322 Toliočiai, Lietuva",
     "query": "Jozita, Plento g. 2B, Toliočiai, Lietuva",
     "geocode_updated_at": "2026-04-10T18:08:43.810Z",
+    "status": "resolved"
+  },
+  {
+    "station_id": "55d960479ec1c546",
+    "lat": 55.9013404,
+    "lon": 22.5063119,
+    "display_name": "Telšių gatvė 66, 88236 Luokė, Lietuva",
+    "query": "Leosta, Telšių g. 66, LT-88238, Luokė, Lietuva",
+    "geocode_updated_at": "2026-05-08T11:51:12.260Z",
     "status": "resolved"
   },
   {
@@ -3015,6 +3051,15 @@
     "status": "resolved"
   },
   {
+    "station_id": "70379989f7273275",
+    "lat": 55.7502466,
+    "lon": 23.7606923,
+    "display_name": "Kėdainių g. 44, Šeduva, 82230 Radviliškio r. sav., Lietuva",
+    "query": "M.Augustinaičio IĮ, Kėdainių g. 44 Šingalių k., Lietuva",
+    "geocode_updated_at": "2026-05-08T11:51:12.705Z",
+    "status": "resolved"
+  },
+  {
     "station_id": "7085270b92e7750d",
     "lat": 55.97666899999999,
     "lon": 25.824976,
@@ -3561,6 +3606,15 @@
     "display_name": "Klaipėdos g. 155, 97156 Kretinga, Lietuva",
     "query": "Circle K, Klaipėdos g. 155, Kretinga, Lietuva",
     "geocode_updated_at": "2026-04-10T18:09:33.656Z",
+    "status": "resolved"
+  },
+  {
+    "station_id": "82beeef1ef35336a",
+    "lat": 55.169438,
+    "lon": 23.881275,
+    "display_name": "Lietuva",
+    "query": "V.Marcinkevičiaus IĮ, Bažnyčios 7., Pavilnučio k., Lietuva",
+    "geocode_updated_at": "2026-05-08T11:51:13.169Z",
     "status": "resolved"
   },
   {
@@ -4122,6 +4176,15 @@
     "status": "resolved"
   },
   {
+    "station_id": "96a5351e1bcf0427",
+    "lat": 54.6459779,
+    "lon": 25.6250893,
+    "display_name": "Miško g. 6, 13146 Kena, Lietuva",
+    "query": "Kenaoil, Miško g.6, Kena, Lietuva",
+    "geocode_updated_at": "2026-05-08T11:51:13.613Z",
+    "status": "resolved"
+  },
+  {
     "station_id": "96aa3867625fbe34",
     "lat": 56.2591483,
     "lon": 21.5302467,
@@ -4398,6 +4461,15 @@
     "display_name": "Chemijos g. 6, 51344 Kaunas, Lietuva",
     "query": "Baltic Petroleum, Chemijos g. 6, Kaunas, Lietuva",
     "geocode_updated_at": "2026-04-10T18:10:07.033Z",
+    "status": "resolved"
+  },
+  {
+    "station_id": "9f4058ea84eb73a8",
+    "lat": 54.931596,
+    "lon": 23.9513408,
+    "display_name": "Islandijos pl. 191D, 49170 Kaunas, Lietuva",
+    "query": "Dujovita, Islandijos pl. 191D, Kaunas, Lietuva",
+    "geocode_updated_at": "2026-05-08T11:51:14.085Z",
     "status": "resolved"
   },
   {
@@ -5166,6 +5238,15 @@
     "status": "resolved"
   },
   {
+    "station_id": "bde0714d35d8d48f",
+    "lat": 55.2524683,
+    "lon": 23.9679968,
+    "display_name": "Miškininkų g. 14, 58163 Pelėdnagiai, Lietuva",
+    "query": "S.Rimkevičiaus komercinė įmonė, Miškininkų g. 14, Pelėdnagiai, Lietuva",
+    "geocode_updated_at": "2026-05-08T11:51:14.547Z",
+    "status": "resolved"
+  },
+  {
     "station_id": "bdf3b266849b2d7b",
     "lat": 56.2447779,
     "lon": 23.5531795,
@@ -5436,6 +5517,15 @@
     "status": "resolved"
   },
   {
+    "station_id": "c756dc4fbeb5a4b6",
+    "lat": 55.9158628,
+    "lon": 21.4881651,
+    "display_name": "Alanto g. 13, 97341 Kartena, Lietuva",
+    "query": "I.Stonkuvienės prekybos įmonė, Kretingos 51, Kartena, Lietuva",
+    "geocode_updated_at": "2026-05-08T11:51:15.000Z",
+    "status": "resolved"
+  },
+  {
     "station_id": "c776b032985306a5",
     "lat": 54.69529499999999,
     "lon": 25.2186363,
@@ -5571,6 +5661,15 @@
     "status": "resolved"
   },
   {
+    "station_id": "cd5577a6d79df35b",
+    "lat": 55.708439,
+    "lon": 24.3752447,
+    "display_name": "Ramygalos g., Lietuva",
+    "query": "Mindega, Ramygalos g 55, Šėta, Lietuva",
+    "geocode_updated_at": "2026-05-08T11:51:15.436Z",
+    "status": "resolved"
+  },
+  {
     "station_id": "cd6da7fb3bf8319a",
     "lat": 54.6387295,
     "lon": 22.7633321,
@@ -5586,6 +5685,15 @@
     "display_name": "Lietuva",
     "query": "Viada, Kerelių k. 1A, Lietuva",
     "geocode_updated_at": "2026-04-10T18:10:55.561Z",
+    "status": "resolved"
+  },
+  {
+    "station_id": "ce79c6aea8d2f2e1",
+    "lat": 56.2289519,
+    "lon": 23.6101329,
+    "display_name": "Turgaus g. 3, 84174 Joniškis, Lietuva",
+    "query": "S.Rimkevičiaus komercinė įmonė, Turgaus g. 3, Joniškis, Lietuva",
+    "geocode_updated_at": "2026-05-08T11:51:15.789Z",
     "status": "resolved"
   },
   {
@@ -6018,6 +6126,15 @@
     "display_name": "Šiaurės g. 1, Šilutė, 99116 Šilutės r. sav., Lietuva",
     "query": "Jozita, Šiaurės g. 1, Šilutė, Lietuva",
     "geocode_updated_at": "2026-04-10T18:11:13.041Z",
+    "status": "resolved"
+  },
+  {
+    "station_id": "e181180cf0c2a05f",
+    "lat": 54.91333220000001,
+    "lon": 23.9116887,
+    "display_name": "Jonavos g. 110, 44137 Kaunas, Lietuva",
+    "query": "Neste Lietuva, Jonavos g. 110, Kaunas, Lietuva",
+    "geocode_updated_at": "2026-04-10T18:11:05.282Z",
     "status": "resolved"
   },
   {
