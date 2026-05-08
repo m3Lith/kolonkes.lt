@@ -21,6 +21,7 @@ describe("normalize helpers", () => {
 
   it("converts price and Neprekiauja", () => {
     expect(normalizePrice("1.819")).toBe(1.819);
+    expect(normalizePrice("0. 959")).toBe(0.959);
     expect(normalizePrice("Neprekiauja")).toBeNull();
     expect(normalizePrice("nepateikė")).toBeNull();
   });
@@ -41,7 +42,9 @@ describe("normalize helpers", () => {
   });
 
   it("removes trailing spaces and commas from address values", () => {
-    expect(normalizeAddressTownLast(" Vilniaus g. 1,   ")).toBe("Vilniaus g. 1");
+    expect(normalizeAddressTownLast(" Vilniaus g. 1,   ")).toBe(
+      "Vilniaus g. 1",
+    );
     expect(normalizeAddressTownLast("Kauno g. 12,,")).toBe("Kauno g. 12");
     expect(normalizeAddressTownLast("Klaipeda")).toBe("Klaipeda");
   });

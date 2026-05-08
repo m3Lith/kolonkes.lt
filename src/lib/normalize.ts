@@ -11,7 +11,10 @@ const FUEL_ALIASES: Record<string, FuelType> = {
 };
 
 export function normalizeWhitespace(input: string): string {
-  return input.replace(/\u00a0/g, " ").replace(/\s+/g, " ").trim();
+  return input
+    .replace(/\u00a0/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
 }
 
 function normalizeAddressValue(input: string): string {
@@ -79,7 +82,7 @@ export function normalizePrice(value: string | number): number | null {
   if (!clean || normalized === "neprekiauja" || normalized === "nepateike") {
     return null;
   }
-  const parsed = Number(clean.replace(",", "."));
+  const parsed = Number(clean.replace(",", ".").replace(/\s+/g, ""));
   if (!Number.isFinite(parsed)) {
     throw new Error(`Invalid price value: ${value}`);
   }
