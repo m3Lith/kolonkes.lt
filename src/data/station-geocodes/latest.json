@@ -1647,6 +1647,15 @@
     "status": "resolved"
   },
   {
+    "station_id": "3d1fcaaf22cde37c",
+    "lat": 54.7816771,
+    "lon": 24.110463,
+    "display_name": "Pamiškės g. 1, 53182 Piliuona, Lietuva",
+    "query": "Osijos dujos, Pamiškės g. 1, Osijos k., Lietuva",
+    "geocode_updated_at": "2026-05-11T09:26:42.141Z",
+    "status": "resolved"
+  },
+  {
     "station_id": "3d8337369b3de5f6",
     "lat": 54.9120819,
     "lon": 23.972648,

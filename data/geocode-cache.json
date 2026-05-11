@@ -5360,5 +5360,12 @@
     "displayName": "Turgaus g. 3, 84174 Joniškis, Lietuva",
     "updatedAt": "2026-05-08T11:51:15.789Z",
     "query": "S.Rimkevičiaus komercinė įmonė, Turgaus g. 3, Joniškis, Lietuva"
+  },
+  "pamiskes g. 1, osijos k.": {
+    "lat": 54.7816771,
+    "lon": 24.110463,
+    "displayName": "Pamiškės g. 1, 53182 Piliuona, Lietuva",
+    "updatedAt": "2026-05-11T09:26:42.141Z",
+    "query": "Osijos dujos, Pamiškės g. 1, Osijos k., Lietuva"
   }
 }
