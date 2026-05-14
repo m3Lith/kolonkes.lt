@@ -1413,6 +1413,15 @@
     "status": "resolved"
   },
   {
+    "station_id": "36529dabe00c2a21",
+    "lat": 55.169438,
+    "lon": 23.881275,
+    "display_name": "Lietuva",
+    "query": "V.Marcinkevičiaus IĮ, Bažnyčios 7., Pavilnučio k., Lietuva",
+    "geocode_updated_at": "2026-05-08T11:51:13.169Z",
+    "status": "resolved"
+  },
+  {
     "station_id": "36a825a4bd6a7f06",
     "lat": 54.894036,
     "lon": 24.00687,
