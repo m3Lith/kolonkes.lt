@@ -78,13 +78,12 @@ export function normalizePrice(value: string | number): number | null {
     return Number.isFinite(value) ? Number(value.toFixed(3)) : null;
   }
   const clean = normalizeWhitespace(String(value));
-  const normalized = normalizeText(clean).toLowerCase();
-  if (!clean || normalized === "neprekiauja" || normalized === "nepateike") {
+  if (!clean) {
     return null;
   }
   const parsed = Number(clean.replace(",", ".").replace(/\s+/g, ""));
   if (!Number.isFinite(parsed)) {
-    throw new Error(`Invalid price value: ${value}`);
+    return null;
   }
   return Number(parsed.toFixed(3));
 }
