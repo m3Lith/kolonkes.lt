@@ -3969,6 +3969,15 @@
     "status": "resolved"
   },
   {
+    "station_id": "8cfa756e631dbba6",
+    "lat": 55.3587178,
+    "lon": 21.5031205,
+    "display_name": "Ramučių g. 43, 99150 Šilutė, Lietuva",
+    "query": "Andopas, Ramučių g.43, Barzdūnų k., Lietuva",
+    "geocode_updated_at": "2026-05-27T08:19:15.796Z",
+    "status": "resolved"
+  },
+  {
     "station_id": "8ed79c490f8403cf",
     "lat": 55.52251219999999,
     "lon": 25.089646,
@@ -4137,6 +4146,15 @@
     "display_name": "54469 Biruliškės, Lietuva",
     "query": "Orlen, Biruliškių k., Lietuva",
     "geocode_updated_at": "2026-04-10T18:09:53.408Z",
+    "status": "resolved"
+  },
+  {
+    "station_id": "93fa17abd668639b",
+    "lat": 55.9467867,
+    "lon": 23.3233701,
+    "display_name": "Žemaitės g. 96e, 76196 Šiauliai, Lietuva",
+    "query": "Nostrada (RV Transport), Kazlavo k., Lietuva",
+    "geocode_updated_at": "2026-05-27T08:19:16.262Z",
     "status": "resolved"
   },
   {

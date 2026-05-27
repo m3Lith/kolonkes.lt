@@ -5367,5 +5367,19 @@
     "displayName": "Pamiškės g. 1, 53182 Piliuona, Lietuva",
     "updatedAt": "2026-05-11T09:26:42.141Z",
     "query": "Osijos dujos, Pamiškės g. 1, Osijos k., Lietuva"
+  },
+  "ramuciu g.43, barzdunu k.": {
+    "lat": 55.3587178,
+    "lon": 21.5031205,
+    "displayName": "Ramučių g. 43, 99150 Šilutė, Lietuva",
+    "updatedAt": "2026-05-27T08:19:15.796Z",
+    "query": "Andopas, Ramučių g.43, Barzdūnų k., Lietuva"
+  },
+  "kazlavo k.": {
+    "lat": 55.9467867,
+    "lon": 23.3233701,
+    "displayName": "Žemaitės g. 96e, 76196 Šiauliai, Lietuva",
+    "updatedAt": "2026-05-27T08:19:16.262Z",
+    "query": "Nostrada (RV Transport), Kazlavo k., Lietuva"
   }
 }
