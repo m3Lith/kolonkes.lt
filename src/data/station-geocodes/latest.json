@@ -729,6 +729,15 @@
     "status": "resolved"
   },
   {
+    "station_id": "1bf5d6f5fbf3a288",
+    "lat": 55.731979,
+    "lon": 22.147668,
+    "display_name": "Tverai, Rietavo sav., Lietuva",
+    "query": "Gazimpeksas, Rietavo g. 32, Tverai, Lietuva",
+    "geocode_updated_at": "2026-04-10T18:09:44.037Z",
+    "status": "resolved"
+  },
+  {
     "station_id": "1cbdef748050c74d",
     "lat": 54.6691455,
     "lon": 25.1047435,
