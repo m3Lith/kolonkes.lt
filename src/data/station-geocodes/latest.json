@@ -6390,6 +6390,15 @@
     "status": "resolved"
   },
   {
+    "station_id": "e73c6f12a8b05720",
+    "lat": 54.32234800000001,
+    "lon": 23.1452134,
+    "display_name": "Europos g. 12, Salaperaugis, 69270 Kalvarijos sav., Lietuva",
+    "query": "Baltic Petroleum, Europos g. 12, Pasiekų k., Lietuva",
+    "geocode_updated_at": "2026-06-09T08:13:19.319Z",
+    "status": "resolved"
+  },
+  {
     "station_id": "e778ed8fdb341bd8",
     "lat": 55.5415534,
     "lon": 24.1078355,

@@ -5381,5 +5381,12 @@
     "displayName": "Žemaitės g. 96e, 76196 Šiauliai, Lietuva",
     "updatedAt": "2026-05-27T08:19:16.262Z",
     "query": "Nostrada (RV Transport), Kazlavo k., Lietuva"
+  },
+  "europos g. 12, pasieku k.": {
+    "lat": 54.32234800000001,
+    "lon": 23.1452134,
+    "displayName": "Europos g. 12, Salaperaugis, 69270 Kalvarijos sav., Lietuva",
+    "updatedAt": "2026-06-09T08:13:19.319Z",
+    "query": "Baltic Petroleum, Europos g. 12, Pasiekų k., Lietuva"
   }
 }
