@@ -5388,5 +5388,488 @@
     "displayName": "Europos g. 12, Salaperaugis, 69270 Kalvarijos sav., Lietuva",
     "updatedAt": "2026-06-09T08:13:19.319Z",
     "query": "Baltic Petroleum, Europos g. 12, Pasiekų k., Lietuva"
+  },
+  "domeikava muitines g. 2, 54359": {
+    "lat": 54.9564873,
+    "lon": 23.9047242,
+    "displayName": "Muitinės g. 2, 54359 Domeikava, Lietuva",
+    "updatedAt": "2026-06-10T09:47:03.164Z",
+    "query": "Saurida, Domeikava Muitinės g. 2, 54359, Lietuva"
+  },
+  "kursuku k., plento g. 1, 86120": {
+    "lat": 54.8560023,
+    "lon": 23.9462992,
+    "displayName": "Plento g. 1-k, 45398 Kaunas, Lietuva",
+    "updatedAt": "2026-06-10T09:47:03.564Z",
+    "query": "Boost Petrol, Kuršukų k., Plento g. 1, 86120, Lietuva"
+  },
+  "pasakarniu km. pasakarniu g. 1, 85271": {
+    "lat": 56.2980762,
+    "lon": 22.8851585,
+    "displayName": "Pašakarnių g. 1, 85271 Pašakarniai, Lietuva",
+    "updatedAt": "2026-06-10T09:47:03.946Z",
+    "query": "Saurida, Pašakarnių km. Pašakarnių g. 1, 85271, Lietuva"
+  },
+  "alytaus g. 59, krosnos k., 67443": {
+    "lat": 54.378997,
+    "lon": 23.528544,
+    "displayName": "Alytaus g 59, Krosna, 67443 Lazdijų r. sav., Lietuva",
+    "updatedAt": "2026-06-10T09:47:04.325Z",
+    "query": "Eniris, Alytaus g. 59, Krosnos k., 67443, Lietuva"
+  },
+  "radviliskis gedimino g. 50c, 82482": {
+    "lat": 55.8146338,
+    "lon": 23.5531175,
+    "displayName": "Gedimino g. 50c, 82168 Radviliškis, Lietuva",
+    "updatedAt": "2026-06-10T09:47:04.703Z",
+    "query": "Saurida, Radviliškis Gedimino g. 50C, 82482, Lietuva"
+  },
+  "lekeciu km. sakiu g. 3, 71227": {
+    "lat": 54.9770264,
+    "lon": 23.4837331,
+    "displayName": "Šakių str. 3, Lekėčiai village, 71229 Lekėčiai, Lietuva",
+    "updatedAt": "2026-06-10T09:47:05.091Z",
+    "query": "Saurida, Lėkėčių km. Šakių g. 3, 71227, Lietuva"
+  },
+  "kretinga, tiekeju g. 34a, 97187": {
+    "lat": 55.8844039,
+    "lon": 21.2217619,
+    "displayName": "Tiekėjų g. 34A, 97187 Kretinga, Lietuva",
+    "updatedAt": "2026-06-10T09:47:05.455Z",
+    "query": "Eniris, Kretinga, Tiekėjų g. 34a, 97187, Lietuva"
+  },
+  "uzventis, zemaites g. 52, 86343": {
+    "lat": 55.7862294,
+    "lon": 22.6710268,
+    "displayName": "Žemaitės g. 52, Užventis, 86343 Kelmės r. sav., Lietuva",
+    "updatedAt": "2026-06-10T09:47:05.840Z",
+    "query": "Eniris, Užventis, Žemaitės g. 52, 86343, Lietuva"
+  },
+  "j.kazlausko g. 33, vilnius": {
+    "lat": 54.7224395,
+    "lon": 25.2710137,
+    "displayName": "J. Kazlausko g. 33, 08314 Vilnius, Lietuva",
+    "updatedAt": "2026-06-10T09:47:06.219Z",
+    "query": "Skulas, J.Kazlausko g. 33, Vilnius, Lietuva"
+  },
+  "kaunas, marveles g. 132, 46230": {
+    "lat": 54.9038912,
+    "lon": 23.8353794,
+    "displayName": "Marvelės g. 132, 46206 Kaunas, Lietuva",
+    "updatedAt": "2026-06-10T09:47:06.610Z",
+    "query": "Boost Petrol, Kaunas, Marvelės g. 132, 46230, Lietuva"
+  },
+  "smelinkos vs. 1, 33171": {
+    "lat": 55.2156204,
+    "lon": 25.2706728,
+    "displayName": "Smėlinkos g., Videniškiai, 33294 Molėtų r. sav., Lietuva",
+    "updatedAt": "2026-06-10T09:47:06.966Z",
+    "query": "Boost Petrol, Smėlinkos vs. 1, 33171, Lietuva"
+  },
+  "rumsiskes lekaviciaus g. 71, 56337": {
+    "lat": 54.87186999999999,
+    "lon": 24.2131618,
+    "displayName": "L. Lekavičiaus g. 71, 56337 Rumšiškės, Lietuva",
+    "updatedAt": "2026-06-10T09:47:07.321Z",
+    "query": "Saurida, Rumšiškės Lekavičiaus g. 71, 56337, Lietuva"
+  },
+  "rainiu k., telsiu g. 2b, 88401": {
+    "lat": 55.9565533,
+    "lon": 22.3011534,
+    "displayName": "Telšių gatvė 2 b, Rainiai, 88401 Telšių r. sav., Lietuva",
+    "updatedAt": "2026-06-10T09:47:07.697Z",
+    "query": "Eniris, Rainių k., Telšių g. 2B, 88401, Lietuva"
+  },
+  "siauliai vilniaus g. 373a, 76326": {
+    "lat": 55.94300819999999,
+    "lon": 23.2813604,
+    "displayName": "Vilniaus g. 373A, 76326 Šiauliai, Lietuva",
+    "updatedAt": "2026-06-10T09:47:08.060Z",
+    "query": "Saurida, Šiauliai Vilniaus g. 373A, 76326, Lietuva"
+  },
+  "venta, plento g. 2, 85302": {
+    "lat": 56.1981153,
+    "lon": 22.6731182,
+    "displayName": "Plento gatvė 2a, Venta, 85302 Akmenės r. sav., Lietuva",
+    "updatedAt": "2026-06-10T09:47:08.415Z",
+    "query": "Eniris, Venta, Plento g. 2, 85302, Lietuva"
+  },
+  "zemaiciu naumiestis, klaipedos g. 76, 99206": {
+    "lat": 55.3558095,
+    "lon": 21.6839133,
+    "displayName": "Klaipėdos g. 76, 99206 Žemaičių Naumiestis, Lietuva",
+    "updatedAt": "2026-06-10T09:47:08.795Z",
+    "query": "Eniris, Žemaičių Naumiestis, Klaipėdos g. 76, 99206, Lietuva"
+  },
+  "skaudvile, adakavo g. 1, 73435": {
+    "lat": 55.4015763,
+    "lon": 22.5977563,
+    "displayName": "Adakavo g. 1, Skaudvilė, 73435 Tauragės r. sav., Lietuva",
+    "updatedAt": "2026-06-10T09:47:09.142Z",
+    "query": "Eniris, Skaudvilė, Adakavo g. 1, 73435, Lietuva"
+  },
+  "skuodas vytauto g. 20, 98123": {
+    "lat": 56.2607611,
+    "lon": 21.5300815,
+    "displayName": "Vytauto g. 20, 98123 Skuodas, Lietuva",
+    "updatedAt": "2026-06-10T09:47:09.558Z",
+    "query": "Saurida, Skuodas Vytauto g. 20, 98123, Lietuva"
+  },
+  "azuolpamusio g. 1a, raubonys": {
+    "lat": 56.1188178,
+    "lon": 24.477741,
+    "displayName": "Ąžuolpamūšio g. 1, Raubonys, 39447 Pasvalio r. sav., Lietuva",
+    "updatedAt": "2026-06-10T09:47:09.929Z",
+    "query": "Neste Lietuva, Ąžuolpamūšio g. 1A, Raubonys, Lietuva"
+  },
+  "rimsu k., taurages g. 29, 74280": {
+    "lat": 55.2618709,
+    "lon": 22.691807,
+    "displayName": "Tauragės g. 29-k, Rimšai, 74280 Jurbarko r. sav., Lietuva",
+    "updatedAt": "2026-06-10T09:47:10.329Z",
+    "query": "Eniris, Rimšų k., Tauragės g. 29, 74280, Lietuva"
+  },
+  "laiviu k., plateliu g. 1a, 97317": {
+    "lat": 56.0620936,
+    "lon": 21.5771035,
+    "displayName": "Laivių g., Kretingos r. sav., Lietuva",
+    "updatedAt": "2026-06-10T09:47:10.676Z",
+    "query": "Eniris, Laivių k., Platelių g. 1a, 97317, Lietuva"
+  },
+  "skabeikiu k. 4, 85233": {
+    "lat": 56.1572733,
+    "lon": 22.8176433,
+    "displayName": "85233, Lietuva",
+    "updatedAt": "2026-06-10T09:47:11.025Z",
+    "query": "Eniris, Skabeikių k. 4, 85233, Lietuva"
+  },
+  "ruosciu k. 1, 57109": {
+    "lat": 55.33058579999999,
+    "lon": 23.8939659,
+    "displayName": "57109, Lietuva",
+    "updatedAt": "2026-06-10T09:47:11.368Z",
+    "query": "Eniris, Ruoščių k. 1, 57109, Lietuva"
+  },
+  "velziu km .radviliskio plentas 2, 82218": {
+    "lat": 55.7731907,
+    "lon": 23.6561159,
+    "displayName": "Radviliškio pl. 2, Velžiai, 82218 Radviliškio r. sav., Lietuva",
+    "updatedAt": "2026-06-10T09:47:11.726Z",
+    "query": "Saurida, Velžių km .Radviliškio plentas 2, 82218, Lietuva"
+  },
+  "69232, kreivukes km.": {
+    "lat": 54.3924736,
+    "lon": 23.1971685,
+    "displayName": "69232, Lietuva",
+    "updatedAt": "2026-06-10T09:47:12.078Z",
+    "query": "Saurida, 69232, Kreivukės km., Lietuva"
+  },
+  "67168, panarves km.": {
+    "lat": 54.2396822,
+    "lon": 23.5443851,
+    "displayName": "Panarvės g., Panarvė, 67168 Lazdijų r. sav., Lietuva",
+    "updatedAt": "2026-06-10T09:47:12.482Z",
+    "query": "Saurida, 67168, Panarvės km., Lietuva"
+  },
+  "babtai vandziogalos g. 3, 54328": {
+    "lat": 55.0973716,
+    "lon": 23.806765,
+    "displayName": "Vandžiogalos g., 54327 Babtai, Lietuva",
+    "updatedAt": "2026-06-10T09:47:12.835Z",
+    "query": "Saurida, Babtai Vandžiogalos g. 3, 54328, Lietuva"
+  },
+  "ukmerge vilniaus g. 122, 20167": {
+    "lat": 55.23346489999999,
+    "lon": 24.7812144,
+    "displayName": "Vilniaus g. 122, 20167 Ukmergė, Lietuva",
+    "updatedAt": "2026-06-10T09:47:13.192Z",
+    "query": "Saurida, Ukmergė Vilniaus g. 122, 20167, Lietuva"
+  },
+  "14207, cekoniskiu km": {
+    "lat": 54.7373656,
+    "lon": 25.0799612,
+    "displayName": "A. Mickevičiaus g. 179, 14207 Čekoniškės, Lietuva",
+    "updatedAt": "2026-06-10T09:47:13.543Z",
+    "query": "Saurida, 14207, Čekoniškių km, Lietuva"
+  },
+  "kusliskiu km. suvalkijos g. 15, 69200": {
+    "lat": 54.4361589,
+    "lon": 23.205025,
+    "displayName": "Suvalkijos g 15, Kušliškiai, 69200 Kalvarijos sav., Lietuva",
+    "updatedAt": "2026-06-10T09:47:13.906Z",
+    "query": "Saurida, Kušliškių km. Suvalkijos g. 15, 69200, Lietuva"
+  },
+  "tryskiai, berzu g. 24/drasiuju g. 7, 88155": {
+    "lat": 56.06205130000001,
+    "lon": 22.5824349,
+    "displayName": "Beržų g. 24, Tryškiai, 88155 Telšių r. sav., Lietuva",
+    "updatedAt": "2026-06-10T09:47:14.272Z",
+    "query": "Eniris, Tryškiai, Beržų g. 24/Drąsiujų g. 7, 88155, Lietuva"
+  },
+  "20278, pageleziu km.": {
+    "lat": 55.1650783,
+    "lon": 24.5153114,
+    "displayName": "Pageležių k, 20278 Pageležiai, Lietuva",
+    "updatedAt": "2026-06-10T09:47:14.819Z",
+    "query": "Saurida, 20278, Pageležių km., Lietuva"
+  },
+  "stripiniu k., skuodo g. 7, 98347": {
+    "lat": 56.2838621,
+    "lon": 21.8330632,
+    "displayName": "Skuodo g. 7, Stripiniai, 98347 Skuodo r. sav., Lietuva",
+    "updatedAt": "2026-06-10T09:47:15.174Z",
+    "query": "Eniris, Stripinių k., Skuodo g. 7, 98347, Lietuva"
+  },
+  "kelme, putvinskio g. 29, 86113": {
+    "lat": 55.639903,
+    "lon": 22.9261834,
+    "displayName": "86113 Kelmė, Lietuva",
+    "updatedAt": "2026-06-10T09:47:15.521Z",
+    "query": "Eniris, Kelmė, Putvinskio g. 29, 86113, Lietuva"
+  },
+  "silale rytinio kelio g. 19, 75133": {
+    "lat": 55.4918774,
+    "lon": 22.1992506,
+    "displayName": "Rytinio kelio g. 19, 75133 Šilalė, Lietuva",
+    "updatedAt": "2026-06-10T09:47:15.884Z",
+    "query": "Saurida, Šilalė Rytinio kelio g. 19, 75133, Lietuva"
+  },
+  "siauliai pramones g. 7c, 78140": {
+    "lat": 55.91639,
+    "lon": 23.3017751,
+    "displayName": "Pramonės g. 7C, 78138 Šiauliai, Lietuva",
+    "updatedAt": "2026-06-10T09:47:16.234Z",
+    "query": "Saurida, Šiauliai Pramonės g. 7C, 78140, Lietuva"
+  },
+  "pagegiai, klaipedos g. 6b, 99290": {
+    "lat": 55.14044209999999,
+    "lon": 21.9031486,
+    "displayName": "Klaipėdos g. 6B, Pagėgiai, 99290 Pagėgių sav., Lietuva",
+    "updatedAt": "2026-06-10T09:47:16.586Z",
+    "query": "Eniris, Pagėgiai, Klaipėdos g. 6b, 99290, Lietuva"
+  },
+  "kalnuotes 1 k, 15130": {
+    "lat": 54.9174286,
+    "lon": 25.3374576,
+    "displayName": "15130, Lietuva",
+    "updatedAt": "2026-06-10T09:47:16.943Z",
+    "query": "Eniris, Kalnuotės 1 k, 15130, Lietuva"
+  },
+  "visaginas kosmoso g. 1, 31140": {
+    "lat": 55.597415,
+    "lon": 26.4034168,
+    "displayName": "Kosmoso g. 1, 31140 Visaginas, Lietuva",
+    "updatedAt": "2026-06-10T09:47:17.305Z",
+    "query": "Saurida, Visaginas Kosmoso g. 1, 31140, Lietuva"
+  },
+  "ginkunu k., ausros g. 26, 81492": {
+    "lat": 55.9563174,
+    "lon": 23.3428116,
+    "displayName": "Aušros g. 26, Ginkūnai, 81492 Šiaulių r. sav., Lietuva",
+    "updatedAt": "2026-06-10T09:47:17.653Z",
+    "query": "Boost Petrol, Ginkūnų k., Aušros g. 26, 81492, Lietuva"
+  },
+  "plunge, dariaus ir gireno g. 31, 90118": {
+    "lat": 55.919884,
+    "lon": 21.8570761,
+    "displayName": "Dariaus ir Girėno g. 31, 90118 Plungė, Lietuva",
+    "updatedAt": "2026-06-10T09:47:18.002Z",
+    "query": "Eniris, Plungė, Dariaus ir Girėno g. 31, 90118, Lietuva"
+  },
+  "silale, rytinio kelio g. 2a, 75122": {
+    "lat": 55.4858828,
+    "lon": 22.1994277,
+    "displayName": "Rytinio kelio g. 2A, Šilalė, 75122 Šilalės r. sav., Lietuva",
+    "updatedAt": "2026-06-10T09:47:18.353Z",
+    "query": "Eniris, Šilalė, Rytinio Kelio g. 2a, 75122, Lietuva"
+  },
+  "klaipeda jurininku pr. 29, 95225": {
+    "lat": 55.6568656,
+    "lon": 21.1837445,
+    "displayName": "Jūrininkų pr. 29, 95225 Klaipėda, Lietuva",
+    "updatedAt": "2026-06-10T09:47:18.725Z",
+    "query": "Saurida, Klaipėda Jūrininkų pr. 29, 95225, Lietuva"
+  },
+  "zujunai buivydiskiu g. 1a, 14160": {
+    "lat": 54.7236325,
+    "lon": 25.1912413,
+    "displayName": "Buivydiškių g. 1a, 14160 Buivydiškės, Lietuva",
+    "updatedAt": "2026-06-10T09:47:19.079Z",
+    "query": "Saurida, Zujūnai Buivydiškių g. 1A, 14160, Lietuva"
+  },
+  "mauruciai liepu g. 20, 59290": {
+    "lat": 54.7710625,
+    "lon": 23.765631,
+    "displayName": "Liepų g. 20, 59290 Mauručiai, Lietuva",
+    "updatedAt": "2026-06-10T09:47:19.449Z",
+    "query": "Saurida, Mauručiai Liepų g. 20, 59290, Lietuva"
+  },
+  "maironiu k., kursiu g. 2, 86203": {
+    "lat": 55.6005052,
+    "lon": 23.0427503,
+    "displayName": "Kuršių g. 2-k, Maironiai, 86203 Kelmės r. sav., Lietuva",
+    "updatedAt": "2026-06-10T09:47:19.821Z",
+    "query": "Boost Petrol, Maironių k., Kuršių g. 2, 86203, Lietuva"
+  },
+  "mazeikiai, laizuvos g. 82d, 89213": {
+    "lat": 56.3137261,
+    "lon": 22.3679039,
+    "displayName": "Laižuvos g. 82d, Mažeikiai, 89213 Mažeikių r. sav., Lietuva",
+    "updatedAt": "2026-06-10T09:47:20.193Z",
+    "query": "Eniris, Mažeikiai, Laižuvos g. 82d, 89213, Lietuva"
+  },
+  "alytus pramones g. 5, 62175": {
+    "lat": 54.4211202,
+    "lon": 24.0134978,
+    "displayName": "Pramonės g. 5G, 62323 Alytus, Lietuva",
+    "updatedAt": "2026-06-10T09:47:20.556Z",
+    "query": "Saurida, Alytus Pramonės g. 5, 62175, Lietuva"
+  },
+  "vilnius, rygos g. 2, 05259": {
+    "lat": 54.7156567,
+    "lon": 25.2283879,
+    "displayName": "Rygos g. 2B, 05259 Vilnius, Lietuva",
+    "updatedAt": "2026-06-10T09:47:20.912Z",
+    "query": "Saurida, Vilnius, Rygos g. 2, 05259, Lietuva"
+  },
+  "vabalu k., parsezerio g. 1, 75406": {
+    "lat": 55.6195059,
+    "lon": 22.246124,
+    "displayName": "Paršežerio g. 1, Vabalai, 75406 Šilalės r. sav., Lietuva",
+    "updatedAt": "2026-06-10T09:47:21.289Z",
+    "query": "Eniris, Vabalų k., Paršežerio g. 1, 75406, Lietuva"
+  },
+  "marijampole statybininku g. 8,68108": {
+    "lat": 54.5780726,
+    "lon": 23.377749,
+    "displayName": "Statybininkų g. 8b, 68108 Marijampolė, Lietuva",
+    "updatedAt": "2026-06-10T09:47:21.648Z",
+    "query": "Saurida, Marijampolė Statybininkų g. 8,68108, Lietuva"
+  },
+  "ignacavos km. kauno pl. 18, 59149": {
+    "lat": 54.6466659,
+    "lon": 23.9300584,
+    "displayName": "Kauno pl. 18, Ignacava, 59149 Prienų r. sav., Lietuva",
+    "updatedAt": "2026-06-10T09:47:22.007Z",
+    "query": "Saurida, Ignacavos km. Kauno pl. 18, 59149, Lietuva"
+  },
+  "raseiniai, jurbarko g. 34, 60180": {
+    "lat": 55.3706031,
+    "lon": 23.1199099,
+    "displayName": "Jurbarko g. 34, 60180 Raseiniai, Lietuva",
+    "updatedAt": "2026-06-10T09:47:22.384Z",
+    "query": "Eniris, Raseiniai, Jurbarko g. 34, 60180, Lietuva"
+  },
+  "europos g. 6, n. valios k.": {
+    "lat": 54.328293,
+    "lon": 23.1504646,
+    "displayName": "Naujosios Valios k., Europos g. 6-n, Naujoji Valia, 69270 Kalvarijos sav., Lietuva",
+    "updatedAt": "2026-06-10T09:47:22.763Z",
+    "query": "Neste Lietuva, Europos g. 6, N. Valios k., Lietuva"
+  },
+  "mardosu k., alytaus pl. 2, 59240": {
+    "lat": 54.50878429999999,
+    "lon": 23.9096158,
+    "displayName": "Alytaus plentas 2-k, Mardosų k., 59240 Prienų r. sav., Lietuva",
+    "updatedAt": "2026-06-10T09:47:23.131Z",
+    "query": "Eniris, Mardosų k., Alytaus pl. 2, 59240, Lietuva"
+  },
+  "backoniu k., pastrevio g. 1a, 56240": {
+    "lat": 54.8024295,
+    "lon": 24.5021536,
+    "displayName": "Pastrėvio g. 1A, Bačkonys, 56240 Kaišiadorių r. sav., Lietuva",
+    "updatedAt": "2026-06-10T09:47:23.509Z",
+    "query": "Eniris, Bačkonių k., Pastrėvio g. 1A, 56240, Lietuva"
+  },
+  "akmenes i kaimas plento g. 1, 85380": {
+    "lat": 56.2463226,
+    "lon": 22.7678845,
+    "displayName": "Plento g. 1, 85367 Akmenė III, Lietuva",
+    "updatedAt": "2026-06-10T09:47:23.899Z",
+    "query": "Saurida, Akmenės I kaimas Plento g. 1, 85380, Lietuva"
+  },
+  "kaunas garazu g. 20, 50313": {
+    "lat": 54.9235972,
+    "lon": 24.0008066,
+    "displayName": "Garažų g. 20, 50314 Kaunas, Lietuva",
+    "updatedAt": "2026-06-10T09:47:24.227Z",
+    "query": "Saurida, Kaunas Garažų g. 20, 50313, Lietuva"
+  },
+  "vilnius, jankiskiu g. 43a, 02300": {
+    "lat": 54.65183649999999,
+    "lon": 25.1854119,
+    "displayName": "Jankiškių g. 43A, Vilnius, 02300 Vilniaus m. sav., Lietuva",
+    "updatedAt": "2026-06-10T09:47:24.585Z",
+    "query": "Saurida, Vilnius, Jankiškių g. 43a, 02300, Lietuva"
+  },
+  "ukmerge kareiviniu g. 64, 20184": {
+    "lat": 55.2590225,
+    "lon": 24.7905887,
+    "displayName": "Kareivinių g., 20112 Ukmergė, Lietuva",
+    "updatedAt": "2026-06-10T09:47:24.945Z",
+    "query": "Saurida, Ukmergė Kareivinių g. 64, 20184, Lietuva"
+  },
+  "telsiai, mazeikiu g. 1, 87101": {
+    "lat": 55.9997255,
+    "lon": 22.2413577,
+    "displayName": "Mažeikių g. 1, Telšiai, 87101 Telšių r. sav., Lietuva",
+    "updatedAt": "2026-06-10T09:47:25.301Z",
+    "query": "Eniris, Telšiai, Mažeikių g. 1, 87101, Lietuva"
+  },
+  "naujoji akmene v. kudirkos 18a, 85171": {
+    "lat": 56.3171981,
+    "lon": 22.8849126,
+    "displayName": "V. Kudirkos g. 18a, 85171 Naujoji Akmenė, Lietuva",
+    "updatedAt": "2026-06-10T09:47:25.663Z",
+    "query": "Saurida, Naujoji Akmenė V. Kudirkos 18A, 85171, Lietuva"
+  },
+  "74218, pasvencio km.": {
+    "lat": 55.0830315,
+    "lon": 22.6066372,
+    "displayName": "Pašvenčio gatvė, Pašventys, 74218 Jurbarko r. sav., Lietuva",
+    "updatedAt": "2026-06-10T09:47:26.013Z",
+    "query": "Saurida, 74218, Pašvenčio km., Lietuva"
+  },
+  "utena, zarasu g. 9, 28216": {
+    "lat": 55.5123073,
+    "lon": 25.6439322,
+    "displayName": "Zarasų g. 9, Utena, 28216 Utenos r. sav., Lietuva",
+    "updatedAt": "2026-06-10T09:47:26.367Z",
+    "query": "Boost Petrol, Utena, Zarasų g. 9, 28216, Lietuva"
+  },
+  "minijos g. 1, aleksandravo k., 90390": {
+    "lat": 55.9288823,
+    "lon": 21.6199456,
+    "displayName": "Minijos g. 1, Aleksandravas, 90390 Plungės r. sav., Lietuva",
+    "updatedAt": "2026-06-10T09:47:26.720Z",
+    "query": "Eniris, Minijos g. 1, Aleksandravo k., 90390, Lietuva"
+  },
+  "kelme, kestucio g. 1b, 86139": {
+    "lat": 55.63479030000001,
+    "lon": 22.9454358,
+    "displayName": "Kęstučio g. 1B, 86140 Kelmė, Lietuva",
+    "updatedAt": "2026-06-10T09:47:27.067Z",
+    "query": "Boost Petrol, Kelmė, Kęstučio g. 1B, 86139, Lietuva"
+  },
+  "vilnius staneviciaus g. 3a, 07131": {
+    "lat": 54.721688,
+    "lon": 25.2559379,
+    "displayName": "S. Stanevičiaus g. 3A, Vilnius, 07131 Vilniaus m. sav., Lietuva",
+    "updatedAt": "2026-06-10T09:47:27.423Z",
+    "query": "Saurida, Vilnius Stanevičiaus g. 3A, 07131, Lietuva"
+  },
+  "alytus miskininku g. 7, 62201": {
+    "lat": 54.4113596,
+    "lon": 24.0677738,
+    "displayName": "Miškininkų g. 7, 62121 Alytus, Lietuva",
+    "updatedAt": "2026-06-10T09:47:27.779Z",
+    "query": "Saurida, Alytus Miškininkų g. 7, 62201, Lietuva"
+  },
+  "elektrenai, dubijos g. 36, 26130": {
+    "lat": 54.7865507,
+    "lon": 24.7141483,
+    "displayName": "Dubijos g. 36, Elektrėnai, 26130 Elektrėnų sav., Lietuva",
+    "updatedAt": "2026-06-10T09:47:28.146Z",
+    "query": "Boost Petrol, Elektrėnai, Dubijos g. 36, 26130, Lietuva"
   }
 }
