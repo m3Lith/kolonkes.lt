@@ -99,7 +99,7 @@ export function parseFuelWorkbook(filePath: string): RawFuelRow[] {
     const fuelTypeRaw = row[headers.fuelType];
     const priceRaw = row[headers.price];
 
-    const company = normalizeWhitespace(String(companyRaw ?? ""));
+    let company = normalizeWhitespace(String(companyRaw ?? ""));
     const region = normalizeWhitespace(String(regionRaw ?? ""));
     const address = normalizeWhitespace(String(addressRaw ?? ""));
     const fuelType = normalizeWhitespace(String(fuelTypeRaw ?? ""));
@@ -109,6 +109,8 @@ export function parseFuelWorkbook(filePath: string): RawFuelRow[] {
     if (!company || !region || !address || !fuelType) {
       continue;
     }
+
+    company = company.replace(/^(AB |UAB )/i, "");
 
     const candidate: RawFuelRow = {
       company,
