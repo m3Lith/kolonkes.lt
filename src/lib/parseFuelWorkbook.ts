@@ -5,24 +5,22 @@ import { normalizeWhitespace } from "./normalize";
 import type { RawFuelRow } from "./types";
 
 const EXPECTED_HEADERS = [
-  "Data",
-  "Imone (Degaliniu tinklas)",
-  "Degalines vieta (Savivaldybe)",
-  "Degalines vieta (Gyvenviete, gatve)",
-  "95 benzinas",
-  "Dyzelinas",
-  "SND",
+  "Įmonė",
+  "Savivaldybė",
+  "Adresas",
+  "Degalų tipas",
+  "Kaina (EUR/l)",
+  "Pateikimo data",
 ] as const;
 
 interface HeaderMap {
   rowIndex: number;
-  date: number;
   company: number;
   region: number;
   address: number;
-  gasoline: number;
-  diesel: number;
-  lpg: number;
+  fuelType: number;
+  price: number;
+  date: number;
 }
 
 const rawRowSchema = z.object({
@@ -43,34 +41,33 @@ function normalizeHeader(value: string): string {
 }
 
 function findHeaders(rows: Array<Array<string | number>>): HeaderMap {
+  const normalizedHeaders = EXPECTED_HEADERS.map((h) => normalizeHeader(h));
+
   for (let i = 0; i < rows.length; i += 1) {
     const row = rows[i].map((v) => normalizeHeader(String(v ?? "")));
-    const date = row.indexOf(EXPECTED_HEADERS[0]);
-    const company = row.indexOf(EXPECTED_HEADERS[1]);
-    const region = row.indexOf(EXPECTED_HEADERS[2]);
-    const address = row.indexOf(EXPECTED_HEADERS[3]);
-    const gasoline = row.indexOf(EXPECTED_HEADERS[4]);
-    const diesel = row.indexOf(EXPECTED_HEADERS[5]);
-    const lpg = row.indexOf(EXPECTED_HEADERS[6]);
+    const company = row.indexOf(normalizedHeaders[0]);
+    const region = row.indexOf(normalizedHeaders[1]);
+    const address = row.indexOf(normalizedHeaders[2]);
+    const fuelType = row.indexOf(normalizedHeaders[3]);
+    const price = row.indexOf(normalizedHeaders[4]);
+    const date = row.indexOf(normalizedHeaders[5]);
 
     if (
-      date !== -1 &&
       company !== -1 &&
       region !== -1 &&
       address !== -1 &&
-      gasoline !== -1 &&
-      diesel !== -1 &&
-      lpg !== -1
+      fuelType !== -1 &&
+      price !== -1 &&
+      date !== -1
     ) {
       return {
         rowIndex: i,
-        date,
         company,
         region,
         address,
-        gasoline,
-        diesel,
-        lpg,
+        fuelType,
+        price,
+        date,
       };
     }
   }
@@ -99,39 +96,28 @@ export function parseFuelWorkbook(filePath: string): RawFuelRow[] {
     const companyRaw = row[headers.company];
     const regionRaw = row[headers.region];
     const addressRaw = row[headers.address];
+    const fuelTypeRaw = row[headers.fuelType];
+    const priceRaw = row[headers.price];
+
     const company = normalizeWhitespace(String(companyRaw ?? ""));
     const region = normalizeWhitespace(String(regionRaw ?? ""));
     const address = normalizeWhitespace(String(addressRaw ?? ""));
-    if (!company || !region || !address) {
+    const fuelType = normalizeWhitespace(String(fuelTypeRaw ?? ""));
+    const price =
+      typeof priceRaw === "number" ? priceRaw : String(priceRaw ?? "");
+
+    if (!company || !region || !address || !fuelType) {
       continue;
     }
 
-    const toPrice = (value: unknown): string | number =>
-      typeof value === "number" ? value : String(value ?? "");
-    const candidates: RawFuelRow[] = [
-      {
-        company,
-        region,
-        address,
-        fuelType: "gasoline",
-        priceRaw: toPrice(row[headers.gasoline]),
-      },
-      {
-        company,
-        region,
-        address,
-        fuelType: "diesel",
-        priceRaw: toPrice(row[headers.diesel]),
-      },
-      {
-        company,
-        region,
-        address,
-        fuelType: "lpg",
-        priceRaw: toPrice(row[headers.lpg]),
-      },
-    ];
-    parsed.push(...candidates.map((candidate) => rawRowSchema.parse(candidate)));
+    const candidate: RawFuelRow = {
+      company,
+      region,
+      address,
+      fuelType,
+      priceRaw: price,
+    };
+    parsed.push(rawRowSchema.parse(candidate));
   }
 
   if (!parsed.length) {

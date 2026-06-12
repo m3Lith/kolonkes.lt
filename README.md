@@ -19,15 +19,14 @@ Example:
 
 Note: `.xlsx` source files are intentionally ignored by git. CI downloads them on demand.
 
-The parser expects these Lithuanian table columns:
+The parser expects these Lithuanian table columns (long format):
 
-- `Data`
-- `Imone (Degaliniu tinklas)`
-- `Degalines vieta (Savivaldybe)`
-- `Degalines vieta (Gyvenviete, gatve)`
-- `95 benzinas`
-- `Dyzelinas`
-- `SND`
+- `Įmonė`
+- `Savivaldybė`
+- `Adresas`
+- `Degalų tipas`
+- `Kaina (EUR/l)`
+- `Pateikimo data`
 
 The script handles diacritics and non-breaking spaces, and converts `Neprekiauja` to `null`.
 

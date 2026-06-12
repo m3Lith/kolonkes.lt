@@ -2,8 +2,10 @@ import { createHash } from "node:crypto";
 import { FUEL_TYPES, type FuelType } from "./types";
 
 const FUEL_ALIASES: Record<string, FuelType> = {
+  "95 benzinas": "gasoline",
   "95 markes benzinas": "gasoline",
   dyzelinas: "diesel",
+  snd: "lpg",
   "suskystintosios naftos dujos": "lpg",
   gasoline: "gasoline",
   diesel: "diesel",
