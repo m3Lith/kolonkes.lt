@@ -10897,5 +10897,89 @@
     "displayName": "Parodų g. 1A, 04133 Vilnius, Lietuva",
     "updatedAt": "2026-06-12T10:12:59.352Z",
     "query": "Neste Lietuva, Vilnius, Parodų g. 1A, 04133, Lietuva"
+  },
+  "panevezys, j. janonio g. 28a, 35101": {
+    "lat": 55.7388016,
+    "lon": 24.3101947,
+    "displayName": "J. Janonio g. 28, 35101 Panevėžys, Lietuva",
+    "updatedAt": "2026-06-15T11:20:14.532Z",
+    "query": "Viada LT, Panevėžys, J. Janonio g. 28A, 35101, Lietuva"
+  },
+  "mazeikiai, zemaitijos g. 75, 89132": {
+    "lat": 56.3003949,
+    "lon": 22.3608122,
+    "displayName": "Žemaitijos g. 75, 89238 Mažeikiai, Lietuva",
+    "updatedAt": "2026-06-15T11:20:14.921Z",
+    "query": "Viada LT, Mažeikiai, Žemaitijos g. 75, 89132, Lietuva"
+  },
+  "mazeikiai, montuotoju g. 2a, 89101": {
+    "lat": 56.31596399999999,
+    "lon": 22.302437,
+    "displayName": "Montuotojų g. 2, 89101 Mažeikiai, Lietuva",
+    "updatedAt": "2026-06-15T11:20:15.314Z",
+    "query": "Viada LT, Mažeikiai, Montuotojų g. 2A, 89101, Lietuva"
+  },
+  "krekenava, tilto g. 35, 38305": {
+    "lat": 55.5415514,
+    "lon": 24.1078836,
+    "displayName": "Tilto g. 35, 38305 Krekenava, Lietuva",
+    "updatedAt": "2026-06-15T11:20:15.691Z",
+    "query": "Viada LT, Krekenava, Tilto g. 35, 38305, Lietuva"
+  },
+  "marijampole, j. ambrazeviciaus-brazaicio g. 2, 68161": {
+    "lat": 54.56778569999999,
+    "lon": 23.3393685,
+    "displayName": "J. Ambrazevičiaus-Brazaičio g. 2, 68161 Marijampolė, Lietuva",
+    "updatedAt": "2026-06-15T11:20:16.080Z",
+    "query": "Viada LT, Marijampolė, J. Ambrazevičiaus-Brazaičio g. 2, 68161, Lietuva"
+  },
+  "tickunu k., tickunu g. 31, 38410": {
+    "lat": 55.7789361,
+    "lon": 24.3644012,
+    "displayName": "Tičkūnų g. 31, 38410 Tičkūnai, Lietuva",
+    "updatedAt": "2026-06-15T11:20:16.473Z",
+    "query": "Viada LT, Tičkūnų k., Tičkūnų g. 31, 38410, Lietuva"
+  },
+  "moletai, vilniaus g. 101, 33112": {
+    "lat": 55.2239831,
+    "lon": 25.4054419,
+    "displayName": "Vilniaus g. 101, 33112 Molėtai, Lietuva",
+    "updatedAt": "2026-06-15T11:20:16.864Z",
+    "query": "Viada LT, Molėtai, Vilniaus g. 101, 33112, Lietuva"
+  },
+  "ramygala, vienkiemio g. 1b, 38262": {
+    "lat": 55.52117269999999,
+    "lon": 24.3126907,
+    "displayName": "Vienkiemio g. 1B, 38262 Ramygala, Lietuva",
+    "updatedAt": "2026-06-15T11:20:17.249Z",
+    "query": "Viada LT, Ramygala, Vienkiemio g. 1B, 38262, Lietuva"
+  },
+  "panevezys, pusaloto g. 193a, 191a": {
+    "lat": 55.7532009,
+    "lon": 24.3120556,
+    "displayName": "Pušaloto g. 193a-191a, 35291 Panevėžys, Lietuva",
+    "updatedAt": "2026-06-15T11:20:17.659Z",
+    "query": "Viada LT, Panevėžys, Pušaloto g. 193A, 191A, Lietuva"
+  },
+  "gojaus k., utenos g. 16, 33165": {
+    "lat": 55.2183067,
+    "lon": 25.4356366,
+    "displayName": "Utenos g. 16, 33159 Gojus, Lietuva",
+    "updatedAt": "2026-06-15T11:20:18.080Z",
+    "query": "Viada LT, Gojaus k., Utenos g. 16, 33165, Lietuva"
+  },
+  "pakruojis, vytauto didziojo g. 98, 83162": {
+    "lat": 55.9804141,
+    "lon": 23.8578511,
+    "displayName": "Vytauto Didžiojo g. 98, 83162 Pakruojis, Lietuva",
+    "updatedAt": "2026-06-15T11:20:18.491Z",
+    "query": "Viada LT, Pakruojis, Vytauto Didžiojo g. 98, 83162, Lietuva"
+  },
+  "panevezys, navadolio g. 31, 36252": {
+    "lat": 55.71446330000001,
+    "lon": 24.3352073,
+    "displayName": "Navadolio g. 31, 36252 Panevėžys, Lietuva",
+    "updatedAt": "2026-06-15T11:20:18.871Z",
+    "query": "Viada LT, Panevėžys, Navadolio g. 31, 36252, Lietuva"
   }
 }

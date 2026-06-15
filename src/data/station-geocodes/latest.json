@@ -1818,6 +1818,15 @@
     "status": "resolved"
   },
   {
+    "station_id": "203ff520fe7eb0b0",
+    "lat": 55.7388016,
+    "lon": 24.3101947,
+    "display_name": "J. Janonio g. 28, 35101 Panevėžys, Lietuva",
+    "query": "Viada LT, Panevėžys, J. Janonio g. 28A, 35101, Lietuva",
+    "geocode_updated_at": "2026-06-15T11:20:14.532Z",
+    "status": "resolved"
+  },
+  {
     "station_id": "20bc4a03cfc39092",
     "lat": 54.91315299999999,
     "lon": 23.926329,
@@ -4257,6 +4266,15 @@
     "status": "resolved"
   },
   {
+    "station_id": "489984ea2417a13f",
+    "lat": 56.3003949,
+    "lon": 22.3608122,
+    "display_name": "Žemaitijos g. 75, 89238 Mažeikiai, Lietuva",
+    "query": "Viada LT, Mažeikiai, Žemaitijos g. 75, 89132, Lietuva",
+    "geocode_updated_at": "2026-06-15T11:20:14.921Z",
+    "status": "resolved"
+  },
+  {
     "station_id": "48d11abdf97999b4",
     "lat": 54.6812592,
     "lon": 25.4121416,
@@ -4464,6 +4482,15 @@
     "status": "resolved"
   },
   {
+    "station_id": "4d69b6bf7ff5db7a",
+    "lat": 56.31596399999999,
+    "lon": 22.302437,
+    "display_name": "Montuotojų g. 2, 89101 Mažeikiai, Lietuva",
+    "query": "Viada LT, Mažeikiai, Montuotojų g. 2A, 89101, Lietuva",
+    "geocode_updated_at": "2026-06-15T11:20:15.314Z",
+    "status": "resolved"
+  },
+  {
     "station_id": "4d6f9c82ea284911",
     "lat": 54.64310010000001,
     "lon": 25.2735593,
@@ -4641,6 +4668,15 @@
     "display_name": "Respublikos g. 111A, 42135 Rokiškis, Lietuva",
     "query": "Circle K Lietuva, Rokiškis, Respublikos g. 111A, 42135, Lietuva",
     "geocode_updated_at": "2026-06-12T10:10:16.716Z",
+    "status": "resolved"
+  },
+  {
+    "station_id": "4f39bff053e7e880",
+    "lat": 55.5415514,
+    "lon": 24.1078836,
+    "display_name": "Tilto g. 35, 38305 Krekenava, Lietuva",
+    "query": "Viada LT, Krekenava, Tilto g. 35, 38305, Lietuva",
+    "geocode_updated_at": "2026-06-15T11:20:15.691Z",
     "status": "resolved"
   },
   {
@@ -4839,6 +4875,15 @@
     "display_name": "S. Stanevičiaus g. 3, 07131 Vilnius, Lietuva",
     "query": "Neste Lietuva, S. Stanevičiaus g. 3, Vilnius, Lietuva",
     "geocode_updated_at": "2026-04-10T18:08:41.884Z",
+    "status": "resolved"
+  },
+  {
+    "station_id": "52b5290d98047f20",
+    "lat": 54.56778569999999,
+    "lon": 23.3393685,
+    "display_name": "J. Ambrazevičiaus-Brazaičio g. 2, 68161 Marijampolė, Lietuva",
+    "query": "Viada LT, Marijampolė, J. Ambrazevičiaus-Brazaičio g. 2, 68161, Lietuva",
+    "geocode_updated_at": "2026-06-15T11:20:16.080Z",
     "status": "resolved"
   },
   {
@@ -5154,6 +5199,15 @@
     "display_name": "Talino g. 2C, 05200 Vilnius, Lietuva",
     "query": "Neste Lietuva, Talino g. 2C, Vilnius, Lietuva",
     "geocode_updated_at": "2026-04-10T18:08:48.867Z",
+    "status": "resolved"
+  },
+  {
+    "station_id": "5a614a56211ab3cb",
+    "lat": 55.7789361,
+    "lon": 24.3644012,
+    "display_name": "Tičkūnų g. 31, 38410 Tičkūnai, Lietuva",
+    "query": "Viada LT, Tičkūnų k., Tičkūnų g. 31, 38410, Lietuva",
+    "geocode_updated_at": "2026-06-15T11:20:16.473Z",
     "status": "resolved"
   },
   {
@@ -8622,6 +8676,15 @@
     "status": "resolved"
   },
   {
+    "station_id": "99423ec5e88cc664",
+    "lat": 55.2239831,
+    "lon": 25.4054419,
+    "display_name": "Vilniaus g. 101, 33112 Molėtai, Lietuva",
+    "query": "Viada LT, Molėtai, Vilniaus g. 101, 33112, Lietuva",
+    "geocode_updated_at": "2026-06-15T11:20:16.864Z",
+    "status": "resolved"
+  },
+  {
     "station_id": "994336570c11b01c",
     "lat": 55.169438,
     "lon": 23.881275,
@@ -9918,6 +9981,15 @@
     "status": "resolved"
   },
   {
+    "station_id": "b037a789229bcff7",
+    "lat": 55.52117269999999,
+    "lon": 24.3126907,
+    "display_name": "Vienkiemio g. 1B, 38262 Ramygala, Lietuva",
+    "query": "Viada LT, Ramygala, Vienkiemio g. 1B, 38262, Lietuva",
+    "geocode_updated_at": "2026-06-15T11:20:17.249Z",
+    "status": "resolved"
+  },
+  {
     "station_id": "b04281779c5d6280",
     "lat": 54.9564873,
     "lon": 23.9047242,
@@ -10356,6 +10428,15 @@
     "display_name": "Panerių g. 42, Vilnius, 03202 Vilniaus m. sav., Lietuva",
     "query": "Neste Lietuva, Panerių g. 42, Vilnius, Lietuva",
     "geocode_updated_at": "2026-04-10T18:10:33.926Z",
+    "status": "resolved"
+  },
+  {
+    "station_id": "b932e447e1d89755",
+    "lat": 55.7532009,
+    "lon": 24.3120556,
+    "display_name": "Pušaloto g. 193a-191a, 35291 Panevėžys, Lietuva",
+    "query": "Viada LT, Panevėžys, Pušaloto g. 193A, 191A, Lietuva",
+    "geocode_updated_at": "2026-06-15T11:20:17.659Z",
     "status": "resolved"
   },
   {
@@ -10815,6 +10896,15 @@
     "display_name": "Justiniškių g. 12, 05131 Vilnius, Lietuva",
     "query": "Viada LT, Vilnius, Justiniškių g. 12, 05131, Lietuva",
     "geocode_updated_at": "2026-06-12T10:11:59.978Z",
+    "status": "resolved"
+  },
+  {
+    "station_id": "c15f14328145c331",
+    "lat": 55.2183067,
+    "lon": 25.4356366,
+    "display_name": "Utenos g. 16, 33159 Gojus, Lietuva",
+    "query": "Viada LT, Gojaus k., Utenos g. 16, 33165, Lietuva",
+    "geocode_updated_at": "2026-06-15T11:20:18.080Z",
     "status": "resolved"
   },
   {
@@ -12087,6 +12177,15 @@
     "status": "resolved"
   },
   {
+    "station_id": "da36e76bc3a1a763",
+    "lat": 55.9804141,
+    "lon": 23.8578511,
+    "display_name": "Vytauto Didžiojo g. 98, 83162 Pakruojis, Lietuva",
+    "query": "Viada LT, Pakruojis, Vytauto Didžiojo g. 98, 83162, Lietuva",
+    "geocode_updated_at": "2026-06-15T11:20:18.491Z",
+    "status": "resolved"
+  },
+  {
     "station_id": "da431ce5a3f4c982",
     "lat": 55.7006283,
     "lon": 21.1987881,
@@ -13272,6 +13371,15 @@
     "display_name": "Partizanų g. 87, Kaunas, 50312 Kauno m. sav., Lietuva",
     "query": "Jozita, Partizanų g. 87G, Kaunas, Lietuva",
     "geocode_updated_at": "2026-04-10T18:11:28.307Z",
+    "status": "resolved"
+  },
+  {
+    "station_id": "eed0f72b87a56432",
+    "lat": 55.71446330000001,
+    "lon": 24.3352073,
+    "display_name": "Navadolio g. 31, 36252 Panevėžys, Lietuva",
+    "query": "Viada LT, Panevėžys, Navadolio g. 31, 36252, Lietuva",
+    "geocode_updated_at": "2026-06-15T11:20:18.871Z",
     "status": "resolved"
   },
   {
