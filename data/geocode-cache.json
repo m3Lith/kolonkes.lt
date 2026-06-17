@@ -10981,5 +10981,19 @@
     "displayName": "Navadolio g. 31, 36252 Panevėžys, Lietuva",
     "updatedAt": "2026-06-15T11:20:18.871Z",
     "query": "Viada LT, Panevėžys, Navadolio g. 31, 36252, Lietuva"
+  },
+  "ukmerge, dariaus ir gireno g. 31, 20154": {
+    "lat": 55.2407301,
+    "lon": 24.787548,
+    "displayName": "Dariaus ir Girėno g. 31, 20154 Ukmergė, Lietuva",
+    "updatedAt": "2026-06-17T08:44:26.947Z",
+    "query": "Bemija, Ukmergė, Dariaus ir Girėno g. 31, 20154, Lietuva"
+  },
+  "papusynes k., silales g. 105, 72175": {
+    "lat": 55.2716702,
+    "lon": 22.2865322,
+    "displayName": "Šilalės g. 105, 72189 Tauragė, Lietuva",
+    "updatedAt": "2026-06-17T08:44:27.388Z",
+    "query": "Jozita, Papušynės k., Šilalės g. 105, 72175, Lietuva"
   }
 }

@@ -2763,6 +2763,15 @@
     "status": "resolved"
   },
   {
+    "station_id": "33b59400f44130c4",
+    "lat": 55.2407301,
+    "lon": 24.787548,
+    "display_name": "Dariaus ir Girėno g. 31, 20154 Ukmergė, Lietuva",
+    "query": "Bemija, Ukmergė, Dariaus ir Girėno g. 31, 20154, Lietuva",
+    "geocode_updated_at": "2026-06-17T08:44:26.947Z",
+    "status": "resolved"
+  },
+  {
     "station_id": "33c7a9764f973938",
     "lat": 54.32043669999999,
     "lon": 23.1399587,
@@ -3129,6 +3138,15 @@
     "display_name": "Vytauto g. 61, 32139 Sarakiškės, Lietuva",
     "query": "Baltic Petroleum, Vytauto g. 61, Sarakiškių k., Lietuva",
     "geocode_updated_at": "2026-04-10T18:08:08.334Z",
+    "status": "resolved"
+  },
+  {
+    "station_id": "39658c491095c936",
+    "lat": 55.2716702,
+    "lon": 22.2865322,
+    "display_name": "Šilalės g. 105, 72189 Tauragė, Lietuva",
+    "query": "Jozita, Papušynės k., Šilalės g. 105, 72175, Lietuva",
+    "geocode_updated_at": "2026-06-17T08:44:27.388Z",
     "status": "resolved"
   },
   {
