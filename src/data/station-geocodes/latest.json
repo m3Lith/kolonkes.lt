@@ -6120,6 +6120,15 @@
     "status": "resolved"
   },
   {
+    "station_id": "6a0d7bf54ddc82e7",
+    "lat": 55.2524683,
+    "lon": 23.9679968,
+    "display_name": "Miškininkų g. 14, 58163 Pelėdnagiai, Lietuva",
+    "query": "Sigito Rimkevičiaus komercinė įmonė, Pelėdnagiai, Miškininkų g. 14, 58163, Lietuva",
+    "geocode_updated_at": "2026-06-12T10:09:22.407Z",
+    "status": "resolved"
+  },
+  {
     "station_id": "6a2810be62e4609b",
     "lat": 55.9090666,
     "lon": 23.3195017,
