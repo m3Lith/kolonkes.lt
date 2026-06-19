@@ -10995,5 +10995,19 @@
     "displayName": "Šilalės g. 105, 72189 Tauragė, Lietuva",
     "updatedAt": "2026-06-17T08:44:27.388Z",
     "query": "Jozita, Papušynės k., Šilalės g. 105, 72175, Lietuva"
+  },
+  "klaipeda, priespilio g. 5, 91240": {
+    "lat": 55.7041459,
+    "lon": 21.1296058,
+    "displayName": "Priešpilio g. 5, 93277 Klaipėda, Lietuva",
+    "updatedAt": "2026-06-19T08:47:06.489Z",
+    "query": "Gindana, Klaipėda, Priešpilio g. 5, 91240, Lietuva"
+  },
+  "kazlavo k. 4, 69285": {
+    "lat": 54.3469055,
+    "lon": 23.1367585,
+    "displayName": "69285, Lietuva",
+    "updatedAt": "2026-06-19T08:47:06.932Z",
+    "query": "Nostrada, Kazlavo k. 4, 69285, Lietuva"
   }
 }

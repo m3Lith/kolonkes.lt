@@ -864,6 +864,15 @@
     "status": "resolved"
   },
   {
+    "station_id": "0d768bb3f207dafc",
+    "lat": 55.7041459,
+    "lon": 21.1296058,
+    "display_name": "Priešpilio g. 5, 93277 Klaipėda, Lietuva",
+    "query": "Gindana, Klaipėda, Priešpilio g. 5, 91240, Lietuva",
+    "geocode_updated_at": "2026-06-19T08:47:06.489Z",
+    "status": "resolved"
+  },
+  {
     "station_id": "0d7b84e003aeda3f",
     "lat": 55.7029618,
     "lon": 21.1652354,
@@ -12561,6 +12570,15 @@
     "display_name": "Tilžės g. 223, 76200 Šiauliai, Lietuva",
     "query": "Apsaga, Tilžės g. 223, Šiauliai, Lietuva",
     "geocode_updated_at": "2026-04-10T18:11:11.556Z",
+    "status": "resolved"
+  },
+  {
+    "station_id": "df12b5adb5ebfc86",
+    "lat": 54.3469055,
+    "lon": 23.1367585,
+    "display_name": "69285, Lietuva",
+    "query": "Nostrada, Kazlavo k. 4, 69285, Lietuva",
+    "geocode_updated_at": "2026-06-19T08:47:06.932Z",
     "status": "resolved"
   },
   {
