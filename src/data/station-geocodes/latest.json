@@ -2592,6 +2592,15 @@
     "status": "resolved"
   },
   {
+    "station_id": "303f59672763328d",
+    "lat": 54.2057273,
+    "lon": 25.6152643,
+    "display_name": "Skraičionių g. 1, 17140 Skraičionys, Lietuva",
+    "query": "Alauša, Skraičionys, Skraičionių g. 1, 17140, Lietuva",
+    "geocode_updated_at": "2026-06-23T08:12:27.884Z",
+    "status": "resolved"
+  },
+  {
     "station_id": "304d11951c8356ad",
     "lat": 54.8554539,
     "lon": 24.4419732,
