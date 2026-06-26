@@ -9648,6 +9648,15 @@
     "status": "resolved"
   },
   {
+    "station_id": "a9424a4ce03d189d",
+    "lat": 54.5517603,
+    "lon": 23.3590463,
+    "display_name": "Gėlių g. 25, 68303 Marijampolė, Lietuva",
+    "query": "Osijos dujos, Gėlių g. 25, Marijampolė, Lietuva",
+    "geocode_updated_at": "2026-06-26T08:12:59.213Z",
+    "status": "resolved"
+  },
+  {
     "station_id": "a950d1bfb129dcd9",
     "lat": 56.1654369,
     "lon": 22.783524,

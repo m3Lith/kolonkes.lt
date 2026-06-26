@@ -11016,5 +11016,12 @@
     "displayName": "Skraičionių g. 1, 17140 Skraičionys, Lietuva",
     "updatedAt": "2026-06-23T08:12:27.884Z",
     "query": "Alauša, Skraičionys, Skraičionių g. 1, 17140, Lietuva"
+  },
+  "geliu g. 25, marijampole": {
+    "lat": 54.5517603,
+    "lon": 23.3590463,
+    "displayName": "Gėlių g. 25, 68303 Marijampolė, Lietuva",
+    "updatedAt": "2026-06-26T08:12:59.213Z",
+    "query": "Osijos dujos, Gėlių g. 25, Marijampolė, Lietuva"
   }
 }
