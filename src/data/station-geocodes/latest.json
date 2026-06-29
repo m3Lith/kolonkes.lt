@@ -3240,6 +3240,15 @@
     "status": "resolved"
   },
   {
+    "station_id": "39bc68baf9768429",
+    "lat": 54.38747499999999,
+    "lon": 24.0319465,
+    "display_name": "Santaikos g. 28B, 62100 Alytus, Lietuva",
+    "query": "Stateta, Alytus, Santaikos g. 28 B, 62123, Lietuva",
+    "geocode_updated_at": "2026-06-29T11:57:46.269Z",
+    "status": "resolved"
+  },
+  {
     "station_id": "39c05639d588c1eb",
     "lat": 55.39148179999999,
     "lon": 23.1271728,
