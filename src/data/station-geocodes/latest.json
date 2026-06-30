@@ -1251,6 +1251,15 @@
     "status": "resolved"
   },
   {
+    "station_id": "14ed7efe67030b17",
+    "lat": 56.317893,
+    "lon": 22.0186582,
+    "display_name": "Mažeikių gatvė 9, Židikai, 89442 Mažeikių r. sav., Lietuva",
+    "query": "Tumasa, Židikai, Mažeikiu g. 10, 89442, Lietuva",
+    "geocode_updated_at": "2026-06-12T10:10:32.866Z",
+    "status": "resolved"
+  },
+  {
     "station_id": "15542ee221fdaf08",
     "lat": 54.7087946,
     "lon": 25.1897922,
