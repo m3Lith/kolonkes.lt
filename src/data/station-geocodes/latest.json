@@ -3645,6 +3645,15 @@
     "status": "resolved"
   },
   {
+    "station_id": "3f213a6143b88de0",
+    "lat": 54.9240649,
+    "lon": 24.0789664,
+    "display_name": "Martinavos g. 1, 54475 Neveronys, Lietuva",
+    "query": "Saurida, Martinavos g. 1, Neveronių k., 54475, Lietuva",
+    "geocode_updated_at": "2026-07-07T10:21:18.111Z",
+    "status": "resolved"
+  },
+  {
     "station_id": "3f4184f99d321c24",
     "lat": 55.9057715,
     "lon": 23.258872,

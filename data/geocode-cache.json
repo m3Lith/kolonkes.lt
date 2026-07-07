@@ -11030,5 +11030,12 @@
     "displayName": "Santaikos g. 28B, 62100 Alytus, Lietuva",
     "updatedAt": "2026-06-29T11:57:46.269Z",
     "query": "Stateta, Alytus, Santaikos g. 28 B, 62123, Lietuva"
+  },
+  "martinavos g. 1, neveroniu k., 54475": {
+    "lat": 54.9240649,
+    "lon": 24.0789664,
+    "displayName": "Martinavos g. 1, 54475 Neveronys, Lietuva",
+    "updatedAt": "2026-07-07T10:21:18.111Z",
+    "query": "Saurida, Martinavos g. 1, Neveronių k., 54475, Lietuva"
   }
 }
