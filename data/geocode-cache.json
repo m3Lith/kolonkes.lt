@@ -11037,5 +11037,12 @@
     "displayName": "Martinavos g. 1, 54475 Neveronys, Lietuva",
     "updatedAt": "2026-07-07T10:21:18.111Z",
     "query": "Saurida, Martinavos g. 1, Neveronių k., 54475, Lietuva"
+  },
+  "salaperaugio k., europos g. 9, 69286": {
+    "lat": 54.3241453,
+    "lon": 23.1446469,
+    "displayName": "Europos g. 9, Salaperaugis, 69286 Kalvarijos sav., Lietuva",
+    "updatedAt": "2026-07-20T20:23:12.342Z",
+    "query": "Baltic Petroleum, Salaperaugio k., Europos g. 9, 69286, Lietuva"
   }
 }
