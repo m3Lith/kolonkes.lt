@@ -132,8 +132,8 @@ npm run build
 
 This repo also includes `.github/workflows/sync-data.yml` that can run daily and discover the latest source file from:
 
-- `https://www.ena.lt/degalu-kainos-degalinese/` (`Pranešimai apie degalų kainas ir pradiniai duomenys (Excel)`)
-- it parses SharePoint links by date from anchor `title` (`Degalų kainos YYYY-MM-DD`) with a fallback to anchor text (`Naujausios degalų kainos (YYYY-MM-DD)`)
+- `https://www.ena.lt/dk-pr-pr-duomenys/`
+- it parses SharePoint links by date from anchor `title` (`Degalų kainos YYYY-MM-DD`) or anchor text (`Degalų kainos (YYYY-MM-DD)`)
 - discovery logic is shared in `scripts/discover-ena-source.mjs` (used by CI and usable locally)
 
 The workflow:

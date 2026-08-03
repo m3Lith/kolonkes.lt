@@ -2,10 +2,9 @@
 
 import fs from "node:fs/promises";
 
-const DEFAULT_PAGE_URL = "https://www.ena.lt/degalu-kainos-degalinese/";
+const DEFAULT_PAGE_URL = "https://www.ena.lt/dk-pr-pr-duomenys/";
 const DATE_FROM_TITLE_RE = /Degal\u0173 kainos (\d{4}-\d{2}-\d{2})/;
-const DATE_FROM_TEXT_RE =
-  /Naujausios degal\u0173 kainos \((\d{4}-\d{2}-\d{2})\)/;
+const DATE_FROM_TEXT_RE = /Degal\u0173 kainos \((\d{4}-\d{2}-\d{2})\)/;
 const ANCHOR_RE = /<a\b([^>]*)>([\s\S]*?)<\/a>/gi;
 const ATTR_RE = /([^\s=]+)\s*=\s*("([^"]*)"|'([^']*)'|([^\s>]+))/g;
 

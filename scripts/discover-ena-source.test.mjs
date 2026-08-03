@@ -61,10 +61,10 @@ describe("discover-ena-source script", () => {
       <html><body>
         <a href="https://example.sharepoint.com/a"
            title="Degalų kainos 2026-04-20">
-          Naujausios degalų kainos (2020-01-01)
+          Degalų kainos (2020-01-01)
         </a>
         <a href="https://example.sharepoint.com/b">
-          Naujausios degalų kainos (2026-04-19)
+          Degalų kainos (2026-04-19)
         </a>
       </body></html>
     `);
@@ -81,7 +81,7 @@ describe("discover-ena-source script", () => {
     const server = await startHtmlServer(`
       <html><body>
         <a href="https://example.sharepoint.com/c">
-          Naujausios degalų kainos (2026-04-18)
+          Degalų kainos (2026-04-18)
         </a>
       </body></html>
     `);
@@ -98,10 +98,10 @@ describe("discover-ena-source script", () => {
     const server = await startHtmlServer(`
       <html><body>
         <a href="https://example.sharepoint.com/d" title="Degalų kainos 2026-04-20">
-          Naujausios degalų kainos (2026-04-20)
+          Degalų kainos (2026-04-20)
         </a>
         <a href="https://example.sharepoint.com/e" title="Degalų kainos 2026-04-19">
-          Naujausios degalų kainos (2026-04-19)
+          Degalų kainos (2026-04-19)
         </a>
       </body></html>
     `);

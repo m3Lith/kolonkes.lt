@@ -37,7 +37,7 @@ jobs:
         id: download
         run: |
           TARGET_DATE="${{ github.event.inputs.date }}"
-          PAGE_URL="https://www.ena.lt/degalu-kainos-degalinese/"
+          PAGE_URL="https://www.ena.lt/dk-pr-pr-duomenys/"
           MARKER_PATH=".github/state/ena-sharepoint-url-state.json"
           mkdir -p data
 

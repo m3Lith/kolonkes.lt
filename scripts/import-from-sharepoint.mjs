@@ -15,7 +15,7 @@ const BROWSER_UA =
 function parseArgs(argv) {
   let url = "";
   let date = "";
-  let pageUrl = "https://www.ena.lt/degalu-kainos-degalinese/";
+  let pageUrl = "https://www.ena.lt/dk-pr-pr-duomenys/";
   let keepTemp = false;
 
   for (let i = 0; i < argv.length; i += 1) {
